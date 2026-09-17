@@ -1,5 +1,5 @@
 # 100-Application Production Pattern Analysis Report
-**Generated**: 2026-09-17 15:59:25 UTC  
+**Generated**: 2026-09-17 17:41:51 UTC  
 **Authoritative Dataset**: `data/production/final/*.json` (100 Verified Records)  
 **Dataset Specification**: `data/apps.csv` (10 Categories, 10 Apps/Category)  
 
@@ -244,13 +244,13 @@ All 10 categories represent exactly 10 applications each. (No category is ranked
 ---
 
 ## Output Files Generated
-- Machine-readable dataset: [`data/analysis/pattern_analysis.json`](file:///C:/Users/sunda/.gemini/antigravity/scratch/ai-product-ops-research/data/analysis/pattern_analysis.json)
-- Full Markdown report: [`data/analysis/pattern_analysis.md`](file:///C:/Users/sunda/.gemini/antigravity/scratch/ai-product-ops-research/data/analysis/pattern_analysis.md)
+- Machine-readable dataset: [`data/analysis/pattern_analysis.json`](pattern_analysis.json)
+- Full Markdown report: [`data/analysis/pattern_analysis.md`](pattern_analysis.md)
 - Tabular summaries:
-  - [`data/analysis/auth_summary.csv`](file:///C:/Users/sunda/.gemini/antigravity/scratch/ai-product-ops-research/data/analysis/auth_summary.csv)
-  - [`data/analysis/access_summary.csv`](file:///C:/Users/sunda/.gemini/antigravity/scratch/ai-product-ops-research/data/analysis/access_summary.csv)
-  - [`data/analysis/api_summary.csv`](file:///C:/Users/sunda/.gemini/antigravity/scratch/ai-product-ops-research/data/analysis/api_summary.csv)
-  - [`data/analysis/mcp_summary.csv`](file:///C:/Users/sunda/.gemini/antigravity/scratch/ai-product-ops-research/data/analysis/mcp_summary.csv)
-  - [`data/analysis/buildability_summary.csv`](file:///C:/Users/sunda/.gemini/antigravity/scratch/ai-product-ops-research/data/analysis/buildability_summary.csv)
-  - [`data/analysis/category_summary.csv`](file:///C:/Users/sunda/.gemini/antigravity/scratch/ai-product-ops-research/data/analysis/category_summary.csv)
-  - [`data/analysis/evidence_summary.csv`](file:///C:/Users/sunda/.gemini/antigravity/scratch/ai-product-ops-research/data/analysis/evidence_summary.csv)
+  - [`data/analysis/auth_summary.csv`](auth_summary.csv)
+  - [`data/analysis/access_summary.csv`](access_summary.csv)
+  - [`data/analysis/api_summary.csv`](api_summary.csv)
+  - [`data/analysis/mcp_summary.csv`](mcp_summary.csv)
+  - [`data/analysis/buildability_summary.csv`](buildability_summary.csv)
+  - [`data/analysis/category_summary.csv`](category_summary.csv)
+  - [`data/analysis/evidence_summary.csv`](evidence_summary.csv)
