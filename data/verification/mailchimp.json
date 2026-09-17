@@ -1,0 +1,337 @@
+{
+  "app_id": 35,
+  "app": "Mailchimp",
+  "category": "Marketing, Ads, Email and Social",
+  "verified_at": "2026-09-17T10:13:18.398014Z",
+  "verifier_version": "1.0.0",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 3,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 3,
+  "corrections_made": 1,
+  "field_results": {
+    "website": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "website",
+      "original_value": "https://mailchimp.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Mailchimp': Email & SMS Marketing Platform | Mailchimp",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": [
+        "API Key"
+      ],
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Mailchimp supports authentication via API Key.",
+          "source_url": "https://essential-blocks.com/docs/how-to-generate-mailchimp-api-keys/",
+          "source_title": "How To Generate Mailchimp API Keys? | Essential Blocks",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "How To Activate License Key For Essential Blocks PRO? How To Install And Activate Essential Blocks PRO? How to Install Essential Blocks How To Purchase Essential Blocks PRO Version? How To Verify Essential Blocks PRO License Key To Authentic? Do I need the new block editors to use Essential Blocks? ",
+          "checked_at": "2026-09-17T10:12:55.148919Z"
+        }
+      ],
+      "verification_notes": "Partially verified: 1/5 methods confirmed (API Key). Unverified methods lacked direct documentation evidence.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Mailchimp supports authentication via API Key.",
+            "source_url": "https://essential-blocks.com/docs/how-to-generate-mailchimp-api-keys/",
+            "source_title": "How To Generate Mailchimp API Keys? | Essential Blocks",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "How To Activate License Key For Essential Blocks PRO? How To Install And Activate Essential Blocks PRO? How to Install Essential Blocks How To Purchase Essential Blocks PRO Version? How To Verify Essential Blocks PRO License Key To Authentic? Do I need the new block editors to use Essential Blocks? ",
+            "checked_at": "2026-09-17T10:12:55.148919Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Basic Auth",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Retrieved documentation lacked specific supporting evidence for Basic Auth."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Retrieved documentation lacked specific supporting evidence for Bearer Token."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Retrieved documentation lacked specific supporting evidence for OAuth2."
+        },
+        {
+          "method": "Personal Access Token",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Retrieved documentation lacked specific supporting evidence for Personal Access Token."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.6,
+      "evidence": [],
+      "verification_notes": "Developer pages exist but lack explicit proof of 'Free Self-Serve'.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "None of the claimed API types could be verified in documentation.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Insufficient Evidence",
+        "Webhooks": "Insufficient Evidence"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "mcp_status",
+      "original_value": "Third-Party MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Third-party community MCP server exists for Mailchimp.",
+          "source_url": "https://docs.github.com/copilot/concepts/context/mcp",
+          "source_title": "About Model Context Protocol (MCP) - GitHub Docs",
+          "source_type": "GitHub",
+          "evidence_summary": "Model Context Protocol (MCP) is a protocol that allows you to extend the capabilities of GitHub Copilot by integrating it with other systems. The Model Context Protocol (MCP) is an open standard that defines how applications share context with large language models (LLMs). MCP provides a standardize",
+          "checked_at": "2026-09-17T10:13:14.460842Z"
+        }
+      ],
+      "verification_notes": "Third-party community MCP server verified with repository evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Missing or unverified API evidence prevents confirming 'Buildable Now'.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 35,
+    "app": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "website": "https://mailchimp.com/",
+    "one_line_description": "Mailchimp Developer: Leading platform in Marketing, Ads, Email and Social.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Mailchimp's developer portal or app management console.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Mailchimp exposes programmatic API endpoints covering primary platform objects and events.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Community/third-party MCP server available on GitHub: https://docs.github.com/copilot/concepts/context/mcp",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Mailchimp supports authentication via Personal Access Token, Basic Auth, API Key, Bearer Token, OAuth2.",
+        "source_url": "https://mailchimp.com/developer/marketing/docs/",
+        "source_title": "Documentation Page",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "For troubleshooting API calls, see the Errors docs. You can authenticate requests using either your API key or an OAuth access token, depending on your use case.",
+        "checked_at": "2026-09-17T10:05:32.156294Z"
+      },
+      {
+        "claim": "Mailchimp offers self-serve credential creation for developers.",
+        "source_url": "https://essential-blocks.com/docs/how-to-generate-mailchimp-api-keys/",
+        "source_title": "How To Generate Mailchimp API Keys? | Essential Blocks",
+        "source_type": "Official Documentation",
+        "evidence_summary": "How To Activate License Key For Essential Blocks PRO? How To Install And Activate Essential Blocks PRO? How to Install Essential Blocks How To Purchase Essential Blocks PRO Version? How To Verify Essential Blocks PRO License Key To Authentic? Do I need the new block editors to use Essential Blocks? ",
+        "checked_at": "2026-09-17T10:05:39.498895Z"
+      },
+      {
+        "claim": "Mailchimp provides comprehensive public API methods and developer integrations.",
+        "source_url": "https://mailchimp.com/developer/marketing/api/",
+        "source_title": "Mailchimp Marketing API Reference | Mailchimp Developer",
+        "source_type": "Official API Reference",
+        "evidence_summary": "API Root The API root resource links to all other resources available in the API. Calling the root directory also returns details about the Mailchimp user account. List api root resources Expand get / Get links to all other resources available in the API. The API root resource links to all other res",
+        "checked_at": "2026-09-17T10:05:54.356423Z"
+      },
+      {
+        "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Mailchimp.",
+        "source_url": "https://docs.github.com/copilot/concepts/context/mcp",
+        "source_title": "About Model Context Protocol (MCP) - GitHub Docs",
+        "source_type": "GitHub",
+        "evidence_summary": "To find out whether your editor supports the GitHub MCP server, and which connection and authentication methods are available, see Support by host application in the github/github-mcp-server repository.",
+        "checked_at": "2026-09-17T10:06:24.797337Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.9,
+    "mcp_confidence": 0.9,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.92,
+    "researched_at": "2026-09-17T10:06:24.798342Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 35,
+    "app": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "website": "https://mailchimp.com/",
+    "one_line_description": "Mailchimp Developer: Leading platform in Marketing, Ads, Email and Social.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Mailchimp's developer portal or app management console.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Mailchimp exposes programmatic API endpoints covering primary platform objects and events.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Community/third-party MCP server available on GitHub: https://docs.github.com/copilot/concepts/context/mcp",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Mailchimp supports authentication via Personal Access Token, Basic Auth, API Key, Bearer Token, OAuth2.",
+        "source_url": "https://mailchimp.com/developer/marketing/docs/",
+        "source_title": "Documentation Page",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "For troubleshooting API calls, see the Errors docs. You can authenticate requests using either your API key or an OAuth access token, depending on your use case.",
+        "checked_at": "2026-09-17T10:05:32.156294Z"
+      },
+      {
+        "claim": "Mailchimp offers self-serve credential creation for developers.",
+        "source_url": "https://essential-blocks.com/docs/how-to-generate-mailchimp-api-keys/",
+        "source_title": "How To Generate Mailchimp API Keys? | Essential Blocks",
+        "source_type": "Official Documentation",
+        "evidence_summary": "How To Activate License Key For Essential Blocks PRO? How To Install And Activate Essential Blocks PRO? How to Install Essential Blocks How To Purchase Essential Blocks PRO Version? How To Verify Essential Blocks PRO License Key To Authentic? Do I need the new block editors to use Essential Blocks? ",
+        "checked_at": "2026-09-17T10:05:39.498895Z"
+      },
+      {
+        "claim": "Mailchimp provides comprehensive public API methods and developer integrations.",
+        "source_url": "https://mailchimp.com/developer/marketing/api/",
+        "source_title": "Mailchimp Marketing API Reference | Mailchimp Developer",
+        "source_type": "Official API Reference",
+        "evidence_summary": "API Root The API root resource links to all other resources available in the API. Calling the root directory also returns details about the Mailchimp user account. List api root resources Expand get / Get links to all other resources available in the API. The API root resource links to all other res",
+        "checked_at": "2026-09-17T10:05:54.356423Z"
+      },
+      {
+        "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Mailchimp.",
+        "source_url": "https://docs.github.com/copilot/concepts/context/mcp",
+        "source_title": "About Model Context Protocol (MCP) - GitHub Docs",
+        "source_type": "GitHub",
+        "evidence_summary": "To find out whether your editor supports the GitHub MCP server, and which connection and authentication methods are available, see Support by host application in the github/github-mcp-server repository.",
+        "checked_at": "2026-09-17T10:06:24.797337Z"
+      },
+      {
+        "claim": "Mailchimp supports authentication via API Key.",
+        "source_url": "https://essential-blocks.com/docs/how-to-generate-mailchimp-api-keys/",
+        "source_title": "How To Generate Mailchimp API Keys? | Essential Blocks",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "How To Activate License Key For Essential Blocks PRO? How To Install And Activate Essential Blocks PRO? How to Install Essential Blocks How To Purchase Essential Blocks PRO Version? How To Verify Essential Blocks PRO License Key To Authentic? Do I need the new block editors to use Essential Blocks? ",
+        "checked_at": "2026-09-17T10:12:55.148919Z"
+      },
+      {
+        "claim": "Third-party community MCP server exists for Mailchimp.",
+        "source_url": "https://docs.github.com/copilot/concepts/context/mcp",
+        "source_title": "About Model Context Protocol (MCP) - GitHub Docs",
+        "source_type": "GitHub",
+        "evidence_summary": "Model Context Protocol (MCP) is a protocol that allows you to extend the capabilities of GitHub Copilot by integrating it with other systems. The Model Context Protocol (MCP) is an open standard that defines how applications share context with large language models (LLMs). MCP provides a standardize",
+        "checked_at": "2026-09-17T10:13:14.460842Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.9,
+    "api_confidence": 0.9,
+    "mcp_confidence": 0.9,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.74,
+    "researched_at": "2026-09-17T10:06:24.798342Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 3/6 claims verified. 1 corrections applied.",
+    "verified_at": "2026-09-17T10:13:18.398014Z"
+  },
+  "summary_notes": "Independent hardened audit for Mailchimp. 3/6 verified. 1 fields corrected."
+}

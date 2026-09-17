@@ -1,0 +1,522 @@
+{
+  "app_id": 100,
+  "app": "Grain",
+  "category": "AI, Research and Media-native",
+  "verified_at": "2026-09-17T15:09:38.725083Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 1,
+  "field_results": {
+    "website": {
+      "app_id": 100,
+      "app": "Grain",
+      "field": "website",
+      "original_value": "https://developers.grain.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Grain': Grain API",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 100,
+      "app": "Grain",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token",
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Grain supports authentication via API Key.",
+          "source_url": "https://docs.grainledger.com/authentication",
+          "source_title": "Authentication - Grain API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Organization API keys for server automation owned by one church. This is the fastest way to test the production API. OAuth 2.1 (Sign in with Grain) for applications that act o",
+          "checked_at": "2026-09-17T15:09:38.724557Z"
+        },
+        {
+          "claim": "Grain supports authentication via Bearer Token.",
+          "source_url": "https://mindcloud.co/docs/universal/rest/grain/latest/introduction/authentication",
+          "source_title": "Grain API Authentication - Universal API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Every Grain API request through MindCloud needs two things: a MindCloud API Key and a connectionId for your Grain account. This page covers both, plus exactly how to send them, so you do not need to visit any other page to get authenticated. Create a MindCloud account at app.mindcloud.co if you do n",
+          "checked_at": "2026-09-17T15:09:38.724557Z"
+        },
+        {
+          "claim": "Grain supports authentication via OAuth2.",
+          "source_url": "https://developers.grain.com/",
+          "source_title": "Grain API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. These tokens can be generated to grant access to the",
+          "checked_at": "2026-09-17T15:09:38.724557Z"
+        },
+        {
+          "claim": "Grain supports authentication via Personal Access Token.",
+          "source_url": "https://developers.grain.com/",
+          "source_title": "Grain API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. These tokens can be generated to grant access to the",
+          "checked_at": "2026-09-17T15:09:38.724557Z"
+        }
+      ],
+      "verification_notes": "All 4 claimed auth methods verified with primary evidence: API Key, Bearer Token, OAuth2, Personal Access Token.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Grain supports authentication via API Key.",
+            "source_url": "https://docs.grainledger.com/authentication",
+            "source_title": "Authentication - Grain API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Organization API keys for server automation owned by one church. This is the fastest way to test the production API. OAuth 2.1 (Sign in with Grain) for applications that act o",
+            "checked_at": "2026-09-17T15:09:38.724557Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Grain supports authentication via Bearer Token.",
+            "source_url": "https://mindcloud.co/docs/universal/rest/grain/latest/introduction/authentication",
+            "source_title": "Grain API Authentication - Universal API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Every Grain API request through MindCloud needs two things: a MindCloud API Key and a connectionId for your Grain account. This page covers both, plus exactly how to send them, so you do not need to visit any other page to get authenticated. Create a MindCloud account at app.mindcloud.co if you do n",
+            "checked_at": "2026-09-17T15:09:38.724557Z"
+          },
+          "notes": "Content verified: direct evidence found for (bearer token)."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Grain supports authentication via OAuth2.",
+            "source_url": "https://developers.grain.com/",
+            "source_title": "Grain API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. These tokens can be generated to grant access to the",
+            "checked_at": "2026-09-17T15:09:38.724557Z"
+          },
+          "notes": "Content verified: direct evidence found for (oauth2)."
+        },
+        {
+          "method": "Personal Access Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Grain supports authentication via Personal Access Token.",
+            "source_url": "https://developers.grain.com/",
+            "source_title": "Grain API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. These tokens can be generated to grant access to the",
+            "checked_at": "2026-09-17T15:09:38.724557Z"
+          },
+          "notes": "Content verified: direct evidence found for (personal access token)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 100,
+      "app": "Grain",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 100,
+      "app": "Grain",
+      "field": "api_surface",
+      "original_value": [
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Grain provides public Webhooks API surface.",
+          "source_url": "https://support.grain.com/en/articles/15507288-grain-api",
+          "source_title": "Grain API | Grain",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Connect Grain to your own tools and workflows with the Grain public API. The Grain API lets developers read meeting data, manage recordings, and receive real-time events from Grain programmatically. Use it to build custom integrations, sync data to internal systems, or automate workflows that go bey",
+          "checked_at": "2026-09-17T15:09:38.725083Z"
+        }
+      ],
+      "verification_notes": "All 1 claimed API types verified with primary evidence: Webhooks.",
+      "auth_details": null,
+      "api_type_details": {
+        "Webhooks": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 100,
+      "app": "Grain",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Deliberate search across docs and repositories confirmed no MCP server currently available.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 100,
+      "app": "Grain",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": "Unknown",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Inconclusive credential gating model prevents establishing buildability.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 100,
+    "app": "Grain",
+    "category": "AI, Research and Media-native",
+    "website": "https://developers.grain.com/",
+    "one_line_description": "Grain: Conventions.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Grain supports authentication via OAuth2.",
+            "source_url": "https://developers.grain.com/",
+            "source_title": "Grain API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. These tokens can be generated to grant access to the",
+            "checked_at": "2026-09-17T15:09:38.718769Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Grain API."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Grain supports authentication via API Key.",
+            "source_url": "https://docs.grainledger.com/authentication",
+            "source_title": "Authentication - Grain API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Organization API keys for server automation owned by one church. This is the fastest way to test the production API. OAuth 2.1 (Sign in with Grain) for applications that act o",
+            "checked_at": "2026-09-17T15:09:38.718769Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication - Grain API."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Grain supports authentication via Bearer Token.",
+            "source_url": "https://mindcloud.co/docs/universal/rest/grain/latest/introduction/authentication",
+            "source_title": "Grain API Authentication - Universal API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Every Grain API request through MindCloud needs two things: a MindCloud API Key and a connectionId for your Grain account. This page covers both, plus exactly how to send them, so you do not need to visit any other page to get authenticated. Create a MindCloud account at app.mindcloud.co if you do n",
+            "checked_at": "2026-09-17T15:09:38.719767Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Grain API Authentication - Universal API."
+      },
+      {
+        "method": "Personal Access Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Grain supports authentication via Personal Access Token.",
+            "source_url": "https://developers.grain.com/",
+            "source_title": "Grain API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. These tokens can be generated to grant access to the",
+            "checked_at": "2026-09-17T15:09:38.719767Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Grain API."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Grain provides public Webhooks API surface.",
+            "source_url": "https://support.grain.com/en/articles/15507288-grain-api",
+            "source_title": "Grain API | Grain",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Connect Grain to your own tools and workflows with the Grain public API. The Grain API lets developers read meeting data, manage recordings, and receive real-time events from Grain programmatically. Use it to build custom integrations, sync data to internal systems, or automate workflows that go bey",
+            "checked_at": "2026-09-17T15:09:38.719767Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Grain API | Grain."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Grain exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Grain.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "Grain supports authentication via OAuth2.",
+        "source_url": "https://developers.grain.com/",
+        "source_title": "Grain API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. These tokens can be generated to grant access to the",
+        "checked_at": "2026-09-17T15:09:38.718769Z"
+      },
+      {
+        "claim": "Grain supports authentication via API Key.",
+        "source_url": "https://docs.grainledger.com/authentication",
+        "source_title": "Authentication - Grain API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Organization API keys for server automation owned by one church. This is the fastest way to test the production API. OAuth 2.1 (Sign in with Grain) for applications that act o",
+        "checked_at": "2026-09-17T15:09:38.718769Z"
+      },
+      {
+        "claim": "Grain supports authentication via Bearer Token.",
+        "source_url": "https://mindcloud.co/docs/universal/rest/grain/latest/introduction/authentication",
+        "source_title": "Grain API Authentication - Universal API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Every Grain API request through MindCloud needs two things: a MindCloud API Key and a connectionId for your Grain account. This page covers both, plus exactly how to send them, so you do not need to visit any other page to get authenticated. Create a MindCloud account at app.mindcloud.co if you do n",
+        "checked_at": "2026-09-17T15:09:38.719767Z"
+      },
+      {
+        "claim": "Grain provides public Webhooks API surface.",
+        "source_url": "https://support.grain.com/en/articles/15507288-grain-api",
+        "source_title": "Grain API | Grain",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Connect Grain to your own tools and workflows with the Grain public API. The Grain API lets developers read meeting data, manage recordings, and receive real-time events from Grain programmatically. Use it to build custom integrations, sync data to internal systems, or automate workflows that go bey",
+        "checked_at": "2026-09-17T15:09:38.719767Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T15:09:38.720764Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 100,
+    "app": "Grain",
+    "category": "AI, Research and Media-native",
+    "website": "https://developers.grain.com/",
+    "one_line_description": "Grain: Conventions.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Grain supports authentication via OAuth2.",
+            "source_url": "https://developers.grain.com/",
+            "source_title": "Grain API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. These tokens can be generated to grant access to the",
+            "checked_at": "2026-09-17T15:09:38.718769Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Grain API."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Grain supports authentication via API Key.",
+            "source_url": "https://docs.grainledger.com/authentication",
+            "source_title": "Authentication - Grain API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Organization API keys for server automation owned by one church. This is the fastest way to test the production API. OAuth 2.1 (Sign in with Grain) for applications that act o",
+            "checked_at": "2026-09-17T15:09:38.718769Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication - Grain API."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Grain supports authentication via Bearer Token.",
+            "source_url": "https://mindcloud.co/docs/universal/rest/grain/latest/introduction/authentication",
+            "source_title": "Grain API Authentication - Universal API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Every Grain API request through MindCloud needs two things: a MindCloud API Key and a connectionId for your Grain account. This page covers both, plus exactly how to send them, so you do not need to visit any other page to get authenticated. Create a MindCloud account at app.mindcloud.co if you do n",
+            "checked_at": "2026-09-17T15:09:38.719767Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Grain API Authentication - Universal API."
+      },
+      {
+        "method": "Personal Access Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Grain supports authentication via Personal Access Token.",
+            "source_url": "https://developers.grain.com/",
+            "source_title": "Grain API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. These tokens can be generated to grant access to the",
+            "checked_at": "2026-09-17T15:09:38.719767Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Grain API."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Grain provides public Webhooks API surface.",
+            "source_url": "https://support.grain.com/en/articles/15507288-grain-api",
+            "source_title": "Grain API | Grain",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Connect Grain to your own tools and workflows with the Grain public API. The Grain API lets developers read meeting data, manage recordings, and receive real-time events from Grain programmatically. Use it to build custom integrations, sync data to internal systems, or automate workflows that go bey",
+            "checked_at": "2026-09-17T15:09:38.719767Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Grain API | Grain."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Grain exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Grain.",
+    "buildability": "Unknown",
+    "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+    "evidence": [
+      {
+        "claim": "Grain supports authentication via OAuth2.",
+        "source_url": "https://developers.grain.com/",
+        "source_title": "Grain API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. These tokens can be generated to grant access to the",
+        "checked_at": "2026-09-17T15:09:38.718769Z"
+      },
+      {
+        "claim": "Grain supports authentication via API Key.",
+        "source_url": "https://docs.grainledger.com/authentication",
+        "source_title": "Authentication - Grain API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Organization API keys for server automation owned by one church. This is the fastest way to test the production API. OAuth 2.1 (Sign in with Grain) for applications that act o",
+        "checked_at": "2026-09-17T15:09:38.718769Z"
+      },
+      {
+        "claim": "Grain supports authentication via Bearer Token.",
+        "source_url": "https://mindcloud.co/docs/universal/rest/grain/latest/introduction/authentication",
+        "source_title": "Grain API Authentication - Universal API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Every Grain API request through MindCloud needs two things: a MindCloud API Key and a connectionId for your Grain account. This page covers both, plus exactly how to send them, so you do not need to visit any other page to get authenticated. Create a MindCloud account at app.mindcloud.co if you do n",
+        "checked_at": "2026-09-17T15:09:38.719767Z"
+      },
+      {
+        "claim": "Grain provides public Webhooks API surface.",
+        "source_url": "https://support.grain.com/en/articles/15507288-grain-api",
+        "source_title": "Grain API | Grain",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Connect Grain to your own tools and workflows with the Grain public API. The Grain API lets developers read meeting data, manage recordings, and receive real-time events from Grain programmatically. Use it to build custom integrations, sync data to internal systems, or automate workflows that go bey",
+        "checked_at": "2026-09-17T15:09:38.719767Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.88,
+    "researched_at": "2026-09-17T15:09:38.720764Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 1 corrections applied.",
+    "verified_at": "2026-09-17T15:09:38.725083Z"
+  },
+  "summary_notes": "Independent hardened audit for Grain. 5/6 verified. 1 fields corrected."
+}

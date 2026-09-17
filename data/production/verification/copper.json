@@ -1,0 +1,453 @@
+{
+  "app_id": 9,
+  "app": "Copper",
+  "category": "CRM and Sales",
+  "verified_at": "2026-09-17T13:57:07.098460Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 9,
+      "app": "Copper",
+      "field": "website",
+      "original_value": "https://developer.copper.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://developer.copper.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 9,
+      "app": "Copper",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Copper supports authentication via OAuth2.",
+          "source_url": "https://developer.copper.com/introduction/authentication.html",
+          "source_title": "Overview - Copper Developer API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+          "checked_at": "2026-09-17T13:40:21.855578Z"
+        },
+        {
+          "claim": "Copper supports authentication via API Key.",
+          "source_url": "https://developer.copper.com/introduction/authentication.html",
+          "source_title": "Overview - Copper Developer API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+          "checked_at": "2026-09-17T13:40:21.855578Z"
+        }
+      ],
+      "verification_notes": "Authentication methods verified with 2 primary evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 9,
+      "app": "Copper",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [
+        {
+          "claim": "Copper offers self-serve credential creation for developers.",
+          "source_url": "https://developer.copper.co/api-reference/create-api-key",
+          "source_title": "Create an API key - Copper Developer Portal",
+          "source_type": "Official Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Go to organisation settings Choose the owner, set permissions, and configure an IP allowlist Save the API key and API secret Was this page helpful?",
+          "checked_at": "2026-09-17T13:40:29.109474Z"
+        }
+      ],
+      "verification_notes": "Access model Free Self-Serve verified by documentation evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 9,
+      "app": "Copper",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Copper supports authentication via API Key.",
+          "source_url": "https://developer.copper.com/introduction/authentication.html",
+          "source_title": "Overview - Copper Developer API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+          "checked_at": "2026-09-17T13:40:21.855578Z"
+        },
+        {
+          "claim": "Copper provides public REST API surface.",
+          "source_url": "https://developer.copper.com/",
+          "source_title": "Getting started - Copper Developer API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The Copper Web API allows you to access and build your own applications that interact with Copper in more complex ways than the integrations we provide out of the box. The Copper Developer API (\"Dev API\") provides a RESTful interface with JSON-formatted responses to access most Copper resources. We ",
+          "checked_at": "2026-09-17T13:40:33.501695Z"
+        },
+        {
+          "claim": "Copper provides public Webhooks API surface.",
+          "source_url": "https://developer.copper.com/webhooks/overview.html",
+          "source_title": "Overview - Copper Developer API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Webhooks allow systems integrated with Copper to receive near real-time notification of certain events so that data updates and workflows can be triggered. The following events are available for subscription: Events are available for the different entity types as follows. You may have up to 100 acti",
+          "checked_at": "2026-09-17T13:40:33.501695Z"
+        }
+      ],
+      "verification_notes": "API types verified with 3 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 9,
+      "app": "Copper",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.88,
+      "evidence": [],
+      "verification_notes": "No MCP Found status verified by deliberate registry/github search.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 9,
+      "app": "Copper",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable Now verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 9,
+    "app": "Copper",
+    "category": "CRM and Sales",
+    "website": "https://developer.copper.com/",
+    "one_line_description": "Getting started: Leading platform in CRM and Sales.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Copper supports authentication via OAuth2.",
+            "source_url": "https://developer.copper.com/introduction/authentication.html",
+            "source_title": "Overview - Copper Developer API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+            "checked_at": "2026-09-17T13:40:21.855578Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Overview - Copper Developer API: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Copper supports authentication via API Key.",
+            "source_url": "https://developer.copper.com/introduction/authentication.html",
+            "source_title": "Overview - Copper Developer API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+            "checked_at": "2026-09-17T13:40:21.855578Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Overview - Copper Developer API: API key provisioning and request header authentication."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Copper's developer portal or app management console.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Copper provides public REST API surface.",
+            "source_url": "https://developer.copper.com/",
+            "source_title": "Getting started - Copper Developer API",
+            "source_type": "Official API Reference",
+            "evidence_summary": "The Copper Web API allows you to access and build your own applications that interact with Copper in more complex ways than the integrations we provide out of the box. The Copper Developer API (\"Dev API\") provides a RESTful interface with JSON-formatted responses to access most Copper resources. We ",
+            "checked_at": "2026-09-17T13:40:33.501695Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Getting started - Copper Developer API: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Copper provides public Webhooks API surface.",
+            "source_url": "https://developer.copper.com/webhooks/overview.html",
+            "source_title": "Overview - Copper Developer API",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Webhooks allow systems integrated with Copper to receive near real-time notification of certain events so that data updates and workflows can be triggered. The following events are available for subscription: Events are available for the different entity types as follows. You may have up to 100 acti",
+            "checked_at": "2026-09-17T13:40:33.501695Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Overview - Copper Developer API: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Copper exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search across official documentation and GitHub repositories yielded no existing MCP implementations for Copper.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Copper supports authentication via OAuth2.",
+        "source_url": "https://developer.copper.com/introduction/authentication.html",
+        "source_title": "Overview - Copper Developer API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+        "checked_at": "2026-09-17T13:40:21.855578Z"
+      },
+      {
+        "claim": "Copper supports authentication via API Key.",
+        "source_url": "https://developer.copper.com/introduction/authentication.html",
+        "source_title": "Overview - Copper Developer API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+        "checked_at": "2026-09-17T13:40:21.855578Z"
+      },
+      {
+        "claim": "Copper offers self-serve credential creation for developers.",
+        "source_url": "https://developer.copper.co/api-reference/create-api-key",
+        "source_title": "Create an API key - Copper Developer Portal",
+        "source_type": "Official Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Go to organisation settings Choose the owner, set permissions, and configure an IP allowlist Save the API key and API secret Was this page helpful?",
+        "checked_at": "2026-09-17T13:40:29.109474Z"
+      },
+      {
+        "claim": "Copper provides public REST API surface.",
+        "source_url": "https://developer.copper.com/",
+        "source_title": "Getting started - Copper Developer API",
+        "source_type": "Official API Reference",
+        "evidence_summary": "The Copper Web API allows you to access and build your own applications that interact with Copper in more complex ways than the integrations we provide out of the box. The Copper Developer API (\"Dev API\") provides a RESTful interface with JSON-formatted responses to access most Copper resources. We ",
+        "checked_at": "2026-09-17T13:40:33.501695Z"
+      },
+      {
+        "claim": "Copper provides public Webhooks API surface.",
+        "source_url": "https://developer.copper.com/webhooks/overview.html",
+        "source_title": "Overview - Copper Developer API",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Webhooks allow systems integrated with Copper to receive near real-time notification of certain events so that data updates and workflows can be triggered. The following events are available for subscription: Events are available for the different entity types as follows. You may have up to 100 acti",
+        "checked_at": "2026-09-17T13:40:33.501695Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.92,
+    "researched_at": "2026-09-17T13:40:52.847161Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 9,
+    "app": "Copper",
+    "category": "CRM and Sales",
+    "website": "https://developer.copper.com/",
+    "one_line_description": "Getting started: Leading platform in CRM and Sales.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Copper supports authentication via OAuth2.",
+            "source_url": "https://developer.copper.com/introduction/authentication.html",
+            "source_title": "Overview - Copper Developer API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+            "checked_at": "2026-09-17T13:40:21.855578Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Overview - Copper Developer API: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Copper supports authentication via API Key.",
+            "source_url": "https://developer.copper.com/introduction/authentication.html",
+            "source_title": "Overview - Copper Developer API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+            "checked_at": "2026-09-17T13:40:21.855578Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Overview - Copper Developer API: API key provisioning and request header authentication."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Copper's developer portal or app management console.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Copper provides public REST API surface.",
+            "source_url": "https://developer.copper.com/",
+            "source_title": "Getting started - Copper Developer API",
+            "source_type": "Official API Reference",
+            "evidence_summary": "The Copper Web API allows you to access and build your own applications that interact with Copper in more complex ways than the integrations we provide out of the box. The Copper Developer API (\"Dev API\") provides a RESTful interface with JSON-formatted responses to access most Copper resources. We ",
+            "checked_at": "2026-09-17T13:40:33.501695Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Getting started - Copper Developer API: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Copper provides public Webhooks API surface.",
+            "source_url": "https://developer.copper.com/webhooks/overview.html",
+            "source_title": "Overview - Copper Developer API",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Webhooks allow systems integrated with Copper to receive near real-time notification of certain events so that data updates and workflows can be triggered. The following events are available for subscription: Events are available for the different entity types as follows. You may have up to 100 acti",
+            "checked_at": "2026-09-17T13:40:33.501695Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Overview - Copper Developer API: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Copper exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search across official documentation and GitHub repositories yielded no existing MCP implementations for Copper.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Copper supports authentication via OAuth2.",
+        "source_url": "https://developer.copper.com/introduction/authentication.html",
+        "source_title": "Overview - Copper Developer API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+        "checked_at": "2026-09-17T13:40:21.855578Z"
+      },
+      {
+        "claim": "Copper supports authentication via API Key.",
+        "source_url": "https://developer.copper.com/introduction/authentication.html",
+        "source_title": "Overview - Copper Developer API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "There are two ways to access the Copper Developer API: API keys and OAuth2.0 .\nAPI Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations. The Dev API uses token based authentication. You have to include the token in the header of every request, alo",
+        "checked_at": "2026-09-17T13:40:21.855578Z"
+      },
+      {
+        "claim": "Copper offers self-serve credential creation for developers.",
+        "source_url": "https://developer.copper.co/api-reference/create-api-key",
+        "source_title": "Create an API key - Copper Developer Portal",
+        "source_type": "Official Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Go to organisation settings Choose the owner, set permissions, and configure an IP allowlist Save the API key and API secret Was this page helpful?",
+        "checked_at": "2026-09-17T13:40:29.109474Z"
+      },
+      {
+        "claim": "Copper provides public REST API surface.",
+        "source_url": "https://developer.copper.com/",
+        "source_title": "Getting started - Copper Developer API",
+        "source_type": "Official API Reference",
+        "evidence_summary": "The Copper Web API allows you to access and build your own applications that interact with Copper in more complex ways than the integrations we provide out of the box. The Copper Developer API (\"Dev API\") provides a RESTful interface with JSON-formatted responses to access most Copper resources. We ",
+        "checked_at": "2026-09-17T13:40:33.501695Z"
+      },
+      {
+        "claim": "Copper provides public Webhooks API surface.",
+        "source_url": "https://developer.copper.com/webhooks/overview.html",
+        "source_title": "Overview - Copper Developer API",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Webhooks allow systems integrated with Copper to receive near real-time notification of certain events so that data updates and workflows can be triggered. The following events are available for subscription: Events are available for the different entity types as follows. You may have up to 100 acti",
+        "checked_at": "2026-09-17T13:40:33.501695Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.92,
+    "researched_at": "2026-09-17T13:40:52.847161Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T13:57:07.098460Z"
+  },
+  "summary_notes": "Production verification audit for Copper: 6/6 verified."
+}

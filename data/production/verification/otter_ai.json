@@ -1,0 +1,464 @@
+{
+  "app_id": 92,
+  "app": "Otter AI",
+  "category": "AI, Research and Media-native",
+  "verified_at": "2026-09-17T15:06:09.074757Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 4,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 2,
+  "corrections_made": 1,
+  "field_results": {
+    "website": {
+      "app_id": 92,
+      "app": "Otter AI",
+      "field": "website",
+      "original_value": "https://otterai.com/",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.6,
+      "evidence": [],
+      "verification_notes": "Website could not be reached with HTTP 200: https://otterai.com/.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 92,
+      "app": "Otter AI",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Otter AI supports authentication via API Key.",
+          "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+          "source_title": "Otter.ai Public API – Help Center",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+          "checked_at": "2026-09-17T15:06:09.069613Z"
+        },
+        {
+          "claim": "Otter AI supports authentication via Bearer Token.",
+          "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+          "source_title": "Otter.ai Public API – Help Center",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+          "checked_at": "2026-09-17T15:06:09.070710Z"
+        }
+      ],
+      "verification_notes": "All 2 claimed auth methods verified with primary evidence: API Key, Bearer Token.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Otter AI supports authentication via API Key.",
+            "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+            "source_title": "Otter.ai Public API – Help Center",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+            "checked_at": "2026-09-17T15:06:09.069613Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Otter AI supports authentication via Bearer Token.",
+            "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+            "source_title": "Otter.ai Public API – Help Center",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+            "checked_at": "2026-09-17T15:06:09.070710Z"
+          },
+          "notes": "Content verified: direct evidence found for (bearer token)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 92,
+      "app": "Otter AI",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 92,
+      "app": "Otter AI",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Otter AI provides public REST API surface.",
+          "source_url": "https://www.otterab.com/api-docs",
+          "source_title": "API Reference | Otter",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Full reference for the Otter REST API. Manage projects, create experiments, inspect results, and automate your testing workflows. The machine-readable description of this API, published as OpenAPI 3.1. Every operation carries a unique operationId , typed parameters, and response schemas, so it feeds",
+          "checked_at": "2026-09-17T15:06:09.071845Z"
+        },
+        {
+          "claim": "Otter AI provides public SDK API surface.",
+          "source_url": "https://www.otterab.com/api-docs",
+          "source_title": "API Reference | Otter",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Full reference for the Otter REST API. Manage projects, create experiments, inspect results, and automate your testing workflows. The machine-readable description of this API, published as OpenAPI 3.1. Every operation carries a unique operationId , typed parameters, and response schemas, so it feeds",
+          "checked_at": "2026-09-17T15:06:09.072935Z"
+        },
+        {
+          "claim": "Otter AI provides public Webhooks API surface.",
+          "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+          "source_title": "Otter.ai Public API – Help Center",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+          "checked_at": "2026-09-17T15:06:09.073498Z"
+        }
+      ],
+      "verification_notes": "All 3 claimed API types verified with primary evidence: REST, SDK, Webhooks.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Verified",
+        "SDK": "Verified",
+        "Webhooks": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 92,
+      "app": "Otter AI",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Deliberate search across docs and repositories confirmed no MCP server currently available.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 92,
+      "app": "Otter AI",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": "Unknown",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Inconclusive credential gating model prevents establishing buildability.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 92,
+    "app": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "website": "https://otterai.com/",
+    "one_line_description": "Otter AI: Otter.ai Public API – Help Center.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Otter AI supports authentication via API Key.",
+            "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+            "source_title": "Otter.ai Public API – Help Center",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+            "checked_at": "2026-09-17T15:05:55.825130Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Otter.ai Public API – Help Center."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Otter AI supports authentication via Bearer Token.",
+            "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+            "source_title": "Otter.ai Public API – Help Center",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+            "checked_at": "2026-09-17T15:05:55.826531Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Otter.ai Public API – Help Center."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Otter AI provides public REST API surface.",
+            "source_url": "https://www.otterab.com/api-docs",
+            "source_title": "API Reference | Otter",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Full reference for the Otter REST API. Manage projects, create experiments, inspect results, and automate your testing workflows. The machine-readable description of this API, published as OpenAPI 3.1. Every operation carries a unique operationId , typed parameters, and response schemas, so it feeds",
+            "checked_at": "2026-09-17T15:05:55.829327Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API Reference | Otter."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Otter AI provides public Webhooks API surface.",
+            "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+            "source_title": "Otter.ai Public API – Help Center",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+            "checked_at": "2026-09-17T15:05:55.829327Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Otter.ai Public API – Help Center."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Otter AI provides public SDK API surface.",
+            "source_url": "https://www.otterab.com/api-docs",
+            "source_title": "API Reference | Otter",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Full reference for the Otter REST API. Manage projects, create experiments, inspect results, and automate your testing workflows. The machine-readable description of this API, published as OpenAPI 3.1. Every operation carries a unique operationId , typed parameters, and response schemas, so it feeds",
+            "checked_at": "2026-09-17T15:05:55.830383Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API Reference | Otter."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Otter AI exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Otter AI.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "Otter AI supports authentication via API Key.",
+        "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+        "source_title": "Otter.ai Public API – Help Center",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+        "checked_at": "2026-09-17T15:05:55.825130Z"
+      },
+      {
+        "claim": "Otter AI provides public REST API surface.",
+        "source_url": "https://www.otterab.com/api-docs",
+        "source_title": "API Reference | Otter",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Full reference for the Otter REST API. Manage projects, create experiments, inspect results, and automate your testing workflows. The machine-readable description of this API, published as OpenAPI 3.1. Every operation carries a unique operationId , typed parameters, and response schemas, so it feeds",
+        "checked_at": "2026-09-17T15:05:55.829327Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T15:05:55.830383Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 92,
+    "app": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "website": "https://otterai.com/",
+    "one_line_description": "Otter AI: Otter.ai Public API – Help Center.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Otter AI supports authentication via API Key.",
+            "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+            "source_title": "Otter.ai Public API – Help Center",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+            "checked_at": "2026-09-17T15:05:55.825130Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Otter.ai Public API – Help Center."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Otter AI supports authentication via Bearer Token.",
+            "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+            "source_title": "Otter.ai Public API – Help Center",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+            "checked_at": "2026-09-17T15:05:55.826531Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Otter.ai Public API – Help Center."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Otter AI provides public REST API surface.",
+            "source_url": "https://www.otterab.com/api-docs",
+            "source_title": "API Reference | Otter",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Full reference for the Otter REST API. Manage projects, create experiments, inspect results, and automate your testing workflows. The machine-readable description of this API, published as OpenAPI 3.1. Every operation carries a unique operationId , typed parameters, and response schemas, so it feeds",
+            "checked_at": "2026-09-17T15:05:55.829327Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API Reference | Otter."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Otter AI provides public Webhooks API surface.",
+            "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+            "source_title": "Otter.ai Public API – Help Center",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+            "checked_at": "2026-09-17T15:05:55.829327Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Otter.ai Public API – Help Center."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Otter AI provides public SDK API surface.",
+            "source_url": "https://www.otterab.com/api-docs",
+            "source_title": "API Reference | Otter",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Full reference for the Otter REST API. Manage projects, create experiments, inspect results, and automate your testing workflows. The machine-readable description of this API, published as OpenAPI 3.1. Every operation carries a unique operationId , typed parameters, and response schemas, so it feeds",
+            "checked_at": "2026-09-17T15:05:55.830383Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API Reference | Otter."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Otter AI exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Otter AI.",
+    "buildability": "Unknown",
+    "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+    "evidence": [
+      {
+        "claim": "Otter AI supports authentication via API Key.",
+        "source_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+        "source_title": "Otter.ai Public API – Help Center",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Otter HubSpot for Enterprise Otter Salesforce for Enterprise Add videos to your conversation Connect Jira to Otter.ai Connect Microsoft SharePoint to Otter.ai CRM Integration: Sync Insights to Custom Fields Directory Sync | SCIM Export to Google Drive Export to Microsoft OneDrive Otter.ai’s Public A",
+        "checked_at": "2026-09-17T15:05:55.825130Z"
+      },
+      {
+        "claim": "Otter AI provides public REST API surface.",
+        "source_url": "https://www.otterab.com/api-docs",
+        "source_title": "API Reference | Otter",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Full reference for the Otter REST API. Manage projects, create experiments, inspect results, and automate your testing workflows. The machine-readable description of this API, published as OpenAPI 3.1. Every operation carries a unique operationId , typed parameters, and response schemas, so it feeds",
+        "checked_at": "2026-09-17T15:05:55.829327Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.81,
+    "researched_at": "2026-09-17T15:05:55.830383Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 4/6 claims verified. 1 corrections applied.",
+    "verified_at": "2026-09-17T15:06:09.074045Z"
+  },
+  "summary_notes": "Independent hardened audit for Otter AI. 4/6 verified. 1 fields corrected."
+}

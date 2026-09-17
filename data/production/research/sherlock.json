@@ -1,0 +1,129 @@
+{
+  "id": 58,
+  "app": "Sherlock",
+  "category": "Data, SEO and Scraping",
+  "website": "https://docs.sherlockai.dev/",
+  "one_line_description": "Sherlock: API Documentation — Sherlock 0.3.0 documentation.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sherlock supports authentication via OAuth2.",
+          "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+          "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+          "checked_at": "2026-09-17T14:31:25.347406Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Using OAuth to authenticate API requests | Zendesk Developer Docs."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sherlock supports authentication via API Key.",
+          "source_url": "https://publicapis.io/blog/oauth-vs-api-key-authentication-gri5",
+          "source_title": "OAuth vs API Key Authentication: Complete Developer Guide",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "API authentication is the cornerstone of secure web services, and choosing between OAuth and API key authentication can significantly impact your application's security, user experience, and development complexity. Both methods serve distinct purposes in the API ecosystem, and understanding their di",
+          "checked_at": "2026-09-17T14:31:25.348409Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth vs API Key Authentication: Complete Developer Guide."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sherlock supports authentication via Bearer Token.",
+          "source_url": "https://publicapis.io/blog/oauth-vs-api-key-authentication-gri5",
+          "source_title": "OAuth vs API Key Authentication: Complete Developer Guide",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "API authentication is the cornerstone of secure web services, and choosing between OAuth and API key authentication can significantly impact your application's security, user experience, and development complexity. Both methods serve distinct purposes in the API ecosystem, and understanding their di",
+          "checked_at": "2026-09-17T14:31:25.348409Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth vs API Key Authentication: Complete Developer Guide."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sherlock provides public SDK API surface.",
+          "source_url": "https://sher-lock.readthedocs.io/en/latest/api_documentation.html",
+          "source_title": "API Documentation — Sherlock 0.3.0 documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Sherlock 0.3.0 documentation » sherlock can be globally configured to set a lot of defaults using the sherlock.configure() function. The configuration set using sherlock.configure() will be used as the default for all the lock\nobjects. Set basic global configuration for sherlock . backend – global c",
+          "checked_at": "2026-09-17T14:31:25.349714Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Documentation — Sherlock 0.3.0 documentation."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Sherlock exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Sherlock.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Developer account required to obtain access credentials.",
+  "evidence": [
+    {
+      "claim": "Sherlock supports authentication via OAuth2.",
+      "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+      "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+      "checked_at": "2026-09-17T14:31:25.347406Z"
+    },
+    {
+      "claim": "Sherlock supports authentication via API Key.",
+      "source_url": "https://publicapis.io/blog/oauth-vs-api-key-authentication-gri5",
+      "source_title": "OAuth vs API Key Authentication: Complete Developer Guide",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "API authentication is the cornerstone of secure web services, and choosing between OAuth and API key authentication can significantly impact your application's security, user experience, and development complexity. Both methods serve distinct purposes in the API ecosystem, and understanding their di",
+      "checked_at": "2026-09-17T14:31:25.348409Z"
+    },
+    {
+      "claim": "Sherlock provides public SDK API surface.",
+      "source_url": "https://sher-lock.readthedocs.io/en/latest/api_documentation.html",
+      "source_title": "API Documentation — Sherlock 0.3.0 documentation",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Sherlock 0.3.0 documentation » sherlock can be globally configured to set a lot of defaults using the sherlock.configure() function. The configuration set using sherlock.configure() will be used as the default for all the lock\nobjects. Set basic global configuration for sherlock . backend – global c",
+      "checked_at": "2026-09-17T14:31:25.349714Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.76,
+  "researched_at": "2026-09-17T14:31:25.350717Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

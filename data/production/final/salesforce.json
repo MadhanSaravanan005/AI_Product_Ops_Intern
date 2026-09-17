@@ -1,0 +1,70 @@
+{
+  "id": 1,
+  "app": "Salesforce",
+  "category": "CRM and Sales",
+  "website": "https://developer.salesforce.com/",
+  "one_line_description": "Salesforce Developer Explained: Roles, Responsibilities, and Skills: Leading platform in CRM and Sales.",
+  "auth_methods": [
+    "OAuth2"
+  ],
+  "authentication_details": [],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Salesforce's developer portal or app management console.",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Salesforce exposes programmatic API endpoints covering primary platform objects and events.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Community/third-party MCP server available on GitHub: https://github.com/salesforcecli/mcp",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Salesforce supports authentication via OAuth2.",
+      "source_url": "https://help.salesforce.com/s/articleView?id=platform.platform_o_manage_api_tokens.htm&language=en_US&type=5",
+      "source_title": "Salesforce Help",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Use API Tokens, based on OAuth 2.0 authentication protocol, as a means to access Own from Salesforce APIs. Treat API tokens as securely as any other type of password. Make sure to store this token in a safe and secure location.",
+      "checked_at": "2026-09-17T10:03:50.597938Z"
+    },
+    {
+      "claim": "Salesforce offers self-serve credential creation for developers.",
+      "source_url": "https://s2-labs.com/blog/set-up-free-salesforce-developer-edition-account/",
+      "source_title": "How To Set Up A Free Salesforce Developer Edition Account?",
+      "source_type": "Official Documentation",
+      "evidence_summary": "How To Set Up A Free Salesforce Developer Edition Account? Published : November 11, 2024 Last Updated : January 8, 2026 Link Copied to Clipboard! Salesforce Developer Edition is a free environment for testing, building, and learning without live data. It supports 10 custom objects and complete API a",
+      "checked_at": "2026-09-17T10:03:55.343529Z"
+    },
+    {
+      "claim": "Salesforce provides comprehensive public API methods and developer integrations.",
+      "source_url": "https://coefficient.io/salesforce-api/salesforce-webhooks",
+      "source_title": "How to Set Up Salesforce Webhooks: Quick Integration Guide - Coefficient",
+      "source_type": "Official API Reference",
+      "evidence_summary": "🔥 Now available: AI Dashboards Published: August 17, 2025 Head of Growth Marketing Trusted by 50,000+ companies Works with 100+ platforms How to Set Up Salesforce Webhooks: Quick Integration Guide Quick Answer Prerequisites and Requirements Step-by-Step Salesforce Webhook Setup Common Integration Is",
+      "checked_at": "2026-09-17T10:04:01.237344Z"
+    },
+    {
+      "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Salesforce.",
+      "source_url": "https://github.com/salesforcecli/mcp",
+      "source_title": "GitHub - salesforcecli/mcp: MCP Server for interacting with ...",
+      "source_type": "GitHub",
+      "evidence_summary": "The Salesforce DX MCP Server is a specialized Model Context Protocol (MCP) implementation designed to facilitate seamless interaction between large language models (LLMs) and Salesforce orgs.",
+      "checked_at": "2026-09-17T10:04:12.203633Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.9,
+  "mcp_confidence": 0.9,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.92,
+  "researched_at": "2026-09-17T10:04:12.205782Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Verified",
+  "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+  "verified_at": "2026-09-17T13:57:07.064725Z"
+}

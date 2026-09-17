@@ -1,0 +1,121 @@
+{
+  "id": 69,
+  "app": "Datadog",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.datadoghq.com/",
+  "one_line_description": "Datadog: API Reference.",
+  "auth_methods": [
+    "API Key",
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Datadog supports authentication via OAuth2.",
+          "source_url": "https://docs.datadoghq.com/api/latest/",
+          "source_title": "API Reference",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Essentials Getting Started Agent API APM Tracing Containers Autodiscovery Datadog Operator Dashboards Database Monitoring Datadog Datadog Site DevSecOps Incident Management Integrations AWS Azure Google Cloud OCI Terraform Internal Developer Portal Logs Monitors Notebooks OpenTelemetry Profiler Sear",
+          "checked_at": "2026-09-17T14:42:33.720229Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Reference."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Datadog supports authentication via API Key.",
+          "source_url": "https://www.datadoghq.com/blog/datadog-api-authentication/",
+          "source_title": "Modernize Datadog API authentication with scoped credentials | Datadog",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Product host-map Infrastructure Infrastructure Monitoring Custom Metrics Network Monitoring Container Monitoring Kubernetes Autoscaling Serverless Monitoring Cloud Cost Management Storage Management GPU Monitoring apm Applications Application Performance Monitoring Universal Service Monitoring Conti",
+          "checked_at": "2026-09-17T14:42:33.721734Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Modernize Datadog API authentication with scoped credentials | Datadog."
+    },
+    {
+      "method": "Personal Access Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Datadog supports authentication via Personal Access Token.",
+          "source_url": "https://www.datadoghq.com/blog/datadog-api-authentication/",
+          "source_title": "Modernize Datadog API authentication with scoped credentials | Datadog",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Product host-map Infrastructure Infrastructure Monitoring Custom Metrics Network Monitoring Container Monitoring Kubernetes Autoscaling Serverless Monitoring Cloud Cost Management Storage Management GPU Monitoring apm Applications Application Performance Monitoring Universal Service Monitoring Conti",
+          "checked_at": "2026-09-17T14:42:33.721734Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Modernize Datadog API authentication with scoped credentials | Datadog."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Datadog provides public SDK API surface.",
+          "source_url": "https://docs.datadoghq.com/api/latest/",
+          "source_title": "API Reference",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Essentials Getting Started Agent API APM Tracing Containers Autodiscovery Datadog Operator Dashboards Database Monitoring Datadog Datadog Site DevSecOps Incident Management Integrations AWS Azure Google Cloud OCI Terraform Internal Developer Portal Logs Monitors Notebooks OpenTelemetry Profiler Sear",
+          "checked_at": "2026-09-17T14:42:33.722758Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Reference."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Datadog exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented directly by Datadog.",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "Datadog supports authentication via OAuth2.",
+      "source_url": "https://docs.datadoghq.com/api/latest/",
+      "source_title": "API Reference",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Essentials Getting Started Agent API APM Tracing Containers Autodiscovery Datadog Operator Dashboards Database Monitoring Datadog Datadog Site DevSecOps Incident Management Integrations AWS Azure Google Cloud OCI Terraform Internal Developer Portal Logs Monitors Notebooks OpenTelemetry Profiler Sear",
+      "checked_at": "2026-09-17T14:42:33.720229Z"
+    },
+    {
+      "claim": "Datadog supports authentication via API Key.",
+      "source_url": "https://www.datadoghq.com/blog/datadog-api-authentication/",
+      "source_title": "Modernize Datadog API authentication with scoped credentials | Datadog",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Product host-map Infrastructure Infrastructure Monitoring Custom Metrics Network Monitoring Container Monitoring Kubernetes Autoscaling Serverless Monitoring Cloud Cost Management Storage Management GPU Monitoring apm Applications Application Performance Monitoring Universal Service Monitoring Conti",
+      "checked_at": "2026-09-17T14:42:33.721734Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.66,
+  "researched_at": "2026-09-17T14:42:33.723753Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 2/6 claims verified. 0 corrections applied.",
+  "verified_at": "2026-09-17T14:42:33.726272Z"
+}

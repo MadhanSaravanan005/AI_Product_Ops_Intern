@@ -1,0 +1,343 @@
+{
+  "app_id": 12,
+  "app": "Intercom",
+  "category": "Support and Helpdesk",
+  "verified_at": "2026-09-17T13:57:07.126488Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 12,
+      "app": "Intercom",
+      "field": "website",
+      "original_value": "https://developers.intercom.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://developers.intercom.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 12,
+      "app": "Intercom",
+      "field": "authentication",
+      "original_value": [
+        "Unknown"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown authentication correctly recorded in absence of positive evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 12,
+      "app": "Intercom",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown access model verified in absence of gating documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 12,
+      "app": "Intercom",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Intercom provides public REST API surface.",
+          "source_url": "https://openapi.city/providers/intercom",
+          "source_title": "Intercom API Reference — 110 Endpoints | openapi.city",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Customer messaging and support platform Query structured spec data via REST or MCP. Get exactly what your agent needs. You can fetch a list of admins for a given workspace. You can get a log of activities by all admins in an app. The start date that you request data for. It must be formatted as a UN",
+          "checked_at": "2026-09-17T13:43:30.144588Z"
+        },
+        {
+          "claim": "Intercom provides public Webhooks API surface.",
+          "source_url": "https://developers.intercom.com/docs/webhooks",
+          "source_title": "Webhooks | Intercom and Fin Developer Platform",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Build a Messenger App Build an App using Sheets Webhook Notifications Create a Fin AI Integration with Slack Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Webhooks are a way that you can access real-time notifications about events that happen in your Intercom workspace.",
+          "checked_at": "2026-09-17T13:43:30.144588Z"
+        }
+      ],
+      "verification_notes": "API types verified with 2 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 12,
+      "app": "Intercom",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Intercom provides official Model Context Protocol (MCP) server support.",
+          "source_url": "https://developers.intercom.com/docs/guides/mcp",
+          "source_title": "Model Context Protocol (MCP) | Intercom and Fin Developer Platform",
+          "source_type": "Official MCP Documentation",
+          "evidence_summary": "Build a Messenger App Build an App using Sheets Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Learn how to use the Model Context Protocol (MCP) to enable AI agents to securely access and interact with your Intercom data whenever helpful. The Intercom MCP server is avail",
+          "checked_at": "2026-09-17T13:43:35.561829Z"
+        }
+      ],
+      "verification_notes": "MCP status Official MCP backed by repository/doc evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 12,
+      "app": "Intercom",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable With Restrictions verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 12,
+    "app": "Intercom",
+    "category": "Support and Helpdesk",
+    "website": "https://developers.intercom.com/",
+    "one_line_description": "Overview: Leading platform in Support and Helpdesk.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods for Intercom could be grounded with direct documentation evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Intercom provides public REST API surface.",
+            "source_url": "https://openapi.city/providers/intercom",
+            "source_title": "Intercom API Reference — 110 Endpoints | openapi.city",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Customer messaging and support platform Query structured spec data via REST or MCP. Get exactly what your agent needs. You can fetch a list of admins for a given workspace. You can get a log of activities by all admins in an app. The start date that you request data for. It must be formatted as a UN",
+            "checked_at": "2026-09-17T13:43:30.144588Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Intercom API Reference — 110 Endpoints | openapi.city: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Intercom provides public Webhooks API surface.",
+            "source_url": "https://developers.intercom.com/docs/webhooks",
+            "source_title": "Webhooks | Intercom and Fin Developer Platform",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Build a Messenger App Build an App using Sheets Webhook Notifications Create a Fin AI Integration with Slack Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Webhooks are a way that you can access real-time notifications about events that happen in your Intercom workspace.",
+            "checked_at": "2026-09-17T13:43:30.144588Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Webhooks | Intercom and Fin Developer Platform: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Intercom exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Intercom.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+    "evidence": [
+      {
+        "claim": "Intercom provides public REST API surface.",
+        "source_url": "https://openapi.city/providers/intercom",
+        "source_title": "Intercom API Reference — 110 Endpoints | openapi.city",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Customer messaging and support platform Query structured spec data via REST or MCP. Get exactly what your agent needs. You can fetch a list of admins for a given workspace. You can get a log of activities by all admins in an app. The start date that you request data for. It must be formatted as a UN",
+        "checked_at": "2026-09-17T13:43:30.144588Z"
+      },
+      {
+        "claim": "Intercom provides public Webhooks API surface.",
+        "source_url": "https://developers.intercom.com/docs/webhooks",
+        "source_title": "Webhooks | Intercom and Fin Developer Platform",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Build a Messenger App Build an App using Sheets Webhook Notifications Create a Fin AI Integration with Slack Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Webhooks are a way that you can access real-time notifications about events that happen in your Intercom workspace.",
+        "checked_at": "2026-09-17T13:43:30.144588Z"
+      },
+      {
+        "claim": "Intercom provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://developers.intercom.com/docs/guides/mcp",
+        "source_title": "Model Context Protocol (MCP) | Intercom and Fin Developer Platform",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Build a Messenger App Build an App using Sheets Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Learn how to use the Model Context Protocol (MCP) to enable AI agents to securely access and interact with your Intercom data whenever helpful. The Intercom MCP server is avail",
+        "checked_at": "2026-09-17T13:43:35.561829Z"
+      }
+    ],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.66,
+    "researched_at": "2026-09-17T13:43:35.562398Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Needs Verification",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 12,
+    "app": "Intercom",
+    "category": "Support and Helpdesk",
+    "website": "https://developers.intercom.com/",
+    "one_line_description": "Overview: Leading platform in Support and Helpdesk.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods for Intercom could be grounded with direct documentation evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Intercom provides public REST API surface.",
+            "source_url": "https://openapi.city/providers/intercom",
+            "source_title": "Intercom API Reference — 110 Endpoints | openapi.city",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Customer messaging and support platform Query structured spec data via REST or MCP. Get exactly what your agent needs. You can fetch a list of admins for a given workspace. You can get a log of activities by all admins in an app. The start date that you request data for. It must be formatted as a UN",
+            "checked_at": "2026-09-17T13:43:30.144588Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Intercom API Reference — 110 Endpoints | openapi.city: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Intercom provides public Webhooks API surface.",
+            "source_url": "https://developers.intercom.com/docs/webhooks",
+            "source_title": "Webhooks | Intercom and Fin Developer Platform",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Build a Messenger App Build an App using Sheets Webhook Notifications Create a Fin AI Integration with Slack Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Webhooks are a way that you can access real-time notifications about events that happen in your Intercom workspace.",
+            "checked_at": "2026-09-17T13:43:30.144588Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Webhooks | Intercom and Fin Developer Platform: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Intercom exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Intercom.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+    "evidence": [
+      {
+        "claim": "Intercom provides public REST API surface.",
+        "source_url": "https://openapi.city/providers/intercom",
+        "source_title": "Intercom API Reference — 110 Endpoints | openapi.city",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Customer messaging and support platform Query structured spec data via REST or MCP. Get exactly what your agent needs. You can fetch a list of admins for a given workspace. You can get a log of activities by all admins in an app. The start date that you request data for. It must be formatted as a UN",
+        "checked_at": "2026-09-17T13:43:30.144588Z"
+      },
+      {
+        "claim": "Intercom provides public Webhooks API surface.",
+        "source_url": "https://developers.intercom.com/docs/webhooks",
+        "source_title": "Webhooks | Intercom and Fin Developer Platform",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Build a Messenger App Build an App using Sheets Webhook Notifications Create a Fin AI Integration with Slack Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Webhooks are a way that you can access real-time notifications about events that happen in your Intercom workspace.",
+        "checked_at": "2026-09-17T13:43:30.144588Z"
+      },
+      {
+        "claim": "Intercom provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://developers.intercom.com/docs/guides/mcp",
+        "source_title": "Model Context Protocol (MCP) | Intercom and Fin Developer Platform",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Build a Messenger App Build an App using Sheets Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Learn how to use the Model Context Protocol (MCP) to enable AI agents to securely access and interact with your Intercom data whenever helpful. The Intercom MCP server is avail",
+        "checked_at": "2026-09-17T13:43:35.561829Z"
+      }
+    ],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.66,
+    "researched_at": "2026-09-17T13:43:35.562398Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Needs Verification",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T13:57:07.126488Z"
+  },
+  "summary_notes": "Production verification audit for Intercom: 6/6 verified."
+}

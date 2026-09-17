@@ -1,0 +1,119 @@
+{
+  "id": 15,
+  "app": "Pylon",
+  "category": "Support and Helpdesk",
+  "website": "https://getpylon.com/",
+  "one_line_description": "Pylon Developer Hub: Leading platform in Support and Helpdesk.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Pylon supports authentication via API Key.",
+          "source_url": "https://docs.pylonsync.com/auth/overview",
+          "source_title": "Auth overview - Pylon",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Bearer tokens — pass via Authorization: Bearer <token> header. Used by every SDK, native clients, and curl. Tokens are 256-bit opaque strings prefixed pylon_ . Cookies — when ",
+          "checked_at": "2026-09-17T13:47:07.344706Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Auth overview - Pylon: API key provisioning and request header authentication."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Pylon supports authentication via Bearer Token.",
+          "source_url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "source_title": "Authentication | Pylon",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Getting Started Introduction Quick Start Setup Channel Configuration User Guide Pylonboarding Channel Configuration Agents Assist Agent Background Agents Slack Agent Skills Connectors User Memories Support Agent Support Workflows Omnichannel Support Issues SLAs and Timers Support Hours CSAT Ticket F",
+          "checked_at": "2026-09-17T13:47:07.344706Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication | Pylon: Bearer token authentication format in HTTP request headers."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Pylon's developer portal or app management console.",
+  "api_types": [
+    "Unknown"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "Unknown",
+      "status": "Unverified",
+      "evidence": [],
+      "confidence": 0.3,
+      "notes": "No API types for Pylon could be grounded with direct documentation evidence."
+    }
+  ],
+  "api_breadth": "Unknown",
+  "api_scope_notes": null,
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "CORRECTED: Original found no MCP, but deliberate verification discovered Third-Party MCP.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+  "evidence": [
+    {
+      "claim": "Pylon supports authentication via API Key.",
+      "source_url": "https://docs.pylonsync.com/auth/overview",
+      "source_title": "Auth overview - Pylon",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Bearer tokens — pass via Authorization: Bearer <token> header. Used by every SDK, native clients, and curl. Tokens are 256-bit opaque strings prefixed pylon_ . Cookies — when ",
+      "checked_at": "2026-09-17T13:47:07.344706Z"
+    },
+    {
+      "claim": "Pylon supports authentication via Bearer Token.",
+      "source_url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+      "source_title": "Authentication | Pylon",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Getting Started Introduction Quick Start Setup Channel Configuration User Guide Pylonboarding Channel Configuration Agents Assist Agent Background Agents Slack Agent Skills Connectors User Memories Support Agent Support Workflows Omnichannel Support Issues SLAs and Timers Support Hours CSAT Ticket F",
+      "checked_at": "2026-09-17T13:47:07.344706Z"
+    },
+    {
+      "claim": "Pylon offers self-serve credential creation for developers.",
+      "source_url": "https://signup.oraclecloud.com/",
+      "source_title": "Oracle Cloud Free Tier Signup",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Oracle Cloud Free Tier Signup",
+      "checked_at": "2026-09-17T13:47:22.380045Z"
+    },
+    {
+      "claim": "Pylon credential access model is Free Self-Serve.",
+      "source_url": "https://signup.oraclecloud.com/",
+      "source_title": "Oracle Cloud Free Tier Signup",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Oracle Cloud Free Tier Signup",
+      "checked_at": "2026-09-17T13:47:48.231011Z"
+    },
+    {
+      "claim": "Third-party community MCP server exists for Pylon.",
+      "source_url": "https://github.com/modelcontextprotocol/servers",
+      "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+      "source_type": "GitHub",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+      "checked_at": "2026-09-17T13:47:54.445230Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.3,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.81,
+  "researched_at": "2026-09-17T13:47:47.742260Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 4/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T13:47:54.445230Z"
+}

@@ -1,0 +1,79 @@
+{
+  "id": 72,
+  "app": "Airtable",
+  "category": "Productivity and Project Management",
+  "website": "https://airtable.com/",
+  "one_line_description": "Airtable: Airtable Web API.",
+  "auth_methods": [
+    "API Key"
+  ],
+  "authentication_details": [
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Airtable supports authentication via API Key.",
+          "source_url": "https://airtable.rest/",
+          "source_title": "Airtable REST API Reference | airtable.rest",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Spreadsheet-database hybrid with powerful REST API Airtable combines the simplicity of a spreadsheet with the power of a database, offering a flexible REST API for programmatic access to bases, tables, records, and attachments. Developers use it to build custom workflows, integrate data across appli",
+          "checked_at": "2026-09-17T14:50:32.629189Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Airtable REST API Reference | airtable.rest."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Airtable provides public REST API surface.",
+          "source_url": "https://airtable.rest/",
+          "source_title": "Airtable REST API Reference | airtable.rest",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Spreadsheet-database hybrid with powerful REST API Airtable combines the simplicity of a spreadsheet with the power of a database, offering a flexible REST API for programmatic access to bases, tables, records, and attachments. Developers use it to build custom workflows, integrate data across appli",
+          "checked_at": "2026-09-17T14:50:32.629189Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Airtable REST API Reference | airtable.rest."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Airtable exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Airtable.",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "Airtable supports authentication via API Key.",
+      "source_url": "https://airtable.rest/",
+      "source_title": "Airtable REST API Reference | airtable.rest",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Spreadsheet-database hybrid with powerful REST API Airtable combines the simplicity of a spreadsheet with the power of a database, offering a flexible REST API for programmatic access to bases, tables, records, and attachments. Developers use it to build custom workflows, integrate data across appli",
+      "checked_at": "2026-09-17T14:50:32.629189Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.88,
+  "researched_at": "2026-09-17T14:50:32.630192Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Needs Verification",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T14:50:34.560629Z"
+}

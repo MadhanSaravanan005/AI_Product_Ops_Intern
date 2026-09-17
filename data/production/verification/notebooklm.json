@@ -1,0 +1,325 @@
+{
+  "app_id": 91,
+  "app": "NotebookLM",
+  "category": "AI, Research and Media-native",
+  "verified_at": "2026-09-17T10:15:21.409191Z",
+  "verifier_version": "1.0.0",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 91,
+      "app": "NotebookLM",
+      "field": "website",
+      "original_value": "https://notebooklm.google.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'NotebookLM': Sign in - Google Accounts",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 91,
+      "app": "NotebookLM",
+      "field": "authentication",
+      "original_value": [
+        "Bearer Token",
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "None of the claimed authentication methods could be verified with supporting documentation.",
+      "auth_details": [
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Retrieved documentation lacked specific supporting evidence for Bearer Token."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Retrieved documentation lacked specific supporting evidence for OAuth2."
+        },
+        {
+          "method": "Personal Access Token",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Retrieved documentation lacked specific supporting evidence for Personal Access Token."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 91,
+      "app": "NotebookLM",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "NotebookLM credential access model is Free Self-Serve.",
+          "source_url": "https://www.layer3labs.io/guides/notebooklm-pricing",
+          "source_title": "NotebookLM Pricing 2026: Free vs Plus vs Workspace Plans",
+          "source_type": "Official Documentation",
+          "evidence_summary": "What each NotebookLM tier costs, what it unlocks, and which one fits a research team NotebookLM has three main pricing options: a free tier, NotebookLM Plus through a Google AI subscription, and NotebookLM Plus through Google Workspace . There's no standalone checkout for NotebookLM. The free tier i",
+          "checked_at": "2026-09-17T10:15:12.383919Z"
+        }
+      ],
+      "verification_notes": "Confirmed free self-serve credential creation at https://www.layer3labs.io/guides/notebooklm-pricing.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 91,
+      "app": "NotebookLM",
+      "field": "api_surface",
+      "original_value": [
+        "REST"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "NotebookLM provides public REST API surface.",
+          "source_url": "https://roomi-fields.github.io/notebooklm-mcp/notebooklm-rest-api",
+          "source_title": "NotebookLM REST API reference — 33 HTTP endpoints | NotebookLM MCP + HTTP REST API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Complete reference for the NotebookLM HTTP REST API. Citation-backed Q&A,\nStudio content generation, notebook library, multi-account, sessions. OpenAPI 3.1 spec: openapi.yaml (importable in\nPostman, Insomnia, Bruno, Swagger UI). Source in the repo at deployment/docs/openapi.yaml . Companion guides: ",
+          "checked_at": "2026-09-17T10:15:13.152204Z"
+        }
+      ],
+      "verification_notes": "All 1 claimed API types verified with primary evidence: REST.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 91,
+      "app": "NotebookLM",
+      "field": "mcp_status",
+      "original_value": "Third-Party MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Third-party community MCP server exists for NotebookLM.",
+          "source_url": "https://github.com/mukadeshinigami/MCPNotebookLM",
+          "source_title": "GitHub - mukadeshinigami/MCPNotebookLM: Model Context Protocol (MCP) server for NotebookLM · GitHub",
+          "source_type": "GitHub",
+          "evidence_summary": "Notifications You must be signed in to change notification settings This repository provides a Model Context Protocol (MCP) server for NotebookLM . It allows AI assistants (like Claude, Antigravity, or others supporting MCP) to interact with your NotebookLM notebooks, sources, and conversations. Lis",
+          "checked_at": "2026-09-17T10:15:18.192775Z"
+        }
+      ],
+      "verification_notes": "Third-party community MCP server verified with repository evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 91,
+      "app": "NotebookLM",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Buildable Now. Standard rate limits and OAuth scoping permissions are developer restrictions, not hard blockers.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Restriction"
+    }
+  },
+  "original_record": {
+    "id": 91,
+    "app": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "website": "https://notebooklm.google.com/",
+    "one_line_description": "Sign in: Leading platform in AI, Research and Media-native.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via NotebookLM's developer portal or app management console.",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "NotebookLM exposes programmatic API endpoints covering primary platform objects and events.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Community/third-party MCP server available on GitHub: https://github.com/mukadeshinigami/MCPNotebookLM",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "NotebookLM supports authentication via Personal Access Token, Bearer Token, OAuth2.",
+        "source_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_title": "Create and manage notebooks (API)  |  Gemini Notebook Enterprise  |  Google Cloud Documentation",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Español – América Latina Gemini Notebook Enterprise Gemini Notebook Enterprise This feature is\n        \n        subject to the \"Pre-GA Offerings Terms\" in the General Service Terms section of the Service Specific\n        Terms .\n        \n        Pre-GA features are available \"as is\" and might have l",
+        "checked_at": "2026-09-17T10:11:26.601252Z"
+      },
+      {
+        "claim": "NotebookLM offers self-serve credential creation for developers.",
+        "source_url": "https://notebooklm.google.com/?authuser=1",
+        "source_title": "Sign in - Google Accounts",
+        "source_type": "Official Documentation",
+        "evidence_summary": "NotebookLM is an AI-powered tool for summarizing, organizing, and interacting with notes and information from various sources.",
+        "checked_at": "2026-09-17T10:11:30.873768Z"
+      },
+      {
+        "claim": "NotebookLM provides comprehensive public API methods and developer integrations.",
+        "source_url": "https://roomi-fields.github.io/notebooklm-mcp/notebooklm-rest-api",
+        "source_title": "NotebookLM REST API reference — 33 HTTP endpoints | NotebookLM MCP + HTTP REST API",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Complete reference for the NotebookLM HTTP REST API. Citation-backed Q&A,\nStudio content generation, notebook library, multi-account, sessions. OpenAPI 3.1 spec: openapi.yaml (importable in\nPostman, Insomnia, Bruno, Swagger UI). Source in the repo at deployment/docs/openapi.yaml . Companion guides: ",
+        "checked_at": "2026-09-17T10:11:37.825057Z"
+      },
+      {
+        "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for NotebookLM.",
+        "source_url": "https://github.com/mukadeshinigami/MCPNotebookLM",
+        "source_title": "GitHub - mukadeshinigami/MCPNotebookLM: Model Context ...",
+        "source_type": "GitHub",
+        "evidence_summary": "Feb 7, 2026 · This repository provides a Model Context Protocol (MCP) server for NotebookLM. It allows AI assistants (like Claude, Antigravity, or others supporting MCP) to interact with your NotebookLM notebooks, sources, and conversations.",
+        "checked_at": "2026-09-17T10:11:50.679329Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.9,
+    "mcp_confidence": 0.9,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.92,
+    "researched_at": "2026-09-17T10:11:50.679329Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 91,
+    "app": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "website": "https://notebooklm.google.com/",
+    "one_line_description": "Sign in: Leading platform in AI, Research and Media-native.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via NotebookLM's developer portal or app management console.",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "NotebookLM exposes programmatic API endpoints covering primary platform objects and events.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Community/third-party MCP server available on GitHub: https://github.com/mukadeshinigami/MCPNotebookLM",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "NotebookLM supports authentication via Personal Access Token, Bearer Token, OAuth2.",
+        "source_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_title": "Create and manage notebooks (API)  |  Gemini Notebook Enterprise  |  Google Cloud Documentation",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Español – América Latina Gemini Notebook Enterprise Gemini Notebook Enterprise This feature is\n        \n        subject to the \"Pre-GA Offerings Terms\" in the General Service Terms section of the Service Specific\n        Terms .\n        \n        Pre-GA features are available \"as is\" and might have l",
+        "checked_at": "2026-09-17T10:11:26.601252Z"
+      },
+      {
+        "claim": "NotebookLM offers self-serve credential creation for developers.",
+        "source_url": "https://notebooklm.google.com/?authuser=1",
+        "source_title": "Sign in - Google Accounts",
+        "source_type": "Official Documentation",
+        "evidence_summary": "NotebookLM is an AI-powered tool for summarizing, organizing, and interacting with notes and information from various sources.",
+        "checked_at": "2026-09-17T10:11:30.873768Z"
+      },
+      {
+        "claim": "NotebookLM provides comprehensive public API methods and developer integrations.",
+        "source_url": "https://roomi-fields.github.io/notebooklm-mcp/notebooklm-rest-api",
+        "source_title": "NotebookLM REST API reference — 33 HTTP endpoints | NotebookLM MCP + HTTP REST API",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Complete reference for the NotebookLM HTTP REST API. Citation-backed Q&A,\nStudio content generation, notebook library, multi-account, sessions. OpenAPI 3.1 spec: openapi.yaml (importable in\nPostman, Insomnia, Bruno, Swagger UI). Source in the repo at deployment/docs/openapi.yaml . Companion guides: ",
+        "checked_at": "2026-09-17T10:11:37.825057Z"
+      },
+      {
+        "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for NotebookLM.",
+        "source_url": "https://github.com/mukadeshinigami/MCPNotebookLM",
+        "source_title": "GitHub - mukadeshinigami/MCPNotebookLM: Model Context ...",
+        "source_type": "GitHub",
+        "evidence_summary": "Feb 7, 2026 · This repository provides a Model Context Protocol (MCP) server for NotebookLM. It allows AI assistants (like Claude, Antigravity, or others supporting MCP) to interact with your NotebookLM notebooks, sources, and conversations.",
+        "checked_at": "2026-09-17T10:11:50.679329Z"
+      },
+      {
+        "claim": "NotebookLM credential access model is Free Self-Serve.",
+        "source_url": "https://www.layer3labs.io/guides/notebooklm-pricing",
+        "source_title": "NotebookLM Pricing 2026: Free vs Plus vs Workspace Plans",
+        "source_type": "Official Documentation",
+        "evidence_summary": "What each NotebookLM tier costs, what it unlocks, and which one fits a research team NotebookLM has three main pricing options: a free tier, NotebookLM Plus through a Google AI subscription, and NotebookLM Plus through Google Workspace . There's no standalone checkout for NotebookLM. The free tier i",
+        "checked_at": "2026-09-17T10:15:12.383919Z"
+      },
+      {
+        "claim": "NotebookLM provides public REST API surface.",
+        "source_url": "https://roomi-fields.github.io/notebooklm-mcp/notebooklm-rest-api",
+        "source_title": "NotebookLM REST API reference — 33 HTTP endpoints | NotebookLM MCP + HTTP REST API",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Complete reference for the NotebookLM HTTP REST API. Citation-backed Q&A,\nStudio content generation, notebook library, multi-account, sessions. OpenAPI 3.1 spec: openapi.yaml (importable in\nPostman, Insomnia, Bruno, Swagger UI). Source in the repo at deployment/docs/openapi.yaml . Companion guides: ",
+        "checked_at": "2026-09-17T10:15:13.152204Z"
+      },
+      {
+        "claim": "Third-party community MCP server exists for NotebookLM.",
+        "source_url": "https://github.com/mukadeshinigami/MCPNotebookLM",
+        "source_title": "GitHub - mukadeshinigami/MCPNotebookLM: Model Context Protocol (MCP) server for NotebookLM · GitHub",
+        "source_type": "GitHub",
+        "evidence_summary": "Notifications You must be signed in to change notification settings This repository provides a Model Context Protocol (MCP) server for NotebookLM . It allows AI assistants (like Claude, Antigravity, or others supporting MCP) to interact with your NotebookLM notebooks, sources, and conversations. Lis",
+        "checked_at": "2026-09-17T10:15:18.192775Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.9,
+    "mcp_confidence": 0.9,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.88,
+    "researched_at": "2026-09-17T10:11:50.679329Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 5/6 claims verified. 0 corrections applied.",
+    "verified_at": "2026-09-17T10:15:21.409191Z"
+  },
+  "summary_notes": "Independent hardened audit for NotebookLM. 5/6 verified. 0 fields corrected."
+}

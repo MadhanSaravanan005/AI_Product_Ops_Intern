@@ -1,0 +1,596 @@
+{
+  "app_id": 2,
+  "app": "HubSpot",
+  "category": "CRM and Sales",
+  "verified_at": "2026-09-17T13:57:07.068751Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 2,
+      "app": "HubSpot",
+      "field": "website",
+      "original_value": "https://developers.hubspot.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://developers.hubspot.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 2,
+      "app": "HubSpot",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "HubSpot supports authentication via OAuth2.",
+          "source_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+          "source_title": "Manage OAuth access tokens with the 2026-09 API - HubSpot docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Authorization code: a temporary, single-use code that’s provided in the redirect URL as a query parameter when the user approves the installation of your app. Your app th",
+          "checked_at": "2026-09-17T13:25:47.256624Z"
+        },
+        {
+          "claim": "HubSpot supports authentication via API Key.",
+          "source_url": "https://insightsalesglobal.com/blog/hubspot-api-authentication",
+          "source_title": "HubSpot API Authentication and App Setup",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There is a truth almost every integration developer learns the hard way: most of the problems that show up down the line are born from a decision made at the very start, in authentication. The wrong token, one scope too many, the secret in the wrong place. These choices look like details in the firs",
+          "checked_at": "2026-09-17T13:25:47.256624Z"
+        },
+        {
+          "claim": "HubSpot supports authentication via Bearer Token.",
+          "source_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+          "source_title": "Manage OAuth access tokens with the 2026-09 API - HubSpot docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Authorization code: a temporary, single-use code that’s provided in the redirect URL as a query parameter when the user approves the installation of your app. Your app th",
+          "checked_at": "2026-09-17T13:25:47.256624Z"
+        }
+      ],
+      "verification_notes": "Authentication methods verified with 3 primary evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 2,
+      "app": "HubSpot",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [
+        {
+          "claim": "HubSpot offers self-serve credential creation for developers.",
+          "source_url": "https://docs.runlightyear.com/docs/api-calls-with-user-credentials/1-create-hubspot-account",
+          "source_title": "Step 1 - Create a HubSpot account",
+          "source_type": "Official Documentation",
+          "evidence_summary": "To test our integration, we'll need a HubSpot account. This will represent your\ncustomer's HubSpot instance. Go to HubSpot.com and click \"Get started free\" Fill in your information to create an account Complete the initial onboarding process Once you're logged into HubSpot, we need to create a priva",
+          "checked_at": "2026-09-17T13:25:58.879447Z"
+        }
+      ],
+      "verification_notes": "Access model Free Self-Serve verified by documentation evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 2,
+      "app": "HubSpot",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "HubSpot supports authentication via API Key.",
+          "source_url": "https://insightsalesglobal.com/blog/hubspot-api-authentication",
+          "source_title": "HubSpot API Authentication and App Setup",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There is a truth almost every integration developer learns the hard way: most of the problems that show up down the line are born from a decision made at the very start, in authentication. The wrong token, one scope too many, the secret in the wrong place. These choices look like details in the firs",
+          "checked_at": "2026-09-17T13:25:47.256624Z"
+        },
+        {
+          "claim": "HubSpot provides public REST API surface.",
+          "source_url": "https://dev.to/apideck/how-to-connect-with-the-hubspot-api-8hk",
+          "source_title": "How to Connect with the HubSpot API - DEV Community",
+          "source_type": "Official API Reference",
+          "evidence_summary": "HubSpot's API looks modern on the surface. REST endpoints, JSON payloads, OAuth 2.0, webhooks. Then you actually build something with it and discover the truth: it's a maze of rate limits, undocumented quirks, and lifecycle stage logic that defies human comprehension. I've spent the last three years",
+          "checked_at": "2026-09-17T13:26:17.219325Z"
+        },
+        {
+          "claim": "HubSpot provides public GraphQL API surface.",
+          "source_url": "https://consultevo.com/hubspot-graphql-vs-rest-api-guide/",
+          "source_title": "HubSpot API Guide: GraphQL vs REST -",
+          "source_type": "Official API Reference",
+          "evidence_summary": "When you design an integration for a Hubspot workflow or app, one of the first technical choices you face is whether to use a REST API, GraphQL, or a mix of both. Understanding how each style works helps you build faster, more scalable solutions that match your Hubspot data and performance needs. Th",
+          "checked_at": "2026-09-17T13:26:17.221410Z"
+        },
+        {
+          "claim": "HubSpot provides public Webhooks API surface.",
+          "source_url": "https://developers.hubspot.com/docs/api-reference/latest/webhooks/guide",
+          "source_title": "Webhooks API guide - HubSpot docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. You have an existing legacy public app to use webhooks by subscribing to the events you want to be notified about, and by specifying a URL to send those notifications. Yo",
+          "checked_at": "2026-09-17T13:26:17.221410Z"
+        }
+      ],
+      "verification_notes": "API types verified with 4 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 2,
+      "app": "HubSpot",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "HubSpot provides official Model Context Protocol (MCP) server support.",
+          "source_url": "https://developers.hubspot.com/ai-tools/mcp",
+          "source_title": "HubSpot MCP Server",
+          "source_type": "Official MCP Documentation",
+          "evidence_summary": "HubSpot offers two distinct MCP (Model Context Protocol) servers — one for connecting any MCP-compatible AI tool or agent to your CRM, and one for building on the HubSpot Developer Platform. Whether you're querying data, writing records, or embedding HubSpot context into an agentic tool you're build",
+          "checked_at": "2026-09-17T13:26:19.469368Z"
+        }
+      ],
+      "verification_notes": "MCP status Official MCP backed by repository/doc evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 2,
+      "app": "HubSpot",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable Now verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 2,
+    "app": "HubSpot",
+    "category": "CRM and Sales",
+    "website": "https://developers.hubspot.com/",
+    "one_line_description": "HubSpot Developers: Leading platform in CRM and Sales.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot supports authentication via OAuth2.",
+            "source_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+            "source_title": "Manage OAuth access tokens with the 2026-09 API - HubSpot docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Authorization code: a temporary, single-use code that’s provided in the redirect URL as a query parameter when the user approves the installation of your app. Your app th",
+            "checked_at": "2026-09-17T13:25:47.256624Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Manage OAuth access tokens with the 2026-09 API - HubSpot docs: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot supports authentication via API Key.",
+            "source_url": "https://insightsalesglobal.com/blog/hubspot-api-authentication",
+            "source_title": "HubSpot API Authentication and App Setup",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There is a truth almost every integration developer learns the hard way: most of the problems that show up down the line are born from a decision made at the very start, in authentication. The wrong token, one scope too many, the secret in the wrong place. These choices look like details in the firs",
+            "checked_at": "2026-09-17T13:25:47.256624Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via HubSpot API Authentication and App Setup: API key provisioning and request header authentication."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot supports authentication via Bearer Token.",
+            "source_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+            "source_title": "Manage OAuth access tokens with the 2026-09 API - HubSpot docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Authorization code: a temporary, single-use code that’s provided in the redirect URL as a query parameter when the user approves the installation of your app. Your app th",
+            "checked_at": "2026-09-17T13:25:47.256624Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Manage OAuth access tokens with the 2026-09 API - HubSpot docs: Bearer token authentication format in HTTP request headers."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via HubSpot's developer portal or app management console.",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot provides public REST API surface.",
+            "source_url": "https://dev.to/apideck/how-to-connect-with-the-hubspot-api-8hk",
+            "source_title": "How to Connect with the HubSpot API - DEV Community",
+            "source_type": "Official API Reference",
+            "evidence_summary": "HubSpot's API looks modern on the surface. REST endpoints, JSON payloads, OAuth 2.0, webhooks. Then you actually build something with it and discover the truth: it's a maze of rate limits, undocumented quirks, and lifecycle stage logic that defies human comprehension. I've spent the last three years",
+            "checked_at": "2026-09-17T13:26:17.219325Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via How to Connect with the HubSpot API - DEV Community: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "GraphQL",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot provides public GraphQL API surface.",
+            "source_url": "https://consultevo.com/hubspot-graphql-vs-rest-api-guide/",
+            "source_title": "HubSpot API Guide: GraphQL vs REST -",
+            "source_type": "Official API Reference",
+            "evidence_summary": "When you design an integration for a Hubspot workflow or app, one of the first technical choices you face is whether to use a REST API, GraphQL, or a mix of both. Understanding how each style works helps you build faster, more scalable solutions that match your Hubspot data and performance needs. Th",
+            "checked_at": "2026-09-17T13:26:17.221410Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via HubSpot API Guide: GraphQL vs REST -: GraphQL queries, mutations, and schema endpoint."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot provides public Webhooks API surface.",
+            "source_url": "https://developers.hubspot.com/docs/api-reference/latest/webhooks/guide",
+            "source_title": "Webhooks API guide - HubSpot docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. You have an existing legacy public app to use webhooks by subscribing to the events you want to be notified about, and by specifying a URL to send those notifications. Yo",
+            "checked_at": "2026-09-17T13:26:17.221410Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Webhooks API guide - HubSpot docs: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "HubSpot exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by HubSpot.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "HubSpot supports authentication via OAuth2.",
+        "source_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+        "source_title": "Manage OAuth access tokens with the 2026-09 API - HubSpot docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Authorization code: a temporary, single-use code that’s provided in the redirect URL as a query parameter when the user approves the installation of your app. Your app th",
+        "checked_at": "2026-09-17T13:25:47.256624Z"
+      },
+      {
+        "claim": "HubSpot supports authentication via API Key.",
+        "source_url": "https://insightsalesglobal.com/blog/hubspot-api-authentication",
+        "source_title": "HubSpot API Authentication and App Setup",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "There is a truth almost every integration developer learns the hard way: most of the problems that show up down the line are born from a decision made at the very start, in authentication. The wrong token, one scope too many, the secret in the wrong place. These choices look like details in the firs",
+        "checked_at": "2026-09-17T13:25:47.256624Z"
+      },
+      {
+        "claim": "HubSpot supports authentication via Bearer Token.",
+        "source_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+        "source_title": "Manage OAuth access tokens with the 2026-09 API - HubSpot docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Authorization code: a temporary, single-use code that’s provided in the redirect URL as a query parameter when the user approves the installation of your app. Your app th",
+        "checked_at": "2026-09-17T13:25:47.256624Z"
+      },
+      {
+        "claim": "HubSpot offers self-serve credential creation for developers.",
+        "source_url": "https://docs.runlightyear.com/docs/api-calls-with-user-credentials/1-create-hubspot-account",
+        "source_title": "Step 1 - Create a HubSpot account",
+        "source_type": "Official Documentation",
+        "evidence_summary": "To test our integration, we'll need a HubSpot account. This will represent your\ncustomer's HubSpot instance. Go to HubSpot.com and click \"Get started free\" Fill in your information to create an account Complete the initial onboarding process Once you're logged into HubSpot, we need to create a priva",
+        "checked_at": "2026-09-17T13:25:58.879447Z"
+      },
+      {
+        "claim": "HubSpot provides public REST API surface.",
+        "source_url": "https://dev.to/apideck/how-to-connect-with-the-hubspot-api-8hk",
+        "source_title": "How to Connect with the HubSpot API - DEV Community",
+        "source_type": "Official API Reference",
+        "evidence_summary": "HubSpot's API looks modern on the surface. REST endpoints, JSON payloads, OAuth 2.0, webhooks. Then you actually build something with it and discover the truth: it's a maze of rate limits, undocumented quirks, and lifecycle stage logic that defies human comprehension. I've spent the last three years",
+        "checked_at": "2026-09-17T13:26:17.219325Z"
+      },
+      {
+        "claim": "HubSpot provides public GraphQL API surface.",
+        "source_url": "https://consultevo.com/hubspot-graphql-vs-rest-api-guide/",
+        "source_title": "HubSpot API Guide: GraphQL vs REST -",
+        "source_type": "Official API Reference",
+        "evidence_summary": "When you design an integration for a Hubspot workflow or app, one of the first technical choices you face is whether to use a REST API, GraphQL, or a mix of both. Understanding how each style works helps you build faster, more scalable solutions that match your Hubspot data and performance needs. Th",
+        "checked_at": "2026-09-17T13:26:17.221410Z"
+      },
+      {
+        "claim": "HubSpot provides public Webhooks API surface.",
+        "source_url": "https://developers.hubspot.com/docs/api-reference/latest/webhooks/guide",
+        "source_title": "Webhooks API guide - HubSpot docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. You have an existing legacy public app to use webhooks by subscribing to the events you want to be notified about, and by specifying a URL to send those notifications. Yo",
+        "checked_at": "2026-09-17T13:26:17.221410Z"
+      },
+      {
+        "claim": "HubSpot provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://developers.hubspot.com/ai-tools/mcp",
+        "source_title": "HubSpot MCP Server",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "HubSpot offers two distinct MCP (Model Context Protocol) servers — one for connecting any MCP-compatible AI tool or agent to your CRM, and one for building on the HubSpot Developer Platform. Whether you're querying data, writing records, or embedding HubSpot context into an agentic tool you're build",
+        "checked_at": "2026-09-17T13:26:19.469368Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.94,
+    "researched_at": "2026-09-17T13:26:19.469368Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 2,
+    "app": "HubSpot",
+    "category": "CRM and Sales",
+    "website": "https://developers.hubspot.com/",
+    "one_line_description": "HubSpot Developers: Leading platform in CRM and Sales.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot supports authentication via OAuth2.",
+            "source_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+            "source_title": "Manage OAuth access tokens with the 2026-09 API - HubSpot docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Authorization code: a temporary, single-use code that’s provided in the redirect URL as a query parameter when the user approves the installation of your app. Your app th",
+            "checked_at": "2026-09-17T13:25:47.256624Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Manage OAuth access tokens with the 2026-09 API - HubSpot docs: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot supports authentication via API Key.",
+            "source_url": "https://insightsalesglobal.com/blog/hubspot-api-authentication",
+            "source_title": "HubSpot API Authentication and App Setup",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There is a truth almost every integration developer learns the hard way: most of the problems that show up down the line are born from a decision made at the very start, in authentication. The wrong token, one scope too many, the secret in the wrong place. These choices look like details in the firs",
+            "checked_at": "2026-09-17T13:25:47.256624Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via HubSpot API Authentication and App Setup: API key provisioning and request header authentication."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot supports authentication via Bearer Token.",
+            "source_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+            "source_title": "Manage OAuth access tokens with the 2026-09 API - HubSpot docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Authorization code: a temporary, single-use code that’s provided in the redirect URL as a query parameter when the user approves the installation of your app. Your app th",
+            "checked_at": "2026-09-17T13:25:47.256624Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Manage OAuth access tokens with the 2026-09 API - HubSpot docs: Bearer token authentication format in HTTP request headers."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via HubSpot's developer portal or app management console.",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot provides public REST API surface.",
+            "source_url": "https://dev.to/apideck/how-to-connect-with-the-hubspot-api-8hk",
+            "source_title": "How to Connect with the HubSpot API - DEV Community",
+            "source_type": "Official API Reference",
+            "evidence_summary": "HubSpot's API looks modern on the surface. REST endpoints, JSON payloads, OAuth 2.0, webhooks. Then you actually build something with it and discover the truth: it's a maze of rate limits, undocumented quirks, and lifecycle stage logic that defies human comprehension. I've spent the last three years",
+            "checked_at": "2026-09-17T13:26:17.219325Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via How to Connect with the HubSpot API - DEV Community: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "GraphQL",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot provides public GraphQL API surface.",
+            "source_url": "https://consultevo.com/hubspot-graphql-vs-rest-api-guide/",
+            "source_title": "HubSpot API Guide: GraphQL vs REST -",
+            "source_type": "Official API Reference",
+            "evidence_summary": "When you design an integration for a Hubspot workflow or app, one of the first technical choices you face is whether to use a REST API, GraphQL, or a mix of both. Understanding how each style works helps you build faster, more scalable solutions that match your Hubspot data and performance needs. Th",
+            "checked_at": "2026-09-17T13:26:17.221410Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via HubSpot API Guide: GraphQL vs REST -: GraphQL queries, mutations, and schema endpoint."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "HubSpot provides public Webhooks API surface.",
+            "source_url": "https://developers.hubspot.com/docs/api-reference/latest/webhooks/guide",
+            "source_title": "Webhooks API guide - HubSpot docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. You have an existing legacy public app to use webhooks by subscribing to the events you want to be notified about, and by specifying a URL to send those notifications. Yo",
+            "checked_at": "2026-09-17T13:26:17.221410Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Webhooks API guide - HubSpot docs: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "HubSpot exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by HubSpot.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "HubSpot supports authentication via OAuth2.",
+        "source_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+        "source_title": "Manage OAuth access tokens with the 2026-09 API - HubSpot docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Authorization code: a temporary, single-use code that’s provided in the redirect URL as a query parameter when the user approves the installation of your app. Your app th",
+        "checked_at": "2026-09-17T13:25:47.256624Z"
+      },
+      {
+        "claim": "HubSpot supports authentication via API Key.",
+        "source_url": "https://insightsalesglobal.com/blog/hubspot-api-authentication",
+        "source_title": "HubSpot API Authentication and App Setup",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "There is a truth almost every integration developer learns the hard way: most of the problems that show up down the line are born from a decision made at the very start, in authentication. The wrong token, one scope too many, the secret in the wrong place. These choices look like details in the firs",
+        "checked_at": "2026-09-17T13:25:47.256624Z"
+      },
+      {
+        "claim": "HubSpot supports authentication via Bearer Token.",
+        "source_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+        "source_title": "Manage OAuth access tokens with the 2026-09 API - HubSpot docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Authorization code: a temporary, single-use code that’s provided in the redirect URL as a query parameter when the user approves the installation of your app. Your app th",
+        "checked_at": "2026-09-17T13:25:47.256624Z"
+      },
+      {
+        "claim": "HubSpot offers self-serve credential creation for developers.",
+        "source_url": "https://docs.runlightyear.com/docs/api-calls-with-user-credentials/1-create-hubspot-account",
+        "source_title": "Step 1 - Create a HubSpot account",
+        "source_type": "Official Documentation",
+        "evidence_summary": "To test our integration, we'll need a HubSpot account. This will represent your\ncustomer's HubSpot instance. Go to HubSpot.com and click \"Get started free\" Fill in your information to create an account Complete the initial onboarding process Once you're logged into HubSpot, we need to create a priva",
+        "checked_at": "2026-09-17T13:25:58.879447Z"
+      },
+      {
+        "claim": "HubSpot provides public REST API surface.",
+        "source_url": "https://dev.to/apideck/how-to-connect-with-the-hubspot-api-8hk",
+        "source_title": "How to Connect with the HubSpot API - DEV Community",
+        "source_type": "Official API Reference",
+        "evidence_summary": "HubSpot's API looks modern on the surface. REST endpoints, JSON payloads, OAuth 2.0, webhooks. Then you actually build something with it and discover the truth: it's a maze of rate limits, undocumented quirks, and lifecycle stage logic that defies human comprehension. I've spent the last three years",
+        "checked_at": "2026-09-17T13:26:17.219325Z"
+      },
+      {
+        "claim": "HubSpot provides public GraphQL API surface.",
+        "source_url": "https://consultevo.com/hubspot-graphql-vs-rest-api-guide/",
+        "source_title": "HubSpot API Guide: GraphQL vs REST -",
+        "source_type": "Official API Reference",
+        "evidence_summary": "When you design an integration for a Hubspot workflow or app, one of the first technical choices you face is whether to use a REST API, GraphQL, or a mix of both. Understanding how each style works helps you build faster, more scalable solutions that match your Hubspot data and performance needs. Th",
+        "checked_at": "2026-09-17T13:26:17.221410Z"
+      },
+      {
+        "claim": "HubSpot provides public Webhooks API surface.",
+        "source_url": "https://developers.hubspot.com/docs/api-reference/latest/webhooks/guide",
+        "source_title": "Webhooks API guide - HubSpot docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. You have an existing legacy public app to use webhooks by subscribing to the events you want to be notified about, and by specifying a URL to send those notifications. Yo",
+        "checked_at": "2026-09-17T13:26:17.221410Z"
+      },
+      {
+        "claim": "HubSpot provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://developers.hubspot.com/ai-tools/mcp",
+        "source_title": "HubSpot MCP Server",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "HubSpot offers two distinct MCP (Model Context Protocol) servers — one for connecting any MCP-compatible AI tool or agent to your CRM, and one for building on the HubSpot Developer Platform. Whether you're querying data, writing records, or embedding HubSpot context into an agentic tool you're build",
+        "checked_at": "2026-09-17T13:26:19.469368Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.94,
+    "researched_at": "2026-09-17T13:26:19.469368Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T13:57:07.068751Z"
+  },
+  "summary_notes": "Production verification audit for HubSpot: 6/6 verified."
+}

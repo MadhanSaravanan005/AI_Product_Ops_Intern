@@ -1,0 +1,119 @@
+{
+  "report_title": "100-Application Production Metrics & System Performance",
+  "generated_at": "2026-09-17T15:09:39.168991+00:00",
+  "dataset_summary": {
+    "total_applications": 100,
+    "categories_count": 10,
+    "applications_per_category": {
+      "Data, SEO and Scraping": 10,
+      "Communications and Messaging": 10,
+      "Productivity and Project Management": 10,
+      "Ecommerce": 10,
+      "CRM and Sales": 10,
+      "Finance and Fintech": 10,
+      "Developer, Infra and Data platforms": 10,
+      "AI, Research and Media-native": 10,
+      "Support and Helpdesk": 10,
+      "Marketing, Ads, Email and Social": 10
+    }
+  },
+  "accuracy_and_quality": {
+    "first_pass_claim_accuracy": 73.0,
+    "post_verification_claim_accuracy": 81.0,
+    "correction_count": 48,
+    "correction_rate": 8.0,
+    "insufficient_evidence_rate": 19.0,
+    "average_confidence": 0.8,
+    "field_level_verification_accuracy": {
+      "website": {
+        "claims_checked": 100,
+        "first_pass_accuracy": 92.0,
+        "post_verification_accuracy": 92.0,
+        "corrections_made": 0
+      },
+      "authentication": {
+        "claims_checked": 100,
+        "first_pass_accuracy": 87.0,
+        "post_verification_accuracy": 90.0,
+        "corrections_made": 3
+      },
+      "access_model": {
+        "claims_checked": 100,
+        "first_pass_accuracy": 53.0,
+        "post_verification_accuracy": 54.0,
+        "corrections_made": 1
+      },
+      "api_surface": {
+        "claims_checked": 100,
+        "first_pass_accuracy": 75.0,
+        "post_verification_accuracy": 84.0,
+        "corrections_made": 9
+      },
+      "mcp_status": {
+        "claims_checked": 100,
+        "first_pass_accuracy": 77.0,
+        "post_verification_accuracy": 78.0,
+        "corrections_made": 1
+      },
+      "buildability": {
+        "claims_checked": 100,
+        "first_pass_accuracy": 54.0,
+        "post_verification_accuracy": 88.0,
+        "corrections_made": 34
+      }
+    }
+  },
+  "portfolio_insights": {
+    "buildability_breakdown": {
+      "Unknown": 33,
+      "Buildable Now": 35,
+      "Blocked": 9,
+      "Buildable With Restrictions": 23
+    },
+    "mcp_status_breakdown": {
+      "No MCP Found": 42,
+      "Third-Party MCP": 39,
+      "Official MCP": 16,
+      "Unknown": 3
+    },
+    "access_model_breakdown": {
+      "Unknown": 65,
+      "Free Self-Serve": 30,
+      "Trial Self-Serve": 4,
+      "Partner/Contact Sales": 1
+    }
+  },
+  "system_performance": {
+    "total_runtime_seconds": 1519.4,
+    "average_seconds_per_app": 15.19,
+    "searches_executed": 199,
+    "search_cache_hits": 0,
+    "second_hop_searches": 0,
+    "page_fetches_executed": 421,
+    "page_cache_hits": 161,
+    "failed_urls_prevented": 0
+  },
+  "metrics_provenance": {
+    "measured_metrics": [
+      "total_applications",
+      "categories_count",
+      "first_pass_claim_accuracy",
+      "post_verification_claim_accuracy",
+      "correction_count",
+      "correction_rate",
+      "insufficient_evidence_rate",
+      "average_confidence",
+      "field_level_verification_accuracy",
+      "runtime",
+      "searches",
+      "page_fetches"
+    ],
+    "inferred_metrics": [
+      "buildability_status (heuristic multi-factor determination)",
+      "main_blocker (rule-based extraction)"
+    ],
+    "unavailable_metrics": [
+      "ground_truth_accuracy_against_human_oracle (human verification of 100 apps not performed in this autonomous pass)"
+    ]
+  }
+}

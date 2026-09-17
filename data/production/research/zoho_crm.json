@@ -1,0 +1,128 @@
+{
+  "id": 7,
+  "app": "Zoho CRM",
+  "category": "CRM and Sales",
+  "website": "https://www.zohocrm.dev/",
+  "one_line_description": "Zoho CRM Developer Space: Leading platform in CRM and Sales.",
+  "auth_methods": [
+    "API Key",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Zoho CRM supports authentication via OAuth2.",
+          "source_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+          "source_title": "OAuth 2.0 Authentication | Zoho CRM API | V8",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (clients) to gain delegated access to protected resources in Zoho via an API. Why should we use OAuth 2.0? Key Terminologies in OAuth 2.0 Cl",
+          "checked_at": "2026-09-17T13:35:46.788561Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth 2.0 Authentication | Zoho CRM API | V8: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Zoho CRM supports authentication via API Key.",
+          "source_url": "https://www.leadcrm.io/blog/zoho-api-key/",
+          "source_title": "How to Find and Use Your Zoho API Token (OAuth) for Zoho CRM",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Get your Black Friday deal today! Avail now! 💥 Put this into practice Capture the context your sales team needs for a useful next step. Zoho CRM doesn’t use a single static “API key.” Instead, it uses OAuth 2.0 to issue short‑lived access tokens and long‑lived refresh tokens that are scoped, revocab",
+          "checked_at": "2026-09-17T13:35:46.789608Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via How to Find and Use Your Zoho API Token (OAuth) for Zoho CRM: API key provisioning and request header authentication."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Zoho CRM's developer portal or app management console.",
+  "api_types": [
+    "REST"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Zoho CRM provides public REST API surface.",
+          "source_url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+          "source_title": "Zoho CRM V8 APIs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Metadata APIs Fetch the metadata of modules, fields, layouts, custom views, and related lists. Fetch the metadata of modules, fields, layouts, custom views, and related lists. Core APIs Perform CRUD operations on CRM module entities and integrate with any third party application through flexible RES",
+          "checked_at": "2026-09-17T13:36:06.866161Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Zoho CRM V8 APIs: REST API HTTP endpoints and methods."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Zoho CRM exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Community/third-party MCP server available on GitHub: https://github.com/junnaisystems/Zoho-CRM-MCP",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Zoho CRM supports authentication via OAuth2.",
+      "source_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "source_title": "OAuth 2.0 Authentication | Zoho CRM API | V8",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (clients) to gain delegated access to protected resources in Zoho via an API. Why should we use OAuth 2.0? Key Terminologies in OAuth 2.0 Cl",
+      "checked_at": "2026-09-17T13:35:46.788561Z"
+    },
+    {
+      "claim": "Zoho CRM supports authentication via API Key.",
+      "source_url": "https://www.leadcrm.io/blog/zoho-api-key/",
+      "source_title": "How to Find and Use Your Zoho API Token (OAuth) for Zoho CRM",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Get your Black Friday deal today! Avail now! 💥 Put this into practice Capture the context your sales team needs for a useful next step. Zoho CRM doesn’t use a single static “API key.” Instead, it uses OAuth 2.0 to issue short‑lived access tokens and long‑lived refresh tokens that are scoped, revocab",
+      "checked_at": "2026-09-17T13:35:46.789608Z"
+    },
+    {
+      "claim": "Zoho CRM offers self-serve credential creation for developers.",
+      "source_url": "https://www.zoho.com/developer/signup.html",
+      "source_title": "Zoho Developer - Sign Up Now",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Zoho Developer - Sign Up Now",
+      "checked_at": "2026-09-17T13:35:55.996918Z"
+    },
+    {
+      "claim": "Zoho CRM provides public REST API surface.",
+      "source_url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+      "source_title": "Zoho CRM V8 APIs",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Metadata APIs Fetch the metadata of modules, fields, layouts, custom views, and related lists. Fetch the metadata of modules, fields, layouts, custom views, and related lists. Core APIs Perform CRUD operations on CRM module entities and integrate with any third party application through flexible RES",
+      "checked_at": "2026-09-17T13:36:06.866161Z"
+    },
+    {
+      "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Zoho CRM.",
+      "source_url": "https://github.com/junnaisystems/Zoho-CRM-MCP",
+      "source_title": "GitHub - junnaisystems/Zoho-CRM-MCP: A comprehensive Model Context ...",
+      "source_type": "GitHub",
+      "evidence_summary": "A comprehensive Model Context Protocol (MCP) server for seamless integration with Zoho CRM. This server enables AI assistants like Claude to interact with your Zoho CRM data through a secure, OAuth-based authentication system ...",
+      "checked_at": "2026-09-17T13:36:29.976882Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.9,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.93,
+  "researched_at": "2026-09-17T13:36:29.977879Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

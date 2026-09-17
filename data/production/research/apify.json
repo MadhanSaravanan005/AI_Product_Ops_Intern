@@ -1,0 +1,71 @@
+{
+  "id": 55,
+  "app": "Apify",
+  "category": "Data, SEO and Scraping",
+  "website": "https://apify.com/",
+  "one_line_description": "Apify: The largest marketplace of trusted tools for AI: Leading platform in Data, SEO and Scraping.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token",
+    "Personal Access Token"
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Apify's developer portal or app management console.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Apify exposes programmatic API endpoints covering primary platform objects and events.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Apify.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Apify supports authentication via Personal Access Token, API Key, Bearer Token.",
+      "source_url": "https://docs.apify.com/api/v2",
+      "source_title": "Apify API | Apify Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "The Apify API (version 2) provides programmatic access to the Apify\nplatform . The API is organized\naround RESTful HTTP endpoints. You can download the complete OpenAPI schema of Apify API in the YAML or JSON formats. The source code is also available on GitHub . All requests and responses (includin",
+      "checked_at": "2026-09-17T10:08:02.158145Z"
+    },
+    {
+      "claim": "Apify offers self-serve credential creation for developers.",
+      "source_url": "https://docs.apify.com/account/console",
+      "source_title": "Apify Console | Platform | Apify Documentation",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Apify Console is a web application where you can manage all your Apify projects and resources. To use Apify Console, create an account at the sign-up page . This is the most common way of creating an account. You just need to provide your email address and a password. The password needs to be at lea",
+      "checked_at": "2026-09-17T10:08:23.182152Z"
+    },
+    {
+      "claim": "Apify provides comprehensive public API methods and developer integrations.",
+      "source_url": "https://docs.apify.com/api/v2",
+      "source_title": "Apify API | Apify Documentation",
+      "source_type": "Official API Reference",
+      "evidence_summary": "The Apify API (version 2) provides programmatic access to the Apify\nplatform . The API is organized\naround RESTful HTTP endpoints. You can download the complete OpenAPI schema of Apify API in the YAML or JSON formats. The source code is also available on GitHub . All requests and responses (includin",
+      "checked_at": "2026-09-17T10:08:30.915801Z"
+    },
+    {
+      "claim": "Apify provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://docs.apify.com/integrations/mcp",
+      "source_title": "Apify MCP server | Platform | Apify Documentation",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "The Apify's MCP server ( mcp.apify.com ) allows AI applications and agents to interact with the Apify platform\nusing Model Context Protocol (MCP). The MCP server enables AI agents to\ndiscover and run Actors from Apify Store , access storages and results,\nand enables AI coding assistants to access Ap",
+      "checked_at": "2026-09-17T10:08:33.922197Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.9,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.93,
+  "researched_at": "2026-09-17T10:08:33.922197Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

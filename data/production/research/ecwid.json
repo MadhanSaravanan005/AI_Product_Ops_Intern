@@ -1,0 +1,179 @@
+{
+  "id": 47,
+  "app": "Ecwid",
+  "category": "Ecommerce",
+  "website": "https://docs.ecwid.com/",
+  "one_line_description": "Ecwid: REST API overview.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Ecwid supports authentication via OAuth2.",
+          "source_url": "https://docs.ecwid.com/api-reference",
+          "source_title": "REST API overview | REST API Reference | Ecwid Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "I'm here to help you with the docs. REST API REST API overview REST API error codes Store Profile Orders Products Categories Customers Discounts Domains Dictionaries Staff accounts Application Batch requests Shipping options Payment options Checkout extra fields Storefront widget details Checkout ex",
+          "checked_at": "2026-09-17T14:06:03.731765Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via REST API overview | REST API Reference | Ecwid Documentation."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Ecwid supports authentication via API Key.",
+          "source_url": "https://github.com/Ecwid/ecwid-api-docs/blob/master/includes/_authentication.md",
+          "source_title": "ecwid-api-docs/includes/_authentication.md at master · Ecwid/ecwid-api-docs · GitHub",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings The Ecwid platform provides two ways of installing and operating applications in an online store: native and ext",
+          "checked_at": "2026-09-17T14:06:03.731765Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via ecwid-api-docs/includes/_authentication.md at master · Ecwid/ecwid-api-docs · GitHub."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Ecwid supports authentication via Bearer Token.",
+          "source_url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+          "source_title": "Make your first API request | Ecwid Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "I'm here to help you with the docs. Build with Ecwid apps Get started Set up your dev environment in Ecwid Make your first API request Add more features to your custom app API glossary Set up your dev environment in Ecwid Make your first API request Add more features to your custom app Develop apps ",
+          "checked_at": "2026-09-17T14:06:03.731765Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Make your first API request | Ecwid Documentation."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Ecwid provides public REST API surface.",
+          "source_url": "https://docs.ecwid.com/api-reference",
+          "source_title": "REST API overview | REST API Reference | Ecwid Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "I'm here to help you with the docs. REST API REST API overview REST API error codes Store Profile Orders Products Categories Customers Discounts Domains Dictionaries Staff accounts Application Batch requests Shipping options Payment options Checkout extra fields Storefront widget details Checkout ex",
+          "checked_at": "2026-09-17T14:06:03.732792Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via REST API overview | REST API Reference | Ecwid Documentation."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Ecwid provides public Webhooks API surface.",
+          "source_url": "https://github.com/Ecwid/ecwid-api-docs",
+          "source_title": "GitHub - Ecwid/ecwid-api-docs: Ecwid REST API documentation · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Ecwid REST API documentation ( https://api-docs.ecwid.com/reference/overview ) The docs use Markdown syntax. Syn",
+          "checked_at": "2026-09-17T14:06:03.732792Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - Ecwid/ecwid-api-docs: Ecwid REST API documentation · GitHub."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Ecwid provides public SDK API surface.",
+          "source_url": "https://github.com/Ecwid/ecwid-api-docs",
+          "source_title": "GitHub - Ecwid/ecwid-api-docs: Ecwid REST API documentation · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Ecwid REST API documentation ( https://api-docs.ecwid.com/reference/overview ) The docs use Markdown syntax. Syn",
+          "checked_at": "2026-09-17T14:06:03.732792Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - Ecwid/ecwid-api-docs: Ecwid REST API documentation · GitHub."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Ecwid exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol).",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "Ecwid supports authentication via OAuth2.",
+      "source_url": "https://docs.ecwid.com/api-reference",
+      "source_title": "REST API overview | REST API Reference | Ecwid Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "I'm here to help you with the docs. REST API REST API overview REST API error codes Store Profile Orders Products Categories Customers Discounts Domains Dictionaries Staff accounts Application Batch requests Shipping options Payment options Checkout extra fields Storefront widget details Checkout ex",
+      "checked_at": "2026-09-17T14:06:03.731765Z"
+    },
+    {
+      "claim": "Ecwid supports authentication via API Key.",
+      "source_url": "https://github.com/Ecwid/ecwid-api-docs/blob/master/includes/_authentication.md",
+      "source_title": "ecwid-api-docs/includes/_authentication.md at master · Ecwid/ecwid-api-docs · GitHub",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings The Ecwid platform provides two ways of installing and operating applications in an online store: native and ext",
+      "checked_at": "2026-09-17T14:06:03.731765Z"
+    },
+    {
+      "claim": "Ecwid supports authentication via Bearer Token.",
+      "source_url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+      "source_title": "Make your first API request | Ecwid Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "I'm here to help you with the docs. Build with Ecwid apps Get started Set up your dev environment in Ecwid Make your first API request Add more features to your custom app API glossary Set up your dev environment in Ecwid Make your first API request Add more features to your custom app Develop apps ",
+      "checked_at": "2026-09-17T14:06:03.731765Z"
+    },
+    {
+      "claim": "Ecwid provides public Webhooks API surface.",
+      "source_url": "https://github.com/Ecwid/ecwid-api-docs",
+      "source_title": "GitHub - Ecwid/ecwid-api-docs: Ecwid REST API documentation · GitHub",
+      "source_type": "Official API Reference",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Ecwid REST API documentation ( https://api-docs.ecwid.com/reference/overview ) The docs use Markdown syntax. Syn",
+      "checked_at": "2026-09-17T14:06:03.732792Z"
+    },
+    {
+      "claim": "Community MCP server implementation available for Ecwid.",
+      "source_url": "https://github.com/modelcontextprotocol",
+      "source_title": "Model Context Protocol · GitHub",
+      "source_type": "GitHub",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+      "checked_at": "2026-09-17T14:06:03.733822Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.79,
+  "researched_at": "2026-09-17T14:06:03.733822Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

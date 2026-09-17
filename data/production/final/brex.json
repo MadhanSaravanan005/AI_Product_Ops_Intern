@@ -1,0 +1,138 @@
+{
+  "id": 88,
+  "app": "Brex",
+  "category": "Finance and Fintech",
+  "website": "https://developer.brex.com/",
+  "one_line_description": "Brex: Authentication.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Brex supports authentication via OAuth2.",
+          "source_url": "https://www.stitchflow.com/user-management/brex/api",
+          "source_title": "Brex User Management API Guide | Stitchflow",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "User object / data model Rate limits, pagination, and events Why building this yourself is a trap The Brex Team API (base URL: https://platform.brexapis.com) supports full user lifecycle management: list, get, invite, update, and deactivate. Authentication is either a static API token (service accou",
+          "checked_at": "2026-09-17T14:59:50.754922Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Brex User Management API Guide | Stitchflow."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Brex supports authentication via API Key.",
+          "source_url": "https://www.stitchflow.com/user-management/brex/api",
+          "source_title": "Brex User Management API Guide | Stitchflow",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "User object / data model Rate limits, pagination, and events Why building this yourself is a trap The Brex Team API (base URL: https://platform.brexapis.com) supports full user lifecycle management: list, get, invite, update, and deactivate. Authentication is either a static API token (service accou",
+          "checked_at": "2026-09-17T14:59:50.755955Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Brex User Management API Guide | Stitchflow."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Brex supports authentication via Bearer Token.",
+          "source_url": "https://www.stitchflow.com/user-management/brex/api",
+          "source_title": "Brex User Management API Guide | Stitchflow",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "User object / data model Rate limits, pagination, and events Why building this yourself is a trap The Brex Team API (base URL: https://platform.brexapis.com) supports full user lifecycle management: list, get, invite, update, and deactivate. Authentication is either a static API token (service accou",
+          "checked_at": "2026-09-17T14:59:50.755955Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Brex User Management API Guide | Stitchflow."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Brex provides public REST API surface.",
+          "source_url": "https://www.stitchflow.com/user-management/brex/api",
+          "source_title": "Brex User Management API Guide | Stitchflow",
+          "source_type": "Official API Reference",
+          "evidence_summary": "User object / data model Rate limits, pagination, and events Why building this yourself is a trap The Brex Team API (base URL: https://platform.brexapis.com) supports full user lifecycle management: list, get, invite, update, and deactivate. Authentication is either a static API token (service accou",
+          "checked_at": "2026-09-17T14:59:50.755955Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Brex User Management API Guide | Stitchflow."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Brex provides public Webhooks API surface.",
+          "source_url": "https://www.stitchflow.com/user-management/brex/api",
+          "source_title": "Brex User Management API Guide | Stitchflow",
+          "source_type": "Official API Reference",
+          "evidence_summary": "User object / data model Rate limits, pagination, and events Why building this yourself is a trap The Brex Team API (base URL: https://platform.brexapis.com) supports full user lifecycle management: list, get, invite, update, and deactivate. Authentication is either a static API token (service accou",
+          "checked_at": "2026-09-17T14:59:50.755955Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Brex User Management API Guide | Stitchflow."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Brex exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Brex.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Developer account required to obtain access credentials.",
+  "evidence": [
+    {
+      "claim": "Brex supports authentication via OAuth2.",
+      "source_url": "https://www.stitchflow.com/user-management/brex/api",
+      "source_title": "Brex User Management API Guide | Stitchflow",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "User object / data model Rate limits, pagination, and events Why building this yourself is a trap The Brex Team API (base URL: https://platform.brexapis.com) supports full user lifecycle management: list, get, invite, update, and deactivate. Authentication is either a static API token (service accou",
+      "checked_at": "2026-09-17T14:59:50.754922Z"
+    },
+    {
+      "claim": "Brex supports authentication via API Key.",
+      "source_url": "https://www.stitchflow.com/user-management/brex/api",
+      "source_title": "Brex User Management API Guide | Stitchflow",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "User object / data model Rate limits, pagination, and events Why building this yourself is a trap The Brex Team API (base URL: https://platform.brexapis.com) supports full user lifecycle management: list, get, invite, update, and deactivate. Authentication is either a static API token (service accou",
+      "checked_at": "2026-09-17T14:59:51.061801Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.73,
+  "researched_at": "2026-09-17T14:59:50.755955Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Needs Verification",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 3/6 claims verified. 0 corrections applied.",
+  "verified_at": "2026-09-17T14:59:51.061801Z"
+}

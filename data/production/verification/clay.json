@@ -1,0 +1,376 @@
+{
+  "app_id": 60,
+  "app": "Clay",
+  "category": "Data, SEO and Scraping",
+  "verified_at": "2026-09-17T14:39:13.916563Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 60,
+      "app": "Clay",
+      "field": "website",
+      "original_value": "https://developers.clay.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Clay': Overview - Clay docs",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 60,
+      "app": "Clay",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Clay supports authentication via API Key.",
+          "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+          "source_title": "HTTP API - Clay Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+          "checked_at": "2026-09-17T14:39:13.916058Z"
+        },
+        {
+          "claim": "Clay supports authentication via Bearer Token.",
+          "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+          "source_title": "HTTP API - Clay Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+          "checked_at": "2026-09-17T14:39:13.916058Z"
+        }
+      ],
+      "verification_notes": "All 2 claimed auth methods verified with primary evidence: API Key, Bearer Token.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Clay supports authentication via API Key.",
+            "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+            "source_title": "HTTP API - Clay Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+            "checked_at": "2026-09-17T14:39:13.916058Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Clay supports authentication via Bearer Token.",
+            "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+            "source_title": "HTTP API - Clay Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+            "checked_at": "2026-09-17T14:39:13.916058Z"
+          },
+          "notes": "Content verified: direct evidence found for (bearer token)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 60,
+      "app": "Clay",
+      "field": "access_model",
+      "original_value": "Partner/Contact Sales",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.6,
+      "evidence": [],
+      "verification_notes": "Developer pages exist but lack explicit proof of 'Partner/Contact Sales'.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 60,
+      "app": "Clay",
+      "field": "api_surface",
+      "original_value": [
+        "REST"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Clay provides public REST API surface.",
+          "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+          "source_title": "HTTP API - Clay Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+          "checked_at": "2026-09-17T14:39:13.916563Z"
+        }
+      ],
+      "verification_notes": "All 1 claimed API types verified with primary evidence: REST.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 60,
+      "app": "Clay",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Deliberate search across docs and repositories confirmed no MCP server currently available.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 60,
+      "app": "Clay",
+      "field": "buildability",
+      "original_value": "Blocked",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "HARD BLOCKER: Partner contract or sales approval required to obtain API access.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Hard Blocker"
+    }
+  },
+  "original_record": {
+    "id": 60,
+    "app": "Clay",
+    "category": "Data, SEO and Scraping",
+    "website": "https://developers.clay.com/",
+    "one_line_description": "Clay: Overview.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Clay supports authentication via API Key.",
+            "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+            "source_title": "HTTP API - Clay Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+            "checked_at": "2026-09-17T14:39:13.912041Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via HTTP API - Clay Docs."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Clay supports authentication via Bearer Token.",
+            "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+            "source_title": "HTTP API - Clay Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+            "checked_at": "2026-09-17T14:39:13.913113Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via HTTP API - Clay Docs."
+      }
+    ],
+    "access_model": "Partner/Contact Sales",
+    "credential_access_notes": "API access requires enterprise contract or partner approval.",
+    "api_types": [
+      "REST"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Clay provides public REST API surface.",
+            "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+            "source_title": "HTTP API - Clay Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+            "checked_at": "2026-09-17T14:39:13.913113Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via HTTP API - Clay Docs."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Clay exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Clay.",
+    "buildability": "Blocked",
+    "main_blocker": "API credentials require enterprise partnership or sales approval.",
+    "evidence": [
+      {
+        "claim": "Clay supports authentication via API Key.",
+        "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+        "source_title": "HTTP API - Clay Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+        "checked_at": "2026-09-17T14:39:13.912041Z"
+      },
+      {
+        "claim": "Clay requires enterprise contract or partner approval for API access.",
+        "source_url": "https://developers.clay.com/",
+        "source_title": "Overview - Clay docs",
+        "source_type": "Official Pricing Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Need a target list? Use Searches . Need enrichment, scoring, routing, or reusable logic? Use Routines . Need existing table data? Use Tables . Tables are Enterprise only. Need",
+        "checked_at": "2026-09-17T14:39:13.913113Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.9,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.88,
+    "overall_confidence": 0.9,
+    "researched_at": "2026-09-17T14:39:13.913113Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 60,
+    "app": "Clay",
+    "category": "Data, SEO and Scraping",
+    "website": "https://developers.clay.com/",
+    "one_line_description": "Clay: Overview.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Clay supports authentication via API Key.",
+            "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+            "source_title": "HTTP API - Clay Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+            "checked_at": "2026-09-17T14:39:13.912041Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via HTTP API - Clay Docs."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Clay supports authentication via Bearer Token.",
+            "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+            "source_title": "HTTP API - Clay Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+            "checked_at": "2026-09-17T14:39:13.913113Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via HTTP API - Clay Docs."
+      }
+    ],
+    "access_model": "Partner/Contact Sales",
+    "credential_access_notes": "API access requires enterprise contract or partner approval.",
+    "api_types": [
+      "REST"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Clay provides public REST API surface.",
+            "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+            "source_title": "HTTP API - Clay Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+            "checked_at": "2026-09-17T14:39:13.913113Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via HTTP API - Clay Docs."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Clay exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Clay.",
+    "buildability": "Blocked",
+    "main_blocker": "API credentials require enterprise partnership or sales approval.",
+    "evidence": [
+      {
+        "claim": "Clay supports authentication via API Key.",
+        "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+        "source_title": "HTTP API - Clay Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Facilitate seamless integration and connectivity with any APIs. HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any en",
+        "checked_at": "2026-09-17T14:39:13.912041Z"
+      },
+      {
+        "claim": "Clay requires enterprise contract or partner approval for API access.",
+        "source_url": "https://developers.clay.com/",
+        "source_title": "Overview - Clay docs",
+        "source_type": "Official Pricing Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Need a target list? Use Searches . Need enrichment, scoring, routing, or reusable logic? Use Routines . Need existing table data? Use Tables . Tables are Enterprise only. Need",
+        "checked_at": "2026-09-17T14:39:13.913113Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.9,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.88,
+    "overall_confidence": 0.89,
+    "researched_at": "2026-09-17T14:39:13.913113Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 0 corrections applied.",
+    "verified_at": "2026-09-17T14:39:13.916563Z"
+  },
+  "summary_notes": "Independent hardened audit for Clay. 5/6 verified. 0 fields corrected."
+}

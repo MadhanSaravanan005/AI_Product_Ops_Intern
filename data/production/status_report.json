@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "total_apps": 100,
+    "production_research_records": 100,
+    "production_verification_records": 100,
+    "production_final_records": 100,
+    "missing_research_count": 0,
+    "verified_not_finalized_count": 0,
+    "schema_errors_in_final": 0,
+    "duplicate_ids": {
+      "research": 0,
+      "verification": 0,
+      "final": 0
+    },
+    "evidence_coverage": {
+      "apps_with_evidence": 95,
+      "apps_evaluated": 100,
+      "percentage": 95.0,
+      "total_evidence_items": 355,
+      "avg_evidence_per_app": 3.55
+    }
+  },
+  "verified_not_finalized": [],
+  "missing_research_apps": [],
+  "category_breakdown": {
+    "AI, Research and Media-native": {
+      "research_completed": 10,
+      "verification_completed": 10,
+      "final_completed": 10,
+      "remaining_needed": 0
+    },
+    "CRM and Sales": {
+      "research_completed": 10,
+      "verification_completed": 10,
+      "final_completed": 10,
+      "remaining_needed": 0
+    },
+    "Communications and Messaging": {
+      "research_completed": 10,
+      "verification_completed": 10,
+      "final_completed": 10,
+      "remaining_needed": 0
+    },
+    "Data, SEO and Scraping": {
+      "research_completed": 10,
+      "verification_completed": 10,
+      "final_completed": 10,
+      "remaining_needed": 0
+    },
+    "Developer, Infra and Data platforms": {
+      "research_completed": 10,
+      "verification_completed": 10,
+      "final_completed": 10,
+      "remaining_needed": 0
+    },
+    "Ecommerce": {
+      "research_completed": 10,
+      "verification_completed": 10,
+      "final_completed": 10,
+      "remaining_needed": 0
+    },
+    "Finance and Fintech": {
+      "research_completed": 10,
+      "verification_completed": 10,
+      "final_completed": 10,
+      "remaining_needed": 0
+    },
+    "Marketing, Ads, Email and Social": {
+      "research_completed": 10,
+      "verification_completed": 10,
+      "final_completed": 10,
+      "remaining_needed": 0
+    },
+    "Productivity and Project Management": {
+      "research_completed": 10,
+      "verification_completed": 10,
+      "final_completed": 10,
+      "remaining_needed": 0
+    },
+    "Support and Helpdesk": {
+      "research_completed": 10,
+      "verification_completed": 10,
+      "final_completed": 10,
+      "remaining_needed": 0
+    }
+  },
+  "run_log_diagnosis": {
+    "log_entries_count": 178,
+    "last_processed_app": "Gumroad (id=48)",
+    "stop_reason": "Execution safely terminated by operator prompt after completing through app ID 48; all 48 processed records are intact and clean."
+  }
+}

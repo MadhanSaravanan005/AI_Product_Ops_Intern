@@ -1,0 +1,153 @@
+{
+  "id": 71,
+  "app": "Notion",
+  "category": "Productivity and Project Management",
+  "website": "https://developers.notion.com/",
+  "one_line_description": "Overview: Leading platform in Productivity and Project Management.",
+  "auth_methods": [
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Notion supports authentication via OAuth2.",
+          "source_url": "https://developers.notion.com/workers/guides/oauth",
+          "source_title": "OAuth - Notion Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Get your redirect URL Create an OAuth app with your provider Store your OAuth credentials",
+          "checked_at": "2026-09-17T12:50:41.888160Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth - Notion Docs: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "Personal Access Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Notion supports authentication via Personal Access Token.",
+          "source_url": "https://developers.notion.com/guides/get-started/personal-access-tokens",
+          "source_title": "Personal access tokens - Notion Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Local scripts, notebooks, and command-line tools that automate work in your own workspace. Development and testing against the Notion API before you create a shared connection",
+          "checked_at": "2026-09-17T12:50:58.232983Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Personal access tokens - Notion Docs: Personal Access Token generation and scoped developer permissions."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Notion's developer portal or app management console.",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Notion provides public REST API surface.",
+          "source_url": "https://openapi.city/providers/notion",
+          "source_title": "Notion API Reference — 20 Endpoints | openapi.city",
+          "source_type": "Official API Reference",
+          "evidence_summary": "All-in-one workspace for notes, tasks, and databases Query structured spec data via REST or MCP. Get exactly what your agent needs. Identifier for a Notion block Identifier for a Notion block Identifier for a Notion block Identifier for a block If supplied, this endpoint will return a page of result",
+          "checked_at": "2026-09-17T12:52:25.321854Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Notion API Reference — 20 Endpoints | openapi.city: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Notion provides public Webhooks API surface.",
+          "source_url": "https://developers.notion.com/reference/webhooks",
+          "source_title": "Webhooks - Notion Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. (Optional): Securely store this token for payload validation setup later, in step 3 . Event types & delivery — Full list of supported event types, payload structure, and deliv",
+          "checked_at": "2026-09-17T12:52:55.280397Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Webhooks - Notion Docs: Webhook event delivery and subscription endpoints."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Notion exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Notion.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Notion supports authentication via OAuth2.",
+      "source_url": "https://developers.notion.com/workers/guides/oauth",
+      "source_title": "OAuth - Notion Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Get your redirect URL Create an OAuth app with your provider Store your OAuth credentials",
+      "checked_at": "2026-09-17T12:50:41.888160Z"
+    },
+    {
+      "claim": "Notion supports authentication via Personal Access Token.",
+      "source_url": "https://developers.notion.com/guides/get-started/personal-access-tokens",
+      "source_title": "Personal access tokens - Notion Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Local scripts, notebooks, and command-line tools that automate work in your own workspace. Development and testing against the Notion API before you create a shared connection",
+      "checked_at": "2026-09-17T12:50:58.232983Z"
+    },
+    {
+      "claim": "Notion offers self-serve credential creation for developers.",
+      "source_url": "https://developers.notion.com/guides/get-started/overview",
+      "source_title": "Overview - Notion Docs",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Create Notion connections that unlock new possibilities for teams. Internal connections are scoped to a single workspace and use a static API token. They’re ideal for custom a",
+      "checked_at": "2026-09-17T12:52:16.942029Z"
+    },
+    {
+      "claim": "Notion provides public REST API surface.",
+      "source_url": "https://openapi.city/providers/notion",
+      "source_title": "Notion API Reference — 20 Endpoints | openapi.city",
+      "source_type": "Official API Reference",
+      "evidence_summary": "All-in-one workspace for notes, tasks, and databases Query structured spec data via REST or MCP. Get exactly what your agent needs. Identifier for a Notion block Identifier for a Notion block Identifier for a Notion block Identifier for a block If supplied, this endpoint will return a page of result",
+      "checked_at": "2026-09-17T12:52:25.321854Z"
+    },
+    {
+      "claim": "Notion provides public Webhooks API surface.",
+      "source_url": "https://developers.notion.com/reference/webhooks",
+      "source_title": "Webhooks - Notion Docs",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. (Optional): Securely store this token for payload validation setup later, in step 3 . Event types & delivery — Full list of supported event types, payload structure, and deliv",
+      "checked_at": "2026-09-17T12:52:55.280397Z"
+    },
+    {
+      "claim": "Notion provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://www.notion.com/help/notion-mcp",
+      "source_title": "Connect AI tools with Notion MCP | Notion Help – Notion Help Center",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "Notion MCP (Model Context Protocol) is a powerful way to connect your favorite AI apps directly to your Notion workspace. Think of it as a bridge that lets AI assistants like Claude, ChatGPT, and Cursor read from and write to your Notion pages in real-time. Unlike traditional integrations, MCP is de",
+      "checked_at": "2026-09-17T12:53:22.066729Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.94,
+  "researched_at": "2026-09-17T12:53:22.066729Z",
+  "researcher_version": "2.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

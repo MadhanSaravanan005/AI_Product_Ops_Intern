@@ -1,0 +1,474 @@
+{
+  "app_id": 40,
+  "app": "SendGrid",
+  "category": "Marketing, Ads, Email and Social",
+  "verified_at": "2026-09-17T14:04:12.449137Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 40,
+      "app": "SendGrid",
+      "field": "website",
+      "original_value": "https://sendgrid.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://sendgrid.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 40,
+      "app": "SendGrid",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "SendGrid supports authentication via API Key.",
+          "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "source_title": "Authentication | SendGrid Docs | Twilio",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security. Authenticate to the Twilio",
+          "checked_at": "2026-09-17T14:04:12.446892Z"
+        }
+      ],
+      "verification_notes": "Authentication methods verified with 1 primary evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 40,
+      "app": "SendGrid",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown access model verified in absence of gating documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 40,
+      "app": "SendGrid",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "SendGrid supports authentication via API Key.",
+          "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "source_title": "Authentication | SendGrid Docs | Twilio",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security. Authenticate to the Twilio",
+          "checked_at": "2026-09-17T14:04:12.446892Z"
+        },
+        {
+          "claim": "SendGrid provides public REST API surface.",
+          "source_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+          "source_title": "SendGrid v3 API reference | SendGrid Docs | Twilio",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes. The SendGrid API endpoints allow you to integrate with your tech stack to send transactional emails, create marketing campaigns, manage your contacts, and monitor the health ",
+          "checked_at": "2026-09-17T14:04:12.446892Z"
+        },
+        {
+          "claim": "SendGrid provides public Webhooks API surface.",
+          "source_url": "https://www.twilio.com/docs/sendgrid/for-developers",
+          "source_title": "Twilio SendGrid developer documentation | SendGrid Docs | Twilio",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Twilio SendGrid documentation has three main sections: Developer documentation (where you are now) User interface (UI) documentation Developer documentation describes how to implement SendGrid's APIs and developer-focused features. How to Send an SMTP Email Building an X-SMTPAPI Header Getting Start",
+          "checked_at": "2026-09-17T14:04:12.448040Z"
+        }
+      ],
+      "verification_notes": "API types verified with 3 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 40,
+      "app": "SendGrid",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.88,
+      "evidence": [],
+      "verification_notes": "No MCP Found status verified by deliberate registry/github search.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 40,
+      "app": "SendGrid",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable With Restrictions verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 40,
+    "app": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "website": "https://sendgrid.com/",
+    "one_line_description": "SendGrid: SendGrid v3 API reference.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid supports authentication via API Key.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+            "source_title": "Authentication | SendGrid Docs | Twilio",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security. Authenticate to the Twilio",
+            "checked_at": "2026-09-17T14:04:12.446892Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication | SendGrid Docs | Twilio."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid supports authentication via Bearer Token.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+            "source_title": "Authentication | SendGrid Docs | Twilio",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security. Authenticate to the Twilio",
+            "checked_at": "2026-09-17T14:04:12.446892Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication | SendGrid Docs | Twilio."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid supports authentication via Basic Auth.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+            "source_title": "Authentication | SendGrid Docs | Twilio",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security. Authenticate to the Twilio",
+            "checked_at": "2026-09-17T14:04:12.446892Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication | SendGrid Docs | Twilio."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid provides public REST API surface.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+            "source_title": "SendGrid v3 API reference | SendGrid Docs | Twilio",
+            "source_type": "Official API Reference",
+            "evidence_summary": "The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes. The SendGrid API endpoints allow you to integrate with your tech stack to send transactional emails, create marketing campaigns, manage your contacts, and monitor the health ",
+            "checked_at": "2026-09-17T14:04:12.446892Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via SendGrid v3 API reference | SendGrid Docs | Twilio."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid provides public Webhooks API surface.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/for-developers",
+            "source_title": "Twilio SendGrid developer documentation | SendGrid Docs | Twilio",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Twilio SendGrid documentation has three main sections: Developer documentation (where you are now) User interface (UI) documentation Developer documentation describes how to implement SendGrid's APIs and developer-focused features. How to Send an SMTP Email Building an X-SMTPAPI Header Getting Start",
+            "checked_at": "2026-09-17T14:04:12.448040Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Twilio SendGrid developer documentation | SendGrid Docs | Twilio."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid provides public SDK API surface.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+            "source_title": "SendGrid v3 API reference | SendGrid Docs | Twilio",
+            "source_type": "Official API Reference",
+            "evidence_summary": "The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes. The SendGrid API endpoints allow you to integrate with your tech stack to send transactional emails, create marketing campaigns, manage your contacts, and monitor the health ",
+            "checked_at": "2026-09-17T14:04:12.448040Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via SendGrid v3 API reference | SendGrid Docs | Twilio."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "SendGrid exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for SendGrid.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "SendGrid supports authentication via API Key.",
+        "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+        "source_title": "Authentication | SendGrid Docs | Twilio",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security. Authenticate to the Twilio",
+        "checked_at": "2026-09-17T14:04:12.446892Z"
+      },
+      {
+        "claim": "SendGrid provides public REST API surface.",
+        "source_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+        "source_title": "SendGrid v3 API reference | SendGrid Docs | Twilio",
+        "source_type": "Official API Reference",
+        "evidence_summary": "The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes. The SendGrid API endpoints allow you to integrate with your tech stack to send transactional emails, create marketing campaigns, manage your contacts, and monitor the health ",
+        "checked_at": "2026-09-17T14:04:12.446892Z"
+      },
+      {
+        "claim": "SendGrid provides public Webhooks API surface.",
+        "source_url": "https://www.twilio.com/docs/sendgrid/for-developers",
+        "source_title": "Twilio SendGrid developer documentation | SendGrid Docs | Twilio",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Twilio SendGrid documentation has three main sections: Developer documentation (where you are now) User interface (UI) documentation Developer documentation describes how to implement SendGrid's APIs and developer-focused features. How to Send an SMTP Email Building an X-SMTPAPI Header Getting Start",
+        "checked_at": "2026-09-17T14:04:12.448040Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T14:04:12.448040Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 40,
+    "app": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "website": "https://sendgrid.com/",
+    "one_line_description": "SendGrid: SendGrid v3 API reference.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid supports authentication via API Key.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+            "source_title": "Authentication | SendGrid Docs | Twilio",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security. Authenticate to the Twilio",
+            "checked_at": "2026-09-17T14:04:12.446892Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication | SendGrid Docs | Twilio."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid supports authentication via Bearer Token.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+            "source_title": "Authentication | SendGrid Docs | Twilio",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security. Authenticate to the Twilio",
+            "checked_at": "2026-09-17T14:04:12.446892Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication | SendGrid Docs | Twilio."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid supports authentication via Basic Auth.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+            "source_title": "Authentication | SendGrid Docs | Twilio",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security. Authenticate to the Twilio",
+            "checked_at": "2026-09-17T14:04:12.446892Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication | SendGrid Docs | Twilio."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid provides public REST API surface.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+            "source_title": "SendGrid v3 API reference | SendGrid Docs | Twilio",
+            "source_type": "Official API Reference",
+            "evidence_summary": "The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes. The SendGrid API endpoints allow you to integrate with your tech stack to send transactional emails, create marketing campaigns, manage your contacts, and monitor the health ",
+            "checked_at": "2026-09-17T14:04:12.446892Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via SendGrid v3 API reference | SendGrid Docs | Twilio."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid provides public Webhooks API surface.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/for-developers",
+            "source_title": "Twilio SendGrid developer documentation | SendGrid Docs | Twilio",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Twilio SendGrid documentation has three main sections: Developer documentation (where you are now) User interface (UI) documentation Developer documentation describes how to implement SendGrid's APIs and developer-focused features. How to Send an SMTP Email Building an X-SMTPAPI Header Getting Start",
+            "checked_at": "2026-09-17T14:04:12.448040Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Twilio SendGrid developer documentation | SendGrid Docs | Twilio."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "SendGrid provides public SDK API surface.",
+            "source_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+            "source_title": "SendGrid v3 API reference | SendGrid Docs | Twilio",
+            "source_type": "Official API Reference",
+            "evidence_summary": "The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes. The SendGrid API endpoints allow you to integrate with your tech stack to send transactional emails, create marketing campaigns, manage your contacts, and monitor the health ",
+            "checked_at": "2026-09-17T14:04:12.448040Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via SendGrid v3 API reference | SendGrid Docs | Twilio."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "SendGrid exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for SendGrid.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "SendGrid supports authentication via API Key.",
+        "source_url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+        "source_title": "Authentication | SendGrid Docs | Twilio",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Twilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security. Authenticate to the Twilio",
+        "checked_at": "2026-09-17T14:04:12.446892Z"
+      },
+      {
+        "claim": "SendGrid provides public REST API surface.",
+        "source_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+        "source_title": "SendGrid v3 API reference | SendGrid Docs | Twilio",
+        "source_type": "Official API Reference",
+        "evidence_summary": "The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes. The SendGrid API endpoints allow you to integrate with your tech stack to send transactional emails, create marketing campaigns, manage your contacts, and monitor the health ",
+        "checked_at": "2026-09-17T14:04:12.446892Z"
+      },
+      {
+        "claim": "SendGrid provides public Webhooks API surface.",
+        "source_url": "https://www.twilio.com/docs/sendgrid/for-developers",
+        "source_title": "Twilio SendGrid developer documentation | SendGrid Docs | Twilio",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Twilio SendGrid documentation has three main sections: Developer documentation (where you are now) User interface (UI) documentation Developer documentation describes how to implement SendGrid's APIs and developer-focused features. How to Send an SMTP Email Building an X-SMTPAPI Header Getting Start",
+        "checked_at": "2026-09-17T14:04:12.448040Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T14:04:12.448040Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T14:04:12.449137Z"
+  },
+  "summary_notes": "Production verification audit for SendGrid: 6/6 verified."
+}

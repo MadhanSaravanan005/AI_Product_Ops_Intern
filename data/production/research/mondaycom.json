@@ -1,0 +1,171 @@
+{
+  "id": 76,
+  "app": "Monday.com",
+  "category": "Productivity and Project Management",
+  "website": "https://mondaycom.com/",
+  "one_line_description": "Monday.com: Authentication.",
+  "auth_methods": [
+    "API Key",
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Monday.com supports authentication via OAuth2.",
+          "source_url": "https://developer.monday.com/apps/docs/integration-authorization",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "When building an integration with monday.com, you'll need to handle authentication. Below are the main authentication flows you will implement: Verify the authenticity of requests from monday Authenticate using a short-lived token Initiate the OAuth flow Your app should validate the Authorization JW",
+          "checked_at": "2026-09-17T14:52:22.994852Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Monday.com supports authentication via API Key.",
+          "source_url": "https://support.monday.com/hc/en-us/articles/360005144659-Does-monday-com-have-an-API",
+          "source_title": "Does monday.com have an API? – Support",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "We most certainly do! Our API is built on GraphQL and will give you a ton of flexibility for accessing and changing information in your monday.com account. Our users use monday.com to manage all sorts of information, and we wanted to build an API that is as flexible as our platform. Therefore, we bu",
+          "checked_at": "2026-09-17T14:52:22.994852Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Does monday.com have an API? – Support."
+    },
+    {
+      "method": "Personal Access Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Monday.com supports authentication via Personal Access Token.",
+          "source_url": "https://developer.monday.com/api-reference/docs/authentication",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The monday.com platform API utilizes personal V2 API tokens to authenticate requests and identify the user making the call. These tokens are unique to each user and have no explicit length. Personal tokens allow you to interact with the API using your own user account. Their permissions mirror what ",
+          "checked_at": "2026-09-17T14:52:22.994852Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "GraphQL",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "GraphQL",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Monday.com provides public GraphQL API surface.",
+          "source_url": "https://support.monday.com/hc/en-us/articles/360005144659-Does-monday-com-have-an-API",
+          "source_title": "Does monday.com have an API? – Support",
+          "source_type": "Official API Reference",
+          "evidence_summary": "We most certainly do! Our API is built on GraphQL and will give you a ton of flexibility for accessing and changing information in your monday.com account. Our users use monday.com to manage all sorts of information, and we wanted to build an API that is as flexible as our platform. Therefore, we bu",
+          "checked_at": "2026-09-17T14:52:22.995888Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Does monday.com have an API? – Support."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Monday.com provides public Webhooks API surface.",
+          "source_url": "https://developer.monday.com/apps/docs/integration-authorization",
+          "source_title": "Authentication",
+          "source_type": "Official API Reference",
+          "evidence_summary": "When building an integration with monday.com, you'll need to handle authentication. Below are the main authentication flows you will implement: Verify the authenticity of requests from monday Authenticate using a short-lived token Initiate the OAuth flow Your app should validate the Authorization JW",
+          "checked_at": "2026-09-17T14:52:22.995888Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Monday.com provides public SDK API surface.",
+          "source_url": "https://github.com/modelcontextprotocol",
+          "source_title": "Model Context Protocol · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+          "checked_at": "2026-09-17T14:52:22.995888Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Model Context Protocol · GitHub."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Monday.com exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol).",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "Monday.com supports authentication via OAuth2.",
+      "source_url": "https://developer.monday.com/apps/docs/integration-authorization",
+      "source_title": "Authentication",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "When building an integration with monday.com, you'll need to handle authentication. Below are the main authentication flows you will implement: Verify the authenticity of requests from monday Authenticate using a short-lived token Initiate the OAuth flow Your app should validate the Authorization JW",
+      "checked_at": "2026-09-17T14:52:22.994852Z"
+    },
+    {
+      "claim": "Monday.com supports authentication via API Key.",
+      "source_url": "https://support.monday.com/hc/en-us/articles/360005144659-Does-monday-com-have-an-API",
+      "source_title": "Does monday.com have an API? – Support",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "We most certainly do! Our API is built on GraphQL and will give you a ton of flexibility for accessing and changing information in your monday.com account. Our users use monday.com to manage all sorts of information, and we wanted to build an API that is as flexible as our platform. Therefore, we bu",
+      "checked_at": "2026-09-17T14:52:22.994852Z"
+    },
+    {
+      "claim": "Monday.com supports authentication via Personal Access Token.",
+      "source_url": "https://developer.monday.com/api-reference/docs/authentication",
+      "source_title": "Authentication",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "The monday.com platform API utilizes personal V2 API tokens to authenticate requests and identify the user making the call. These tokens are unique to each user and have no explicit length. Personal tokens allow you to interact with the API using your own user account. Their permissions mirror what ",
+      "checked_at": "2026-09-17T14:52:22.994852Z"
+    },
+    {
+      "claim": "Monday.com provides public SDK API surface.",
+      "source_url": "https://github.com/modelcontextprotocol",
+      "source_title": "Model Context Protocol · GitHub",
+      "source_type": "Official API Reference",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+      "checked_at": "2026-09-17T14:52:22.995888Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.79,
+  "researched_at": "2026-09-17T14:52:22.995888Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

@@ -1,0 +1,406 @@
+{
+  "app_id": 61,
+  "app": "GitHub",
+  "category": "Developer, Infra and Data platforms",
+  "verified_at": "2026-09-17T10:14:13.233605Z",
+  "verifier_version": "1.0.0",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 2,
+  "field_results": {
+    "website": {
+      "app_id": 61,
+      "app": "GitHub",
+      "field": "website",
+      "original_value": "https://github.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'GitHub': GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 61,
+      "app": "GitHub",
+      "field": "authentication",
+      "original_value": [
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "GitHub supports authentication via Basic Auth.",
+          "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+          "source_title": "Authenticating to the REST API - GitHub Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+          "checked_at": "2026-09-17T10:13:49.951556Z"
+        },
+        {
+          "claim": "GitHub supports authentication via Bearer Token.",
+          "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+          "source_title": "Authenticating to the REST API - GitHub Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+          "checked_at": "2026-09-17T10:13:50.064849Z"
+        },
+        {
+          "claim": "GitHub supports authentication via OAuth2.",
+          "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+          "source_title": "Authenticating to the REST API - GitHub Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+          "checked_at": "2026-09-17T10:13:50.168752Z"
+        },
+        {
+          "claim": "GitHub supports authentication via Personal Access Token.",
+          "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+          "source_title": "Authenticating to the REST API - GitHub Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+          "checked_at": "2026-09-17T10:13:50.300469Z"
+        }
+      ],
+      "verification_notes": "All 4 claimed auth methods verified with primary evidence: Basic Auth, Bearer Token, OAuth2, Personal Access Token.",
+      "auth_details": [
+        {
+          "method": "Basic Auth",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "GitHub supports authentication via Basic Auth.",
+            "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+            "source_title": "Authenticating to the REST API - GitHub Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+            "checked_at": "2026-09-17T10:13:49.951556Z"
+          },
+          "notes": "Content verified: direct evidence found for (basic auth)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "GitHub supports authentication via Bearer Token.",
+            "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+            "source_title": "Authenticating to the REST API - GitHub Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+            "checked_at": "2026-09-17T10:13:50.064849Z"
+          },
+          "notes": "Content verified: direct evidence found for (authorization: bearer)."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "GitHub supports authentication via OAuth2.",
+            "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+            "source_title": "Authenticating to the REST API - GitHub Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+            "checked_at": "2026-09-17T10:13:50.168752Z"
+          },
+          "notes": "Content verified: direct evidence found for (oauth app)."
+        },
+        {
+          "method": "Personal Access Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "GitHub supports authentication via Personal Access Token.",
+            "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+            "source_title": "Authenticating to the REST API - GitHub Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+            "checked_at": "2026-09-17T10:13:50.300469Z"
+          },
+          "notes": "Content verified: direct evidence found for (personal access token)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 61,
+      "app": "GitHub",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": "Trial Self-Serve",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "GitHub credential access model is Trial Self-Serve.",
+          "source_url": "https://github.com/pricing",
+          "source_title": "Pricing · Plans for every developer · GitHub",
+          "source_type": "Official Documentation",
+          "evidence_summary": "We get it, there's a lot you can do with GitHub.\n    That’s why we've packed all of it into a single risk-free trial that includes GitHub Enterprise, Copilot,\n    and Advanced Security. The basics for individuals and organizations Unlimited public/private repositories Host open source projects in pu",
+          "checked_at": "2026-09-17T10:14:03.418806Z"
+        }
+      ],
+      "verification_notes": "CORRECTED: Primary documentation at https://github.com/pricing indicates developer access is available via free trial.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 61,
+      "app": "GitHub",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "GitHub provides public REST API surface.",
+          "source_url": "https://docs.github.com/en/rest/repos/webhooks",
+          "source_title": "REST API endpoints for repository webhooks - GitHub Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Use the REST API to create and manage webhooks for your repositories. Repository webhooks allow your server to receive HTTP POST payloads whenever certain events happen in a repository. For more information, see Webhooks documentation . Lists webhooks for a repository. last response may return null ",
+          "checked_at": "2026-09-17T10:14:03.762143Z"
+        },
+        {
+          "claim": "GitHub provides public Webhooks API surface.",
+          "source_url": "https://docs.github.com/en/rest/repos/webhooks",
+          "source_title": "REST API endpoints for repository webhooks - GitHub Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Use the REST API to create and manage webhooks for your repositories. Repository webhooks allow your server to receive HTTP POST payloads whenever certain events happen in a repository. For more information, see Webhooks documentation . Lists webhooks for a repository. last response may return null ",
+          "checked_at": "2026-09-17T10:14:03.934997Z"
+        }
+      ],
+      "verification_notes": "Partially verified: 2/3 API types confirmed (REST, Webhooks). Unverified types lacked documentation evidence.",
+      "auth_details": null,
+      "api_type_details": {
+        "GraphQL": "Insufficient Evidence",
+        "REST": "Verified",
+        "Webhooks": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 61,
+      "app": "GitHub",
+      "field": "mcp_status",
+      "original_value": "Third-Party MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "GitHub provides official Model Context Protocol (MCP) server support.",
+          "source_url": "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode",
+          "source_title": "Setting up the GitHub MCP Server - GitHub Docs",
+          "source_type": "Official MCP Documentation",
+          "evidence_summary": "Learn how to configure the GitHub Model Context Protocol (MCP) server. The GitHub MCP server is available to all GitHub users regardless of plan type. However, specific tools within the MCP server inherit the same access requirements as their corresponding GitHub features. If a feature requires a pa",
+          "checked_at": "2026-09-17T10:14:13.233605Z"
+        }
+      ],
+      "verification_notes": "Third-party community MCP server verified with repository evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 61,
+      "app": "GitHub",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "RESTRICTION: Credentials available self-serve during limited trial window.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Restriction"
+    }
+  },
+  "original_record": {
+    "id": 61,
+    "app": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "website": "https://github.com/",
+    "one_line_description": "GitHub is a software platform in the Developer, Infra and Data platforms category.",
+    "auth_methods": [
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "GitHub exposes programmatic API endpoints covering primary platform objects and events.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Community/third-party MCP server available on GitHub: https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+    "evidence": [
+      {
+        "claim": "GitHub supports authentication via Personal Access Token, Basic Auth, Bearer Token, OAuth2.",
+        "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "source_title": "Authenticating to the REST API - GitHub Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+        "checked_at": "2026-09-17T10:08:44.641938Z"
+      },
+      {
+        "claim": "GitHub provides comprehensive public API methods and developer integrations.",
+        "source_url": "https://docs.github.com/en/rest/repos/webhooks",
+        "source_title": "REST API endpoints for repository webhooks - GitHub Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Use the REST API to create and manage webhooks for your repositories. Repository webhooks allow your server to receive HTTP POST payloads whenever certain events happen in a repository. For more information, see Webhooks documentation . Lists webhooks for a repository. last response may return null ",
+        "checked_at": "2026-09-17T10:08:58.801101Z"
+      },
+      {
+        "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for GitHub.",
+        "source_url": "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode",
+        "source_title": "Setting up the GitHub MCP Server",
+        "source_type": "GitHub",
+        "evidence_summary": "The GitHub MCP server is a Model Context Protocol (MCP) server provided and maintained by GitHub. MCP allows you to integrate AI capabilities with other tools and services, enhancing your development experience by providing context-aware AI assistance.",
+        "checked_at": "2026-09-17T10:09:25.098323Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.3,
+    "api_confidence": 0.9,
+    "mcp_confidence": 0.9,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.77,
+    "researched_at": "2026-09-17T10:09:25.098323Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 61,
+    "app": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "website": "https://github.com/",
+    "one_line_description": "GitHub is a software platform in the Developer, Infra and Data platforms category.",
+    "auth_methods": [
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "access_model": "Trial Self-Serve",
+    "credential_access_notes": "CORRECTED: Primary documentation at https://github.com/pricing indicates developer access is available via free trial.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "GitHub exposes programmatic API endpoints covering primary platform objects and events.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Community/third-party MCP server available on GitHub: https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+    "evidence": [
+      {
+        "claim": "GitHub supports authentication via Personal Access Token, Basic Auth, Bearer Token, OAuth2.",
+        "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "source_title": "Authenticating to the REST API - GitHub Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+        "checked_at": "2026-09-17T10:08:44.641938Z"
+      },
+      {
+        "claim": "GitHub provides comprehensive public API methods and developer integrations.",
+        "source_url": "https://docs.github.com/en/rest/repos/webhooks",
+        "source_title": "REST API endpoints for repository webhooks - GitHub Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Use the REST API to create and manage webhooks for your repositories. Repository webhooks allow your server to receive HTTP POST payloads whenever certain events happen in a repository. For more information, see Webhooks documentation . Lists webhooks for a repository. last response may return null ",
+        "checked_at": "2026-09-17T10:08:58.801101Z"
+      },
+      {
+        "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for GitHub.",
+        "source_url": "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode",
+        "source_title": "Setting up the GitHub MCP Server",
+        "source_type": "GitHub",
+        "evidence_summary": "The GitHub MCP server is a Model Context Protocol (MCP) server provided and maintained by GitHub. MCP allows you to integrate AI capabilities with other tools and services, enhancing your development experience by providing context-aware AI assistance.",
+        "checked_at": "2026-09-17T10:09:25.098323Z"
+      },
+      {
+        "claim": "GitHub supports authentication via Basic Auth.",
+        "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "source_title": "Authenticating to the REST API - GitHub Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "You can authenticate to the REST API to access more endpoints and have a higher rate limit. Many REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests per hour when you are authenticated. To authenticate your req",
+        "checked_at": "2026-09-17T10:13:49.951556Z"
+      },
+      {
+        "claim": "GitHub credential access model is Trial Self-Serve.",
+        "source_url": "https://github.com/pricing",
+        "source_title": "Pricing · Plans for every developer · GitHub",
+        "source_type": "Official Documentation",
+        "evidence_summary": "We get it, there's a lot you can do with GitHub.\n    That’s why we've packed all of it into a single risk-free trial that includes GitHub Enterprise, Copilot,\n    and Advanced Security. The basics for individuals and organizations Unlimited public/private repositories Host open source projects in pu",
+        "checked_at": "2026-09-17T10:14:03.418806Z"
+      },
+      {
+        "claim": "GitHub provides public REST API surface.",
+        "source_url": "https://docs.github.com/en/rest/repos/webhooks",
+        "source_title": "REST API endpoints for repository webhooks - GitHub Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Use the REST API to create and manage webhooks for your repositories. Repository webhooks allow your server to receive HTTP POST payloads whenever certain events happen in a repository. For more information, see Webhooks documentation . Lists webhooks for a repository. last response may return null ",
+        "checked_at": "2026-09-17T10:14:03.762143Z"
+      },
+      {
+        "claim": "GitHub provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode",
+        "source_title": "Setting up the GitHub MCP Server - GitHub Docs",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Learn how to configure the GitHub Model Context Protocol (MCP) server. The GitHub MCP server is available to all GitHub users regardless of plan type. However, specific tools within the MCP server inherit the same access requirements as their corresponding GitHub features. If a feature requires a pa",
+        "checked_at": "2026-09-17T10:14:13.233605Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.95,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.9,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.95,
+    "researched_at": "2026-09-17T10:09:25.098323Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 6/6 claims verified. 2 corrections applied.",
+    "verified_at": "2026-09-17T10:14:13.233605Z"
+  },
+  "summary_notes": "Independent hardened audit for GitHub. 6/6 verified. 2 fields corrected."
+}

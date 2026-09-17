@@ -1,0 +1,163 @@
+{
+  "id": 82,
+  "app": "Plaid",
+  "category": "Finance and Fintech",
+  "website": "https://plaid.com/",
+  "one_line_description": "Plaid: API.",
+  "auth_methods": [
+    "API Key",
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plaid supports authentication via OAuth2.",
+          "source_url": "https://plaid.com/docs/api/oauth/",
+          "source_title": "API - OAuth | Plaid Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "These endpoints are for customers, partners and services that are integrating with Plaid's OAuth service to obtain a token for sharing consumer reports or accessing the Plaid Dashboard or other Plaid services. They are not used for the Plaid Link flow where end users connect their financial institut",
+          "checked_at": "2026-09-17T14:57:21.365609Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API - OAuth | Plaid Docs."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plaid supports authentication via API Key.",
+          "source_url": "https://plaid.com/docs/api/",
+          "source_title": "API - Overview | Plaid Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "For documentation on specific API endpoints and webhooks, use the navigation menu or search. To gain access to the Plaid API, create an account on the Plaid Dashboard . Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard. T",
+          "checked_at": "2026-09-17T14:57:21.365609Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API - Overview | Plaid Docs."
+    },
+    {
+      "method": "Personal Access Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plaid supports authentication via Personal Access Token.",
+          "source_url": "https://www.apideck.com/blog/how-to-get-your-plaid-api-key",
+          "source_title": "How to Get Your Plaid API Key",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Get your Plaid API keys and start pulling bank data in under 10 minutes with this step-by-step guide covering dashboard setup, environments, sandbox testing, and common authenticat",
+          "checked_at": "2026-09-17T14:57:21.365609Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via How to Get Your Plaid API Key."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plaid provides public REST API surface.",
+          "source_url": "https://plaid.com/docs/api/",
+          "source_title": "API - Overview | Plaid Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "For documentation on specific API endpoints and webhooks, use the navigation menu or search. To gain access to the Plaid API, create an account on the Plaid Dashboard . Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard. T",
+          "checked_at": "2026-09-17T14:57:21.366637Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API - Overview | Plaid Docs."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plaid provides public Webhooks API surface.",
+          "source_url": "https://plaid.com/docs/api/",
+          "source_title": "API - Overview | Plaid Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "For documentation on specific API endpoints and webhooks, use the navigation menu or search. To gain access to the Plaid API, create an account on the Plaid Dashboard . Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard. T",
+          "checked_at": "2026-09-17T14:57:21.366637Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API - Overview | Plaid Docs."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plaid provides public SDK API surface.",
+          "source_url": "https://plaid.com/docs/api/",
+          "source_title": "API - Overview | Plaid Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "For documentation on specific API endpoints and webhooks, use the navigation menu or search. To gain access to the Plaid API, create an account on the Plaid Dashboard . Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard. T",
+          "checked_at": "2026-09-17T14:57:21.366637Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API - Overview | Plaid Docs."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Plaid exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Plaid.",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "Plaid supports authentication via OAuth2.",
+      "source_url": "https://plaid.com/docs/api/oauth/",
+      "source_title": "API - OAuth | Plaid Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "These endpoints are for customers, partners and services that are integrating with Plaid's OAuth service to obtain a token for sharing consumer reports or accessing the Plaid Dashboard or other Plaid services. They are not used for the Plaid Link flow where end users connect their financial institut",
+      "checked_at": "2026-09-17T14:57:21.365609Z"
+    },
+    {
+      "claim": "Plaid supports authentication via API Key.",
+      "source_url": "https://plaid.com/docs/api/",
+      "source_title": "API - Overview | Plaid Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "For documentation on specific API endpoints and webhooks, use the navigation menu or search. To gain access to the Plaid API, create an account on the Plaid Dashboard . Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard. T",
+      "checked_at": "2026-09-17T14:57:21.365609Z"
+    },
+    {
+      "claim": "Plaid supports authentication via Personal Access Token.",
+      "source_url": "https://www.apideck.com/blog/how-to-get-your-plaid-api-key",
+      "source_title": "How to Get Your Plaid API Key",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Get your Plaid API keys and start pulling bank data in under 10 minutes with this step-by-step guide covering dashboard setup, environments, sandbox testing, and common authenticat",
+      "checked_at": "2026-09-17T14:57:21.365609Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.88,
+  "researched_at": "2026-09-17T14:57:21.366637Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T14:57:22.410014Z"
+}

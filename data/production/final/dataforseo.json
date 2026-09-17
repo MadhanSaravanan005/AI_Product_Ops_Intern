@@ -1,0 +1,171 @@
+{
+  "id": 51,
+  "app": "DataForSEO",
+  "category": "Data, SEO and Scraping",
+  "website": "https://docs.dataforseo.com/",
+  "one_line_description": "DataForSEO: DataForSEO API v.3.",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "DataForSEO supports authentication via OAuth2.",
+          "source_url": "https://github.com/dataforseo/mcp-server-typescript",
+          "source_title": "GitHub - dataforseo/mcp-server-typescript: DataForSEO API modelcontextprotocol server · GitHub",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This is the new v3 MCP server. The previous v2+ MCP server is deprecated and lives at dataforseo/mcp-server-type",
+          "checked_at": "2026-09-17T14:28:39.601674Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - dataforseo/mcp-server-typescript: DataForSEO API modelcontextprotocol server · GitHub."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "DataForSEO supports authentication via API Key.",
+          "source_url": "https://github.com/dataforseo/mcp-server-typescript",
+          "source_title": "GitHub - dataforseo/mcp-server-typescript: DataForSEO API modelcontextprotocol server · GitHub",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This is the new v3 MCP server. The previous v2+ MCP server is deprecated and lives at dataforseo/mcp-server-type",
+          "checked_at": "2026-09-17T14:28:39.601674Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - dataforseo/mcp-server-typescript: DataForSEO API modelcontextprotocol server · GitHub."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "DataForSEO supports authentication via Bearer Token.",
+          "source_url": "https://github.com/dataforseo/mcp-server-typescript",
+          "source_title": "GitHub - dataforseo/mcp-server-typescript: DataForSEO API modelcontextprotocol server · GitHub",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This is the new v3 MCP server. The previous v2+ MCP server is deprecated and lives at dataforseo/mcp-server-type",
+          "checked_at": "2026-09-17T14:28:39.601674Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - dataforseo/mcp-server-typescript: DataForSEO API modelcontextprotocol server · GitHub."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "DataForSEO supports authentication via Basic Auth.",
+          "source_url": "https://dataforseo.com/model-context-protocol",
+          "source_title": "DataForSEO Model Context Protocol – DataForSEO",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Connect your AI application with the most capable source of SEO data Choose your AI client and follow the instructions to connect with DataForSEO APIs. 1 Open Claude Desktop and go to Customize → Connectors . Open Claude Desktop and go to Customize → Connectors . 2 Click Add custom connector and pas",
+          "checked_at": "2026-09-17T14:28:39.601674Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via DataForSEO Model Context Protocol – DataForSEO."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "DataForSEO provides public REST API surface.",
+          "source_url": "https://docs.dataforseo.com/v3/",
+          "source_title": "DataForSEO API v.3",
+          "source_type": "Official API Reference",
+          "evidence_summary": "This is the starting point on your journey towards building powerful SEO software, data analysis pipelines, and robust no-code automations. With DataForSEO you can get all the data you need while saving your time and budget. Follow our recommended learning path to master DataForSEO APIs. 1. Kickstar",
+          "checked_at": "2026-09-17T14:28:39.603104Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via DataForSEO API v.3."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "DataForSEO provides public Webhooks API surface.",
+          "source_url": "https://docs.dataforseo.com/v3/",
+          "source_title": "DataForSEO API v.3",
+          "source_type": "Official API Reference",
+          "evidence_summary": "This is the starting point on your journey towards building powerful SEO software, data analysis pipelines, and robust no-code automations. With DataForSEO you can get all the data you need while saving your time and budget. Follow our recommended learning path to master DataForSEO APIs. 1. Kickstar",
+          "checked_at": "2026-09-17T14:28:39.603104Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via DataForSEO API v.3."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "DataForSEO exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/dataforseo/mcp-server-typescript).",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "DataForSEO supports authentication via OAuth2.",
+      "source_url": "https://github.com/dataforseo/mcp-server-typescript",
+      "source_title": "GitHub - dataforseo/mcp-server-typescript: DataForSEO API modelcontextprotocol server · GitHub",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This is the new v3 MCP server. The previous v2+ MCP server is deprecated and lives at dataforseo/mcp-server-type",
+      "checked_at": "2026-09-17T14:28:39.601674Z"
+    },
+    {
+      "claim": "DataForSEO supports authentication via Basic Auth.",
+      "source_url": "https://dataforseo.com/model-context-protocol",
+      "source_title": "DataForSEO Model Context Protocol – DataForSEO",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Connect your AI application with the most capable source of SEO data Choose your AI client and follow the instructions to connect with DataForSEO APIs. 1 Open Claude Desktop and go to Customize → Connectors . Open Claude Desktop and go to Customize → Connectors . 2 Click Add custom connector and pas",
+      "checked_at": "2026-09-17T14:28:39.601674Z"
+    },
+    {
+      "claim": "DataForSEO provides public REST API surface.",
+      "source_url": "https://docs.dataforseo.com/v3/",
+      "source_title": "DataForSEO API v.3",
+      "source_type": "Official API Reference",
+      "evidence_summary": "This is the starting point on your journey towards building powerful SEO software, data analysis pipelines, and robust no-code automations. With DataForSEO you can get all the data you need while saving your time and budget. Follow our recommended learning path to master DataForSEO APIs. 1. Kickstar",
+      "checked_at": "2026-09-17T14:28:39.603104Z"
+    },
+    {
+      "claim": "DataForSEO supports authentication via API Key.",
+      "source_url": "https://github.com/dataforseo/mcp-server-typescript",
+      "source_title": "GitHub - dataforseo/mcp-server-typescript: DataForSEO API modelcontextprotocol server · GitHub",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This is the new v3 MCP server. The previous v2+ MCP server is deprecated and lives at dataforseo/mcp-server-type",
+      "checked_at": "2026-09-17T14:28:40.658683Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.81,
+  "researched_at": "2026-09-17T14:28:39.604143Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 4/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T14:28:40.659679Z"
+}

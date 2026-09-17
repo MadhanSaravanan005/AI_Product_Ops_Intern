@@ -1,0 +1,111 @@
+{
+  "id": 12,
+  "app": "Intercom",
+  "category": "Support and Helpdesk",
+  "website": "https://developers.intercom.com/",
+  "one_line_description": "Overview: Leading platform in Support and Helpdesk.",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "authentication_details": [
+    {
+      "method": "Unknown",
+      "status": "Unverified",
+      "evidence": [],
+      "confidence": 0.3,
+      "notes": "No authentication methods for Intercom could be grounded with direct documentation evidence."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "CORRECTED: Confirmed free self-serve credential creation at https://developers.intercom.com/docs/build-an-integration/getting-started.",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Intercom provides public REST API surface.",
+          "source_url": "https://openapi.city/providers/intercom",
+          "source_title": "Intercom API Reference — 110 Endpoints | openapi.city",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Customer messaging and support platform Query structured spec data via REST or MCP. Get exactly what your agent needs. You can fetch a list of admins for a given workspace. You can get a log of activities by all admins in an app. The start date that you request data for. It must be formatted as a UN",
+          "checked_at": "2026-09-17T13:43:30.144588Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Intercom API Reference — 110 Endpoints | openapi.city: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Intercom provides public Webhooks API surface.",
+          "source_url": "https://developers.intercom.com/docs/webhooks",
+          "source_title": "Webhooks | Intercom and Fin Developer Platform",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Build a Messenger App Build an App using Sheets Webhook Notifications Create a Fin AI Integration with Slack Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Webhooks are a way that you can access real-time notifications about events that happen in your Intercom workspace.",
+          "checked_at": "2026-09-17T13:43:30.144588Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Webhooks | Intercom and Fin Developer Platform: Webhook event delivery and subscription endpoints."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Intercom exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Intercom.",
+  "buildability": "Buildable Now",
+  "main_blocker": "Buildable Now. Standard rate limits and OAuth scoping permissions are developer restrictions, not hard blockers.",
+  "evidence": [
+    {
+      "claim": "Intercom provides public REST API surface.",
+      "source_url": "https://openapi.city/providers/intercom",
+      "source_title": "Intercom API Reference — 110 Endpoints | openapi.city",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Customer messaging and support platform Query structured spec data via REST or MCP. Get exactly what your agent needs. You can fetch a list of admins for a given workspace. You can get a log of activities by all admins in an app. The start date that you request data for. It must be formatted as a UN",
+      "checked_at": "2026-09-17T13:43:30.144588Z"
+    },
+    {
+      "claim": "Intercom provides public Webhooks API surface.",
+      "source_url": "https://developers.intercom.com/docs/webhooks",
+      "source_title": "Webhooks | Intercom and Fin Developer Platform",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Build a Messenger App Build an App using Sheets Webhook Notifications Create a Fin AI Integration with Slack Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Webhooks are a way that you can access real-time notifications about events that happen in your Intercom workspace.",
+      "checked_at": "2026-09-17T13:43:30.144588Z"
+    },
+    {
+      "claim": "Intercom provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://developers.intercom.com/docs/guides/mcp",
+      "source_title": "Model Context Protocol (MCP) | Intercom and Fin Developer Platform",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "Build a Messenger App Build an App using Sheets Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Learn how to use the Model Context Protocol (MCP) to enable AI agents to securely access and interact with your Intercom data whenever helpful. The Intercom MCP server is avail",
+      "checked_at": "2026-09-17T13:43:35.561829Z"
+    },
+    {
+      "claim": "Intercom credential access model is Free Self-Serve.",
+      "source_url": "https://developers.intercom.com/docs/build-an-integration/getting-started",
+      "source_title": "Set up a Workspace | Intercom and Fin Developer Platform",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Build a Messenger App Build an App using Sheets Model Context Protocol (MCP) Public Apps & App Store Build and Publish Apps Your Intercom workspace is where you and teammates can access all your Intercom products. As a developer, you can create apps that may be installed on one or more workspace. In",
+      "checked_at": "2026-09-17T13:43:55.671031Z"
+    }
+  ],
+  "auth_confidence": 0.3,
+  "access_confidence": 0.95,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.88,
+  "researched_at": "2026-09-17T13:43:35.562398Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Needs Verification",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 5/6 claims verified. 2 corrections applied.",
+  "verified_at": "2026-09-17T13:43:55.674451Z"
+}

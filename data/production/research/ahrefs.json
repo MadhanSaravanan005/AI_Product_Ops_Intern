@@ -1,0 +1,129 @@
+{
+  "id": 53,
+  "app": "Ahrefs",
+  "category": "Data, SEO and Scraping",
+  "website": "https://docs.ahrefs.com/",
+  "one_line_description": "Ahrefs: OAuth guide.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Ahrefs supports authentication via OAuth2.",
+          "source_url": "https://docs.ahrefs.com/en/ahrefs-connect/docs/oauth-guide",
+          "source_title": "OAuth guide | Ahrefs for Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "All API calls require authorization and are made on behalf of an authorized Ahrefs user . To do this, your app must obtain an API access token for that user. Ahrefs Connect uses OAuth 2.0 Authorization Code Flow with Proof Key for Code Exchange (PKCE) . The process has two main steps: Redirect the u",
+          "checked_at": "2026-09-17T14:29:41.970812Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth guide | Ahrefs for Developers."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Ahrefs supports authentication via API Key.",
+          "source_url": "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management",
+          "source_title": "API keys creation and management | Ahrefs for Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "You'll need an API key to send requests via Ahrefs API v3. Provide it in the Authorization header when making requests: Authorization: Bearer YOUR_API_KEY . Create and manage existing API keys in Account settings / API keys . Note that only workspace owners and admins have access to this section. Yo",
+          "checked_at": "2026-09-17T14:29:41.970812Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API keys creation and management | Ahrefs for Developers."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Ahrefs supports authentication via Bearer Token.",
+          "source_url": "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management",
+          "source_title": "API keys creation and management | Ahrefs for Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "You'll need an API key to send requests via Ahrefs API v3. Provide it in the Authorization header when making requests: Authorization: Bearer YOUR_API_KEY . Create and manage existing API keys in Account settings / API keys . Note that only workspace owners and admins have access to this section. Yo",
+          "checked_at": "2026-09-17T14:29:41.971360Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API keys creation and management | Ahrefs for Developers."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Ahrefs provides public REST API surface.",
+          "source_url": "https://integrations.sh/ahrefs.com/",
+          "source_title": "ahrefs.com â integrations",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Ahrefs exposes a REST API at `https://api.ahrefs.com/v3` authenticated either by workspace API keys or by Ahrefs Connect OAuth access tokens, plus a hosted MCP server at `https://api.ahrefs.com/mcp/mcp` using OAuth and optionally manual MCP keys. Ahrefs MCP detected streamable-http Ahrefs API v3 dis",
+          "checked_at": "2026-09-17T14:29:41.971360Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via ahrefs.com â integrations."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Ahrefs exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Ahrefs.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Developer account required to obtain access credentials.",
+  "evidence": [
+    {
+      "claim": "Ahrefs supports authentication via OAuth2.",
+      "source_url": "https://docs.ahrefs.com/en/ahrefs-connect/docs/oauth-guide",
+      "source_title": "OAuth guide | Ahrefs for Developers",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "All API calls require authorization and are made on behalf of an authorized Ahrefs user . To do this, your app must obtain an API access token for that user. Ahrefs Connect uses OAuth 2.0 Authorization Code Flow with Proof Key for Code Exchange (PKCE) . The process has two main steps: Redirect the u",
+      "checked_at": "2026-09-17T14:29:41.970812Z"
+    },
+    {
+      "claim": "Ahrefs supports authentication via API Key.",
+      "source_url": "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management",
+      "source_title": "API keys creation and management | Ahrefs for Developers",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "You'll need an API key to send requests via Ahrefs API v3. Provide it in the Authorization header when making requests: Authorization: Bearer YOUR_API_KEY . Create and manage existing API keys in Account settings / API keys . Note that only workspace owners and admins have access to this section. Yo",
+      "checked_at": "2026-09-17T14:29:41.970812Z"
+    },
+    {
+      "claim": "Ahrefs provides public REST API surface.",
+      "source_url": "https://integrations.sh/ahrefs.com/",
+      "source_title": "ahrefs.com â integrations",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Ahrefs exposes a REST API at `https://api.ahrefs.com/v3` authenticated either by workspace API keys or by Ahrefs Connect OAuth access tokens, plus a hosted MCP server at `https://api.ahrefs.com/mcp/mcp` using OAuth and optionally manual MCP keys. Ahrefs MCP detected streamable-http Ahrefs API v3 dis",
+      "checked_at": "2026-09-17T14:29:41.971360Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.76,
+  "researched_at": "2026-09-17T14:29:41.972416Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

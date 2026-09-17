@@ -1,0 +1,188 @@
+{
+  "id": 70,
+  "app": "Sentry",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.sentry.io/",
+  "one_line_description": "Sentry: API Reference.",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "Bearer Token",
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sentry supports authentication via OAuth2.",
+          "source_url": "https://docs.sentry.io/api/auth/",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "API Reference Authentication Paginating Results Permissions & Scopes Rate Limits Requests Crons Dashboards Discover & Performance Environments Events & Issues Explore Integration Platform Integrations Mobile Builds Monitors & Alerts Organizations Profiling Projects Releases Replays SCIM Seer Snapsho",
+          "checked_at": "2026-09-17T14:42:54.522887Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sentry supports authentication via API Key.",
+          "source_url": "https://docs.sentry.io/api/auth/",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "API Reference Authentication Paginating Results Permissions & Scopes Rate Limits Requests Crons Dashboards Discover & Performance Environments Events & Issues Explore Integration Platform Integrations Mobile Builds Monitors & Alerts Organizations Profiling Projects Releases Replays SCIM Seer Snapsho",
+          "checked_at": "2026-09-17T14:42:54.522887Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sentry supports authentication via Bearer Token.",
+          "source_url": "https://docs.sentry.io/api/auth/",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "API Reference Authentication Paginating Results Permissions & Scopes Rate Limits Requests Crons Dashboards Discover & Performance Environments Events & Issues Explore Integration Platform Integrations Mobile Builds Monitors & Alerts Organizations Profiling Projects Releases Replays SCIM Seer Snapsho",
+          "checked_at": "2026-09-17T14:42:54.522887Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    },
+    {
+      "method": "Personal Access Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sentry supports authentication via Personal Access Token.",
+          "source_url": "https://docs.sentry.io/api/auth/",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "API Reference Authentication Paginating Results Permissions & Scopes Rate Limits Requests Crons Dashboards Discover & Performance Environments Events & Issues Explore Integration Platform Integrations Mobile Builds Monitors & Alerts Organizations Profiling Projects Releases Replays SCIM Seer Snapsho",
+          "checked_at": "2026-09-17T14:42:54.523920Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sentry supports authentication via Basic Auth.",
+          "source_url": "https://docs.sentry.io/api/auth/",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "API Reference Authentication Paginating Results Permissions & Scopes Rate Limits Requests Crons Dashboards Discover & Performance Environments Events & Issues Explore Integration Platform Integrations Mobile Builds Monitors & Alerts Organizations Profiling Projects Releases Replays SCIM Seer Snapsho",
+          "checked_at": "2026-09-17T14:42:54.523920Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sentry provides public Webhooks API surface.",
+          "source_url": "https://github.com/getsentry/sentry-oauth-example",
+          "source_title": "GitHub - getsentry/sentry-oauth-example: Simple application with a Sentry OAuth provider that uses Sentryfor sign-in and queries the API · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Uh oh! There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this ",
+          "checked_at": "2026-09-17T14:42:54.523920Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - getsentry/sentry-oauth-example: Simple application with a Sentry OAuth provider that uses Sentryfor sign-in and queries the API · GitHub."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Sentry provides public SDK API surface.",
+          "source_url": "https://docs.sentry.io/api/",
+          "source_title": "API Reference",
+          "source_type": "Official API Reference",
+          "evidence_summary": "API Reference Authentication Paginating Results Permissions & Scopes Rate Limits Requests Crons Dashboards Discover & Performance Environments Events & Issues Explore Integration Platform Integrations Mobile Builds Monitors & Alerts Organizations Profiling Projects Releases Replays SCIM Seer Snapsho",
+          "checked_at": "2026-09-17T14:42:54.523920Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Reference."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Sentry exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Sentry.",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "Sentry supports authentication via OAuth2.",
+      "source_url": "https://docs.sentry.io/api/auth/",
+      "source_title": "Authentication",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "API Reference Authentication Paginating Results Permissions & Scopes Rate Limits Requests Crons Dashboards Discover & Performance Environments Events & Issues Explore Integration Platform Integrations Mobile Builds Monitors & Alerts Organizations Profiling Projects Releases Replays SCIM Seer Snapsho",
+      "checked_at": "2026-09-17T14:42:54.522887Z"
+    },
+    {
+      "claim": "Sentry provides public Webhooks API surface.",
+      "source_url": "https://github.com/getsentry/sentry-oauth-example",
+      "source_title": "GitHub - getsentry/sentry-oauth-example: Simple application with a Sentry OAuth provider that uses Sentryfor sign-in and queries the API · GitHub",
+      "source_type": "Official API Reference",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Uh oh! There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this ",
+      "checked_at": "2026-09-17T14:42:54.523920Z"
+    },
+    {
+      "claim": "Sentry provides public SDK API surface.",
+      "source_url": "https://docs.sentry.io/api/",
+      "source_title": "API Reference",
+      "source_type": "Official API Reference",
+      "evidence_summary": "API Reference Authentication Paginating Results Permissions & Scopes Rate Limits Requests Crons Dashboards Discover & Performance Environments Events & Issues Explore Integration Platform Integrations Mobile Builds Monitors & Alerts Organizations Profiling Projects Releases Replays SCIM Seer Snapsho",
+      "checked_at": "2026-09-17T14:42:54.523920Z"
+    },
+    {
+      "claim": "Sentry supports authentication via API Key.",
+      "source_url": "https://docs.sentry.io/api/auth/",
+      "source_title": "Authentication",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "API Reference Authentication Paginating Results Permissions & Scopes Rate Limits Requests Crons Dashboards Discover & Performance Environments Events & Issues Explore Integration Platform Integrations Mobile Builds Monitors & Alerts Organizations Profiling Projects Releases Replays SCIM Seer Snapsho",
+      "checked_at": "2026-09-17T14:42:54.722405Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.88,
+  "researched_at": "2026-09-17T14:42:54.524949Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T14:42:54.723408Z"
+}

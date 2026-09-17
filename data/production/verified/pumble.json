@@ -1,0 +1,136 @@
+{
+  "id": 25,
+  "app": "Pumble",
+  "category": "Communications and Messaging",
+  "website": "https://pumble.com/",
+  "one_line_description": "Pumble is a software platform in the Communications and Messaging category.",
+  "auth_methods": [
+    "API Key",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Pumble supports authentication via OAuth2.",
+          "source_url": "https://deepwiki.com/CAKE-com/pumble-node-sdk/7.1-apiclient-architecture-and-authentication",
+          "source_title": "ApiClient Architecture and Authentication | CAKE-com/pumble-node-sdk | DeepWiki",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "CAKE-com/pumble-node-sdk Core SDK Architecture App Configuration and Runner AddonService and Event Processing Context System and Composition Payload Types and Message Classification Addon Interface and Event Registration Messages and Message Components Channels, Users, and Workspaces Interactive Blo",
+          "checked_at": "2026-09-17T13:54:34.228304Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via ApiClient Architecture and Authentication | CAKE-com/pumble-node-sdk | DeepWiki: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Pumble supports authentication via API Key.",
+          "source_url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+          "source_title": "Pumble API Overview - Pumble Help",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "By using the Pumble API addon, you can interact with Pumble’s API documentation without using any complex authentication processes. This addon lets you generate an API key that allows you to send messages, reactions, and more via simple HTTP requests. The rate limit is up to 1000 requests per minute",
+          "checked_at": "2026-09-17T13:54:34.228304Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Pumble API Overview - Pumble Help: API key provisioning and request header authentication."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Pumble's developer portal or app management console.",
+  "api_types": [
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Pumble provides public Webhooks API surface.",
+          "source_url": "https://pumble.com/help/integrations/add-pumble-apps/incoming-webhooks-for-pumble/",
+          "source_title": "Incoming Webhooks for Pumble - Pumble Help",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Creating an incoming webhook Using incoming webhook to send a message With the incoming webhooks , you can easily post messages from other apps into Pumble. When you create an incoming webhook , you receive a unique URL by which you can send a JSON payload with the message text. To create a new inco",
+          "checked_at": "2026-09-17T13:54:54.287418Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Incoming Webhooks for Pumble - Pumble Help: Webhook event delivery and subscription endpoints."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Pumble exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Community/third-party MCP server available on GitHub: https://github.com/nitindermohan/pumble-mcp",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Pumble supports authentication via OAuth2.",
+      "source_url": "https://deepwiki.com/CAKE-com/pumble-node-sdk/7.1-apiclient-architecture-and-authentication",
+      "source_title": "ApiClient Architecture and Authentication | CAKE-com/pumble-node-sdk | DeepWiki",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "CAKE-com/pumble-node-sdk Core SDK Architecture App Configuration and Runner AddonService and Event Processing Context System and Composition Payload Types and Message Classification Addon Interface and Event Registration Messages and Message Components Channels, Users, and Workspaces Interactive Blo",
+      "checked_at": "2026-09-17T13:54:34.228304Z"
+    },
+    {
+      "claim": "Pumble supports authentication via API Key.",
+      "source_url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "source_title": "Pumble API Overview - Pumble Help",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "By using the Pumble API addon, you can interact with Pumble’s API documentation without using any complex authentication processes. This addon lets you generate an API key that allows you to send messages, reactions, and more via simple HTTP requests. The rate limit is up to 1000 requests per minute",
+      "checked_at": "2026-09-17T13:54:34.228304Z"
+    },
+    {
+      "claim": "Pumble offers self-serve credential creation for developers.",
+      "source_url": "https://pumble.com/register",
+      "source_title": "Pumbleâ¢ - Register",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Register for Pumble - Free Chat & Collaboration App for Teams",
+      "checked_at": "2026-09-17T13:54:37.716109Z"
+    },
+    {
+      "claim": "Pumble provides public Webhooks API surface.",
+      "source_url": "https://pumble.com/help/integrations/add-pumble-apps/incoming-webhooks-for-pumble/",
+      "source_title": "Incoming Webhooks for Pumble - Pumble Help",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Creating an incoming webhook Using incoming webhook to send a message With the incoming webhooks , you can easily post messages from other apps into Pumble. When you create an incoming webhook , you receive a unique URL by which you can send a JSON payload with the message text. To create a new inco",
+      "checked_at": "2026-09-17T13:54:54.287418Z"
+    },
+    {
+      "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Pumble.",
+      "source_url": "https://github.com/nitindermohan/pumble-mcp",
+      "source_title": "GitHub - nitindermohan/pumble-mcp: A standalone MCP server ...",
+      "source_type": "GitHub",
+      "evidence_summary": "Apr 1, 2026 · pumble-mcp connects to Pumble via socket mode WebSocket and buffers incoming events in an in-memory ring buffer (1000 events, oldest evicted first). AI agents subscribe to event types and poll for new events at their own pace — no push endpoint or public URL required.",
+      "checked_at": "2026-09-17T13:55:11.712967Z"
+    },
+    {
+      "claim": "Third-party community MCP server exists for Pumble.",
+      "source_url": "https://github.com/nitindermohan/pumble-mcp",
+      "source_title": "GitHub - nitindermohan/pumble-mcp: A standalone MCP server that gives AI agents complete access to the Pumble messaging platform. Built on the official Pumble SDK and the Model Context Protocol. · GitHub",
+      "source_type": "GitHub",
+      "evidence_summary": "Notifications You must be signed in to change notification settings A standalone MCP server that gives AI agents complete access to the Pumble messaging platform. Built on the official Pumble SDK and the Model Context Protocol . Getting Started · Tools · Real-Time Events · Architecture · Configurati",
+      "checked_at": "2026-09-17T13:55:14.545436Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.9,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.9,
+  "researched_at": "2026-09-17T13:55:11.712967Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 5/6 claims verified. 0 corrections applied.",
+  "verified_at": "2026-09-17T13:55:14.545436Z"
+}

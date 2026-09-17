@@ -1,0 +1,62 @@
+{
+  "id": 41,
+  "app": "Shopify",
+  "category": "Ecommerce",
+  "website": "https://shopify.dev/",
+  "one_line_description": "Shopify Dev Docs: Leading platform in Ecommerce.",
+  "auth_methods": [
+    "OAuth2"
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "GraphQL",
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Shopify exposes programmatic API endpoints covering primary platform objects and events.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Shopify.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+  "evidence": [
+    {
+      "claim": "Shopify supports authentication via OAuth2.",
+      "source_url": "https://shopify.dev/docs/api/usage/authentication",
+      "source_title": "Shopify API authentication",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "To call a Shopify API, your code sends an access token in a request header to authenticate the identity that token represents (your app or a buyer) and authorize what that identity can access. How you obtain the token and which header carries it vary by API . This page explains the shared model behi",
+      "checked_at": "2026-09-17T10:06:49.076811Z"
+    },
+    {
+      "claim": "Shopify provides comprehensive public API methods and developer integrations.",
+      "source_url": "https://shopify.dev/docs/api/admin-graphql/latest/objects/webhooksubscription",
+      "source_title": "WebhookSubscription - GraphQL Admin",
+      "source_type": "Official API Reference",
+      "evidence_summary": "A webhook subscription is a persisted data object created by an app using the REST Admin API or GraphQL Admin API.\nIt describes the topic that the app wants to receive, and a destination where\nShopify should send webhooks of the specified topic.\nWhen an event for a given topic occurs, the webhook su",
+      "checked_at": "2026-09-17T10:07:28.859616Z"
+    },
+    {
+      "claim": "Shopify provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+      "source_title": "About Storefront MCP",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "Connect any AI assistant to real-time commerce data from Shopify stores with Model Context Protocol (MCP) servers. Help customers search, ask, and buy in natural language. Build an AI shopping agent with MCP Build an AI shopping agent with MCP Build an AI shopping agent with MCP The Model Context Pr",
+      "checked_at": "2026-09-17T10:07:40.780058Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.3,
+  "api_confidence": 0.9,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.78,
+  "researched_at": "2026-09-17T10:07:40.780058Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

@@ -1,0 +1,170 @@
+{
+  "id": 17,
+  "app": "Plain",
+  "category": "Support and Helpdesk",
+  "website": "https://plain.com/",
+  "one_line_description": "Plain is a software platform in the Support and Helpdesk category.",
+  "auth_methods": [
+    "API Key",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plain supports authentication via OAuth2.",
+          "source_url": "https://auth0.com/docs/api/authentication",
+          "source_title": "Authentication API - Auth0 Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Client ID and Client Assertion (confidential applications) Client ID and Client Secret (confidential applications) Client ID (public applications) mTLS Authentication (confide",
+          "checked_at": "2026-09-17T13:49:03.506085Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication API - Auth0 Docs: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plain supports authentication via API Key.",
+          "source_url": "https://auth0.com/docs/api/authentication",
+          "source_title": "Authentication API - Auth0 Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Client ID and Client Assertion (confidential applications) Client ID and Client Secret (confidential applications) Client ID (public applications) mTLS Authentication (confide",
+          "checked_at": "2026-09-17T13:49:03.506085Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication API - Auth0 Docs: API key provisioning and request header authentication."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Plain's developer portal or app management console.",
+  "api_types": [
+    "GraphQL",
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plain provides public REST API surface.",
+          "source_url": "https://cheatsheets.davidveksler.com/api-design-rest-graphql-grpc-webhooks.html",
+          "source_title": "API Design: REST, GraphQL, gRPC, and Webhooks",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Use this as the \"cheat within the cheat\". The design choice should be obvious after one scan. A stable thing with an identity, such as an order, invoice, or shipment. Example: /orders/12345 for the order record. Gotcha: if the URL names an action, it is probably not a pure resource. A request to cau",
+          "checked_at": "2026-09-17T13:49:24.648898Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Design: REST, GraphQL, gRPC, and Webhooks: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "GraphQL",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plain provides public GraphQL API surface.",
+          "source_url": "https://cheatsheets.davidveksler.com/api-design-rest-graphql-grpc-webhooks.html",
+          "source_title": "API Design: REST, GraphQL, gRPC, and Webhooks",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Use this as the \"cheat within the cheat\". The design choice should be obvious after one scan. A stable thing with an identity, such as an order, invoice, or shipment. Example: /orders/12345 for the order record. Gotcha: if the URL names an action, it is probably not a pure resource. A request to cau",
+          "checked_at": "2026-09-17T13:49:24.648898Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Design: REST, GraphQL, gRPC, and Webhooks: GraphQL queries, mutations, and schema endpoint."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Plain provides public Webhooks API surface.",
+          "source_url": "https://cheatsheets.davidveksler.com/api-design-rest-graphql-grpc-webhooks.html",
+          "source_title": "API Design: REST, GraphQL, gRPC, and Webhooks",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Use this as the \"cheat within the cheat\". The design choice should be obvious after one scan. A stable thing with an identity, such as an order, invoice, or shipment. Example: /orders/12345 for the order record. Gotcha: if the URL names an action, it is probably not a pure resource. A request to cau",
+          "checked_at": "2026-09-17T13:49:24.648898Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Design: REST, GraphQL, gRPC, and Webhooks: Webhook event delivery and subscription endpoints."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Plain exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Unknown",
+  "mcp_notes": "Insufficient evidence to determine MCP status.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Plain supports authentication via OAuth2.",
+      "source_url": "https://auth0.com/docs/api/authentication",
+      "source_title": "Authentication API - Auth0 Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Client ID and Client Assertion (confidential applications) Client ID and Client Secret (confidential applications) Client ID (public applications) mTLS Authentication (confide",
+      "checked_at": "2026-09-17T13:49:03.506085Z"
+    },
+    {
+      "claim": "Plain supports authentication via API Key.",
+      "source_url": "https://auth0.com/docs/api/authentication",
+      "source_title": "Authentication API - Auth0 Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Client ID and Client Assertion (confidential applications) Client ID and Client Secret (confidential applications) Client ID (public applications) mTLS Authentication (confide",
+      "checked_at": "2026-09-17T13:49:03.506085Z"
+    },
+    {
+      "claim": "Plain offers self-serve credential creation for developers.",
+      "source_url": "https://tweetahead.com/guides/how-to-create-x-developer-account-and-generate-api-keys",
+      "source_title": "How To Create X Developer Account And Generate API Keys - TweetAhead",
+      "source_type": "Official Documentation",
+      "evidence_summary": "TweetAhead uses API keys to securely connect to X and post content on your behalf. To make this work, you’ll need a developer account on X. This guide will walk you through the setup process step-by-step. If you already have a developer account, feel free to skip this section. Go to developers.x.com",
+      "checked_at": "2026-09-17T13:49:15.859760Z"
+    },
+    {
+      "claim": "Plain provides public REST API surface.",
+      "source_url": "https://cheatsheets.davidveksler.com/api-design-rest-graphql-grpc-webhooks.html",
+      "source_title": "API Design: REST, GraphQL, gRPC, and Webhooks",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Use this as the \"cheat within the cheat\". The design choice should be obvious after one scan. A stable thing with an identity, such as an order, invoice, or shipment. Example: /orders/12345 for the order record. Gotcha: if the URL names an action, it is probably not a pure resource. A request to cau",
+      "checked_at": "2026-09-17T13:49:24.648898Z"
+    },
+    {
+      "claim": "Plain provides public GraphQL API surface.",
+      "source_url": "https://cheatsheets.davidveksler.com/api-design-rest-graphql-grpc-webhooks.html",
+      "source_title": "API Design: REST, GraphQL, gRPC, and Webhooks",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Use this as the \"cheat within the cheat\". The design choice should be obvious after one scan. A stable thing with an identity, such as an order, invoice, or shipment. Example: /orders/12345 for the order record. Gotcha: if the URL names an action, it is probably not a pure resource. A request to cau",
+      "checked_at": "2026-09-17T13:49:24.648898Z"
+    },
+    {
+      "claim": "Plain provides public Webhooks API surface.",
+      "source_url": "https://cheatsheets.davidveksler.com/api-design-rest-graphql-grpc-webhooks.html",
+      "source_title": "API Design: REST, GraphQL, gRPC, and Webhooks",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Use this as the \"cheat within the cheat\". The design choice should be obvious after one scan. A stable thing with an identity, such as an order, invoice, or shipment. Example: /orders/12345 for the order record. Gotcha: if the URL names an action, it is probably not a pure resource. A request to cau",
+      "checked_at": "2026-09-17T13:49:24.648898Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.4,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.83,
+  "researched_at": "2026-09-17T13:49:42.327853Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

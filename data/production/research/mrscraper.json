@@ -1,0 +1,70 @@
+{
+  "id": 54,
+  "app": "MrScraper",
+  "category": "Data, SEO and Scraping",
+  "website": "https://mrscraper.com/",
+  "one_line_description": "MrScraper: GitHub.",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "authentication_details": [
+    {
+      "method": "Unknown",
+      "status": "Unverified",
+      "evidence": [],
+      "confidence": 0.3,
+      "notes": "No authentication methods grounded with direct evidence."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "MrScraper provides public SDK API surface.",
+          "source_url": "https://github.com/modelcontextprotocol/servers",
+          "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+          "checked_at": "2026-09-17T14:30:05.544048Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "MrScraper exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol/servers).",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "MrScraper provides public SDK API surface.",
+      "source_url": "https://github.com/modelcontextprotocol/servers",
+      "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+      "source_type": "Official API Reference",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+      "checked_at": "2026-09-17T14:30:05.544048Z"
+    }
+  ],
+  "auth_confidence": 0.3,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.66,
+  "researched_at": "2026-09-17T14:30:05.544048Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Needs Verification",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

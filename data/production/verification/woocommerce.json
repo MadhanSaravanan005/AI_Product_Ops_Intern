@@ -1,0 +1,198 @@
+{
+  "app_id": 42,
+  "app": "WooCommerce",
+  "category": "Ecommerce",
+  "verified_at": "2026-09-17T14:04:30.774309Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 42,
+      "app": "WooCommerce",
+      "field": "website",
+      "original_value": "https://woocommerce.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://woocommerce.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 42,
+      "app": "WooCommerce",
+      "field": "authentication",
+      "original_value": [
+        "Unknown"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown authentication correctly recorded in absence of positive evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 42,
+      "app": "WooCommerce",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown access model verified in absence of gating documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 42,
+      "app": "WooCommerce",
+      "field": "api_surface",
+      "original_value": [
+        "Unknown"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown API surface correctly recorded in absence of public API documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 42,
+      "app": "WooCommerce",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.88,
+      "evidence": [],
+      "verification_notes": "No MCP Found status verified by deliberate registry/github search.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 42,
+      "app": "WooCommerce",
+      "field": "buildability",
+      "original_value": "Blocked",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Blocked verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 42,
+    "app": "WooCommerce",
+    "category": "Ecommerce",
+    "website": "https://woocommerce.com/",
+    "one_line_description": "Leading platform in Ecommerce providing developer APIs and integrations.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Unknown"
+    ],
+    "api_type_details": [],
+    "api_breadth": "Unknown",
+    "api_scope_notes": "No programmatic API surface could be grounded.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for WooCommerce.",
+    "buildability": "Blocked",
+    "main_blocker": "Missing public programmatic API endpoints for WooCommerce.",
+    "evidence": [],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.3,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.85,
+    "overall_confidence": 0.52,
+    "researched_at": "2026-09-17T14:04:30.770871Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Needs Verification",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 42,
+    "app": "WooCommerce",
+    "category": "Ecommerce",
+    "website": "https://woocommerce.com/",
+    "one_line_description": "Leading platform in Ecommerce providing developer APIs and integrations.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Unknown"
+    ],
+    "api_type_details": [],
+    "api_breadth": "Unknown",
+    "api_scope_notes": "No programmatic API surface could be grounded.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for WooCommerce.",
+    "buildability": "Blocked",
+    "main_blocker": "Missing public programmatic API endpoints for WooCommerce.",
+    "evidence": [],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.3,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.85,
+    "overall_confidence": 0.52,
+    "researched_at": "2026-09-17T14:04:30.770871Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Needs Verification",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T14:04:30.773780Z"
+  },
+  "summary_notes": "Production verification audit for WooCommerce: 6/6 verified."
+}

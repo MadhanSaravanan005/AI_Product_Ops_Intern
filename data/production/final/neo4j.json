@@ -1,0 +1,129 @@
+{
+  "id": 66,
+  "app": "Neo4j",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://neo4j.com/",
+  "one_line_description": "Neo4j: Neo4j documentation.",
+  "auth_methods": [
+    "Basic Auth",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Neo4j supports authentication via OAuth2.",
+          "source_url": "https://neo4j.com/docs/aura/api/authentication/",
+          "source_title": "Authentication - Neo4j Aura",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Is this page helpful? The Aura API uses OAuth 2.0 for API authentication. All tiers can create Aura API credentials.\nAPI credentials are linked to the user account, inheriting its capabilities and roles.\nThe API credentials never expire unless you delete them. To create credentials in the Aura conso",
+          "checked_at": "2026-09-17T14:41:26.110035Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication - Neo4j Aura."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Neo4j supports authentication via Bearer Token.",
+          "source_url": "https://neo4j.com/docs/aura/api/authentication/",
+          "source_title": "Authentication - Neo4j Aura",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Is this page helpful? The Aura API uses OAuth 2.0 for API authentication. All tiers can create Aura API credentials.\nAPI credentials are linked to the user account, inheriting its capabilities and roles.\nThe API credentials never expire unless you delete them. To create credentials in the Aura conso",
+          "checked_at": "2026-09-17T14:41:26.110035Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication - Neo4j Aura."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Neo4j supports authentication via Basic Auth.",
+          "source_url": "https://neo4j.com/docs/aura/api/authentication/",
+          "source_title": "Authentication - Neo4j Aura",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Is this page helpful? The Aura API uses OAuth 2.0 for API authentication. All tiers can create Aura API credentials.\nAPI credentials are linked to the user account, inheriting its capabilities and roles.\nThe API credentials never expire unless you delete them. To create credentials in the Aura conso",
+          "checked_at": "2026-09-17T14:41:26.110035Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication - Neo4j Aura."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Neo4j provides public SDK API surface.",
+          "source_url": "https://neo4j.com/docs/",
+          "source_title": "Neo4j documentation - Neo4j Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Get started with Neo4j Explore the capabilities of graph databases. Choose from fully and self-managed local and cloud deployments. Run Neo4j on Docker or Kubernetes. Learn how to write Cypher®, Neo4j’s declarative query language. Use Neo4j’s tools to explore, visualize, manage, monitor, and import ",
+          "checked_at": "2026-09-17T14:41:26.111068Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Neo4j documentation - Neo4j Documentation."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Neo4j exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Neo4j.",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "Neo4j supports authentication via OAuth2.",
+      "source_url": "https://neo4j.com/docs/aura/api/authentication/",
+      "source_title": "Authentication - Neo4j Aura",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Is this page helpful? The Aura API uses OAuth 2.0 for API authentication. All tiers can create Aura API credentials.\nAPI credentials are linked to the user account, inheriting its capabilities and roles.\nThe API credentials never expire unless you delete them. To create credentials in the Aura conso",
+      "checked_at": "2026-09-17T14:41:26.110035Z"
+    },
+    {
+      "claim": "Neo4j provides public SDK API surface.",
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j documentation - Neo4j Documentation",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Get started with Neo4j Explore the capabilities of graph databases. Choose from fully and self-managed local and cloud deployments. Run Neo4j on Docker or Kubernetes. Learn how to write Cypher®, Neo4j’s declarative query language. Use Neo4j’s tools to explore, visualize, manage, monitor, and import ",
+      "checked_at": "2026-09-17T14:41:26.111068Z"
+    },
+    {
+      "claim": "Neo4j supports authentication via Basic Auth.",
+      "source_url": "https://neo4j.com/docs/aura/api/authentication/",
+      "source_title": "Authentication - Neo4j Aura",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Is this page helpful? The Aura API uses OAuth 2.0 for API authentication. All tiers can create Aura API credentials.\nAPI credentials are linked to the user account, inheriting its capabilities and roles.\nThe API credentials never expire unless you delete them. To create credentials in the Aura conso",
+      "checked_at": "2026-09-17T14:41:26.287586Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.88,
+  "researched_at": "2026-09-17T14:41:26.111068Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T14:41:26.287586Z"
+}

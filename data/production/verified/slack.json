@@ -1,0 +1,78 @@
+{
+  "id": 21,
+  "app": "Slack",
+  "category": "Communications and Messaging",
+  "website": "https://slack.dev/",
+  "one_line_description": "Developer Hub: Leading platform in Communications and Messaging.",
+  "auth_methods": [
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST"
+  ],
+  "api_type_details": [],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Slack exposes programmatic API endpoints covering primary platform objects and events.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Slack.",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "Slack supports authentication via Personal Access Token, Bearer Token, OAuth2.",
+      "source_url": "https://docs.slack.dev/authentication/",
+      "source_title": "Authentication overview | Slack Developer Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+      "checked_at": "2026-09-17T09:25:13.612971Z"
+    },
+    {
+      "claim": "Slack provides comprehensive public API methods and developer integrations.",
+      "source_url": "https://docs.slack.dev/apis/",
+      "source_title": "Slack APIs | Slack Developer Docs",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Every Slack app and workflow has access to a range of APIs that provide access to read, write, and update many types of data in Slack. Read on to learn about our core APIs, and discover how to use them to make magic. The Web API supplies a collection of HTTP methods that underpin the majority of Sla",
+      "checked_at": "2026-09-17T09:25:38.284402Z"
+    },
+    {
+      "claim": "Slack provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://docs.slack.dev/ai/mcp-overview/",
+      "source_title": "MCP overview | Slack Developer Docs",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "Model Context Protocol (MCP) is an open standard designed to give AI agents a consistent, secure way to discover and use external data, tools, and services. MCP standardizes how applications provide context to LLMs. There are three components to MCP: the host, client, and server. The MCP host is the",
+      "checked_at": "2026-09-17T09:25:48.466852Z"
+    },
+    {
+      "claim": "Slack supports authentication via OAuth2.",
+      "source_url": "https://docs.slack.dev/authentication/",
+      "source_title": "Authentication overview | Slack Developer Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+      "checked_at": "2026-09-17T10:12:40.597572Z"
+    },
+    {
+      "claim": "Slack provides public REST API surface.",
+      "source_url": "https://docs.slack.dev/apis/",
+      "source_title": "Slack APIs | Slack Developer Docs",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Every Slack app and workflow has access to a range of APIs that provide access to read, write, and update many types of data in Slack. Read on to learn about our core APIs, and discover how to use them to make magic. The Web API supplies a collection of HTTP methods that underpin the majority of Sla",
+      "checked_at": "2026-09-17T10:12:45.692725Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.88,
+  "researched_at": "2026-09-17T09:25:48.467850Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 5/6 claims verified. 3 corrections applied.",
+  "verified_at": "2026-09-17T10:12:51.302985Z"
+}

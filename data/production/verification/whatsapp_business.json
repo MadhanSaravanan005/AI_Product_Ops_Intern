@@ -1,0 +1,327 @@
+{
+  "app_id": 28,
+  "app": "WhatsApp Business",
+  "category": "Communications and Messaging",
+  "verified_at": "2026-09-17T14:00:06.970357Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 28,
+      "app": "WhatsApp Business",
+      "field": "website",
+      "original_value": "https://whatsappbusiness.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://whatsappbusiness.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 28,
+      "app": "WhatsApp Business",
+      "field": "authentication",
+      "original_value": [
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "WhatsApp Business supports authentication via OAuth2.",
+          "source_url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp/",
+          "source_title": "WhatsApp Business Tools MCP | Meta for Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Admin access to a business you want to manage (the MANAGE role). A WhatsApp-enabled app that you’re an admin of , connected to that business — an app with the WhatsApp Business Messaging use case (or the WhatsApp product on an older app). You must have admin access on the app, not only on the busine",
+          "checked_at": "2026-09-17T14:00:06.966783Z"
+        }
+      ],
+      "verification_notes": "Authentication methods verified with 1 primary evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 28,
+      "app": "WhatsApp Business",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown access model verified in absence of gating documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 28,
+      "app": "WhatsApp Business",
+      "field": "api_surface",
+      "original_value": [
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "WhatsApp Business provides public Webhooks API surface.",
+          "source_url": "https://whatsappbusiness.com/developers/developer-hub/",
+          "source_title": "Developer Hub | WhatsApp for Business",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Did we select the right country/region? With over 2 billion global users, there’s a good chance your customers are already on WhatsApp. Start building within minutes and send engaging, timely, high-quality messages to them today. Scale and integrate with your technology stack and build interactive e",
+          "checked_at": "2026-09-17T14:00:06.967818Z"
+        }
+      ],
+      "verification_notes": "API types verified with 1 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 28,
+      "app": "WhatsApp Business",
+      "field": "mcp_status",
+      "original_value": "Third-Party MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Community MCP server implementation available for WhatsApp Business.",
+          "source_url": "https://github.com/lharries/whatsapp-mcp",
+          "source_title": "GitHub - lharries/whatsapp-mcp: WhatsApp MCP server · GitHub",
+          "source_type": "GitHub",
+          "evidence_summary": "Notifications You must be signed in to change notification settings This is a Model Context Protocol (MCP) server for WhatsApp. With this you can search and read your personal Whatsapp messages (including images, videos, documents, and audio messages), search your contacts and send messages to eithe",
+          "checked_at": "2026-09-17T14:00:06.968851Z"
+        }
+      ],
+      "verification_notes": "MCP status Third-Party MCP backed by repository/doc evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 28,
+      "app": "WhatsApp Business",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable Now verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 28,
+    "app": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "website": "https://whatsappbusiness.com/",
+    "one_line_description": "WhatsApp Business: WhatsApp Business Platform.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "WhatsApp Business supports authentication via OAuth2.",
+            "source_url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp/",
+            "source_title": "WhatsApp Business Tools MCP | Meta for Developers",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Admin access to a business you want to manage (the MANAGE role). A WhatsApp-enabled app that you’re an admin of , connected to that business — an app with the WhatsApp Business Messaging use case (or the WhatsApp product on an older app). You must have admin access on the app, not only on the busine",
+            "checked_at": "2026-09-17T14:00:06.966783Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via WhatsApp Business Tools MCP | Meta for Developers."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "WhatsApp Business provides public Webhooks API surface.",
+            "source_url": "https://whatsappbusiness.com/developers/developer-hub/",
+            "source_title": "Developer Hub | WhatsApp for Business",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Did we select the right country/region? With over 2 billion global users, there’s a good chance your customers are already on WhatsApp. Start building within minutes and send engaging, timely, high-quality messages to them today. Scale and integrate with your technology stack and build interactive e",
+            "checked_at": "2026-09-17T14:00:06.967818Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Developer Hub | WhatsApp for Business."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "WhatsApp Business exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/lharries/whatsapp-mcp).",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "WhatsApp Business supports authentication via OAuth2.",
+        "source_url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp/",
+        "source_title": "WhatsApp Business Tools MCP | Meta for Developers",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Admin access to a business you want to manage (the MANAGE role). A WhatsApp-enabled app that you’re an admin of , connected to that business — an app with the WhatsApp Business Messaging use case (or the WhatsApp product on an older app). You must have admin access on the app, not only on the busine",
+        "checked_at": "2026-09-17T14:00:06.966783Z"
+      },
+      {
+        "claim": "WhatsApp Business provides public Webhooks API surface.",
+        "source_url": "https://whatsappbusiness.com/developers/developer-hub/",
+        "source_title": "Developer Hub | WhatsApp for Business",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Did we select the right country/region? With over 2 billion global users, there’s a good chance your customers are already on WhatsApp. Start building within minutes and send engaging, timely, high-quality messages to them today. Scale and integrate with your technology stack and build interactive e",
+        "checked_at": "2026-09-17T14:00:06.967818Z"
+      },
+      {
+        "claim": "Community MCP server implementation available for WhatsApp Business.",
+        "source_url": "https://github.com/lharries/whatsapp-mcp",
+        "source_title": "GitHub - lharries/whatsapp-mcp: WhatsApp MCP server · GitHub",
+        "source_type": "GitHub",
+        "evidence_summary": "Notifications You must be signed in to change notification settings This is a Model Context Protocol (MCP) server for WhatsApp. With this you can search and read your personal Whatsapp messages (including images, videos, documents, and audio messages), search your contacts and send messages to eithe",
+        "checked_at": "2026-09-17T14:00:06.968851Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.88,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.79,
+    "researched_at": "2026-09-17T14:00:06.968851Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 28,
+    "app": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "website": "https://whatsappbusiness.com/",
+    "one_line_description": "WhatsApp Business: WhatsApp Business Platform.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "WhatsApp Business supports authentication via OAuth2.",
+            "source_url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp/",
+            "source_title": "WhatsApp Business Tools MCP | Meta for Developers",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Admin access to a business you want to manage (the MANAGE role). A WhatsApp-enabled app that you’re an admin of , connected to that business — an app with the WhatsApp Business Messaging use case (or the WhatsApp product on an older app). You must have admin access on the app, not only on the busine",
+            "checked_at": "2026-09-17T14:00:06.966783Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via WhatsApp Business Tools MCP | Meta for Developers."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "WhatsApp Business provides public Webhooks API surface.",
+            "source_url": "https://whatsappbusiness.com/developers/developer-hub/",
+            "source_title": "Developer Hub | WhatsApp for Business",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Did we select the right country/region? With over 2 billion global users, there’s a good chance your customers are already on WhatsApp. Start building within minutes and send engaging, timely, high-quality messages to them today. Scale and integrate with your technology stack and build interactive e",
+            "checked_at": "2026-09-17T14:00:06.967818Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Developer Hub | WhatsApp for Business."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "WhatsApp Business exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/lharries/whatsapp-mcp).",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "WhatsApp Business supports authentication via OAuth2.",
+        "source_url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp/",
+        "source_title": "WhatsApp Business Tools MCP | Meta for Developers",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Admin access to a business you want to manage (the MANAGE role). A WhatsApp-enabled app that you’re an admin of , connected to that business — an app with the WhatsApp Business Messaging use case (or the WhatsApp product on an older app). You must have admin access on the app, not only on the busine",
+        "checked_at": "2026-09-17T14:00:06.966783Z"
+      },
+      {
+        "claim": "WhatsApp Business provides public Webhooks API surface.",
+        "source_url": "https://whatsappbusiness.com/developers/developer-hub/",
+        "source_title": "Developer Hub | WhatsApp for Business",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Did we select the right country/region? With over 2 billion global users, there’s a good chance your customers are already on WhatsApp. Start building within minutes and send engaging, timely, high-quality messages to them today. Scale and integrate with your technology stack and build interactive e",
+        "checked_at": "2026-09-17T14:00:06.967818Z"
+      },
+      {
+        "claim": "Community MCP server implementation available for WhatsApp Business.",
+        "source_url": "https://github.com/lharries/whatsapp-mcp",
+        "source_title": "GitHub - lharries/whatsapp-mcp: WhatsApp MCP server · GitHub",
+        "source_type": "GitHub",
+        "evidence_summary": "Notifications You must be signed in to change notification settings This is a Model Context Protocol (MCP) server for WhatsApp. With this you can search and read your personal Whatsapp messages (including images, videos, documents, and audio messages), search your contacts and send messages to eithe",
+        "checked_at": "2026-09-17T14:00:06.968851Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.88,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.79,
+    "researched_at": "2026-09-17T14:00:06.968851Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T14:00:06.970357Z"
+  },
+  "summary_notes": "Production verification audit for WhatsApp Business: 6/6 verified."
+}

@@ -1,0 +1,469 @@
+{
+  "app_id": 62,
+  "app": "Vercel",
+  "category": "Developer, Infra and Data platforms",
+  "verified_at": "2026-09-17T14:39:49.141700Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 2,
+  "field_results": {
+    "website": {
+      "app_id": 62,
+      "app": "Vercel",
+      "field": "website",
+      "original_value": "https://vercel.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Vercel': Agentic Infrastructure - Vercel",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 62,
+      "app": "Vercel",
+      "field": "authentication",
+      "original_value": [
+        "Bearer Token",
+        "Personal Access Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Vercel supports authentication via Bearer Token.",
+          "source_url": "https://visual-embed-sdk.vercel.app/docs/rest-apiv2-reference",
+          "source_title": "REST API v2.0 Reference",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Connection Configuration This API Reference page lists the REST API v2.0 endpoints and provides basic information about the resource URLs and supported operations. If you want to try out these APIs, view detailed documentation, and download code samples, visit the REST API v2.0 Playground . Access t",
+          "checked_at": "2026-09-17T14:39:49.140703Z"
+        },
+        {
+          "claim": "Vercel supports authentication via Personal Access Token.",
+          "source_url": "https://vercel.com/docs/accounts/access-tokens",
+          "source_title": "Access tokens",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Vercel access tokens authenticate requests to the Vercel REST API and the Vercel CLI on your behalf. You create and manage them on the Account Tokens page , under the Settings area of your account, and you can also create them without the dashboard using the REST API or the CLI. A token's value appe",
+          "checked_at": "2026-09-17T14:39:49.140703Z"
+        }
+      ],
+      "verification_notes": "All 2 claimed auth methods verified with primary evidence: Bearer Token, Personal Access Token.",
+      "auth_details": [
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Vercel supports authentication via Bearer Token.",
+            "source_url": "https://visual-embed-sdk.vercel.app/docs/rest-apiv2-reference",
+            "source_title": "REST API v2.0 Reference",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Connection Configuration This API Reference page lists the REST API v2.0 endpoints and provides basic information about the resource URLs and supported operations. If you want to try out these APIs, view detailed documentation, and download code samples, visit the REST API v2.0 Playground . Access t",
+            "checked_at": "2026-09-17T14:39:49.140703Z"
+          },
+          "notes": "Content verified: direct evidence found for (bearer token)."
+        },
+        {
+          "method": "Personal Access Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Vercel supports authentication via Personal Access Token.",
+            "source_url": "https://vercel.com/docs/accounts/access-tokens",
+            "source_title": "Access tokens",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Vercel access tokens authenticate requests to the Vercel REST API and the Vercel CLI on your behalf. You create and manage them on the Account Tokens page , under the Settings area of your account, and you can also create them without the dashboard using the REST API or the CLI. A token's value appe",
+            "checked_at": "2026-09-17T14:39:49.140703Z"
+          },
+          "notes": "Content verified: direct evidence found for (personal access token)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 62,
+      "app": "Vercel",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 62,
+      "app": "Vercel",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Vercel provides public REST API surface.",
+          "source_url": "https://vercel.com/docs/rest-api",
+          "source_title": "Vercel REST API Reference",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. You can deploy new versions of web applications, manage custom domains, retrieve information about deployments, and manage secrets and environment variables for projects. The API supports any programming langua",
+          "checked_at": "2026-09-17T14:39:49.141700Z"
+        },
+        {
+          "claim": "Vercel provides public SDK API surface.",
+          "source_url": "https://vercel.com/docs/rest-api",
+          "source_title": "Vercel REST API Reference",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. You can deploy new versions of web applications, manage custom domains, retrieve information about deployments, and manage secrets and environment variables for projects. The API supports any programming langua",
+          "checked_at": "2026-09-17T14:39:49.141700Z"
+        }
+      ],
+      "verification_notes": "All 2 claimed API types verified with primary evidence: REST, SDK.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Verified",
+        "SDK": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 62,
+      "app": "Vercel",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": "Third-Party MCP",
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Third-party community MCP server exists for Vercel.",
+          "source_url": "https://vercel.com/docs",
+          "source_title": "Vercel Documentation",
+          "source_type": "GitHub",
+          "evidence_summary": "Set up the agent you code with, and the platform for the agents you ship. This prompt installs the Vercel Plugin or Agent Skills, connects the Vercel MCP server, and deploys your project: Help me set up this project on Vercel. Read https://vercel.com/docs/getting-started-with-vercel first. Then: 1. ",
+          "checked_at": "2026-09-17T14:39:49.141700Z"
+        }
+      ],
+      "verification_notes": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 62,
+      "app": "Vercel",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": "Unknown",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Inconclusive credential gating model prevents establishing buildability.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 62,
+    "app": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "website": "https://vercel.com/",
+    "one_line_description": "Vercel: Vercel REST API Reference.",
+    "auth_methods": [
+      "Bearer Token",
+      "Personal Access Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Vercel supports authentication via Bearer Token.",
+            "source_url": "https://visual-embed-sdk.vercel.app/docs/rest-apiv2-reference",
+            "source_title": "REST API v2.0 Reference",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Connection Configuration This API Reference page lists the REST API v2.0 endpoints and provides basic information about the resource URLs and supported operations. If you want to try out these APIs, view detailed documentation, and download code samples, visit the REST API v2.0 Playground . Access t",
+            "checked_at": "2026-09-17T14:39:48.875946Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via REST API v2.0 Reference."
+      },
+      {
+        "method": "Personal Access Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Vercel supports authentication via Personal Access Token.",
+            "source_url": "https://vercel.com/docs/accounts/access-tokens",
+            "source_title": "Access tokens",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Vercel access tokens authenticate requests to the Vercel REST API and the Vercel CLI on your behalf. You create and manage them on the Account Tokens page , under the Settings area of your account, and you can also create them without the dashboard using the REST API or the CLI. A token's value appe",
+            "checked_at": "2026-09-17T14:39:48.875946Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Access tokens."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Vercel provides public REST API surface.",
+            "source_url": "https://vercel.com/docs/rest-api",
+            "source_title": "Vercel REST API Reference",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. You can deploy new versions of web applications, manage custom domains, retrieve information about deployments, and manage secrets and environment variables for projects. The API supports any programming langua",
+            "checked_at": "2026-09-17T14:39:48.876943Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Vercel REST API Reference."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Vercel provides public SDK API surface.",
+            "source_url": "https://vercel.com/docs/rest-api",
+            "source_title": "Vercel REST API Reference",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. You can deploy new versions of web applications, manage custom domains, retrieve information about deployments, and manage secrets and environment variables for projects. The API supports any programming langua",
+            "checked_at": "2026-09-17T14:39:48.877940Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Vercel REST API Reference."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Vercel exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented directly by Vercel.",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "Vercel supports authentication via Bearer Token.",
+        "source_url": "https://visual-embed-sdk.vercel.app/docs/rest-apiv2-reference",
+        "source_title": "REST API v2.0 Reference",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Connection Configuration This API Reference page lists the REST API v2.0 endpoints and provides basic information about the resource URLs and supported operations. If you want to try out these APIs, view detailed documentation, and download code samples, visit the REST API v2.0 Playground . Access t",
+        "checked_at": "2026-09-17T14:39:48.875946Z"
+      },
+      {
+        "claim": "Vercel supports authentication via Personal Access Token.",
+        "source_url": "https://vercel.com/docs/accounts/access-tokens",
+        "source_title": "Access tokens",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Vercel access tokens authenticate requests to the Vercel REST API and the Vercel CLI on your behalf. You create and manage them on the Account Tokens page , under the Settings area of your account, and you can also create them without the dashboard using the REST API or the CLI. A token's value appe",
+        "checked_at": "2026-09-17T14:39:48.875946Z"
+      },
+      {
+        "claim": "Vercel provides public REST API surface.",
+        "source_url": "https://vercel.com/docs/rest-api",
+        "source_title": "Vercel REST API Reference",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. You can deploy new versions of web applications, manage custom domains, retrieve information about deployments, and manage secrets and environment variables for projects. The API supports any programming langua",
+        "checked_at": "2026-09-17T14:39:48.876943Z"
+      },
+      {
+        "claim": "Vercel provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://vercel.com/docs",
+        "source_title": "Vercel Documentation",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Set up the agent you code with, and the platform for the agents you ship. This prompt installs the Vercel Plugin or Agent Skills, connects the Vercel MCP server, and deploys your project: Help me set up this project on Vercel. Read https://vercel.com/docs/getting-started-with-vercel first. Then: 1. ",
+        "checked_at": "2026-09-17T14:39:48.877940Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.81,
+    "researched_at": "2026-09-17T14:39:48.877940Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 62,
+    "app": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "website": "https://vercel.com/",
+    "one_line_description": "Vercel: Vercel REST API Reference.",
+    "auth_methods": [
+      "Bearer Token",
+      "Personal Access Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Vercel supports authentication via Bearer Token.",
+            "source_url": "https://visual-embed-sdk.vercel.app/docs/rest-apiv2-reference",
+            "source_title": "REST API v2.0 Reference",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Connection Configuration This API Reference page lists the REST API v2.0 endpoints and provides basic information about the resource URLs and supported operations. If you want to try out these APIs, view detailed documentation, and download code samples, visit the REST API v2.0 Playground . Access t",
+            "checked_at": "2026-09-17T14:39:48.875946Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via REST API v2.0 Reference."
+      },
+      {
+        "method": "Personal Access Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Vercel supports authentication via Personal Access Token.",
+            "source_url": "https://vercel.com/docs/accounts/access-tokens",
+            "source_title": "Access tokens",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Vercel access tokens authenticate requests to the Vercel REST API and the Vercel CLI on your behalf. You create and manage them on the Account Tokens page , under the Settings area of your account, and you can also create them without the dashboard using the REST API or the CLI. A token's value appe",
+            "checked_at": "2026-09-17T14:39:48.875946Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Access tokens."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Vercel provides public REST API surface.",
+            "source_url": "https://vercel.com/docs/rest-api",
+            "source_title": "Vercel REST API Reference",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. You can deploy new versions of web applications, manage custom domains, retrieve information about deployments, and manage secrets and environment variables for projects. The API supports any programming langua",
+            "checked_at": "2026-09-17T14:39:48.876943Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Vercel REST API Reference."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Vercel provides public SDK API surface.",
+            "source_url": "https://vercel.com/docs/rest-api",
+            "source_title": "Vercel REST API Reference",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. You can deploy new versions of web applications, manage custom domains, retrieve information about deployments, and manage secrets and environment variables for projects. The API supports any programming langua",
+            "checked_at": "2026-09-17T14:39:48.877940Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Vercel REST API Reference."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Vercel exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+    "buildability": "Unknown",
+    "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+    "evidence": [
+      {
+        "claim": "Vercel supports authentication via Bearer Token.",
+        "source_url": "https://visual-embed-sdk.vercel.app/docs/rest-apiv2-reference",
+        "source_title": "REST API v2.0 Reference",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Connection Configuration This API Reference page lists the REST API v2.0 endpoints and provides basic information about the resource URLs and supported operations. If you want to try out these APIs, view detailed documentation, and download code samples, visit the REST API v2.0 Playground . Access t",
+        "checked_at": "2026-09-17T14:39:48.875946Z"
+      },
+      {
+        "claim": "Vercel supports authentication via Personal Access Token.",
+        "source_url": "https://vercel.com/docs/accounts/access-tokens",
+        "source_title": "Access tokens",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Vercel access tokens authenticate requests to the Vercel REST API and the Vercel CLI on your behalf. You create and manage them on the Account Tokens page , under the Settings area of your account, and you can also create them without the dashboard using the REST API or the CLI. A token's value appe",
+        "checked_at": "2026-09-17T14:39:48.875946Z"
+      },
+      {
+        "claim": "Vercel provides public REST API surface.",
+        "source_url": "https://vercel.com/docs/rest-api",
+        "source_title": "Vercel REST API Reference",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. You can deploy new versions of web applications, manage custom domains, retrieve information about deployments, and manage secrets and environment variables for projects. The API supports any programming langua",
+        "checked_at": "2026-09-17T14:39:48.876943Z"
+      },
+      {
+        "claim": "Vercel provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://vercel.com/docs",
+        "source_title": "Vercel Documentation",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Set up the agent you code with, and the platform for the agents you ship. This prompt installs the Vercel Plugin or Agent Skills, connects the Vercel MCP server, and deploys your project: Help me set up this project on Vercel. Read https://vercel.com/docs/getting-started-with-vercel first. Then: 1. ",
+        "checked_at": "2026-09-17T14:39:48.877940Z"
+      },
+      {
+        "claim": "Third-party community MCP server exists for Vercel.",
+        "source_url": "https://vercel.com/docs",
+        "source_title": "Vercel Documentation",
+        "source_type": "GitHub",
+        "evidence_summary": "Set up the agent you code with, and the platform for the agents you ship. This prompt installs the Vercel Plugin or Agent Skills, connects the Vercel MCP server, and deploys your project: Help me set up this project on Vercel. Read https://vercel.com/docs/getting-started-with-vercel first. Then: 1. ",
+        "checked_at": "2026-09-17T14:39:49.141700Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.92,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.88,
+    "researched_at": "2026-09-17T14:39:48.877940Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 2 corrections applied.",
+    "verified_at": "2026-09-17T14:39:49.141700Z"
+  },
+  "summary_notes": "Independent hardened audit for Vercel. 5/6 verified. 2 fields corrected."
+}

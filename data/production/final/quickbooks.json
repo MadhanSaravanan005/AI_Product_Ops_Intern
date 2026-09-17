@@ -1,0 +1,155 @@
+{
+  "id": 86,
+  "app": "QuickBooks",
+  "category": "Finance and Fintech",
+  "website": "https://quickbooks.com/",
+  "one_line_description": "QuickBooks: QuickBooks API: Complete Developer's Guide (2026).",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "QuickBooks supports authentication via OAuth2.",
+          "source_url": "https://dev.to/zuplo/quickbooks-api-complete-developers-guide-2026-3l77",
+          "source_title": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The QuickBooks API gives developers programmatic access to the accounting features that millions of small and mid-sized businesses rely on every day. Whether you're building an invoicing automation, syncing financial data with an ERP, or creating a custom dashboard from QuickBooks reports, this guid",
+          "checked_at": "2026-09-17T14:58:53.364741Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via QuickBooks API: Complete Developer's Guide (2026) - DEV Community."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "QuickBooks supports authentication via API Key.",
+          "source_url": "https://dev.to/zuplo/quickbooks-api-complete-developers-guide-2026-3l77",
+          "source_title": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The QuickBooks API gives developers programmatic access to the accounting features that millions of small and mid-sized businesses rely on every day. Whether you're building an invoicing automation, syncing financial data with an ERP, or creating a custom dashboard from QuickBooks reports, this guid",
+          "checked_at": "2026-09-17T14:58:53.364741Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via QuickBooks API: Complete Developer's Guide (2026) - DEV Community."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "QuickBooks supports authentication via Basic Auth.",
+          "source_url": "https://dev.to/zuplo/quickbooks-api-complete-developers-guide-2026-3l77",
+          "source_title": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The QuickBooks API gives developers programmatic access to the accounting features that millions of small and mid-sized businesses rely on every day. Whether you're building an invoicing automation, syncing financial data with an ERP, or creating a custom dashboard from QuickBooks reports, this guid",
+          "checked_at": "2026-09-17T14:58:53.364741Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via QuickBooks API: Complete Developer's Guide (2026) - DEV Community."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "QuickBooks provides public REST API surface.",
+          "source_url": "https://dev.to/zuplo/quickbooks-api-complete-developers-guide-2026-3l77",
+          "source_title": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The QuickBooks API gives developers programmatic access to the accounting features that millions of small and mid-sized businesses rely on every day. Whether you're building an invoicing automation, syncing financial data with an ERP, or creating a custom dashboard from QuickBooks reports, this guid",
+          "checked_at": "2026-09-17T14:58:53.364741Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via QuickBooks API: Complete Developer's Guide (2026) - DEV Community."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "QuickBooks provides public Webhooks API surface.",
+          "source_url": "https://dev.to/zuplo/quickbooks-api-complete-developers-guide-2026-3l77",
+          "source_title": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The QuickBooks API gives developers programmatic access to the accounting features that millions of small and mid-sized businesses rely on every day. Whether you're building an invoicing automation, syncing financial data with an ERP, or creating a custom dashboard from QuickBooks reports, this guid",
+          "checked_at": "2026-09-17T14:58:53.364741Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via QuickBooks API: Complete Developer's Guide (2026) - DEV Community."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "QuickBooks provides public SDK API surface.",
+          "source_url": "https://dev.to/zuplo/quickbooks-api-complete-developers-guide-2026-3l77",
+          "source_title": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The QuickBooks API gives developers programmatic access to the accounting features that millions of small and mid-sized businesses rely on every day. Whether you're building an invoicing automation, syncing financial data with an ERP, or creating a custom dashboard from QuickBooks reports, this guid",
+          "checked_at": "2026-09-17T14:58:53.365742Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via QuickBooks API: Complete Developer's Guide (2026) - DEV Community."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "QuickBooks exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for QuickBooks.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Buildable with standard developer rate limits and token scoping.",
+  "evidence": [
+    {
+      "claim": "QuickBooks supports authentication via OAuth2.",
+      "source_url": "https://dev.to/zuplo/quickbooks-api-complete-developers-guide-2026-3l77",
+      "source_title": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "The QuickBooks API gives developers programmatic access to the accounting features that millions of small and mid-sized businesses rely on every day. Whether you're building an invoicing automation, syncing financial data with an ERP, or creating a custom dashboard from QuickBooks reports, this guid",
+      "checked_at": "2026-09-17T14:58:53.364741Z"
+    },
+    {
+      "claim": "QuickBooks supports authentication via API Key.",
+      "source_url": "https://dev.to/zuplo/quickbooks-api-complete-developers-guide-2026-3l77",
+      "source_title": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "The QuickBooks API gives developers programmatic access to the accounting features that millions of small and mid-sized businesses rely on every day. Whether you're building an invoicing automation, syncing financial data with an ERP, or creating a custom dashboard from QuickBooks reports, this guid",
+      "checked_at": "2026-09-17T14:59:02.946408Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.9,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.85,
+  "overall_confidence": 0.68,
+  "researched_at": "2026-09-17T14:58:53.365742Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Needs Verification",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 2/6 claims verified. 0 corrections applied.",
+  "verified_at": "2026-09-17T14:59:02.948135Z"
+}

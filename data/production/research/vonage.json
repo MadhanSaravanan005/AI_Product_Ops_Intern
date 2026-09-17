@@ -1,0 +1,171 @@
+{
+  "id": 30,
+  "app": "Vonage",
+  "category": "Communications and Messaging",
+  "website": "https://developer.vonage.com/",
+  "one_line_description": "Vonage: Developer Documentation.",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "Bearer Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Vonage supports authentication via API Key.",
+          "source_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+          "source_title": "Authentication - API Concepts | Vonage API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Vonage APIs support different authentication methods depending on which product you are using: 1 Messages supports both JWT and Basic authentication, however basic authentication does not support webhooks or advanced features such as ACLs. For most use-cases we recommend JWT Authentication. See Mess",
+          "checked_at": "2026-09-17T14:01:00.297909Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication - API Concepts | Vonage API Documentation."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Vonage supports authentication via Bearer Token.",
+          "source_url": "https://developer.vonage.com/en/verify/concepts/authentication",
+          "source_title": "Authentication API Guide | Vonage API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Verify API supports two types of authentication: Verify V2 supports two authentication methods: Basic authentication and JWT Bearer authentication. Understanding the differences between them is important to ensure a smooth migration and to take full advantage of V2 capabilities. You can use either o",
+          "checked_at": "2026-09-17T14:01:00.297909Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication API Guide | Vonage API Documentation."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Vonage supports authentication via Basic Auth.",
+          "source_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+          "source_title": "Authentication - API Concepts | Vonage API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Vonage APIs support different authentication methods depending on which product you are using: 1 Messages supports both JWT and Basic authentication, however basic authentication does not support webhooks or advanced features such as ACLs. For most use-cases we recommend JWT Authentication. See Mess",
+          "checked_at": "2026-09-17T14:01:00.297909Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication - API Concepts | Vonage API Documentation."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Vonage provides public REST API surface.",
+          "source_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+          "source_title": "Authentication - API Concepts | Vonage API Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Vonage APIs support different authentication methods depending on which product you are using: 1 Messages supports both JWT and Basic authentication, however basic authentication does not support webhooks or advanced features such as ACLs. For most use-cases we recommend JWT Authentication. See Mess",
+          "checked_at": "2026-09-17T14:01:00.297909Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication - API Concepts | Vonage API Documentation."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Vonage provides public Webhooks API surface.",
+          "source_url": "https://developer.vonage.com/api",
+          "source_title": "API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "For SMS, MMS, Facebook, WhatsApp, Viber, Email and much more: Messages API allows easy integration with\n multiple messaging platforms through a single integration. This API is currently in Beta, so\n                    expect some changes before it is production-ready. Use the Dispatch API for a mult",
+          "checked_at": "2026-09-17T14:01:00.297909Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Vonage provides public SDK API surface.",
+          "source_url": "https://developer.vonage.com/en/documentation",
+          "source_title": "Developer Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Multi-channel messaging that integrates with: 10DLC APIs allow you to register your brand, register a campaign and many more. Programmatically register and manage toll-free numbers. Manage various aspects of the messaging channels supported by the Vonage Messages API. Programmatically send and recei",
+          "checked_at": "2026-09-17T14:01:00.297909Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Developer Documentation."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Vonage exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Vonage.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Developer account required to obtain access credentials.",
+  "evidence": [
+    {
+      "claim": "Vonage supports authentication via API Key.",
+      "source_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "source_title": "Authentication - API Concepts | Vonage API Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Vonage APIs support different authentication methods depending on which product you are using: 1 Messages supports both JWT and Basic authentication, however basic authentication does not support webhooks or advanced features such as ACLs. For most use-cases we recommend JWT Authentication. See Mess",
+      "checked_at": "2026-09-17T14:01:00.297909Z"
+    },
+    {
+      "claim": "Vonage supports authentication via Bearer Token.",
+      "source_url": "https://developer.vonage.com/en/verify/concepts/authentication",
+      "source_title": "Authentication API Guide | Vonage API Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Verify API supports two types of authentication: Verify V2 supports two authentication methods: Basic authentication and JWT Bearer authentication. Understanding the differences between them is important to ensure a smooth migration and to take full advantage of V2 capabilities. You can use either o",
+      "checked_at": "2026-09-17T14:01:00.297909Z"
+    },
+    {
+      "claim": "Vonage provides public Webhooks API surface.",
+      "source_url": "https://developer.vonage.com/api",
+      "source_title": "API",
+      "source_type": "Official API Reference",
+      "evidence_summary": "For SMS, MMS, Facebook, WhatsApp, Viber, Email and much more: Messages API allows easy integration with\n multiple messaging platforms through a single integration. This API is currently in Beta, so\n                    expect some changes before it is production-ready. Use the Dispatch API for a mult",
+      "checked_at": "2026-09-17T14:01:00.297909Z"
+    },
+    {
+      "claim": "Vonage provides public SDK API surface.",
+      "source_url": "https://developer.vonage.com/en/documentation",
+      "source_title": "Developer Documentation",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Multi-channel messaging that integrates with: 10DLC APIs allow you to register your brand, register a campaign and many more. Programmatically register and manage toll-free numbers. Manage various aspects of the messaging channels supported by the Vonage Messages API. Programmatically send and recei",
+      "checked_at": "2026-09-17T14:01:00.297909Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.76,
+  "researched_at": "2026-09-17T14:01:00.297909Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

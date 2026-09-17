@@ -1,0 +1,372 @@
+{
+  "app_id": 48,
+  "app": "Gumroad",
+  "category": "Ecommerce",
+  "verified_at": "2026-09-17T14:06:24.435682Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 48,
+      "app": "Gumroad",
+      "field": "website",
+      "original_value": "https://gumroad.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://gumroad.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 48,
+      "app": "Gumroad",
+      "field": "authentication",
+      "original_value": [
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Gumroad supports authentication via OAuth2.",
+          "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+          "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+          "checked_at": "2026-09-17T14:06:24.431429Z"
+        }
+      ],
+      "verification_notes": "Authentication methods verified with 1 primary evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 48,
+      "app": "Gumroad",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [
+        {
+          "claim": "Gumroad offers self-serve credential creation for developers.",
+          "source_url": "https://gumroad.com/help/article/280-create-application-api",
+          "source_title": "Create an application for the API - Gumroad Help Center",
+          "source_type": "Official Documentation",
+          "evidence_summary": "In this article: For just your Gumroad account Generating an access token For any Gumroad account Sign in with Gumroad Using a Redirect URI Enabling your applic",
+          "checked_at": "2026-09-17T14:06:24.432433Z"
+        }
+      ],
+      "verification_notes": "Access model Free Self-Serve verified by documentation evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 48,
+      "app": "Gumroad",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.4,
+      "evidence": [],
+      "verification_notes": "Claimed API types lacked primary documentation evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 48,
+      "app": "Gumroad",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.88,
+      "evidence": [],
+      "verification_notes": "No MCP Found status verified by deliberate registry/github search.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 48,
+      "app": "Gumroad",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable With Restrictions verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 48,
+    "app": "Gumroad",
+    "category": "Ecommerce",
+    "website": "https://gumroad.com/",
+    "one_line_description": "Gumroad: Create an application for the API.",
+    "auth_methods": [
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Gumroad supports authentication via OAuth2.",
+            "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+            "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+            "checked_at": "2026-09-17T14:06:24.431429Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+      },
+      {
+        "method": "Personal Access Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Gumroad supports authentication via Personal Access Token.",
+            "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+            "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+            "checked_at": "2026-09-17T14:06:24.432433Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Gumroad provides public REST API surface.",
+            "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+            "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+            "checked_at": "2026-09-17T14:06:24.432433Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Gumroad provides public Webhooks API surface.",
+            "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+            "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+            "checked_at": "2026-09-17T14:06:24.432433Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Gumroad exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Gumroad.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and token scoping.",
+    "evidence": [
+      {
+        "claim": "Gumroad supports authentication via OAuth2.",
+        "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+        "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+        "checked_at": "2026-09-17T14:06:24.431429Z"
+      },
+      {
+        "claim": "Gumroad offers self-serve credential creation for developers.",
+        "source_url": "https://gumroad.com/help/article/280-create-application-api",
+        "source_title": "Create an application for the API - Gumroad Help Center",
+        "source_type": "Official Documentation",
+        "evidence_summary": "In this article: For just your Gumroad account Generating an access token For any Gumroad account Sign in with Gumroad Using a Redirect URI Enabling your applic",
+        "checked_at": "2026-09-17T14:06:24.432433Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.9,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.85,
+    "overall_confidence": 0.89,
+    "researched_at": "2026-09-17T14:06:24.432433Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 48,
+    "app": "Gumroad",
+    "category": "Ecommerce",
+    "website": "https://gumroad.com/",
+    "one_line_description": "Gumroad: Create an application for the API.",
+    "auth_methods": [
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Gumroad supports authentication via OAuth2.",
+            "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+            "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+            "checked_at": "2026-09-17T14:06:24.431429Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+      },
+      {
+        "method": "Personal Access Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Gumroad supports authentication via Personal Access Token.",
+            "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+            "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+            "checked_at": "2026-09-17T14:06:24.432433Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Gumroad provides public REST API surface.",
+            "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+            "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+            "checked_at": "2026-09-17T14:06:24.432433Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Gumroad provides public Webhooks API surface.",
+            "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+            "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+            "checked_at": "2026-09-17T14:06:24.432433Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Gumroad exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Gumroad.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and token scoping.",
+    "evidence": [
+      {
+        "claim": "Gumroad supports authentication via OAuth2.",
+        "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+        "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+        "checked_at": "2026-09-17T14:06:24.431429Z"
+      },
+      {
+        "claim": "Gumroad offers self-serve credential creation for developers.",
+        "source_url": "https://gumroad.com/help/article/280-create-application-api",
+        "source_title": "Create an application for the API - Gumroad Help Center",
+        "source_type": "Official Documentation",
+        "evidence_summary": "In this article: For just your Gumroad account Generating an access token For any Gumroad account Sign in with Gumroad Using a Redirect URI Enabling your applic",
+        "checked_at": "2026-09-17T14:06:24.432433Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.9,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.85,
+    "overall_confidence": 0.89,
+    "researched_at": "2026-09-17T14:06:24.432433Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Automated production verification audit. 5/6 claims verified.",
+    "verified_at": "2026-09-17T14:06:24.435682Z"
+  },
+  "summary_notes": "Production verification audit for Gumroad: 5/6 verified."
+}

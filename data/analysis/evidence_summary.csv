@@ -1,0 +1,9 @@
+Metric,Value
+Total Evaluated Applications,100
+Applications with >= 1 Evidence Item,95 (95.0%)
+Total Evidence Citations,355
+Average Evidence per App,3.55
+Overall First-Pass Claim Accuracy,73.0%
+Overall Post-Verification Claim Accuracy,81.0%
+Total Verification Corrections,48
+Average Confidence Score,0.8

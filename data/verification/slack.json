@@ -1,0 +1,333 @@
+{
+  "app_id": 21,
+  "app": "Slack",
+  "category": "Communications and Messaging",
+  "verified_at": "2026-09-17T10:12:51.302985Z",
+  "verifier_version": "1.0.0",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 3,
+  "field_results": {
+    "website": {
+      "app_id": 21,
+      "app": "Slack",
+      "field": "website",
+      "original_value": "https://slack.dev/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Slack': Developer Hub | Slack Developers",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 21,
+      "app": "Slack",
+      "field": "authentication",
+      "original_value": [
+        "Bearer Token",
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": [
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Slack supports authentication via OAuth2.",
+          "source_url": "https://docs.slack.dev/authentication/",
+          "source_title": "Authentication overview | Slack Developer Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+          "checked_at": "2026-09-17T10:12:40.597572Z"
+        },
+        {
+          "claim": "Slack supports authentication via Personal Access Token.",
+          "source_url": "https://docs.slack.dev/authentication/",
+          "source_title": "Authentication overview | Slack Developer Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+          "checked_at": "2026-09-17T10:12:40.926176Z"
+        }
+      ],
+      "verification_notes": "Partially verified: 2/3 methods confirmed (OAuth2, Personal Access Token). Unverified methods lacked direct documentation evidence.",
+      "auth_details": [
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Retrieved documentation lacked specific supporting evidence for Bearer Token."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Slack supports authentication via OAuth2.",
+            "source_url": "https://docs.slack.dev/authentication/",
+            "source_title": "Authentication overview | Slack Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+            "checked_at": "2026-09-17T10:12:40.597572Z"
+          },
+          "notes": "Content verified: direct evidence found for (oauth 2)."
+        },
+        {
+          "method": "Personal Access Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Slack supports authentication via Personal Access Token.",
+            "source_url": "https://docs.slack.dev/authentication/",
+            "source_title": "Authentication overview | Slack Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+            "checked_at": "2026-09-17T10:12:40.926176Z"
+          },
+          "notes": "Content verified: direct evidence found for (user token)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 21,
+      "app": "Slack",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 21,
+      "app": "Slack",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": [
+        "REST"
+      ],
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Slack provides public REST API surface.",
+          "source_url": "https://docs.slack.dev/apis/",
+          "source_title": "Slack APIs | Slack Developer Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Every Slack app and workflow has access to a range of APIs that provide access to read, write, and update many types of data in Slack. Read on to learn about our core APIs, and discover how to use them to make magic. The Web API supplies a collection of HTTP methods that underpin the majority of Sla",
+          "checked_at": "2026-09-17T10:12:45.692725Z"
+        }
+      ],
+      "verification_notes": "Partially verified: 1/3 API types confirmed (REST). Unverified types lacked documentation evidence.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Verified",
+        "SDK": "Insufficient Evidence",
+        "Webhooks": "Insufficient Evidence"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 21,
+      "app": "Slack",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Slack provides official Model Context Protocol (MCP) server support.",
+          "source_url": "https://docs.slack.dev/ai/mcp-overview/",
+          "source_title": "MCP overview | Slack Developer Docs",
+          "source_type": "Official MCP Documentation",
+          "evidence_summary": "Model Context Protocol (MCP) is an open standard designed to give AI agents a consistent, secure way to discover and use external data, tools, and services. MCP standardizes how applications provide context to LLMs. There are three components to MCP: the host, client, and server. The MCP host is the",
+          "checked_at": "2026-09-17T10:12:51.302985Z"
+        }
+      ],
+      "verification_notes": "Official MCP server verified via vendor documentation at https://docs.slack.dev/ai/mcp-overview/.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 21,
+      "app": "Slack",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": "Unknown",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Inconclusive credential gating model prevents establishing buildability.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 21,
+    "app": "Slack",
+    "category": "Communications and Messaging",
+    "website": "https://slack.dev/",
+    "one_line_description": "Developer Hub: Leading platform in Communications and Messaging.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Slack exposes programmatic API endpoints covering primary platform objects and events.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Slack.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+    "evidence": [
+      {
+        "claim": "Slack supports authentication via Personal Access Token, Bearer Token, OAuth2.",
+        "source_url": "https://docs.slack.dev/authentication/",
+        "source_title": "Authentication overview | Slack Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+        "checked_at": "2026-09-17T09:25:13.612971Z"
+      },
+      {
+        "claim": "Slack provides comprehensive public API methods and developer integrations.",
+        "source_url": "https://docs.slack.dev/apis/",
+        "source_title": "Slack APIs | Slack Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Every Slack app and workflow has access to a range of APIs that provide access to read, write, and update many types of data in Slack. Read on to learn about our core APIs, and discover how to use them to make magic. The Web API supplies a collection of HTTP methods that underpin the majority of Sla",
+        "checked_at": "2026-09-17T09:25:38.284402Z"
+      },
+      {
+        "claim": "Slack provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://docs.slack.dev/ai/mcp-overview/",
+        "source_title": "MCP overview | Slack Developer Docs",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Model Context Protocol (MCP) is an open standard designed to give AI agents a consistent, secure way to discover and use external data, tools, and services. MCP standardizes how applications provide context to LLMs. There are three components to MCP: the host, client, and server. The MCP host is the",
+        "checked_at": "2026-09-17T09:25:48.466852Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.3,
+    "api_confidence": 0.9,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.78,
+    "researched_at": "2026-09-17T09:25:48.467850Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 21,
+    "app": "Slack",
+    "category": "Communications and Messaging",
+    "website": "https://slack.dev/",
+    "one_line_description": "Developer Hub: Leading platform in Communications and Messaging.",
+    "auth_methods": [
+      "OAuth2",
+      "Personal Access Token"
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Slack exposes programmatic API endpoints covering primary platform objects and events.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Slack.",
+    "buildability": "Unknown",
+    "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+    "evidence": [
+      {
+        "claim": "Slack supports authentication via Personal Access Token, Bearer Token, OAuth2.",
+        "source_url": "https://docs.slack.dev/authentication/",
+        "source_title": "Authentication overview | Slack Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+        "checked_at": "2026-09-17T09:25:13.612971Z"
+      },
+      {
+        "claim": "Slack provides comprehensive public API methods and developer integrations.",
+        "source_url": "https://docs.slack.dev/apis/",
+        "source_title": "Slack APIs | Slack Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Every Slack app and workflow has access to a range of APIs that provide access to read, write, and update many types of data in Slack. Read on to learn about our core APIs, and discover how to use them to make magic. The Web API supplies a collection of HTTP methods that underpin the majority of Sla",
+        "checked_at": "2026-09-17T09:25:38.284402Z"
+      },
+      {
+        "claim": "Slack provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://docs.slack.dev/ai/mcp-overview/",
+        "source_title": "MCP overview | Slack Developer Docs",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Model Context Protocol (MCP) is an open standard designed to give AI agents a consistent, secure way to discover and use external data, tools, and services. MCP standardizes how applications provide context to LLMs. There are three components to MCP: the host, client, and server. The MCP host is the",
+        "checked_at": "2026-09-17T09:25:48.466852Z"
+      },
+      {
+        "claim": "Slack supports authentication via OAuth2.",
+        "source_url": "https://docs.slack.dev/authentication/",
+        "source_title": "Authentication overview | Slack Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+        "checked_at": "2026-09-17T10:12:40.597572Z"
+      },
+      {
+        "claim": "Slack provides public REST API surface.",
+        "source_url": "https://docs.slack.dev/apis/",
+        "source_title": "Slack APIs | Slack Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Every Slack app and workflow has access to a range of APIs that provide access to read, write, and update many types of data in Slack. Read on to learn about our core APIs, and discover how to use them to make magic. The Web API supplies a collection of HTTP methods that underpin the majority of Sla",
+        "checked_at": "2026-09-17T10:12:45.692725Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.88,
+    "researched_at": "2026-09-17T09:25:48.467850Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 5/6 claims verified. 3 corrections applied.",
+    "verified_at": "2026-09-17T10:12:51.302985Z"
+  },
+  "summary_notes": "Independent hardened audit for Slack. 5/6 verified. 3 fields corrected."
+}

@@ -1,0 +1,172 @@
+{
+  "id": 73,
+  "app": "Linear",
+  "category": "Productivity and Project Management",
+  "website": "https://linear.app/",
+  "one_line_description": "Linear: OAuth 2.0 authentication – Linear Developers.",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Linear supports authentication via OAuth2.",
+          "source_url": "https://linear.app/developers/oauth-2-0-authentication",
+          "source_title": "OAuth 2.0 authentication – Linear Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Linear supports OAuth2 authentication, which is recommended if you’re building applications to integrate with Linear. It is highly recommended you create a workspace for the purpose of managing the OAuth2 Application, as each admin user will have access. All OAuth2 applications were migrated to the ",
+          "checked_at": "2026-09-17T14:50:59.555887Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth 2.0 authentication – Linear Developers."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Linear supports authentication via API Key.",
+          "source_url": "https://linear.app/developers/oauth-2-0-authentication",
+          "source_title": "OAuth 2.0 authentication – Linear Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Linear supports OAuth2 authentication, which is recommended if you’re building applications to integrate with Linear. It is highly recommended you create a workspace for the purpose of managing the OAuth2 Application, as each admin user will have access. All OAuth2 applications were migrated to the ",
+          "checked_at": "2026-09-17T14:50:59.557395Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth 2.0 authentication – Linear Developers."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Linear supports authentication via Bearer Token.",
+          "source_url": "https://linear.app/developers/oauth-2-0-authentication",
+          "source_title": "OAuth 2.0 authentication – Linear Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Linear supports OAuth2 authentication, which is recommended if you’re building applications to integrate with Linear. It is highly recommended you create a workspace for the purpose of managing the OAuth2 Application, as each admin user will have access. All OAuth2 applications were migrated to the ",
+          "checked_at": "2026-09-17T14:50:59.557395Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth 2.0 authentication – Linear Developers."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Linear supports authentication via Basic Auth.",
+          "source_url": "https://linear.app/developers/oauth-2-0-authentication",
+          "source_title": "OAuth 2.0 authentication – Linear Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Linear supports OAuth2 authentication, which is recommended if you’re building applications to integrate with Linear. It is highly recommended you create a workspace for the purpose of managing the OAuth2 Application, as each admin user will have access. All OAuth2 applications were migrated to the ",
+          "checked_at": "2026-09-17T14:50:59.557395Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth 2.0 authentication – Linear Developers."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "GraphQL",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "GraphQL",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Linear provides public GraphQL API surface.",
+          "source_url": "https://linear.app/developers/oauth-2-0-authentication",
+          "source_title": "OAuth 2.0 authentication – Linear Developers",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Linear supports OAuth2 authentication, which is recommended if you’re building applications to integrate with Linear. It is highly recommended you create a workspace for the purpose of managing the OAuth2 Application, as each admin user will have access. All OAuth2 applications were migrated to the ",
+          "checked_at": "2026-09-17T14:50:59.557395Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth 2.0 authentication – Linear Developers."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Linear provides public Webhooks API surface.",
+          "source_url": "https://linear.app/developers/oauth-2-0-authentication",
+          "source_title": "OAuth 2.0 authentication – Linear Developers",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Linear supports OAuth2 authentication, which is recommended if you’re building applications to integrate with Linear. It is highly recommended you create a workspace for the purpose of managing the OAuth2 Application, as each admin user will have access. All OAuth2 applications were migrated to the ",
+          "checked_at": "2026-09-17T14:50:59.557395Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth 2.0 authentication – Linear Developers."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Linear provides public SDK API surface.",
+          "source_url": "https://linear.app/developers/graphql",
+          "source_title": "Getting started – Linear Developers",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Linear’s public API is built using GraphQL. It’s the same API we use internally for developing our applications. If you are new to GraphQL, Apollo has resources for beginners . The official GraphQL documentation is another good starting point. Linear’s GraphQL endpoint is: It supports introspection ",
+          "checked_at": "2026-09-17T14:50:59.558698Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Getting started – Linear Developers."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Linear exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Linear.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Developer account required to obtain access credentials.",
+  "evidence": [
+    {
+      "claim": "Linear supports authentication via OAuth2.",
+      "source_url": "https://linear.app/developers/oauth-2-0-authentication",
+      "source_title": "OAuth 2.0 authentication – Linear Developers",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Linear supports OAuth2 authentication, which is recommended if you’re building applications to integrate with Linear. It is highly recommended you create a workspace for the purpose of managing the OAuth2 Application, as each admin user will have access. All OAuth2 applications were migrated to the ",
+      "checked_at": "2026-09-17T14:50:59.555887Z"
+    },
+    {
+      "claim": "Linear provides public SDK API surface.",
+      "source_url": "https://linear.app/developers/graphql",
+      "source_title": "Getting started – Linear Developers",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Linear’s public API is built using GraphQL. It’s the same API we use internally for developing our applications. If you are new to GraphQL, Apollo has resources for beginners . The official GraphQL documentation is another good starting point. Linear’s GraphQL endpoint is: It supports introspection ",
+      "checked_at": "2026-09-17T14:50:59.558698Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.76,
+  "researched_at": "2026-09-17T14:50:59.558698Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

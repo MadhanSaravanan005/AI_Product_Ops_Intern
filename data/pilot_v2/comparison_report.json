@@ -1,0 +1,94 @@
+{
+  "comparison_title": "10-Application Pilot Comparison: Baseline (V1) vs Grounded (V2)",
+  "generated_at": "2026-09-17T13:15:16.714718+00:00",
+  "summary": {
+    "First-Pass Accuracy (%)": {
+      "old_pilot_v1": 55.0,
+      "improved_pilot_v2": 80.0,
+      "difference": 25.0
+    },
+    "Post-Verification Accuracy (%)": {
+      "old_pilot_v1": 85.0,
+      "improved_pilot_v2": 91.7,
+      "difference": 6.7
+    },
+    "Corrections Made (Count)": {
+      "old_pilot_v1": 18,
+      "improved_pilot_v2": 7,
+      "difference": -11
+    },
+    "Insufficient Evidence Claims (Count)": {
+      "old_pilot_v1": 9,
+      "improved_pilot_v2": 5,
+      "difference": -4
+    }
+  },
+  "field_accuracy_comparison": {
+    "authentication": {
+      "first_pass_accuracy_v1": 20.0,
+      "first_pass_accuracy_v2": 90.0,
+      "first_pass_accuracy_diff": 70.0,
+      "post_verif_accuracy_v1": 70.0,
+      "post_verif_accuracy_v2": 100.0,
+      "post_verif_accuracy_diff": 30.0,
+      "corrections_v1": 5,
+      "corrections_v2": 1,
+      "corrections_diff": -4
+    },
+    "api_surface": {
+      "first_pass_accuracy_v1": 30.0,
+      "first_pass_accuracy_v2": 90.0,
+      "first_pass_accuracy_diff": 60.0,
+      "post_verif_accuracy_v1": 90.0,
+      "post_verif_accuracy_v2": 100.0,
+      "post_verif_accuracy_diff": 10.0,
+      "corrections_v1": 6,
+      "corrections_v2": 1,
+      "corrections_diff": -5
+    },
+    "access_model": {
+      "first_pass_accuracy_v1": 40.0,
+      "first_pass_accuracy_v2": 60.0,
+      "first_pass_accuracy_diff": 20.0,
+      "post_verif_accuracy_v1": 70.0,
+      "post_verif_accuracy_v2": 60.0,
+      "post_verif_accuracy_diff": -10.0,
+      "corrections_v1": 3,
+      "corrections_v2": 0,
+      "corrections_diff": -3
+    },
+    "mcp_status": {
+      "first_pass_accuracy_v1": 90.0,
+      "first_pass_accuracy_v2": 80.0,
+      "first_pass_accuracy_diff": -10.0,
+      "post_verif_accuracy_v1": 100.0,
+      "post_verif_accuracy_v2": 100.0,
+      "post_verif_accuracy_diff": 0.0,
+      "corrections_v1": 1,
+      "corrections_v2": 2,
+      "corrections_diff": 1
+    },
+    "buildability": {
+      "first_pass_accuracy_v1": 60.0,
+      "first_pass_accuracy_v2": 70.0,
+      "first_pass_accuracy_diff": 10.0,
+      "post_verif_accuracy_v1": 90.0,
+      "post_verif_accuracy_v2": 100.0,
+      "post_verif_accuracy_diff": 10.0,
+      "corrections_v1": 3,
+      "corrections_v2": 3,
+      "corrections_diff": 0
+    },
+    "website": {
+      "first_pass_accuracy_v1": 90.0,
+      "first_pass_accuracy_v2": 90.0,
+      "first_pass_accuracy_diff": 0.0,
+      "post_verif_accuracy_v1": 90.0,
+      "post_verif_accuracy_v2": 90.0,
+      "post_verif_accuracy_diff": 0.0,
+      "corrections_v1": 0,
+      "corrections_v2": 0,
+      "corrections_diff": 0
+    }
+  }
+}

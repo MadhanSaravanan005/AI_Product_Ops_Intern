@@ -1,0 +1,699 @@
+{
+  "app_id": 35,
+  "app": "Mailchimp",
+  "category": "Marketing, Ads, Email and Social",
+  "verified_at": "2026-09-17T13:08:58.324959Z",
+  "verifier_version": "2.0.0",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "website",
+      "original_value": "https://mailchimp.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Mailchimp': Email & SMS Marketing Platform | Mailchimp",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Mailchimp supports authentication via API Key.",
+          "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+          "source_title": "Fundamentals Documentation | Mailchimp Developer",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+          "checked_at": "2026-09-17T13:08:35.487253Z"
+        },
+        {
+          "claim": "Mailchimp supports authentication via Basic Auth.",
+          "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+          "source_title": "Fundamentals Documentation | Mailchimp Developer",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+          "checked_at": "2026-09-17T13:08:35.488208Z"
+        },
+        {
+          "claim": "Mailchimp supports authentication via Bearer Token.",
+          "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+          "source_title": "Fundamentals Documentation | Mailchimp Developer",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+          "checked_at": "2026-09-17T13:08:35.488208Z"
+        },
+        {
+          "claim": "Mailchimp supports authentication via OAuth2.",
+          "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+          "source_title": "Fundamentals Documentation | Mailchimp Developer",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+          "checked_at": "2026-09-17T13:08:35.488208Z"
+        }
+      ],
+      "verification_notes": "All 4 claimed auth methods verified with primary evidence: API Key, Basic Auth, Bearer Token, OAuth2.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Mailchimp supports authentication via API Key.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T13:08:35.487253Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Basic Auth",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Mailchimp supports authentication via Basic Auth.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T13:08:35.488208Z"
+          },
+          "notes": "Content verified: direct evidence found for (basic auth)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Mailchimp supports authentication via Bearer Token.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T13:08:35.488208Z"
+          },
+          "notes": "Content verified: direct evidence found for (bearer authentication)."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Mailchimp supports authentication via OAuth2.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T13:08:35.488208Z"
+          },
+          "notes": "Content verified: direct evidence found for (oauth2)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.6,
+      "evidence": [],
+      "verification_notes": "Developer pages exist but lack explicit proof of 'Free Self-Serve'.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Mailchimp provides public GraphQL API surface.",
+          "source_url": "https://mailchimp.com/developer/open-commerce/docs/fundamentals/",
+          "source_title": "Fundamentals Documentation | Mailchimp Developer",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Mailchimp Open Commerce is an API-first, modular commerce stack. The API implements all features in GraphQL and is fully extensible via plugins . Open Commerce is open-source-licensed, freely available software. You can explore the platform’s repos on GitHub , or follow the Quick Start guide to inst",
+          "checked_at": "2026-09-17T13:08:54.993222Z"
+        },
+        {
+          "claim": "Mailchimp provides public REST API surface.",
+          "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+          "source_title": "Fundamentals Documentation | Mailchimp Developer",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+          "checked_at": "2026-09-17T13:08:54.994278Z"
+        },
+        {
+          "claim": "Mailchimp provides public Webhooks API surface.",
+          "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+          "source_title": "Fundamentals Documentation | Mailchimp Developer",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+          "checked_at": "2026-09-17T13:08:54.994278Z"
+        }
+      ],
+      "verification_notes": "All 3 claimed API types verified with primary evidence: GraphQL, REST, Webhooks.",
+      "auth_details": null,
+      "api_type_details": {
+        "GraphQL": "Verified",
+        "REST": "Verified",
+        "Webhooks": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Mailchimp provides official Model Context Protocol (MCP) server support.",
+          "source_url": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp/",
+          "source_title": "How to Use Mailchimp's Transactional Messaging MCP Guide | Mailchimp Developer",
+          "source_type": "Official MCP Documentation",
+          "evidence_summary": "An MCP (Model Context Protocol) allows AI agents to interact with API, knowledge bases, or other content. Our MCP specifically allows you to interact with the Transactional Messaging API, give onboarding help regarding Transactional Messaging, and submit feedback. Our MCP mirrors what our API can al",
+          "checked_at": "2026-09-17T13:08:58.323546Z"
+        }
+      ],
+      "verification_notes": "Official MCP server verified via vendor documentation at https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp/.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 35,
+      "app": "Mailchimp",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Buildable Now. Standard rate limits and OAuth scoping permissions are developer restrictions, not hard blockers.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Restriction"
+    }
+  },
+  "original_record": {
+    "id": 35,
+    "app": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "website": "https://mailchimp.com/",
+    "one_line_description": "Mailchimp Developer: Leading platform in Marketing, Ads, Email and Social.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp supports authentication via OAuth2.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T12:42:17.571452Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Fundamentals Documentation | Mailchimp Developer: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp supports authentication via API Key.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T12:42:17.571452Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Fundamentals Documentation | Mailchimp Developer: API key provisioning and request header authentication."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp supports authentication via Bearer Token.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T12:42:17.571452Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Fundamentals Documentation | Mailchimp Developer: Bearer token authentication format in HTTP request headers."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp supports authentication via Basic Auth.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T12:42:30.711252Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Fundamentals Documentation | Mailchimp Developer: HTTP Basic Authentication via credentials."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Mailchimp's developer portal or app management console.",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp provides public REST API surface.",
+            "source_url": "https://openapi.city/providers/mailchimp",
+            "source_title": "Mailchimp Marketing API API Reference — 272 Endpoints | openapi.city",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Email marketing and automation platform Query structured spec data via REST or MCP. Get exactly what your agent needs. Get information about a specific account export. A comma-separated list of fields to return. Reference parameters of sub-objects with dot notation. A comma-separated list of fields ",
+            "checked_at": "2026-09-17T12:43:11.774966Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Mailchimp Marketing API API Reference — 272 Endpoints | openapi.city: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "GraphQL",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp provides public GraphQL API surface.",
+            "source_url": "https://mailchimp.com/developer/open-commerce/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Mailchimp Open Commerce is an API-first, modular commerce stack. The API implements all features in GraphQL and is fully extensible via plugins . Open Commerce is open-source-licensed, freely available software. You can explore the platform’s repos on GitHub , or follow the Quick Start guide to inst",
+            "checked_at": "2026-09-17T12:43:19.635486Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Fundamentals Documentation | Mailchimp Developer: GraphQL queries, mutations, and schema endpoint."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp provides public Webhooks API surface.",
+            "source_url": "https://mailchimp.com/developer/transactional/api/webhooks/",
+            "source_title": "Webhooks | Mailchimp Transactional API Reference | Mailchimp Developer",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Allowlists Add, list, or delete from your Rejection Allowlist. Add email to allowlist Expand post /allowlists/add Adds an email to your email rejection allowlist. If the address is currently on your denylist, that denylist entry will be removed automatically. List allowlisted emails Expand post /all",
+            "checked_at": "2026-09-17T12:43:19.635486Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Webhooks | Mailchimp Transactional API Reference | Mailchimp Developer: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Mailchimp exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Mailchimp.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Mailchimp supports authentication via OAuth2.",
+        "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_title": "Fundamentals Documentation | Mailchimp Developer",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+        "checked_at": "2026-09-17T12:42:17.571452Z"
+      },
+      {
+        "claim": "Mailchimp supports authentication via API Key.",
+        "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_title": "Fundamentals Documentation | Mailchimp Developer",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+        "checked_at": "2026-09-17T12:42:17.571452Z"
+      },
+      {
+        "claim": "Mailchimp supports authentication via Bearer Token.",
+        "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_title": "Fundamentals Documentation | Mailchimp Developer",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+        "checked_at": "2026-09-17T12:42:17.571452Z"
+      },
+      {
+        "claim": "Mailchimp supports authentication via Basic Auth.",
+        "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_title": "Fundamentals Documentation | Mailchimp Developer",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+        "checked_at": "2026-09-17T12:42:30.711252Z"
+      },
+      {
+        "claim": "Mailchimp offers self-serve credential creation for developers.",
+        "source_url": "https://login.mailchimp.com/signup/",
+        "source_title": "Sign Up for Mailchimp",
+        "source_type": "Official Documentation",
+        "evidence_summary": "Create a free account or log in .  By creating an account, you agree to our Terms and have read and acknowledged the Global Privacy Statement. One lowercase character One uppercase character One special character Must not contain username 50 characters maximum Invisible reCAPTCHA by Google Privacy P",
+        "checked_at": "2026-09-17T12:43:01.495132Z"
+      },
+      {
+        "claim": "Mailchimp provides public REST API surface.",
+        "source_url": "https://openapi.city/providers/mailchimp",
+        "source_title": "Mailchimp Marketing API API Reference — 272 Endpoints | openapi.city",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Email marketing and automation platform Query structured spec data via REST or MCP. Get exactly what your agent needs. Get information about a specific account export. A comma-separated list of fields to return. Reference parameters of sub-objects with dot notation. A comma-separated list of fields ",
+        "checked_at": "2026-09-17T12:43:11.774966Z"
+      },
+      {
+        "claim": "Mailchimp provides public GraphQL API surface.",
+        "source_url": "https://mailchimp.com/developer/open-commerce/docs/fundamentals/",
+        "source_title": "Fundamentals Documentation | Mailchimp Developer",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Mailchimp Open Commerce is an API-first, modular commerce stack. The API implements all features in GraphQL and is fully extensible via plugins . Open Commerce is open-source-licensed, freely available software. You can explore the platform’s repos on GitHub , or follow the Quick Start guide to inst",
+        "checked_at": "2026-09-17T12:43:19.635486Z"
+      },
+      {
+        "claim": "Mailchimp provides public Webhooks API surface.",
+        "source_url": "https://mailchimp.com/developer/transactional/api/webhooks/",
+        "source_title": "Webhooks | Mailchimp Transactional API Reference | Mailchimp Developer",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Allowlists Add, list, or delete from your Rejection Allowlist. Add email to allowlist Expand post /allowlists/add Adds an email to your email rejection allowlist. If the address is currently on your denylist, that denylist entry will be removed automatically. List allowlisted emails Expand post /all",
+        "checked_at": "2026-09-17T12:43:19.635486Z"
+      },
+      {
+        "claim": "Mailchimp provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp/",
+        "source_title": "How to Use Mailchimp's Transactional Messaging MCP Guide | Mailchimp Developer",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "An MCP (Model Context Protocol) allows AI agents to interact with API, knowledge bases, or other content. Our MCP specifically allows you to interact with the Transactional Messaging API, give onboarding help regarding Transactional Messaging, and submit feedback. Our MCP mirrors what our API can al",
+        "checked_at": "2026-09-17T12:43:57.551989Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.94,
+    "researched_at": "2026-09-17T12:43:57.551989Z",
+    "researcher_version": "2.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 35,
+    "app": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "website": "https://mailchimp.com/",
+    "one_line_description": "Mailchimp Developer: Leading platform in Marketing, Ads, Email and Social.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp supports authentication via OAuth2.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T12:42:17.571452Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Fundamentals Documentation | Mailchimp Developer: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp supports authentication via API Key.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T12:42:17.571452Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Fundamentals Documentation | Mailchimp Developer: API key provisioning and request header authentication."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp supports authentication via Bearer Token.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T12:42:17.571452Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Fundamentals Documentation | Mailchimp Developer: Bearer token authentication format in HTTP request headers."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp supports authentication via Basic Auth.",
+            "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+            "checked_at": "2026-09-17T12:42:30.711252Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Fundamentals Documentation | Mailchimp Developer: HTTP Basic Authentication via credentials."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Mailchimp's developer portal or app management console.",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp provides public REST API surface.",
+            "source_url": "https://openapi.city/providers/mailchimp",
+            "source_title": "Mailchimp Marketing API API Reference — 272 Endpoints | openapi.city",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Email marketing and automation platform Query structured spec data via REST or MCP. Get exactly what your agent needs. Get information about a specific account export. A comma-separated list of fields to return. Reference parameters of sub-objects with dot notation. A comma-separated list of fields ",
+            "checked_at": "2026-09-17T12:43:11.774966Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Mailchimp Marketing API API Reference — 272 Endpoints | openapi.city: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "GraphQL",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp provides public GraphQL API surface.",
+            "source_url": "https://mailchimp.com/developer/open-commerce/docs/fundamentals/",
+            "source_title": "Fundamentals Documentation | Mailchimp Developer",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Mailchimp Open Commerce is an API-first, modular commerce stack. The API implements all features in GraphQL and is fully extensible via plugins . Open Commerce is open-source-licensed, freely available software. You can explore the platform’s repos on GitHub , or follow the Quick Start guide to inst",
+            "checked_at": "2026-09-17T12:43:19.635486Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Fundamentals Documentation | Mailchimp Developer: GraphQL queries, mutations, and schema endpoint."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Mailchimp provides public Webhooks API surface.",
+            "source_url": "https://mailchimp.com/developer/transactional/api/webhooks/",
+            "source_title": "Webhooks | Mailchimp Transactional API Reference | Mailchimp Developer",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Allowlists Add, list, or delete from your Rejection Allowlist. Add email to allowlist Expand post /allowlists/add Adds an email to your email rejection allowlist. If the address is currently on your denylist, that denylist entry will be removed automatically. List allowlisted emails Expand post /all",
+            "checked_at": "2026-09-17T12:43:19.635486Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Webhooks | Mailchimp Transactional API Reference | Mailchimp Developer: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Mailchimp exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Mailchimp.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Mailchimp supports authentication via OAuth2.",
+        "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_title": "Fundamentals Documentation | Mailchimp Developer",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+        "checked_at": "2026-09-17T12:42:17.571452Z"
+      },
+      {
+        "claim": "Mailchimp supports authentication via API Key.",
+        "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_title": "Fundamentals Documentation | Mailchimp Developer",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+        "checked_at": "2026-09-17T12:42:17.571452Z"
+      },
+      {
+        "claim": "Mailchimp supports authentication via Bearer Token.",
+        "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_title": "Fundamentals Documentation | Mailchimp Developer",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+        "checked_at": "2026-09-17T12:42:17.571452Z"
+      },
+      {
+        "claim": "Mailchimp supports authentication via Basic Auth.",
+        "source_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_title": "Fundamentals Documentation | Mailchimp Developer",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a ",
+        "checked_at": "2026-09-17T12:42:30.711252Z"
+      },
+      {
+        "claim": "Mailchimp offers self-serve credential creation for developers.",
+        "source_url": "https://login.mailchimp.com/signup/",
+        "source_title": "Sign Up for Mailchimp",
+        "source_type": "Official Documentation",
+        "evidence_summary": "Create a free account or log in .  By creating an account, you agree to our Terms and have read and acknowledged the Global Privacy Statement. One lowercase character One uppercase character One special character Must not contain username 50 characters maximum Invisible reCAPTCHA by Google Privacy P",
+        "checked_at": "2026-09-17T12:43:01.495132Z"
+      },
+      {
+        "claim": "Mailchimp provides public REST API surface.",
+        "source_url": "https://openapi.city/providers/mailchimp",
+        "source_title": "Mailchimp Marketing API API Reference — 272 Endpoints | openapi.city",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Email marketing and automation platform Query structured spec data via REST or MCP. Get exactly what your agent needs. Get information about a specific account export. A comma-separated list of fields to return. Reference parameters of sub-objects with dot notation. A comma-separated list of fields ",
+        "checked_at": "2026-09-17T12:43:11.774966Z"
+      },
+      {
+        "claim": "Mailchimp provides public GraphQL API surface.",
+        "source_url": "https://mailchimp.com/developer/open-commerce/docs/fundamentals/",
+        "source_title": "Fundamentals Documentation | Mailchimp Developer",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Mailchimp Open Commerce is an API-first, modular commerce stack. The API implements all features in GraphQL and is fully extensible via plugins . Open Commerce is open-source-licensed, freely available software. You can explore the platform’s repos on GitHub , or follow the Quick Start guide to inst",
+        "checked_at": "2026-09-17T12:43:19.635486Z"
+      },
+      {
+        "claim": "Mailchimp provides public Webhooks API surface.",
+        "source_url": "https://mailchimp.com/developer/transactional/api/webhooks/",
+        "source_title": "Webhooks | Mailchimp Transactional API Reference | Mailchimp Developer",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Allowlists Add, list, or delete from your Rejection Allowlist. Add email to allowlist Expand post /allowlists/add Adds an email to your email rejection allowlist. If the address is currently on your denylist, that denylist entry will be removed automatically. List allowlisted emails Expand post /all",
+        "checked_at": "2026-09-17T12:43:19.635486Z"
+      },
+      {
+        "claim": "Mailchimp provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp/",
+        "source_title": "How to Use Mailchimp's Transactional Messaging MCP Guide | Mailchimp Developer",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "An MCP (Model Context Protocol) allows AI agents to interact with API, knowledge bases, or other content. Our MCP specifically allows you to interact with the Transactional Messaging API, give onboarding help regarding Transactional Messaging, and submit feedback. Our MCP mirrors what our API can al",
+        "checked_at": "2026-09-17T12:43:57.551989Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.91,
+    "researched_at": "2026-09-17T12:43:57.551989Z",
+    "researcher_version": "2.0.0",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v2.0.0. 5/6 claims verified. 0 corrections applied.",
+    "verified_at": "2026-09-17T13:08:58.324959Z"
+  },
+  "summary_notes": "Independent hardened audit for Mailchimp. 5/6 verified. 0 fields corrected."
+}

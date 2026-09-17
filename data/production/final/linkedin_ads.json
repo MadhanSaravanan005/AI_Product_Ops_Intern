@@ -1,0 +1,87 @@
+{
+  "id": 33,
+  "app": "LinkedIn Ads",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://linkedinads.com/",
+  "one_line_description": "LinkedIn Ads: LinkedIn API.",
+  "auth_methods": [
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "LinkedIn Ads supports authentication via OAuth2.",
+          "source_url": "https://github.com/danielpopamd/linkedin-ads-mcp",
+          "source_title": "GitHub - danielpopamd/linkedin-ads-mcp: LinkedIn Ads MCP server with full write access: 25 tools across campaigns, creatives, audiences, conversions, and analytics. Create, update, and delete from Claude, ChatGPT, or Cursor. Self-hosted and free. Hosted version at adplug.app. · GitHub",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Notifications You must be signed in to change notification settings An MCP (Model Context Protocol) server that enables Claude AI to access and analyze your LinkedIn Ads data. Built for marketers, founders, and growth teams who want to leverage AI for campaign optimization, performance reporting, an",
+          "checked_at": "2026-09-17T14:02:22.270440Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - danielpopamd/linkedin-ads-mcp: LinkedIn Ads MCP server with full write access: 25 tools across campaigns, creatives, audiences, conversions, and analytics. Create, update, and delete from Claude, ChatGPT, or Cursor. Self-hosted and free. Hosted version at adplug.app. · GitHub."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve.",
+  "api_types": [
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "LinkedIn Ads provides public SDK API surface.",
+          "source_url": "https://github.com/danielpopamd/linkedin-ads-mcp",
+          "source_title": "GitHub - danielpopamd/linkedin-ads-mcp: LinkedIn Ads MCP server with full write access: 25 tools across campaigns, creatives, audiences, conversions, and analytics. Create, update, and delete from Claude, ChatGPT, or Cursor. Self-hosted and free. Hosted version at adplug.app. · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Notifications You must be signed in to change notification settings An MCP (Model Context Protocol) server that enables Claude AI to access and analyze your LinkedIn Ads data. Built for marketers, founders, and growth teams who want to leverage AI for campaign optimization, performance reporting, an",
+          "checked_at": "2026-09-17T14:02:22.271512Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - danielpopamd/linkedin-ads-mcp: LinkedIn Ads MCP server with full write access: 25 tools across campaigns, creatives, audiences, conversions, and analytics. Create, update, and delete from Claude, ChatGPT, or Cursor. Self-hosted and free. Hosted version at adplug.app. · GitHub."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "LinkedIn Ads exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/danielpopamd/linkedin-ads-mcp).",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "LinkedIn Ads supports authentication via OAuth2.",
+      "source_url": "https://github.com/danielpopamd/linkedin-ads-mcp",
+      "source_title": "GitHub - danielpopamd/linkedin-ads-mcp: LinkedIn Ads MCP server with full write access: 25 tools across campaigns, creatives, audiences, conversions, and analytics. Create, update, and delete from Claude, ChatGPT, or Cursor. Self-hosted and free. Hosted version at adplug.app. · GitHub",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Notifications You must be signed in to change notification settings An MCP (Model Context Protocol) server that enables Claude AI to access and analyze your LinkedIn Ads data. Built for marketers, founders, and growth teams who want to leverage AI for campaign optimization, performance reporting, an",
+      "checked_at": "2026-09-17T14:02:22.270440Z"
+    },
+    {
+      "claim": "LinkedIn Ads offers self-serve credential creation for developers.",
+      "source_url": "https://developer.linkedin.com/product-catalog/marketing/advertising-api",
+      "source_title": "LinkedIn API | Advertising API",
+      "source_type": "Official Documentation",
+      "evidence_summary": "← Go to Marketing Overview Enable ads management at scale Build functionality for scalable ads management with Ad Campaigns and Creatives APIs Build holistic view of marketing performance Leverage the Ad Analytics API to pull campaign performance data and identify which campaigns are delivering resu",
+      "checked_at": "2026-09-17T14:02:22.270440Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.9,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.91,
+  "researched_at": "2026-09-17T14:02:22.271512Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Automated production verification audit. 4/6 claims verified.",
+  "verified_at": "2026-09-17T14:02:22.272657Z"
+}

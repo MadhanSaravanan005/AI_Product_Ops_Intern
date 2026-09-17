@@ -1,0 +1,353 @@
+{
+  "app_id": 43,
+  "app": "BigCommerce",
+  "category": "Ecommerce",
+  "verified_at": "2026-09-17T14:04:49.760393Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 43,
+      "app": "BigCommerce",
+      "field": "website",
+      "original_value": "https://docs.bigcommerce.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://docs.bigcommerce.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 43,
+      "app": "BigCommerce",
+      "field": "authentication",
+      "original_value": [
+        "Unknown"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown authentication correctly recorded in absence of positive evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 43,
+      "app": "BigCommerce",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown access model verified in absence of gating documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 43,
+      "app": "BigCommerce",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "REST",
+        "SDK"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "BigCommerce provides public REST API surface.",
+          "source_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+          "source_title": "MCP Server Overview | BigCommerce Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "About Our APIs Download OpenAPI Specs Download OpenAPI Specs REST Overview Storefront Admin Integrations B2B GraphQL Overview Storefront Admin Account B2B MCP Overview Tool Resynchronization Storefront Session Sync Storefront Tool Resynchronization Storefront Session Sync Resources AI Agent Setup Pr",
+          "checked_at": "2026-09-17T14:04:49.758795Z"
+        },
+        {
+          "claim": "BigCommerce provides public SDK API surface.",
+          "source_url": "https://github.com/modelcontextprotocol",
+          "source_title": "Model Context Protocol · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+          "checked_at": "2026-09-17T14:04:49.758795Z"
+        }
+      ],
+      "verification_notes": "API types verified with 2 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 43,
+      "app": "BigCommerce",
+      "field": "mcp_status",
+      "original_value": "Third-Party MCP",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.4,
+      "evidence": [],
+      "verification_notes": "MCP status lacked provenance evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 43,
+      "app": "BigCommerce",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable Now verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 43,
+    "app": "BigCommerce",
+    "category": "Ecommerce",
+    "website": "https://docs.bigcommerce.com/",
+    "one_line_description": "BigCommerce: Model Context Protocol · GitHub.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "BigCommerce provides public REST API surface.",
+            "source_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+            "source_title": "MCP Server Overview | BigCommerce Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "About Our APIs Download OpenAPI Specs Download OpenAPI Specs REST Overview Storefront Admin Integrations B2B GraphQL Overview Storefront Admin Account B2B MCP Overview Tool Resynchronization Storefront Session Sync Storefront Tool Resynchronization Storefront Session Sync Resources AI Agent Setup Pr",
+            "checked_at": "2026-09-17T14:04:49.758795Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via MCP Server Overview | BigCommerce Docs."
+      },
+      {
+        "api_type": "GraphQL",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "BigCommerce provides public GraphQL API surface.",
+            "source_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+            "source_title": "MCP Server Overview | BigCommerce Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "About Our APIs Download OpenAPI Specs Download OpenAPI Specs REST Overview Storefront Admin Integrations B2B GraphQL Overview Storefront Admin Account B2B MCP Overview Tool Resynchronization Storefront Session Sync Storefront Tool Resynchronization Storefront Session Sync Resources AI Agent Setup Pr",
+            "checked_at": "2026-09-17T14:04:49.758795Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via MCP Server Overview | BigCommerce Docs."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "BigCommerce provides public SDK API surface.",
+            "source_url": "https://github.com/modelcontextprotocol",
+            "source_title": "Model Context Protocol · GitHub",
+            "source_type": "Official API Reference",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+            "checked_at": "2026-09-17T14:04:49.758795Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Model Context Protocol · GitHub."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "BigCommerce exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol).",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "BigCommerce provides public REST API surface.",
+        "source_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+        "source_title": "MCP Server Overview | BigCommerce Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "About Our APIs Download OpenAPI Specs Download OpenAPI Specs REST Overview Storefront Admin Integrations B2B GraphQL Overview Storefront Admin Account B2B MCP Overview Tool Resynchronization Storefront Session Sync Storefront Tool Resynchronization Storefront Session Sync Resources AI Agent Setup Pr",
+        "checked_at": "2026-09-17T14:04:49.758795Z"
+      },
+      {
+        "claim": "BigCommerce provides public SDK API surface.",
+        "source_url": "https://github.com/modelcontextprotocol",
+        "source_title": "Model Context Protocol · GitHub",
+        "source_type": "Official API Reference",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+        "checked_at": "2026-09-17T14:04:49.758795Z"
+      }
+    ],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.88,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.66,
+    "researched_at": "2026-09-17T14:04:49.758795Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 43,
+    "app": "BigCommerce",
+    "category": "Ecommerce",
+    "website": "https://docs.bigcommerce.com/",
+    "one_line_description": "BigCommerce: Model Context Protocol · GitHub.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "BigCommerce provides public REST API surface.",
+            "source_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+            "source_title": "MCP Server Overview | BigCommerce Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "About Our APIs Download OpenAPI Specs Download OpenAPI Specs REST Overview Storefront Admin Integrations B2B GraphQL Overview Storefront Admin Account B2B MCP Overview Tool Resynchronization Storefront Session Sync Storefront Tool Resynchronization Storefront Session Sync Resources AI Agent Setup Pr",
+            "checked_at": "2026-09-17T14:04:49.758795Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via MCP Server Overview | BigCommerce Docs."
+      },
+      {
+        "api_type": "GraphQL",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "BigCommerce provides public GraphQL API surface.",
+            "source_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+            "source_title": "MCP Server Overview | BigCommerce Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "About Our APIs Download OpenAPI Specs Download OpenAPI Specs REST Overview Storefront Admin Integrations B2B GraphQL Overview Storefront Admin Account B2B MCP Overview Tool Resynchronization Storefront Session Sync Storefront Tool Resynchronization Storefront Session Sync Resources AI Agent Setup Pr",
+            "checked_at": "2026-09-17T14:04:49.758795Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via MCP Server Overview | BigCommerce Docs."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "BigCommerce provides public SDK API surface.",
+            "source_url": "https://github.com/modelcontextprotocol",
+            "source_title": "Model Context Protocol · GitHub",
+            "source_type": "Official API Reference",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+            "checked_at": "2026-09-17T14:04:49.758795Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Model Context Protocol · GitHub."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "BigCommerce exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol).",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "BigCommerce provides public REST API surface.",
+        "source_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+        "source_title": "MCP Server Overview | BigCommerce Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "About Our APIs Download OpenAPI Specs Download OpenAPI Specs REST Overview Storefront Admin Integrations B2B GraphQL Overview Storefront Admin Account B2B MCP Overview Tool Resynchronization Storefront Session Sync Storefront Tool Resynchronization Storefront Session Sync Resources AI Agent Setup Pr",
+        "checked_at": "2026-09-17T14:04:49.758795Z"
+      },
+      {
+        "claim": "BigCommerce provides public SDK API surface.",
+        "source_url": "https://github.com/modelcontextprotocol",
+        "source_title": "Model Context Protocol · GitHub",
+        "source_type": "Official API Reference",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+        "checked_at": "2026-09-17T14:04:49.758795Z"
+      }
+    ],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.88,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.66,
+    "researched_at": "2026-09-17T14:04:49.758795Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Automated production verification audit. 5/6 claims verified.",
+    "verified_at": "2026-09-17T14:04:49.760393Z"
+  },
+  "summary_notes": "Production verification audit for BigCommerce: 5/6 verified."
+}

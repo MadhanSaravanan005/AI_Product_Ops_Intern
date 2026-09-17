@@ -1,0 +1,11 @@
+Category,Total Apps,Buildable Now,Buildable w/ Restrictions,Blocked,Unknown,Official MCP,Third-Party MCP,No MCP,Avg Confidence,Evidence Items
+"AI, Research and Media-native",10,1,1,0,8,1,6,3,0.81,32
+CRM and Sales,10,7,3,0,0,2,3,4,0.87,56
+Communications and Messaging,10,5,5,0,0,2,5,3,0.82,41
+"Data, SEO and Scraping",10,2,0,1,7,1,5,4,0.82,32
+"Developer, Infra and Data platforms",10,3,1,0,6,1,5,4,0.81,37
+Ecommerce,10,2,4,2,2,1,3,6,0.75,20
+Finance and Fintech,10,1,2,2,5,1,3,6,0.77,27
+"Marketing, Ads, Email and Social",10,5,2,3,0,1,4,5,0.73,20
+Productivity and Project Management,10,3,1,1,5,2,3,5,0.82,36
+Support and Helpdesk,10,6,4,0,0,4,2,2,0.84,54

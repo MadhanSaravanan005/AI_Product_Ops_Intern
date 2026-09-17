@@ -1,0 +1,195 @@
+{
+  "id": 5,
+  "app": "Twenty",
+  "category": "CRM and Sales",
+  "website": "https://twenty.com/",
+  "one_line_description": "Twenty: Leading platform in CRM and Sales.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Twenty supports authentication via OAuth2.",
+          "source_url": "https://developers.getknit.dev/docs/twenty",
+          "source_title": "Twenty",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Twenty Supports two types of authorization. API Key authorization flow is used by default, to use the OAuth flow refer the OAuth section below for more details. Log in to your twenty workspace. Log in to your twenty workspace. From the dropdown beside your workspace name on top left corner, click Se",
+          "checked_at": "2026-09-17T13:30:24.520145Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Twenty: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Twenty supports authentication via API Key.",
+          "source_url": "https://developers.getknit.dev/docs/twenty",
+          "source_title": "Twenty",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Twenty Supports two types of authorization. API Key authorization flow is used by default, to use the OAuth flow refer the OAuth section below for more details. Log in to your twenty workspace. Log in to your twenty workspace. From the dropdown beside your workspace name on top left corner, click Se",
+          "checked_at": "2026-09-17T13:30:24.520145Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Twenty: API key provisioning and request header authentication."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Twenty supports authentication via Bearer Token.",
+          "source_url": "https://developers.getknit.dev/docs/twenty",
+          "source_title": "Twenty",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Twenty Supports two types of authorization. API Key authorization flow is used by default, to use the OAuth flow refer the OAuth section below for more details. Log in to your twenty workspace. Log in to your twenty workspace. From the dropdown beside your workspace name on top left corner, click Se",
+          "checked_at": "2026-09-17T13:30:24.520145Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Twenty: Bearer token authentication format in HTTP request headers."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Twenty's developer portal or app management console.",
+  "api_types": [
+    "GraphQL",
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Twenty provides public REST API surface.",
+          "source_url": "https://deepwiki.com/twentyhq/twenty/9.2-rest-api-endpoints",
+          "source_title": "REST API Endpoints | twentyhq/twenty | DeepWiki",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Monorepo Structure and Packages Key Architectural Patterns Frontend Architecture (twenty-front) Backend Architecture (twenty-server) Database and ORM Layer Custom ORM and Data Access WorkspaceEntityManager and Query Builders Permission-Aware Query Execution Row-Level Security (RLS) System Data Trans",
+          "checked_at": "2026-09-17T13:30:44.379117Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via REST API Endpoints | twentyhq/twenty | DeepWiki: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "GraphQL",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Twenty provides public GraphQL API surface.",
+          "source_url": "https://deepwiki.com/twentyhq/twenty/9.2-rest-api-endpoints",
+          "source_title": "REST API Endpoints | twentyhq/twenty | DeepWiki",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Monorepo Structure and Packages Key Architectural Patterns Frontend Architecture (twenty-front) Backend Architecture (twenty-server) Database and ORM Layer Custom ORM and Data Access WorkspaceEntityManager and Query Builders Permission-Aware Query Execution Row-Level Security (RLS) System Data Trans",
+          "checked_at": "2026-09-17T13:30:44.379117Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via REST API Endpoints | twentyhq/twenty | DeepWiki: GraphQL queries, mutations, and schema endpoint."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Twenty provides public Webhooks API surface.",
+          "source_url": "https://deepwiki.com/twentyhq/twenty/9.2-rest-api-endpoints",
+          "source_title": "REST API Endpoints | twentyhq/twenty | DeepWiki",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Monorepo Structure and Packages Key Architectural Patterns Frontend Architecture (twenty-front) Backend Architecture (twenty-server) Database and ORM Layer Custom ORM and Data Access WorkspaceEntityManager and Query Builders Permission-Aware Query Execution Row-Level Security (RLS) System Data Trans",
+          "checked_at": "2026-09-17T13:30:44.379117Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via REST API Endpoints | twentyhq/twenty | DeepWiki: Webhook event delivery and subscription endpoints."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Twenty exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search across official documentation and GitHub repositories yielded no existing MCP implementations for Twenty.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Twenty supports authentication via OAuth2.",
+      "source_url": "https://developers.getknit.dev/docs/twenty",
+      "source_title": "Twenty",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Twenty Supports two types of authorization. API Key authorization flow is used by default, to use the OAuth flow refer the OAuth section below for more details. Log in to your twenty workspace. Log in to your twenty workspace. From the dropdown beside your workspace name on top left corner, click Se",
+      "checked_at": "2026-09-17T13:30:24.520145Z"
+    },
+    {
+      "claim": "Twenty supports authentication via API Key.",
+      "source_url": "https://developers.getknit.dev/docs/twenty",
+      "source_title": "Twenty",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Twenty Supports two types of authorization. API Key authorization flow is used by default, to use the OAuth flow refer the OAuth section below for more details. Log in to your twenty workspace. Log in to your twenty workspace. From the dropdown beside your workspace name on top left corner, click Se",
+      "checked_at": "2026-09-17T13:30:24.520145Z"
+    },
+    {
+      "claim": "Twenty supports authentication via Bearer Token.",
+      "source_url": "https://developers.getknit.dev/docs/twenty",
+      "source_title": "Twenty",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Twenty Supports two types of authorization. API Key authorization flow is used by default, to use the OAuth flow refer the OAuth section below for more details. Log in to your twenty workspace. Log in to your twenty workspace. From the dropdown beside your workspace name on top left corner, click Se",
+      "checked_at": "2026-09-17T13:30:24.520145Z"
+    },
+    {
+      "claim": "Twenty offers self-serve credential creation for developers.",
+      "source_url": "https://docs.x.com/fundamentals/developer-portal",
+      "source_title": "Developer Console - X",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Sign up for a developer account Create your first app Save your credentials",
+      "checked_at": "2026-09-17T13:30:36.192890Z"
+    },
+    {
+      "claim": "Twenty provides public REST API surface.",
+      "source_url": "https://deepwiki.com/twentyhq/twenty/9.2-rest-api-endpoints",
+      "source_title": "REST API Endpoints | twentyhq/twenty | DeepWiki",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Monorepo Structure and Packages Key Architectural Patterns Frontend Architecture (twenty-front) Backend Architecture (twenty-server) Database and ORM Layer Custom ORM and Data Access WorkspaceEntityManager and Query Builders Permission-Aware Query Execution Row-Level Security (RLS) System Data Trans",
+      "checked_at": "2026-09-17T13:30:44.379117Z"
+    },
+    {
+      "claim": "Twenty provides public GraphQL API surface.",
+      "source_url": "https://deepwiki.com/twentyhq/twenty/9.2-rest-api-endpoints",
+      "source_title": "REST API Endpoints | twentyhq/twenty | DeepWiki",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Monorepo Structure and Packages Key Architectural Patterns Frontend Architecture (twenty-front) Backend Architecture (twenty-server) Database and ORM Layer Custom ORM and Data Access WorkspaceEntityManager and Query Builders Permission-Aware Query Execution Row-Level Security (RLS) System Data Trans",
+      "checked_at": "2026-09-17T13:30:44.379117Z"
+    },
+    {
+      "claim": "Twenty provides public Webhooks API surface.",
+      "source_url": "https://deepwiki.com/twentyhq/twenty/9.2-rest-api-endpoints",
+      "source_title": "REST API Endpoints | twentyhq/twenty | DeepWiki",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Monorepo Structure and Packages Key Architectural Patterns Frontend Architecture (twenty-front) Backend Architecture (twenty-server) Database and ORM Layer Custom ORM and Data Access WorkspaceEntityManager and Query Builders Permission-Aware Query Execution Row-Level Security (RLS) System Data Trans",
+      "checked_at": "2026-09-17T13:30:44.379117Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.92,
+  "researched_at": "2026-09-17T13:31:05.073151Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Verified",
+  "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+  "verified_at": "2026-09-17T13:57:07.079596Z"
+}

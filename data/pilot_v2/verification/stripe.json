@@ -1,0 +1,724 @@
+{
+  "app_id": 81,
+  "app": "Stripe",
+  "category": "Finance and Fintech",
+  "verified_at": "2026-09-17T13:06:20.516680Z",
+  "verifier_version": "2.0.0",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 81,
+      "app": "Stripe",
+      "field": "website",
+      "original_value": "https://docs.stripe.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Stripe': Stripe Documentation",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 81,
+      "app": "Stripe",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Stripe supports authentication via API Key.",
+          "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+          "source_title": "OAuth 2.0 | Stripe Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+          "checked_at": "2026-09-17T13:05:54.872941Z"
+        },
+        {
+          "claim": "Stripe supports authentication via Basic Auth.",
+          "source_url": "https://docs.stripe.com/api/authentication?...",
+          "source_title": "Authentication | Stripe API Reference",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+          "checked_at": "2026-09-17T13:05:57.119386Z"
+        },
+        {
+          "claim": "Stripe supports authentication via Bearer Token.",
+          "source_url": "https://docs.stripe.com/api/authentication?...",
+          "source_title": "Authentication | Stripe API Reference",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+          "checked_at": "2026-09-17T13:05:57.119386Z"
+        },
+        {
+          "claim": "Stripe supports authentication via OAuth2.",
+          "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+          "source_title": "OAuth 2.0 | Stripe Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+          "checked_at": "2026-09-17T13:05:57.119386Z"
+        }
+      ],
+      "verification_notes": "All 4 claimed auth methods verified with primary evidence: API Key, Basic Auth, Bearer Token, OAuth2.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Stripe supports authentication via API Key.",
+            "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+            "source_title": "OAuth 2.0 | Stripe Documentation",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+            "checked_at": "2026-09-17T13:05:54.872941Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Basic Auth",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Stripe supports authentication via Basic Auth.",
+            "source_url": "https://docs.stripe.com/api/authentication?...",
+            "source_title": "Authentication | Stripe API Reference",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+            "checked_at": "2026-09-17T13:05:57.119386Z"
+          },
+          "notes": "Content verified: direct evidence found for (basic auth)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Stripe supports authentication via Bearer Token.",
+            "source_url": "https://docs.stripe.com/api/authentication?...",
+            "source_title": "Authentication | Stripe API Reference",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+            "checked_at": "2026-09-17T13:05:57.119386Z"
+          },
+          "notes": "Content verified: direct evidence found for (authorization: bearer)."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Stripe supports authentication via OAuth2.",
+            "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+            "source_title": "OAuth 2.0 | Stripe Documentation",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+            "checked_at": "2026-09-17T13:05:57.119386Z"
+          },
+          "notes": "Content verified: direct evidence found for (oauth2)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 81,
+      "app": "Stripe",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Stripe credential access model is Free Self-Serve.",
+          "source_url": "https://docs.stripe.com/stripe-apps/create-app",
+          "source_title": "Getting started with Stripe Apps | Stripe Documentation",
+          "source_type": "Official Documentation",
+          "evidence_summary": "In this guide, build a “Hello, world!” sample app with a UI extension on the Customer details page in the Stripe Dashboard. The Stripe Apps skill helps your coding agent scaffold, build, preview, and test a Stripe app using Stripe’s latest guidance. Install Stripe’s agent skills , then start a new a",
+          "checked_at": "2026-09-17T13:06:03.334317Z"
+        }
+      ],
+      "verification_notes": "Confirmed free self-serve credential creation at https://docs.stripe.com/stripe-apps/create-app.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 81,
+      "app": "Stripe",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Stripe provides public REST API surface.",
+          "source_url": "https://docs.stripe.com/apis",
+          "source_title": "Stripe APIs | Stripe Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Stripe provides a unified set of REST APIs , comprised of two namespaces , for accepting payments, managing billing and subscriptions, sending payouts, and building financial workflows. You can authenticate requests, shape responses, localize data, test integrations, and handle errors consistently a",
+          "checked_at": "2026-09-17T13:06:04.822493Z"
+        },
+        {
+          "claim": "Stripe provides public SDK API surface.",
+          "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+          "source_title": "OAuth 2.0 | Stripe Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+          "checked_at": "2026-09-17T13:06:04.822493Z"
+        },
+        {
+          "claim": "Stripe provides public Webhooks API surface.",
+          "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+          "source_title": "OAuth 2.0 | Stripe Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+          "checked_at": "2026-09-17T13:06:04.822493Z"
+        }
+      ],
+      "verification_notes": "All 3 claimed API types verified with primary evidence: REST, SDK, Webhooks.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Verified",
+        "SDK": "Verified",
+        "Webhooks": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 81,
+      "app": "Stripe",
+      "field": "mcp_status",
+      "original_value": "Third-Party MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Stripe provides official Model Context Protocol (MCP) server support.",
+          "source_url": "https://docs.stripe.com/mcp",
+          "source_title": "Model Context Protocol (MCP) | Stripe Documentation",
+          "source_type": "Official MCP Documentation",
+          "evidence_summary": "The Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API and search Stripe’s knowledge base, including documentation and support articles. Agent plugins for Stripe automatically configure the Stripe MCP server, install our skills , and make",
+          "checked_at": "2026-09-17T13:06:20.515675Z"
+        }
+      ],
+      "verification_notes": "Third-party community MCP server verified with repository evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 81,
+      "app": "Stripe",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Buildable Now. Standard rate limits and OAuth scoping permissions are developer restrictions, not hard blockers.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Restriction"
+    }
+  },
+  "original_record": {
+    "id": 81,
+    "app": "Stripe",
+    "category": "Finance and Fintech",
+    "website": "https://docs.stripe.com/",
+    "one_line_description": "Developer resources: Leading platform in Finance and Fintech.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe supports authentication via OAuth2.",
+            "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+            "source_title": "OAuth 2.0 | Stripe Documentation",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+            "checked_at": "2026-09-17T12:53:43.659015Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via OAuth 2.0 | Stripe Documentation: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe supports authentication via API Key.",
+            "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+            "source_title": "OAuth 2.0 | Stripe Documentation",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+            "checked_at": "2026-09-17T12:53:43.659527Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via OAuth 2.0 | Stripe Documentation: API key provisioning and request header authentication."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe supports authentication via Bearer Token.",
+            "source_url": "https://docs.stripe.com/api/authentication?...",
+            "source_title": "Authentication | Stripe API Reference",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+            "checked_at": "2026-09-17T12:53:43.659527Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication | Stripe API Reference: Bearer token authentication format in HTTP request headers."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe supports authentication via Basic Auth.",
+            "source_url": "https://docs.stripe.com/api/authentication?...",
+            "source_title": "Authentication | Stripe API Reference",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+            "checked_at": "2026-09-17T12:54:13.846324Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication | Stripe API Reference: HTTP Basic Authentication via credentials."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Stripe's developer portal or app management console.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe provides public REST API surface.",
+            "source_url": "https://docs.stripe.com/apis",
+            "source_title": "Stripe APIs | Stripe Documentation",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Stripe provides a unified set of REST APIs , comprised of two namespaces , for accepting payments, managing billing and subscriptions, sending payouts, and building financial workflows. You can authenticate requests, shape responses, localize data, test integrations, and handle errors consistently a",
+            "checked_at": "2026-09-17T12:54:44.781820Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Stripe APIs | Stripe Documentation: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe provides public Webhooks API surface.",
+            "source_url": "https://docs.stripe.com/api/webhook_endpoints",
+            "source_title": "Webhook Endpoints | Stripe API Reference",
+            "source_type": "Official API Reference",
+            "evidence_summary": "You can configure webhook endpoints via the API to be notified about events that happen in your Stripe account or connected accounts. Most users configure webhooks from the dashboard , which provides a user interface for registering and testing your webhook endpoints. Related guide: Setting up webho",
+            "checked_at": "2026-09-17T12:54:53.364772Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Webhook Endpoints | Stripe API Reference: Webhook event delivery and subscription endpoints."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe provides public SDK API surface.",
+            "source_url": "https://docs.stripe.com/api",
+            "source_title": "Stripe API Reference",
+            "source_type": "Official API Reference",
+            "evidence_summary": "The Stripe API is organized around REST . Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs. You can use the Stripe API in sandboxes without affecting your live data or",
+            "checked_at": "2026-09-17T12:55:01.650589Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Stripe API Reference: Official client SDKs and libraries."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Stripe exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Community/third-party MCP server available on GitHub: https://github.com/mcp/com.stripe/mcp",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Stripe supports authentication via OAuth2.",
+        "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+        "source_title": "OAuth 2.0 | Stripe Documentation",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+        "checked_at": "2026-09-17T12:53:43.659015Z"
+      },
+      {
+        "claim": "Stripe supports authentication via API Key.",
+        "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+        "source_title": "OAuth 2.0 | Stripe Documentation",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+        "checked_at": "2026-09-17T12:53:43.659527Z"
+      },
+      {
+        "claim": "Stripe supports authentication via Bearer Token.",
+        "source_url": "https://docs.stripe.com/api/authentication?...",
+        "source_title": "Authentication | Stripe API Reference",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+        "checked_at": "2026-09-17T12:53:43.659527Z"
+      },
+      {
+        "claim": "Stripe supports authentication via Basic Auth.",
+        "source_url": "https://docs.stripe.com/api/authentication?...",
+        "source_title": "Authentication | Stripe API Reference",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+        "checked_at": "2026-09-17T12:54:13.846324Z"
+      },
+      {
+        "claim": "Stripe offers self-serve credential creation for developers.",
+        "source_url": "https://dashboard.stripe.com/register",
+        "source_title": "Sign up and create a Stripe account | Stripe",
+        "source_type": "Official Documentation",
+        "evidence_summary": "Sign up to quickly create a new Stripe account today and get started accepting payments in minutes.",
+        "checked_at": "2026-09-17T12:54:25.505432Z"
+      },
+      {
+        "claim": "Stripe provides public REST API surface.",
+        "source_url": "https://docs.stripe.com/apis",
+        "source_title": "Stripe APIs | Stripe Documentation",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Stripe provides a unified set of REST APIs , comprised of two namespaces , for accepting payments, managing billing and subscriptions, sending payouts, and building financial workflows. You can authenticate requests, shape responses, localize data, test integrations, and handle errors consistently a",
+        "checked_at": "2026-09-17T12:54:44.781820Z"
+      },
+      {
+        "claim": "Stripe provides public Webhooks API surface.",
+        "source_url": "https://docs.stripe.com/api/webhook_endpoints",
+        "source_title": "Webhook Endpoints | Stripe API Reference",
+        "source_type": "Official API Reference",
+        "evidence_summary": "You can configure webhook endpoints via the API to be notified about events that happen in your Stripe account or connected accounts. Most users configure webhooks from the dashboard , which provides a user interface for registering and testing your webhook endpoints. Related guide: Setting up webho",
+        "checked_at": "2026-09-17T12:54:53.364772Z"
+      },
+      {
+        "claim": "Stripe provides public SDK API surface.",
+        "source_url": "https://docs.stripe.com/api",
+        "source_title": "Stripe API Reference",
+        "source_type": "Official API Reference",
+        "evidence_summary": "The Stripe API is organized around REST . Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs. You can use the Stripe API in sandboxes without affecting your live data or",
+        "checked_at": "2026-09-17T12:55:01.650589Z"
+      },
+      {
+        "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Stripe.",
+        "source_url": "https://github.com/mcp/com.stripe/mcp",
+        "source_title": "MCP Registry | Stripe · GitHub",
+        "source_type": "GitHub",
+        "evidence_summary": "A faster, safer way to build with AI: the GitHub MCP Registry centralizes MCP servers for effortless discovery, integration, and open collaboration.",
+        "checked_at": "2026-09-17T12:55:36.710721Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.9,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.93,
+    "researched_at": "2026-09-17T12:55:36.710721Z",
+    "researcher_version": "2.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 81,
+    "app": "Stripe",
+    "category": "Finance and Fintech",
+    "website": "https://docs.stripe.com/",
+    "one_line_description": "Developer resources: Leading platform in Finance and Fintech.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe supports authentication via OAuth2.",
+            "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+            "source_title": "OAuth 2.0 | Stripe Documentation",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+            "checked_at": "2026-09-17T12:53:43.659015Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via OAuth 2.0 | Stripe Documentation: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe supports authentication via API Key.",
+            "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+            "source_title": "OAuth 2.0 | Stripe Documentation",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+            "checked_at": "2026-09-17T12:53:43.659527Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via OAuth 2.0 | Stripe Documentation: API key provisioning and request header authentication."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe supports authentication via Bearer Token.",
+            "source_url": "https://docs.stripe.com/api/authentication?...",
+            "source_title": "Authentication | Stripe API Reference",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+            "checked_at": "2026-09-17T12:53:43.659527Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication | Stripe API Reference: Bearer token authentication format in HTTP request headers."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe supports authentication via Basic Auth.",
+            "source_url": "https://docs.stripe.com/api/authentication?...",
+            "source_title": "Authentication | Stripe API Reference",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+            "checked_at": "2026-09-17T12:54:13.846324Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication | Stripe API Reference: HTTP Basic Authentication via credentials."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Stripe's developer portal or app management console.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe provides public REST API surface.",
+            "source_url": "https://docs.stripe.com/apis",
+            "source_title": "Stripe APIs | Stripe Documentation",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Stripe provides a unified set of REST APIs , comprised of two namespaces , for accepting payments, managing billing and subscriptions, sending payouts, and building financial workflows. You can authenticate requests, shape responses, localize data, test integrations, and handle errors consistently a",
+            "checked_at": "2026-09-17T12:54:44.781820Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Stripe APIs | Stripe Documentation: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe provides public Webhooks API surface.",
+            "source_url": "https://docs.stripe.com/api/webhook_endpoints",
+            "source_title": "Webhook Endpoints | Stripe API Reference",
+            "source_type": "Official API Reference",
+            "evidence_summary": "You can configure webhook endpoints via the API to be notified about events that happen in your Stripe account or connected accounts. Most users configure webhooks from the dashboard , which provides a user interface for registering and testing your webhook endpoints. Related guide: Setting up webho",
+            "checked_at": "2026-09-17T12:54:53.364772Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Webhook Endpoints | Stripe API Reference: Webhook event delivery and subscription endpoints."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Stripe provides public SDK API surface.",
+            "source_url": "https://docs.stripe.com/api",
+            "source_title": "Stripe API Reference",
+            "source_type": "Official API Reference",
+            "evidence_summary": "The Stripe API is organized around REST . Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs. You can use the Stripe API in sandboxes without affecting your live data or",
+            "checked_at": "2026-09-17T12:55:01.650589Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Stripe API Reference: Official client SDKs and libraries."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Stripe exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Community/third-party MCP server available on GitHub: https://github.com/mcp/com.stripe/mcp",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Stripe supports authentication via OAuth2.",
+        "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+        "source_title": "OAuth 2.0 | Stripe Documentation",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+        "checked_at": "2026-09-17T12:53:43.659015Z"
+      },
+      {
+        "claim": "Stripe supports authentication via API Key.",
+        "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+        "source_title": "OAuth 2.0 | Stripe Documentation",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+        "checked_at": "2026-09-17T12:53:43.659527Z"
+      },
+      {
+        "claim": "Stripe supports authentication via Bearer Token.",
+        "source_url": "https://docs.stripe.com/api/authentication?...",
+        "source_title": "Authentication | Stripe API Reference",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+        "checked_at": "2026-09-17T12:53:43.659527Z"
+      },
+      {
+        "claim": "Stripe supports authentication via Basic Auth.",
+        "source_url": "https://docs.stripe.com/api/authentication?...",
+        "source_title": "Authentication | Stripe API Reference",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specif",
+        "checked_at": "2026-09-17T12:54:13.846324Z"
+      },
+      {
+        "claim": "Stripe offers self-serve credential creation for developers.",
+        "source_url": "https://dashboard.stripe.com/register",
+        "source_title": "Sign up and create a Stripe account | Stripe",
+        "source_type": "Official Documentation",
+        "evidence_summary": "Sign up to quickly create a new Stripe account today and get started accepting payments in minutes.",
+        "checked_at": "2026-09-17T12:54:25.505432Z"
+      },
+      {
+        "claim": "Stripe provides public REST API surface.",
+        "source_url": "https://docs.stripe.com/apis",
+        "source_title": "Stripe APIs | Stripe Documentation",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Stripe provides a unified set of REST APIs , comprised of two namespaces , for accepting payments, managing billing and subscriptions, sending payouts, and building financial workflows. You can authenticate requests, shape responses, localize data, test integrations, and handle errors consistently a",
+        "checked_at": "2026-09-17T12:54:44.781820Z"
+      },
+      {
+        "claim": "Stripe provides public Webhooks API surface.",
+        "source_url": "https://docs.stripe.com/api/webhook_endpoints",
+        "source_title": "Webhook Endpoints | Stripe API Reference",
+        "source_type": "Official API Reference",
+        "evidence_summary": "You can configure webhook endpoints via the API to be notified about events that happen in your Stripe account or connected accounts. Most users configure webhooks from the dashboard , which provides a user interface for registering and testing your webhook endpoints. Related guide: Setting up webho",
+        "checked_at": "2026-09-17T12:54:53.364772Z"
+      },
+      {
+        "claim": "Stripe provides public SDK API surface.",
+        "source_url": "https://docs.stripe.com/api",
+        "source_title": "Stripe API Reference",
+        "source_type": "Official API Reference",
+        "evidence_summary": "The Stripe API is organized around REST . Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs. You can use the Stripe API in sandboxes without affecting your live data or",
+        "checked_at": "2026-09-17T12:55:01.650589Z"
+      },
+      {
+        "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Stripe.",
+        "source_url": "https://github.com/mcp/com.stripe/mcp",
+        "source_title": "MCP Registry | Stripe · GitHub",
+        "source_type": "GitHub",
+        "evidence_summary": "A faster, safer way to build with AI: the GitHub MCP Registry centralizes MCP servers for effortless discovery, integration, and open collaboration.",
+        "checked_at": "2026-09-17T12:55:36.710721Z"
+      },
+      {
+        "claim": "Stripe credential access model is Free Self-Serve.",
+        "source_url": "https://docs.stripe.com/stripe-apps/create-app",
+        "source_title": "Getting started with Stripe Apps | Stripe Documentation",
+        "source_type": "Official Documentation",
+        "evidence_summary": "In this guide, build a “Hello, world!” sample app with a UI extension on the Customer details page in the Stripe Dashboard. The Stripe Apps skill helps your coding agent scaffold, build, preview, and test a Stripe app using Stripe’s latest guidance. Install Stripe’s agent skills , then start a new a",
+        "checked_at": "2026-09-17T13:06:03.334317Z"
+      },
+      {
+        "claim": "Stripe provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://docs.stripe.com/mcp",
+        "source_title": "Model Context Protocol (MCP) | Stripe Documentation",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "The Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API and search Stripe’s knowledge base, including documentation and support articles. Agent plugins for Stripe automatically configure the Stripe MCP server, install our skills , and make",
+        "checked_at": "2026-09-17T13:06:20.515675Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.9,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.95,
+    "researched_at": "2026-09-17T12:55:36.710721Z",
+    "researcher_version": "2.0.0",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v2.0.0. 6/6 claims verified. 0 corrections applied.",
+    "verified_at": "2026-09-17T13:06:20.516680Z"
+  },
+  "summary_notes": "Independent hardened audit for Stripe. 6/6 verified. 0 fields corrected."
+}

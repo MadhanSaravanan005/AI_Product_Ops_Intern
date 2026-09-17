@@ -1,0 +1,337 @@
+{
+  "app_id": 45,
+  "app": "Magento",
+  "category": "Ecommerce",
+  "verified_at": "2026-09-17T14:05:22.561693Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 45,
+      "app": "Magento",
+      "field": "website",
+      "original_value": "https://magento.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://magento.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 45,
+      "app": "Magento",
+      "field": "authentication",
+      "original_value": [
+        "Bearer Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Magento supports authentication via Bearer Token.",
+          "source_url": "https://www.mageplaza.com/devdocs/token-oauth-session-authentication-magento-2.html",
+          "source_title": "API Authentication: Token, OAuth, Session Authentication - Mageplaza",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Cookies help us enhance your experience on our site by storing\n                    information about your preferences and interactions. You can customize your\n                    cookie settings by choosing which cookies to allow. Please note that disabling\n                    certain cookies might ",
+          "checked_at": "2026-09-17T14:05:22.558572Z"
+        }
+      ],
+      "verification_notes": "Authentication methods verified with 1 primary evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 45,
+      "app": "Magento",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown access model verified in absence of gating documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 45,
+      "app": "Magento",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Magento provides public Webhooks API surface.",
+          "source_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+          "source_title": "OAuth-Based Authentication",
+          "source_type": "Official API Reference",
+          "evidence_summary": "OAuth authentication with Adobe Commerce and Magento Open Source is based on OAuth 1.0a , an open standard for secure API authentication. OAuth is a token-passing mechanism that allows a system to control which third-party applications have access to internal data without revealing or storing any us",
+          "checked_at": "2026-09-17T14:05:22.559607Z"
+        }
+      ],
+      "verification_notes": "API types verified with 1 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 45,
+      "app": "Magento",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.88,
+      "evidence": [],
+      "verification_notes": "No MCP Found status verified by deliberate registry/github search.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 45,
+      "app": "Magento",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable With Restrictions verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 45,
+    "app": "Magento",
+    "category": "Ecommerce",
+    "website": "https://magento.com/",
+    "one_line_description": "Magento: API Authentication: Token, OAuth, Session Authentication.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Magento supports authentication via Bearer Token.",
+            "source_url": "https://www.mageplaza.com/devdocs/token-oauth-session-authentication-magento-2.html",
+            "source_title": "API Authentication: Token, OAuth, Session Authentication - Mageplaza",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Cookies help us enhance your experience on our site by storing\n                    information about your preferences and interactions. You can customize your\n                    cookie settings by choosing which cookies to allow. Please note that disabling\n                    certain cookies might ",
+            "checked_at": "2026-09-17T14:05:22.558572Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API Authentication: Token, OAuth, Session Authentication - Mageplaza."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Magento provides public REST API surface.",
+            "source_url": "https://www.mageplaza.com/devdocs/token-oauth-session-authentication-magento-2.html",
+            "source_title": "API Authentication: Token, OAuth, Session Authentication - Mageplaza",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Cookies help us enhance your experience on our site by storing\n                    information about your preferences and interactions. You can customize your\n                    cookie settings by choosing which cookies to allow. Please note that disabling\n                    certain cookies might ",
+            "checked_at": "2026-09-17T14:05:22.558572Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API Authentication: Token, OAuth, Session Authentication - Mageplaza."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Magento provides public Webhooks API surface.",
+            "source_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+            "source_title": "OAuth-Based Authentication",
+            "source_type": "Official API Reference",
+            "evidence_summary": "OAuth authentication with Adobe Commerce and Magento Open Source is based on OAuth 1.0a , an open standard for secure API authentication. OAuth is a token-passing mechanism that allows a system to control which third-party applications have access to internal data without revealing or storing any us",
+            "checked_at": "2026-09-17T14:05:22.559607Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via OAuth-Based Authentication."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Magento exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Magento.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "Magento supports authentication via Bearer Token.",
+        "source_url": "https://www.mageplaza.com/devdocs/token-oauth-session-authentication-magento-2.html",
+        "source_title": "API Authentication: Token, OAuth, Session Authentication - Mageplaza",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Cookies help us enhance your experience on our site by storing\n                    information about your preferences and interactions. You can customize your\n                    cookie settings by choosing which cookies to allow. Please note that disabling\n                    certain cookies might ",
+        "checked_at": "2026-09-17T14:05:22.558572Z"
+      },
+      {
+        "claim": "Magento provides public Webhooks API surface.",
+        "source_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+        "source_title": "OAuth-Based Authentication",
+        "source_type": "Official API Reference",
+        "evidence_summary": "OAuth authentication with Adobe Commerce and Magento Open Source is based on OAuth 1.0a , an open standard for secure API authentication. OAuth is a token-passing mechanism that allows a system to control which third-party applications have access to internal data without revealing or storing any us",
+        "checked_at": "2026-09-17T14:05:22.559607Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T14:05:22.559607Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 45,
+    "app": "Magento",
+    "category": "Ecommerce",
+    "website": "https://magento.com/",
+    "one_line_description": "Magento: API Authentication: Token, OAuth, Session Authentication.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Magento supports authentication via Bearer Token.",
+            "source_url": "https://www.mageplaza.com/devdocs/token-oauth-session-authentication-magento-2.html",
+            "source_title": "API Authentication: Token, OAuth, Session Authentication - Mageplaza",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Cookies help us enhance your experience on our site by storing\n                    information about your preferences and interactions. You can customize your\n                    cookie settings by choosing which cookies to allow. Please note that disabling\n                    certain cookies might ",
+            "checked_at": "2026-09-17T14:05:22.558572Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API Authentication: Token, OAuth, Session Authentication - Mageplaza."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Magento provides public REST API surface.",
+            "source_url": "https://www.mageplaza.com/devdocs/token-oauth-session-authentication-magento-2.html",
+            "source_title": "API Authentication: Token, OAuth, Session Authentication - Mageplaza",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Cookies help us enhance your experience on our site by storing\n                    information about your preferences and interactions. You can customize your\n                    cookie settings by choosing which cookies to allow. Please note that disabling\n                    certain cookies might ",
+            "checked_at": "2026-09-17T14:05:22.558572Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API Authentication: Token, OAuth, Session Authentication - Mageplaza."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Magento provides public Webhooks API surface.",
+            "source_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+            "source_title": "OAuth-Based Authentication",
+            "source_type": "Official API Reference",
+            "evidence_summary": "OAuth authentication with Adobe Commerce and Magento Open Source is based on OAuth 1.0a , an open standard for secure API authentication. OAuth is a token-passing mechanism that allows a system to control which third-party applications have access to internal data without revealing or storing any us",
+            "checked_at": "2026-09-17T14:05:22.559607Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via OAuth-Based Authentication."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Magento exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Magento.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "Magento supports authentication via Bearer Token.",
+        "source_url": "https://www.mageplaza.com/devdocs/token-oauth-session-authentication-magento-2.html",
+        "source_title": "API Authentication: Token, OAuth, Session Authentication - Mageplaza",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Cookies help us enhance your experience on our site by storing\n                    information about your preferences and interactions. You can customize your\n                    cookie settings by choosing which cookies to allow. Please note that disabling\n                    certain cookies might ",
+        "checked_at": "2026-09-17T14:05:22.558572Z"
+      },
+      {
+        "claim": "Magento provides public Webhooks API surface.",
+        "source_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+        "source_title": "OAuth-Based Authentication",
+        "source_type": "Official API Reference",
+        "evidence_summary": "OAuth authentication with Adobe Commerce and Magento Open Source is based on OAuth 1.0a , an open standard for secure API authentication. OAuth is a token-passing mechanism that allows a system to control which third-party applications have access to internal data without revealing or storing any us",
+        "checked_at": "2026-09-17T14:05:22.559607Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T14:05:22.559607Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T14:05:22.561693Z"
+  },
+  "summary_notes": "Production verification audit for Magento: 6/6 verified."
+}

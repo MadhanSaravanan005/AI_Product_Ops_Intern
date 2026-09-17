@@ -1,0 +1,154 @@
+{
+  "id": 93,
+  "app": "Fathom",
+  "category": "AI, Research and Media-native",
+  "website": "https://developers.fathom.ai/",
+  "one_line_description": "Fathom: Introduction.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Fathom supports authentication via OAuth2.",
+          "source_url": "https://developers.fathom.ai/sdks/oauth",
+          "source_title": "OAuth - Fathom API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Calling tokenStore.get() too early Nothing will be there yet — tokens are only written after the SDK exchanges the authorization code. Assuming tokens never expire Access toke",
+          "checked_at": "2026-09-17T15:06:35.456736Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth - Fathom API."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Fathom supports authentication via API Key.",
+          "source_url": "https://developers.fathom.ai/sdks/authentication",
+          "source_title": "Authentication - Fathom API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Use environment variables for credentials Use OAuth for multi-user integrations Rotate API keys regularly",
+          "checked_at": "2026-09-17T15:06:35.456736Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication - Fathom API."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Fathom supports authentication via Bearer Token.",
+          "source_url": "https://usefathom.com/api/v1/authentication",
+          "source_title": "Authentication · Fathom Analytics API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "What you can do with Fathom Why Fathom Analytics? Researching website analytics? Website analytics for: Cloudflare Web Analytics No matching endpoints or topics. To connect to our API, you must use the Authorization header with a bearer token. This can be obtained from your dashboard, under Settings",
+          "checked_at": "2026-09-17T15:06:35.456736Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication · Fathom Analytics API."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Fathom provides public REST API surface.",
+          "source_url": "https://api-docs.fathom.global/reference/rest.html",
+          "source_title": "REST - Fathom API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The Swagger explorer below provides in depth documentation for the Fathom REST API. The Swagger explorer below does not currently send requests to the Fathom API, but it can still be used to\ngenerate curl commands or just to explore the API.",
+          "checked_at": "2026-09-17T15:06:35.457245Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via REST - Fathom API."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Fathom provides public SDK API surface.",
+          "source_url": "https://developers.fathom.ai/sdks/oauth",
+          "source_title": "OAuth - Fathom API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Calling tokenStore.get() too early Nothing will be there yet — tokens are only written after the SDK exchanges the authorization code. Assuming tokens never expire Access toke",
+          "checked_at": "2026-09-17T15:06:35.457245Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth - Fathom API."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Fathom exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Fathom.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Developer account required to obtain access credentials.",
+  "evidence": [
+    {
+      "claim": "Fathom supports authentication via OAuth2.",
+      "source_url": "https://developers.fathom.ai/sdks/oauth",
+      "source_title": "OAuth - Fathom API",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Calling tokenStore.get() too early Nothing will be there yet — tokens are only written after the SDK exchanges the authorization code. Assuming tokens never expire Access toke",
+      "checked_at": "2026-09-17T15:06:35.456736Z"
+    },
+    {
+      "claim": "Fathom supports authentication via API Key.",
+      "source_url": "https://developers.fathom.ai/sdks/authentication",
+      "source_title": "Authentication - Fathom API",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Use environment variables for credentials Use OAuth for multi-user integrations Rotate API keys regularly",
+      "checked_at": "2026-09-17T15:06:35.456736Z"
+    },
+    {
+      "claim": "Fathom supports authentication via Bearer Token.",
+      "source_url": "https://usefathom.com/api/v1/authentication",
+      "source_title": "Authentication · Fathom Analytics API",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "What you can do with Fathom Why Fathom Analytics? Researching website analytics? Website analytics for: Cloudflare Web Analytics No matching endpoints or topics. To connect to our API, you must use the Authorization header with a bearer token. This can be obtained from your dashboard, under Settings",
+      "checked_at": "2026-09-17T15:06:35.456736Z"
+    },
+    {
+      "claim": "Fathom provides public REST API surface.",
+      "source_url": "https://api-docs.fathom.global/reference/rest.html",
+      "source_title": "REST - Fathom API",
+      "source_type": "Official API Reference",
+      "evidence_summary": "The Swagger explorer below provides in depth documentation for the Fathom REST API. The Swagger explorer below does not currently send requests to the Fathom API, but it can still be used to\ngenerate curl commands or just to explore the API.",
+      "checked_at": "2026-09-17T15:06:35.457245Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.76,
+  "researched_at": "2026-09-17T15:06:35.457245Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

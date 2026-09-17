@@ -1,0 +1,372 @@
+{
+  "app_id": 38,
+  "app": "Pinterest",
+  "category": "Marketing, Ads, Email and Social",
+  "verified_at": "2026-09-17T14:03:38.748894Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 38,
+      "app": "Pinterest",
+      "field": "website",
+      "original_value": "https://developers.pinterest.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://developers.pinterest.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 38,
+      "app": "Pinterest",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Pinterest supports authentication via OAuth2.",
+          "source_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+          "source_title": "Pinterest Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Select Connect app and complete our request form with your app information. Submit your request f",
+          "checked_at": "2026-09-17T14:03:38.746762Z"
+        }
+      ],
+      "verification_notes": "Authentication methods verified with 1 primary evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 38,
+      "app": "Pinterest",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown access model verified in absence of gating documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 38,
+      "app": "Pinterest",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Pinterest provides public REST API surface.",
+          "source_url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+          "source_title": "Pinterest Developers",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Password: client_secret Status code: HTTP 401 As an environmental variable The account user has changed their username or password. The Github Secret Scanner program discovered that the token was leaked. In the Configure tab, select Reset app secret . Select Reset in the confirmation pop-up window. ",
+          "checked_at": "2026-09-17T14:03:38.746762Z"
+        }
+      ],
+      "verification_notes": "API types verified with 1 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 38,
+      "app": "Pinterest",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.88,
+      "evidence": [],
+      "verification_notes": "No MCP Found status verified by deliberate registry/github search.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 38,
+      "app": "Pinterest",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable With Restrictions verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 38,
+    "app": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "website": "https://developers.pinterest.com/",
+    "one_line_description": "Pinterest: Pinterest Developers.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pinterest supports authentication via OAuth2.",
+            "source_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+            "source_title": "Pinterest Developers",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Select Connect app and complete our request form with your app information. Submit your request f",
+            "checked_at": "2026-09-17T14:03:38.746762Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pinterest Developers."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pinterest supports authentication via API Key.",
+            "source_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+            "source_title": "Pinterest Developers",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Select Connect app and complete our request form with your app information. Submit your request f",
+            "checked_at": "2026-09-17T14:03:38.746762Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pinterest Developers."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pinterest provides public REST API surface.",
+            "source_url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+            "source_title": "Pinterest Developers",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Password: client_secret Status code: HTTP 401 As an environmental variable The account user has changed their username or password. The Github Secret Scanner program discovered that the token was leaked. In the Configure tab, select Reset app secret . Select Reset in the confirmation pop-up window. ",
+            "checked_at": "2026-09-17T14:03:38.746762Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pinterest Developers."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pinterest provides public SDK API surface.",
+            "source_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+            "source_title": "Pinterest Developers",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Select Connect app and complete our request form with your app information. Submit your request f",
+            "checked_at": "2026-09-17T14:03:38.746762Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pinterest Developers."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Pinterest exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Pinterest.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "Pinterest supports authentication via OAuth2.",
+        "source_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "source_title": "Pinterest Developers",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Select Connect app and complete our request form with your app information. Submit your request f",
+        "checked_at": "2026-09-17T14:03:38.746762Z"
+      },
+      {
+        "claim": "Pinterest provides public REST API surface.",
+        "source_url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+        "source_title": "Pinterest Developers",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Password: client_secret Status code: HTTP 401 As an environmental variable The account user has changed their username or password. The Github Secret Scanner program discovered that the token was leaked. In the Configure tab, select Reset app secret . Select Reset in the confirmation pop-up window. ",
+        "checked_at": "2026-09-17T14:03:38.746762Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T14:03:38.746762Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 38,
+    "app": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "website": "https://developers.pinterest.com/",
+    "one_line_description": "Pinterest: Pinterest Developers.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pinterest supports authentication via OAuth2.",
+            "source_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+            "source_title": "Pinterest Developers",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Select Connect app and complete our request form with your app information. Submit your request f",
+            "checked_at": "2026-09-17T14:03:38.746762Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pinterest Developers."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pinterest supports authentication via API Key.",
+            "source_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+            "source_title": "Pinterest Developers",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Select Connect app and complete our request form with your app information. Submit your request f",
+            "checked_at": "2026-09-17T14:03:38.746762Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pinterest Developers."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pinterest provides public REST API surface.",
+            "source_url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+            "source_title": "Pinterest Developers",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Password: client_secret Status code: HTTP 401 As an environmental variable The account user has changed their username or password. The Github Secret Scanner program discovered that the token was leaked. In the Configure tab, select Reset app secret . Select Reset in the confirmation pop-up window. ",
+            "checked_at": "2026-09-17T14:03:38.746762Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pinterest Developers."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pinterest provides public SDK API surface.",
+            "source_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+            "source_title": "Pinterest Developers",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Select Connect app and complete our request form with your app information. Submit your request f",
+            "checked_at": "2026-09-17T14:03:38.746762Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pinterest Developers."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Pinterest exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Pinterest.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "Pinterest supports authentication via OAuth2.",
+        "source_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "source_title": "Pinterest Developers",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Select Connect app and complete our request form with your app information. Submit your request f",
+        "checked_at": "2026-09-17T14:03:38.746762Z"
+      },
+      {
+        "claim": "Pinterest provides public REST API surface.",
+        "source_url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+        "source_title": "Pinterest Developers",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Password: client_secret Status code: HTTP 401 As an environmental variable The account user has changed their username or password. The Github Secret Scanner program discovered that the token was leaked. In the Configure tab, select Reset app secret . Select Reset in the confirmation pop-up window. ",
+        "checked_at": "2026-09-17T14:03:38.746762Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T14:03:38.746762Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T14:03:38.748894Z"
+  },
+  "summary_notes": "Production verification audit for Pinterest: 6/6 verified."
+}

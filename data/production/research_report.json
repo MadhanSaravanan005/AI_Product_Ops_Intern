@@ -1,0 +1,22 @@
+{
+  "report_title": "100-Application Production Research Quality Report",
+  "generated_at": "2026-09-17T13:38:49.607272+00:00",
+  "total_apps_attempted": 17,
+  "completed": 16,
+  "needs_verification": 1,
+  "failed": 0,
+  "average_confidence": 0.88,
+  "unknown_count_per_major_field": {
+    "auth_methods": 0,
+    "access_model": 4,
+    "api_types": 1,
+    "mcp_status": 1,
+    "buildability": 0
+  },
+  "evidence_counts_summary": {
+    "total_evidence_collected": 80,
+    "average_evidence_per_app": 4.71,
+    "min_evidence": 3,
+    "max_evidence": 8
+  }
+}

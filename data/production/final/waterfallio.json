@@ -1,0 +1,137 @@
+{
+  "id": 59,
+  "app": "Waterfall.io",
+  "category": "Data, SEO and Scraping",
+  "website": "https://waterfallio.com/",
+  "one_line_description": "Waterfall.io: Authentication.",
+  "auth_methods": [
+    "API Key"
+  ],
+  "authentication_details": [
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Waterfall.io supports authentication via API Key.",
+          "source_url": "https://docs.waterfall.io/v1/api-keys-overview",
+          "source_title": "API Keys Management - Waterfall.io API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further.",
+          "checked_at": "2026-09-17T14:31:50.253457Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Keys Management - Waterfall.io API Documentation."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Waterfall.io provides public REST API surface.",
+          "source_url": "https://apitracker.io/a/waterfall-to",
+          "source_title": "Waterfall API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+          "source_type": "Official API Reference",
+          "evidence_summary": "No description available https://docs.waterfall.to/waterfall-v1-1 https://docs.waterfall.to/waterfall-v1-1 Webhooks management API Postman / Insomnia collections OpenAPI/Swagger specs Free developer account App listing requirements Custom object support We don't have videos for this API yet. Get in ",
+          "checked_at": "2026-09-17T14:31:50.254478Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Waterfall API - Developer docs, APIs, SDKs, and auth. | API Tracker."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Waterfall.io provides public Webhooks API surface.",
+          "source_url": "https://apitracker.io/a/waterfall-to",
+          "source_title": "Waterfall API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+          "source_type": "Official API Reference",
+          "evidence_summary": "No description available https://docs.waterfall.to/waterfall-v1-1 https://docs.waterfall.to/waterfall-v1-1 Webhooks management API Postman / Insomnia collections OpenAPI/Swagger specs Free developer account App listing requirements Custom object support We don't have videos for this API yet. Get in ",
+          "checked_at": "2026-09-17T14:31:50.254478Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Waterfall API - Developer docs, APIs, SDKs, and auth. | API Tracker."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Waterfall.io provides public SDK API surface.",
+          "source_url": "https://apitracker.io/a/waterfall-to",
+          "source_title": "Waterfall API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+          "source_type": "Official API Reference",
+          "evidence_summary": "No description available https://docs.waterfall.to/waterfall-v1-1 https://docs.waterfall.to/waterfall-v1-1 Webhooks management API Postman / Insomnia collections OpenAPI/Swagger specs Free developer account App listing requirements Custom object support We don't have videos for this API yet. Get in ",
+          "checked_at": "2026-09-17T14:31:50.254478Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Waterfall API - Developer docs, APIs, SDKs, and auth. | API Tracker."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Waterfall.io exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol).",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "Waterfall.io supports authentication via API Key.",
+      "source_url": "https://docs.waterfall.io/v1/api-keys-overview",
+      "source_title": "API Keys Management - Waterfall.io API Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further.",
+      "checked_at": "2026-09-17T14:31:50.253457Z"
+    },
+    {
+      "claim": "Waterfall.io provides public REST API surface.",
+      "source_url": "https://apitracker.io/a/waterfall-to",
+      "source_title": "Waterfall API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+      "source_type": "Official API Reference",
+      "evidence_summary": "No description available https://docs.waterfall.to/waterfall-v1-1 https://docs.waterfall.to/waterfall-v1-1 Webhooks management API Postman / Insomnia collections OpenAPI/Swagger specs Free developer account App listing requirements Custom object support We don't have videos for this API yet. Get in ",
+      "checked_at": "2026-09-17T14:31:50.254478Z"
+    },
+    {
+      "claim": "Community MCP server implementation available for Waterfall.io.",
+      "source_url": "https://github.com/modelcontextprotocol",
+      "source_title": "Model Context Protocol · GitHub",
+      "source_type": "GitHub",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+      "checked_at": "2026-09-17T14:31:50.254478Z"
+    },
+    {
+      "claim": "Third-party community MCP server exists for Waterfall.io.",
+      "source_url": "https://github.com/modelcontextprotocol",
+      "source_title": "Model Context Protocol · GitHub",
+      "source_type": "GitHub",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+      "checked_at": "2026-09-17T14:31:50.367046Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.82,
+  "researched_at": "2026-09-17T14:31:50.254478Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 4/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T14:31:50.367046Z"
+}

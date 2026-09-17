@@ -1,0 +1,203 @@
+{
+  "id": 19,
+  "app": "Gorgias",
+  "category": "Support and Helpdesk",
+  "website": "https://gorgias.com/",
+  "one_line_description": "Gorgias is a software platform in the Support and Helpdesk category.",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gorgias supports authentication via OAuth2.",
+          "source_url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+          "source_title": "Access Tokens (API Keys)",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Please remember that the API key authentication method can be used only for private apps . If you plan to build a public app you have to use OAuth2. Each access token (or API key) is tied to a specific user and has the same permissions as the user that holds them. Requests made with an access token ",
+          "checked_at": "2026-09-17T13:51:01.832269Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Access Tokens (API Keys): OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gorgias supports authentication via API Key.",
+          "source_url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+          "source_title": "Access Tokens (API Keys)",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Please remember that the API key authentication method can be used only for private apps . If you plan to build a public app you have to use OAuth2. Each access token (or API key) is tied to a specific user and has the same permissions as the user that holds them. Requests made with an access token ",
+          "checked_at": "2026-09-17T13:51:01.832269Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Access Tokens (API Keys): API key provisioning and request header authentication."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gorgias supports authentication via Basic Auth.",
+          "source_url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+          "source_title": "Access Tokens (API Keys)",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Please remember that the API key authentication method can be used only for private apps . If you plan to build a public app you have to use OAuth2. Each access token (or API key) is tied to a specific user and has the same permissions as the user that holds them. Requests made with an access token ",
+          "checked_at": "2026-09-17T13:51:01.832269Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Access Tokens (API Keys): HTTP Basic Authentication via credentials."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Gorgias's developer portal or app management console.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gorgias provides public REST API surface.",
+          "source_url": "https://www.getmacha.com/blog/gorgias-api-explained",
+          "source_title": "Gorgias API Explained: Auth, Rate Limits, Endpoints & Webhooks",
+          "source_type": "Official API Reference",
+          "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 16, 2026 Updated July 16, 2026 The Gorgias REST API is how anything outside the helpdesk reaches inside it: a sync job that pulls tickets into a warehouse, a middleware that pushes order da",
+          "checked_at": "2026-09-17T13:51:16.343590Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Gorgias API Explained: Auth, Rate Limits, Endpoints & Webhooks: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gorgias provides public Webhooks API surface.",
+          "source_url": "https://www.getmacha.com/blog/gorgias-api-explained",
+          "source_title": "Gorgias API Explained: Auth, Rate Limits, Endpoints & Webhooks",
+          "source_type": "Official API Reference",
+          "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 16, 2026 Updated July 16, 2026 The Gorgias REST API is how anything outside the helpdesk reaches inside it: a sync job that pulls tickets into a warehouse, a middleware that pushes order da",
+          "checked_at": "2026-09-17T13:51:16.343590Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Gorgias API Explained: Auth, Rate Limits, Endpoints & Webhooks: Webhook event delivery and subscription endpoints."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gorgias provides public SDK API surface.",
+          "source_url": "https://www.getmacha.com/blog/how-to-use-the-gorgias-api",
+          "source_title": "How to Use the Gorgias API (2026): Auth, Endpoints & Examples",
+          "source_type": "Official API Reference",
+          "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 6, 2026 Updated August 21, 2026 If you run support for an ecommerce brand on Gorgias and you want to pull tickets into a warehouse, sync customers from your store, auto-create a ticket when",
+          "checked_at": "2026-09-17T13:51:16.343590Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via How to Use the Gorgias API (2026): Auth, Endpoints & Examples: Official client SDKs and libraries."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Gorgias exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Gorgias.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Gorgias supports authentication via OAuth2.",
+      "source_url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+      "source_title": "Access Tokens (API Keys)",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Please remember that the API key authentication method can be used only for private apps . If you plan to build a public app you have to use OAuth2. Each access token (or API key) is tied to a specific user and has the same permissions as the user that holds them. Requests made with an access token ",
+      "checked_at": "2026-09-17T13:51:01.832269Z"
+    },
+    {
+      "claim": "Gorgias supports authentication via API Key.",
+      "source_url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+      "source_title": "Access Tokens (API Keys)",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Please remember that the API key authentication method can be used only for private apps . If you plan to build a public app you have to use OAuth2. Each access token (or API key) is tied to a specific user and has the same permissions as the user that holds them. Requests made with an access token ",
+      "checked_at": "2026-09-17T13:51:01.832269Z"
+    },
+    {
+      "claim": "Gorgias supports authentication via Basic Auth.",
+      "source_url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+      "source_title": "Access Tokens (API Keys)",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Please remember that the API key authentication method can be used only for private apps . If you plan to build a public app you have to use OAuth2. Each access token (or API key) is tied to a specific user and has the same permissions as the user that holds them. Requests made with an access token ",
+      "checked_at": "2026-09-17T13:51:01.832269Z"
+    },
+    {
+      "claim": "Gorgias offers self-serve credential creation for developers.",
+      "source_url": "https://developers.gorgias.com/",
+      "source_title": "gorgias-developers",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Integrate with Gorgias to support thousands of shop owners and grow your app audience. Or simply build a private app to empower your support team with the tools they need. Regardless of your end goal, follow these easy steps below to build an integration with us. Sign up for our Developer Portal to ",
+      "checked_at": "2026-09-17T13:51:09.526741Z"
+    },
+    {
+      "claim": "Gorgias provides public REST API surface.",
+      "source_url": "https://www.getmacha.com/blog/gorgias-api-explained",
+      "source_title": "Gorgias API Explained: Auth, Rate Limits, Endpoints & Webhooks",
+      "source_type": "Official API Reference",
+      "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 16, 2026 Updated July 16, 2026 The Gorgias REST API is how anything outside the helpdesk reaches inside it: a sync job that pulls tickets into a warehouse, a middleware that pushes order da",
+      "checked_at": "2026-09-17T13:51:16.343590Z"
+    },
+    {
+      "claim": "Gorgias provides public Webhooks API surface.",
+      "source_url": "https://www.getmacha.com/blog/gorgias-api-explained",
+      "source_title": "Gorgias API Explained: Auth, Rate Limits, Endpoints & Webhooks",
+      "source_type": "Official API Reference",
+      "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 16, 2026 Updated July 16, 2026 The Gorgias REST API is how anything outside the helpdesk reaches inside it: a sync job that pulls tickets into a warehouse, a middleware that pushes order da",
+      "checked_at": "2026-09-17T13:51:16.343590Z"
+    },
+    {
+      "claim": "Gorgias provides public SDK API surface.",
+      "source_url": "https://www.getmacha.com/blog/how-to-use-the-gorgias-api",
+      "source_title": "How to Use the Gorgias API (2026): Auth, Endpoints & Examples",
+      "source_type": "Official API Reference",
+      "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 6, 2026 Updated August 21, 2026 If you run support for an ecommerce brand on Gorgias and you want to pull tickets into a warehouse, sync customers from your store, auto-create a ticket when",
+      "checked_at": "2026-09-17T13:51:16.343590Z"
+    },
+    {
+      "claim": "Gorgias provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://docs.gorgias.com/en-US/connect-your-ai-assistant-to-the-gorgias-mcp-6310546",
+      "source_title": "Connect your AI assistant to the Gorgias MCP",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "The Gorgias Model Context Protocol (MCP) app allows your third-party AI assistant to access your Gorgias data and account, so it can read and analyze your helpdesk tickets, and audit and update your Gorgias settings. The instructions in this article outline how to connect the Gorgias MCP app to Clau",
+      "checked_at": "2026-09-17T13:51:22.716499Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.94,
+  "researched_at": "2026-09-17T13:51:22.717499Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Verified",
+  "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+  "verified_at": "2026-09-17T13:57:07.215864Z"
+}

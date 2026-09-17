@@ -1,0 +1,10 @@
+API Type / Architecture,App Count,Percentage of Dataset
+REST,64,64.0%
+Webhooks,53,53.0%
+SDK,54,54.0%
+GraphQL,11,11.0%
+CLI,0,0.0%
+SOAP,0,0.0%
+Other,0,0.0%
+None,0,0.0%
+Unknown,11,11.0%

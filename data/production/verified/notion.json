@@ -1,0 +1,96 @@
+{
+  "id": 71,
+  "app": "Notion",
+  "category": "Productivity and Project Management",
+  "website": "https://developers.notion.com/",
+  "one_line_description": "Overview: Leading platform in Productivity and Project Management.",
+  "auth_methods": [
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Notion's developer portal or app management console.",
+  "api_types": [
+    "GraphQL",
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Notion exposes programmatic API endpoints covering primary platform objects and events.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Notion.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Notion supports authentication via Personal Access Token, API Key, Bearer Token, OAuth2.",
+      "source_url": "https://developers.notion.com/workers/guides/oauth",
+      "source_title": "OAuth - Notion Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Get your redirect URL Create an OAuth app with your provider Store your OAuth credentials",
+      "checked_at": "2026-09-17T10:09:44.194023Z"
+    },
+    {
+      "claim": "Notion offers self-serve credential creation for developers.",
+      "source_url": "https://developers.notion.com/guides/get-started/overview",
+      "source_title": "Overview - Notion Docs",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Create Notion connections that unlock new possibilities for teams. Internal connections are scoped to a single workspace and use a static API token. They’re ideal for custom a",
+      "checked_at": "2026-09-17T10:09:51.684671Z"
+    },
+    {
+      "claim": "Notion provides comprehensive public API methods and developer integrations.",
+      "source_url": "https://hasura.io/blog/creating-a-graphql-api-for-notion-with-hasura-actions",
+      "source_title": "Creating a GraphQL API for Notion with Hasura Actions",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Notion launched their REST API recently letting you connect your pages and databases with any tool to create powerful workflows. In this post, we will leverage the Notion API to create a GraphQL wrapper for their pages API endpoint. This will use Hasura Actions to define GraphQL types and we will be",
+      "checked_at": "2026-09-17T10:10:09.857148Z"
+    },
+    {
+      "claim": "Notion provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://www.notion.com/help/notion-mcp",
+      "source_title": "Connect AI tools with Notion MCP | Notion Help – Notion Help Center",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "Notion MCP (Model Context Protocol) is a powerful way to connect your favorite AI apps directly to your Notion workspace. Think of it as a bridge that lets AI assistants like Claude, ChatGPT, and Cursor read from and write to your Notion pages in real-time. Unlike traditional integrations, MCP is de",
+      "checked_at": "2026-09-17T10:10:32.080442Z"
+    },
+    {
+      "claim": "Notion supports authentication via OAuth2.",
+      "source_url": "https://developers.notion.com/workers/guides/oauth",
+      "source_title": "OAuth - Notion Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Get your redirect URL Create an OAuth app with your provider Store your OAuth credentials",
+      "checked_at": "2026-09-17T10:14:16.675859Z"
+    },
+    {
+      "claim": "Notion supports authentication via Personal Access Token.",
+      "source_url": "https://developers.notion.com/guides/get-started/overview",
+      "source_title": "Overview - Notion Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Create Notion connections that unlock new possibilities for teams. Internal connections are scoped to a single workspace and use a static API token. They’re ideal for custom a",
+      "checked_at": "2026-09-17T10:14:17.039304Z"
+    },
+    {
+      "claim": "Notion provides public GraphQL API surface.",
+      "source_url": "https://hasura.io/blog/creating-a-graphql-api-for-notion-with-hasura-actions",
+      "source_title": "Creating a GraphQL API for Notion with Hasura Actions",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Notion launched their REST API recently letting you connect your pages and databases with any tool to create powerful workflows. In this post, we will leverage the Notion API to create a GraphQL wrapper for their pages API endpoint. This will use Hasura Actions to define GraphQL types and we will be",
+      "checked_at": "2026-09-17T10:14:26.946210Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.9,
+  "api_confidence": 0.9,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.9,
+  "researched_at": "2026-09-17T10:10:32.081475Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 5/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T10:14:31.254978Z"
+}

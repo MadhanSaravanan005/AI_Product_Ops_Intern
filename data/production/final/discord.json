@@ -1,0 +1,104 @@
+{
+  "id": 26,
+  "app": "Discord",
+  "category": "Communications and Messaging",
+  "website": "https://docs.discord.com/",
+  "one_line_description": "Discord: API Reference.",
+  "auth_methods": [
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Discord supports authentication via OAuth2.",
+          "source_url": "https://docs.discord.com/developers/reference",
+          "source_title": "API Reference - Documentation - Discord",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Using a bot token found on the Bot page within your app’s settings. For more information on bots see bots vs user accounts . Using an OAuth2 bearer token gained through the OA",
+          "checked_at": "2026-09-17T13:57:27.146138Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Reference - Documentation - Discord."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Discord supports authentication via Bearer Token.",
+          "source_url": "https://docs.discord.com/developers/reference",
+          "source_title": "API Reference - Documentation - Discord",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Using a bot token found on the Bot page within your app’s settings. For more information on bots see bots vs user accounts . Using an OAuth2 bearer token gained through the OA",
+          "checked_at": "2026-09-17T13:57:27.147135Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Reference - Documentation - Discord."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Discord provides public SDK API surface.",
+          "source_url": "https://discord.com/developers/docs/social-sdk/authentication.html",
+          "source_title": "Authentication | Discord Social SDK",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The SDK supports two ways of authenticating users: There is a standard OAuth2 flow to allow users to authenticate with an existing Discord account. For users that don't have Discord accounts, there is an authentication flow that allows users to authenticate using an external provider, and connect th",
+          "checked_at": "2026-09-17T13:57:27.147135Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication | Discord Social SDK."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Discord exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Discord.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Developer account required to obtain access credentials.",
+  "evidence": [
+    {
+      "claim": "Discord supports authentication via OAuth2.",
+      "source_url": "https://docs.discord.com/developers/reference",
+      "source_title": "API Reference - Documentation - Discord",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Using a bot token found on the Bot page within your app’s settings. For more information on bots see bots vs user accounts . Using an OAuth2 bearer token gained through the OA",
+      "checked_at": "2026-09-17T13:57:27.146138Z"
+    },
+    {
+      "claim": "Discord provides public SDK API surface.",
+      "source_url": "https://discord.com/developers/docs/social-sdk/authentication.html",
+      "source_title": "Authentication | Discord Social SDK",
+      "source_type": "Official API Reference",
+      "evidence_summary": "The SDK supports two ways of authenticating users: There is a standard OAuth2 flow to allow users to authenticate with an existing Discord account. For users that don't have Discord accounts, there is an authentication flow that allows users to authenticate using an external provider, and connect th",
+      "checked_at": "2026-09-17T13:57:27.147135Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.76,
+  "researched_at": "2026-09-17T13:57:27.148132Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Verified",
+  "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+  "verified_at": "2026-09-17T13:57:27.151394Z"
+}

@@ -1,0 +1,121 @@
+{
+  "id": 48,
+  "app": "Gumroad",
+  "category": "Ecommerce",
+  "website": "https://gumroad.com/",
+  "one_line_description": "Gumroad: Create an application for the API.",
+  "auth_methods": [
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gumroad supports authentication via OAuth2.",
+          "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+          "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+          "checked_at": "2026-09-17T14:06:24.431429Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+    },
+    {
+      "method": "Personal Access Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gumroad supports authentication via Personal Access Token.",
+          "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+          "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+          "checked_at": "2026-09-17T14:06:24.432433Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve.",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gumroad provides public REST API surface.",
+          "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+          "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+          "checked_at": "2026-09-17T14:06:24.432433Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gumroad provides public Webhooks API surface.",
+          "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+          "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+          "checked_at": "2026-09-17T14:06:24.432433Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Gumroad API Access Token: How to Create, Use, and Revoke It (2026)."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Gumroad exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Gumroad.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Buildable with standard developer rate limits and token scoping.",
+  "evidence": [
+    {
+      "claim": "Gumroad supports authentication via OAuth2.",
+      "source_url": "https://gumkit.app/blog/gumroad-api-access-token/",
+      "source_title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Updated 2026-07-27 Â· GumKit guides If you want to automate anything on your Gumroad account â pull your sales, bulk-edit prices, generate discount codes, or connect a tool like Zapier, n8n, or a Chrome extension â you'll hit the same first step: you need a Gumroad API access token . The token i",
+      "checked_at": "2026-09-17T14:06:24.431429Z"
+    },
+    {
+      "claim": "Gumroad offers self-serve credential creation for developers.",
+      "source_url": "https://gumroad.com/help/article/280-create-application-api",
+      "source_title": "Create an application for the API - Gumroad Help Center",
+      "source_type": "Official Documentation",
+      "evidence_summary": "In this article: For just your Gumroad account Generating an access token For any Gumroad account Sign in with Gumroad Using a Redirect URI Enabling your applic",
+      "checked_at": "2026-09-17T14:06:24.432433Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.9,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.85,
+  "overall_confidence": 0.89,
+  "researched_at": "2026-09-17T14:06:24.432433Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Automated production verification audit. 5/6 claims verified.",
+  "verified_at": "2026-09-17T14:06:24.435682Z"
+}

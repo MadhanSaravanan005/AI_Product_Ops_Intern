@@ -1,0 +1,312 @@
+{
+  "app_id": 46,
+  "app": "Squarespace",
+  "category": "Ecommerce",
+  "verified_at": "2026-09-17T14:05:49.112047Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 46,
+      "app": "Squarespace",
+      "field": "website",
+      "original_value": "https://developers.squarespace.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://developers.squarespace.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 46,
+      "app": "Squarespace",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Squarespace supports authentication via OAuth2.",
+          "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+          "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+          "checked_at": "2026-09-17T14:05:49.108550Z"
+        }
+      ],
+      "verification_notes": "Authentication methods verified with 1 primary evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 46,
+      "app": "Squarespace",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown access model verified in absence of gating documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 46,
+      "app": "Squarespace",
+      "field": "api_surface",
+      "original_value": [
+        "Webhooks"
+      ],
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.4,
+      "evidence": [],
+      "verification_notes": "Claimed API types lacked primary documentation evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 46,
+      "app": "Squarespace",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.88,
+      "evidence": [],
+      "verification_notes": "No MCP Found status verified by deliberate registry/github search.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 46,
+      "app": "Squarespace",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable With Restrictions verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 46,
+    "app": "Squarespace",
+    "category": "Ecommerce",
+    "website": "https://developers.squarespace.com/",
+    "one_line_description": "Squarespace: Squarespace Developer Platform: APIs, Apps, and Docs.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Squarespace supports authentication via OAuth2.",
+            "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+            "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+            "checked_at": "2026-09-17T14:05:49.108550Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Squarespace Developer Platform: APIs, Apps, and Docs."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Squarespace supports authentication via API Key.",
+            "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+            "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+            "checked_at": "2026-09-17T14:05:49.108550Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Squarespace Developer Platform: APIs, Apps, and Docs."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Squarespace provides public Webhooks API surface.",
+            "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+            "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+            "checked_at": "2026-09-17T14:05:49.109547Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Squarespace Developer Platform: APIs, Apps, and Docs."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Squarespace exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Squarespace.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "Squarespace supports authentication via OAuth2.",
+        "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+        "checked_at": "2026-09-17T14:05:49.108550Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T14:05:49.109547Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Needs Verification",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 46,
+    "app": "Squarespace",
+    "category": "Ecommerce",
+    "website": "https://developers.squarespace.com/",
+    "one_line_description": "Squarespace: Squarespace Developer Platform: APIs, Apps, and Docs.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Squarespace supports authentication via OAuth2.",
+            "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+            "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+            "checked_at": "2026-09-17T14:05:49.108550Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Squarespace Developer Platform: APIs, Apps, and Docs."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Squarespace supports authentication via API Key.",
+            "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+            "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+            "checked_at": "2026-09-17T14:05:49.108550Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Squarespace Developer Platform: APIs, Apps, and Docs."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Squarespace provides public Webhooks API surface.",
+            "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+            "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+            "checked_at": "2026-09-17T14:05:49.109547Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Squarespace Developer Platform: APIs, Apps, and Docs."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Squarespace exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Squarespace.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "Squarespace supports authentication via OAuth2.",
+        "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+        "checked_at": "2026-09-17T14:05:49.108550Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T14:05:49.109547Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Needs Verification",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Automated production verification audit. 5/6 claims verified.",
+    "verified_at": "2026-09-17T14:05:49.112047Z"
+  },
+  "summary_notes": "Production verification audit for Squarespace: 5/6 verified."
+}

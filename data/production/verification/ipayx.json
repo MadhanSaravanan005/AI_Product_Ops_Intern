@@ -1,0 +1,574 @@
+{
+  "app_id": 85,
+  "app": "iPayX",
+  "category": "Finance and Fintech",
+  "verified_at": "2026-09-17T14:58:24.328410Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 1,
+  "field_results": {
+    "website": {
+      "app_id": 85,
+      "app": "iPayX",
+      "field": "website",
+      "original_value": "https://www.ipayx.ai/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'iPayX': iPayX Protocol — FINTRAC-registered FX forensic audit layer",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 85,
+      "app": "iPayX",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "iPayX supports authentication via API Key.",
+          "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+          "source_title": "How to Use iPay API for Payment Integration in 2026?",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+          "checked_at": "2026-09-17T14:58:24.326254Z"
+        },
+        {
+          "claim": "iPayX supports authentication via Basic Auth.",
+          "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+          "source_title": "How to Use iPay API for Payment Integration in 2026?",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+          "checked_at": "2026-09-17T14:58:24.326254Z"
+        },
+        {
+          "claim": "iPayX supports authentication via Bearer Token.",
+          "source_url": "https://publicapis.io/blog/oauth-vs-api-key-authentication-gri5",
+          "source_title": "OAuth vs API Key Authentication: Complete Developer Guide",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "API authentication is the cornerstone of secure web services, and choosing between OAuth and API key authentication can significantly impact your application's security, user experience, and development complexity. Both methods serve distinct purposes in the API ecosystem, and understanding their di",
+          "checked_at": "2026-09-17T14:58:24.327414Z"
+        },
+        {
+          "claim": "iPayX supports authentication via OAuth2.",
+          "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+          "source_title": "How to Use iPay API for Payment Integration in 2026?",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+          "checked_at": "2026-09-17T14:58:24.327414Z"
+        }
+      ],
+      "verification_notes": "All 4 claimed auth methods verified with primary evidence: API Key, Basic Auth, Bearer Token, OAuth2.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "iPayX supports authentication via API Key.",
+            "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+            "source_title": "How to Use iPay API for Payment Integration in 2026?",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+            "checked_at": "2026-09-17T14:58:24.326254Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Basic Auth",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "iPayX supports authentication via Basic Auth.",
+            "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+            "source_title": "How to Use iPay API for Payment Integration in 2026?",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+            "checked_at": "2026-09-17T14:58:24.326254Z"
+          },
+          "notes": "Content verified: direct evidence found for (basic auth)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "iPayX supports authentication via Bearer Token.",
+            "source_url": "https://publicapis.io/blog/oauth-vs-api-key-authentication-gri5",
+            "source_title": "OAuth vs API Key Authentication: Complete Developer Guide",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "API authentication is the cornerstone of secure web services, and choosing between OAuth and API key authentication can significantly impact your application's security, user experience, and development complexity. Both methods serve distinct purposes in the API ecosystem, and understanding their di",
+            "checked_at": "2026-09-17T14:58:24.327414Z"
+          },
+          "notes": "Content verified: direct evidence found for (bearer token)."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "iPayX supports authentication via OAuth2.",
+            "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+            "source_title": "How to Use iPay API for Payment Integration in 2026?",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+            "checked_at": "2026-09-17T14:58:24.327414Z"
+          },
+          "notes": "Content verified: direct evidence found for (oauth 2)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 85,
+      "app": "iPayX",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 85,
+      "app": "iPayX",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "iPayX provides public REST API surface.",
+          "source_url": "https://docs.i-pay.io/",
+          "source_title": "Welcome to iPay | iPay API Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "iPay is a secure and user-friendly payment gateway that enables businesses to accept fiat payments, with funds converted and delivered directly to your crypto wallet. This ensures you maintain full control over your assets, offering a seamless and transparent payment solution for high-risk merchants",
+          "checked_at": "2026-09-17T14:58:24.327414Z"
+        },
+        {
+          "claim": "iPayX provides public Webhooks API surface.",
+          "source_url": "https://docs.i-pay.io/",
+          "source_title": "Welcome to iPay | iPay API Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "iPay is a secure and user-friendly payment gateway that enables businesses to accept fiat payments, with funds converted and delivered directly to your crypto wallet. This ensures you maintain full control over your assets, offering a seamless and transparent payment solution for high-risk merchants",
+          "checked_at": "2026-09-17T14:58:24.327414Z"
+        }
+      ],
+      "verification_notes": "All 2 claimed API types verified with primary evidence: REST, Webhooks.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Verified",
+        "Webhooks": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 85,
+      "app": "iPayX",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Deliberate search across docs and repositories confirmed no MCP server currently available.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 85,
+      "app": "iPayX",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": "Unknown",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Inconclusive credential gating model prevents establishing buildability.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 85,
+    "app": "iPayX",
+    "category": "Finance and Fintech",
+    "website": "https://www.ipayx.ai/",
+    "one_line_description": "iPayX: iPayX Protocol — FINTRAC.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX supports authentication via OAuth2.",
+            "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+            "source_title": "How to Use iPay API for Payment Integration in 2026?",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+            "checked_at": "2026-09-17T14:58:24.190414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via How to Use iPay API for Payment Integration in 2026?."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX supports authentication via API Key.",
+            "source_url": "https://github.com/IpayX-org/ipayx/tree/main",
+            "source_title": "GitHub - IpayX-org/ipayx: https://ipayx.vercel.app/ · GitHub",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Invoice in USDC. Get paid from any chain. One balance on Arc. iPayX is a proof-of-concept for teams that bill in",
+            "checked_at": "2026-09-17T14:58:24.190414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via GitHub - IpayX-org/ipayx: https://ipayx.vercel.app/ · GitHub."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX supports authentication via Bearer Token.",
+            "source_url": "https://publicapis.io/blog/oauth-vs-api-key-authentication-gri5",
+            "source_title": "OAuth vs API Key Authentication: Complete Developer Guide",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "API authentication is the cornerstone of secure web services, and choosing between OAuth and API key authentication can significantly impact your application's security, user experience, and development complexity. Both methods serve distinct purposes in the API ecosystem, and understanding their di",
+            "checked_at": "2026-09-17T14:58:24.190414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via OAuth vs API Key Authentication: Complete Developer Guide."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX supports authentication via Basic Auth.",
+            "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+            "source_title": "How to Use iPay API for Payment Integration in 2026?",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+            "checked_at": "2026-09-17T14:58:24.190414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via How to Use iPay API for Payment Integration in 2026?."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX provides public REST API surface.",
+            "source_url": "https://docs.i-pay.io/",
+            "source_title": "Welcome to iPay | iPay API Documentation",
+            "source_type": "Official API Reference",
+            "evidence_summary": "iPay is a secure and user-friendly payment gateway that enables businesses to accept fiat payments, with funds converted and delivered directly to your crypto wallet. This ensures you maintain full control over your assets, offering a seamless and transparent payment solution for high-risk merchants",
+            "checked_at": "2026-09-17T14:58:24.190414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Welcome to iPay | iPay API Documentation."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX provides public Webhooks API surface.",
+            "source_url": "https://docs.i-pay.io/",
+            "source_title": "Welcome to iPay | iPay API Documentation",
+            "source_type": "Official API Reference",
+            "evidence_summary": "iPay is a secure and user-friendly payment gateway that enables businesses to accept fiat payments, with funds converted and delivered directly to your crypto wallet. This ensures you maintain full control over your assets, offering a seamless and transparent payment solution for high-risk merchants",
+            "checked_at": "2026-09-17T14:58:24.191412Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Welcome to iPay | iPay API Documentation."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "iPayX exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for iPayX.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "iPayX supports authentication via OAuth2.",
+        "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+        "source_title": "How to Use iPay API for Payment Integration in 2026?",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+        "checked_at": "2026-09-17T14:58:24.190414Z"
+      },
+      {
+        "claim": "iPayX supports authentication via API Key.",
+        "source_url": "https://github.com/IpayX-org/ipayx/tree/main",
+        "source_title": "GitHub - IpayX-org/ipayx: https://ipayx.vercel.app/ · GitHub",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Invoice in USDC. Get paid from any chain. One balance on Arc. iPayX is a proof-of-concept for teams that bill in",
+        "checked_at": "2026-09-17T14:58:24.190414Z"
+      },
+      {
+        "claim": "iPayX supports authentication via Bearer Token.",
+        "source_url": "https://publicapis.io/blog/oauth-vs-api-key-authentication-gri5",
+        "source_title": "OAuth vs API Key Authentication: Complete Developer Guide",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "API authentication is the cornerstone of secure web services, and choosing between OAuth and API key authentication can significantly impact your application's security, user experience, and development complexity. Both methods serve distinct purposes in the API ecosystem, and understanding their di",
+        "checked_at": "2026-09-17T14:58:24.190414Z"
+      },
+      {
+        "claim": "iPayX provides public REST API surface.",
+        "source_url": "https://docs.i-pay.io/",
+        "source_title": "Welcome to iPay | iPay API Documentation",
+        "source_type": "Official API Reference",
+        "evidence_summary": "iPay is a secure and user-friendly payment gateway that enables businesses to accept fiat payments, with funds converted and delivered directly to your crypto wallet. This ensures you maintain full control over your assets, offering a seamless and transparent payment solution for high-risk merchants",
+        "checked_at": "2026-09-17T14:58:24.190414Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T14:58:24.191412Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 85,
+    "app": "iPayX",
+    "category": "Finance and Fintech",
+    "website": "https://www.ipayx.ai/",
+    "one_line_description": "iPayX: iPayX Protocol — FINTRAC.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX supports authentication via OAuth2.",
+            "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+            "source_title": "How to Use iPay API for Payment Integration in 2026?",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+            "checked_at": "2026-09-17T14:58:24.190414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via How to Use iPay API for Payment Integration in 2026?."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX supports authentication via API Key.",
+            "source_url": "https://github.com/IpayX-org/ipayx/tree/main",
+            "source_title": "GitHub - IpayX-org/ipayx: https://ipayx.vercel.app/ · GitHub",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Invoice in USDC. Get paid from any chain. One balance on Arc. iPayX is a proof-of-concept for teams that bill in",
+            "checked_at": "2026-09-17T14:58:24.190414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via GitHub - IpayX-org/ipayx: https://ipayx.vercel.app/ · GitHub."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX supports authentication via Bearer Token.",
+            "source_url": "https://publicapis.io/blog/oauth-vs-api-key-authentication-gri5",
+            "source_title": "OAuth vs API Key Authentication: Complete Developer Guide",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "API authentication is the cornerstone of secure web services, and choosing between OAuth and API key authentication can significantly impact your application's security, user experience, and development complexity. Both methods serve distinct purposes in the API ecosystem, and understanding their di",
+            "checked_at": "2026-09-17T14:58:24.190414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via OAuth vs API Key Authentication: Complete Developer Guide."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX supports authentication via Basic Auth.",
+            "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+            "source_title": "How to Use iPay API for Payment Integration in 2026?",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+            "checked_at": "2026-09-17T14:58:24.190414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via How to Use iPay API for Payment Integration in 2026?."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX provides public REST API surface.",
+            "source_url": "https://docs.i-pay.io/",
+            "source_title": "Welcome to iPay | iPay API Documentation",
+            "source_type": "Official API Reference",
+            "evidence_summary": "iPay is a secure and user-friendly payment gateway that enables businesses to accept fiat payments, with funds converted and delivered directly to your crypto wallet. This ensures you maintain full control over your assets, offering a seamless and transparent payment solution for high-risk merchants",
+            "checked_at": "2026-09-17T14:58:24.190414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Welcome to iPay | iPay API Documentation."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "iPayX provides public Webhooks API surface.",
+            "source_url": "https://docs.i-pay.io/",
+            "source_title": "Welcome to iPay | iPay API Documentation",
+            "source_type": "Official API Reference",
+            "evidence_summary": "iPay is a secure and user-friendly payment gateway that enables businesses to accept fiat payments, with funds converted and delivered directly to your crypto wallet. This ensures you maintain full control over your assets, offering a seamless and transparent payment solution for high-risk merchants",
+            "checked_at": "2026-09-17T14:58:24.191412Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Welcome to iPay | iPay API Documentation."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "iPayX exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for iPayX.",
+    "buildability": "Unknown",
+    "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+    "evidence": [
+      {
+        "claim": "iPayX supports authentication via OAuth2.",
+        "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+        "source_title": "How to Use iPay API for Payment Integration in 2026?",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+        "checked_at": "2026-09-17T14:58:24.190414Z"
+      },
+      {
+        "claim": "iPayX supports authentication via API Key.",
+        "source_url": "https://github.com/IpayX-org/ipayx/tree/main",
+        "source_title": "GitHub - IpayX-org/ipayx: https://ipayx.vercel.app/ · GitHub",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Invoice in USDC. Get paid from any chain. One balance on Arc. iPayX is a proof-of-concept for teams that bill in",
+        "checked_at": "2026-09-17T14:58:24.190414Z"
+      },
+      {
+        "claim": "iPayX supports authentication via Bearer Token.",
+        "source_url": "https://publicapis.io/blog/oauth-vs-api-key-authentication-gri5",
+        "source_title": "OAuth vs API Key Authentication: Complete Developer Guide",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "API authentication is the cornerstone of secure web services, and choosing between OAuth and API key authentication can significantly impact your application's security, user experience, and development complexity. Both methods serve distinct purposes in the API ecosystem, and understanding their di",
+        "checked_at": "2026-09-17T14:58:24.190414Z"
+      },
+      {
+        "claim": "iPayX provides public REST API surface.",
+        "source_url": "https://docs.i-pay.io/",
+        "source_title": "Welcome to iPay | iPay API Documentation",
+        "source_type": "Official API Reference",
+        "evidence_summary": "iPay is a secure and user-friendly payment gateway that enables businesses to accept fiat payments, with funds converted and delivered directly to your crypto wallet. This ensures you maintain full control over your assets, offering a seamless and transparent payment solution for high-risk merchants",
+        "checked_at": "2026-09-17T14:58:24.190414Z"
+      },
+      {
+        "claim": "iPayX supports authentication via API Key.",
+        "source_url": "https://apidog.com/blog/how-to-use-ipay-api/",
+        "source_title": "How to Use iPay API for Payment Integration in 2026?",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Apidog for Enterprise The iPay API enables developers to integrate payment processing, invoicing, and financial transactions programmatically. It uses OAuth 2.0 and API key authentication, RESTful endpoints for payments, refunds, transactions, and reconciliation, with PCI DSS compliance requirements",
+        "checked_at": "2026-09-17T14:58:24.326254Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.88,
+    "researched_at": "2026-09-17T14:58:24.191412Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 1 corrections applied.",
+    "verified_at": "2026-09-17T14:58:24.328410Z"
+  },
+  "summary_notes": "Independent hardened audit for iPayX. 5/6 verified. 1 fields corrected."
+}

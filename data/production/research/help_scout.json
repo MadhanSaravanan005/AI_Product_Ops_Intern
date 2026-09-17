@@ -1,0 +1,195 @@
+{
+  "id": 18,
+  "app": "Help Scout",
+  "category": "Support and Helpdesk",
+  "website": "https://www.helpscout.com/",
+  "one_line_description": "Help Scout: Intuitive & Affordable Customer Service Software: Leading platform in Support and Helpdesk.",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Help Scout supports authentication via OAuth2.",
+          "source_url": "https://www.getmacha.com/blog/how-to-use-the-help-scout-api",
+          "source_title": "How to Use the Help Scout API (2026): Auth, Endpoints & Examples",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 7, 2026 If you want to pull conversations into a data warehouse, sync customers from your CRM, open a ticket when an order fails, or build automation on top of your shared inbox, you'll be ",
+          "checked_at": "2026-09-17T13:50:08.020547Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via How to Use the Help Scout API (2026): Auth, Endpoints & Examples: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Help Scout supports authentication via API Key.",
+          "source_url": "https://developer.helpscout.com/docs-api/",
+          "source_title": "Docs API Overview\n      \n      | Help Scout Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Overview Overview Status Codes Restricted Docs Overview Examples Show login screen when signing in Single Sign-On (SSO) experience Examples Show login screen when signing in Single Sign-On (SSO) experience Show login screen when signing in Single Sign-On (SSO) experience Endpoints Articles List Arti",
+          "checked_at": "2026-09-17T13:50:08.020547Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Docs API Overview\n      \n      | Help Scout Developers: API key provisioning and request header authentication."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Help Scout supports authentication via Bearer Token.",
+          "source_url": "https://www.getmacha.com/blog/how-to-use-the-help-scout-api",
+          "source_title": "How to Use the Help Scout API (2026): Auth, Endpoints & Examples",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 7, 2026 If you want to pull conversations into a data warehouse, sync customers from your CRM, open a ticket when an order fails, or build automation on top of your shared inbox, you'll be ",
+          "checked_at": "2026-09-17T13:50:08.020547Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via How to Use the Help Scout API (2026): Auth, Endpoints & Examples: Bearer token authentication format in HTTP request headers."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Help Scout supports authentication via Basic Auth.",
+          "source_url": "https://developer.helpscout.com/docs-api/",
+          "source_title": "Docs API Overview\n      \n      | Help Scout Developers",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Overview Overview Status Codes Restricted Docs Overview Examples Show login screen when signing in Single Sign-On (SSO) experience Examples Show login screen when signing in Single Sign-On (SSO) experience Show login screen when signing in Single Sign-On (SSO) experience Endpoints Articles List Arti",
+          "checked_at": "2026-09-17T13:50:08.020547Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Docs API Overview\n      \n      | Help Scout Developers: HTTP Basic Authentication via credentials."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Help Scout provides public REST API surface.",
+          "source_url": "https://www.getmacha.com/blog/how-to-use-the-help-scout-api",
+          "source_title": "How to Use the Help Scout API (2026): Auth, Endpoints & Examples",
+          "source_type": "Official API Reference",
+          "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 7, 2026 If you want to pull conversations into a data warehouse, sync customers from your CRM, open a ticket when an order fails, or build automation on top of your shared inbox, you'll be ",
+          "checked_at": "2026-09-17T13:50:24.932544Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via How to Use the Help Scout API (2026): Auth, Endpoints & Examples: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Help Scout provides public Webhooks API surface.",
+          "source_url": "https://developer.helpscout.com/",
+          "source_title": "Help Scout Developers - API Documentation\n      \n      | Help Scout Developers",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Mailbox API 1.0 LEGACY Help Scout provides several tools for developers to make magic happen: Apps - display your own content as an internal sidebar application in the Inbox Beacon - live chat, help docs, and a customer portal all in one Inbox API - read and write data to Help Scout inboxes Chat API",
+          "checked_at": "2026-09-17T13:50:24.932544Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Help Scout Developers - API Documentation\n      \n      | Help Scout Developers: Webhook event delivery and subscription endpoints."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Help Scout exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Community/third-party MCP server available on GitHub: https://github.com/samiabid/helpscout-mcp-server",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+  "evidence": [
+    {
+      "claim": "Help Scout supports authentication via OAuth2.",
+      "source_url": "https://www.getmacha.com/blog/how-to-use-the-help-scout-api",
+      "source_title": "How to Use the Help Scout API (2026): Auth, Endpoints & Examples",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 7, 2026 If you want to pull conversations into a data warehouse, sync customers from your CRM, open a ticket when an order fails, or build automation on top of your shared inbox, you'll be ",
+      "checked_at": "2026-09-17T13:50:08.020547Z"
+    },
+    {
+      "claim": "Help Scout supports authentication via API Key.",
+      "source_url": "https://developer.helpscout.com/docs-api/",
+      "source_title": "Docs API Overview\n      \n      | Help Scout Developers",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Overview Overview Status Codes Restricted Docs Overview Examples Show login screen when signing in Single Sign-On (SSO) experience Examples Show login screen when signing in Single Sign-On (SSO) experience Show login screen when signing in Single Sign-On (SSO) experience Endpoints Articles List Arti",
+      "checked_at": "2026-09-17T13:50:08.020547Z"
+    },
+    {
+      "claim": "Help Scout supports authentication via Bearer Token.",
+      "source_url": "https://www.getmacha.com/blog/how-to-use-the-help-scout-api",
+      "source_title": "How to Use the Help Scout API (2026): Auth, Endpoints & Examples",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 7, 2026 If you want to pull conversations into a data warehouse, sync customers from your CRM, open a ticket when an order fails, or build automation on top of your shared inbox, you'll be ",
+      "checked_at": "2026-09-17T13:50:08.020547Z"
+    },
+    {
+      "claim": "Help Scout supports authentication via Basic Auth.",
+      "source_url": "https://developer.helpscout.com/docs-api/",
+      "source_title": "Docs API Overview\n      \n      | Help Scout Developers",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Overview Overview Status Codes Restricted Docs Overview Examples Show login screen when signing in Single Sign-On (SSO) experience Examples Show login screen when signing in Single Sign-On (SSO) experience Show login screen when signing in Single Sign-On (SSO) experience Endpoints Articles List Arti",
+      "checked_at": "2026-09-17T13:50:08.020547Z"
+    },
+    {
+      "claim": "Help Scout provides public REST API surface.",
+      "source_url": "https://www.getmacha.com/blog/how-to-use-the-help-scout-api",
+      "source_title": "How to Use the Help Scout API (2026): Auth, Endpoints & Examples",
+      "source_type": "Official API Reference",
+      "evidence_summary": "New: Free CX audit. We read your past tickets and grade what AI could resolve. Get the report → Published July 7, 2026 If you want to pull conversations into a data warehouse, sync customers from your CRM, open a ticket when an order fails, or build automation on top of your shared inbox, you'll be ",
+      "checked_at": "2026-09-17T13:50:24.932544Z"
+    },
+    {
+      "claim": "Help Scout provides public Webhooks API surface.",
+      "source_url": "https://developer.helpscout.com/",
+      "source_title": "Help Scout Developers - API Documentation\n      \n      | Help Scout Developers",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Mailbox API 1.0 LEGACY Help Scout provides several tools for developers to make magic happen: Apps - display your own content as an internal sidebar application in the Inbox Beacon - live chat, help docs, and a customer portal all in one Inbox API - read and write data to Help Scout inboxes Chat API",
+      "checked_at": "2026-09-17T13:50:24.932544Z"
+    },
+    {
+      "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Help Scout.",
+      "source_url": "https://github.com/samiabid/helpscout-mcp-server",
+      "source_title": "GitHub - samiabid/helpscout-mcp-server: Model Context ...",
+      "source_type": "GitHub",
+      "evidence_summary": "An open-source Model Context Protocol server for the Help Scout Mailbox API. It gives MCP clients such as Claude access to Help Scout inboxes, conversations, threads, users, tags, saved replies, notes, and safe draft replies. It supports local stdio usage and remote Streamable HTTP usage with OAuth for Claude custom connectors. Read tools:",
+      "checked_at": "2026-09-17T13:50:32.925713Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.3,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.9,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.78,
+  "researched_at": "2026-09-17T13:50:32.925713Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

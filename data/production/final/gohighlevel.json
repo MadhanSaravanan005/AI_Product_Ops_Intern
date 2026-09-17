@@ -1,0 +1,163 @@
+{
+  "id": 34,
+  "app": "GoHighLevel",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://marketplace.gohighlevel.com/",
+  "one_line_description": "GoHighLevel: HighLevel API Documentation.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "GoHighLevel supports authentication via OAuth2.",
+          "source_url": "https://marketplace.gohighlevel.com/docs/",
+          "source_title": "HighLevel API Documentation - Developer Portal | HighLevel API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Access all HighLevel platform features through our REST API. Perfect for building integrations, automating workflows, and creating custom applications. Manage contacts, leads, and customer data with full CRUD operations, tagging, and custom fields. Handle SMS, email, and call communications. Send me",
+          "checked_at": "2026-09-17T14:02:42.529113Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via HighLevel API Documentation - Developer Portal | HighLevel API."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "GoHighLevel supports authentication via API Key.",
+          "source_url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+          "source_title": "HighLevel API Documentation : HighLevel Support Portal",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Sorry! nothing found for Modified on: Tue, 18 Aug, 2026 at  7:48 AM HighLevel provides a comprehensive API platform that enables developers to build integrations, automations, and custom applications with the HighLevel CRM and Marketplace. Our API includes REST endpoints for contacts, messaging, wor",
+          "checked_at": "2026-09-17T14:02:42.529113Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via HighLevel API Documentation : HighLevel Support Portal."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "GoHighLevel supports authentication via Bearer Token.",
+          "source_url": "https://github.com/drausal/gohighlevel-mcp",
+          "source_title": "GitHub - drausal/gohighlevel-mcp: Model Context Protocol (MCP) server for GoHighLevel API - Complete access to contacts, opportunities, calendars, workflows, and more · GitHub",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Notifications You must be signed in to change notification settings A Model Context Protocol (MCP) server providing access to the complete GoHighLevel API. This server enables AI assistants like Claude to interact with GoHighLevel's services including contacts, opportunities, calendars, workflows, a",
+          "checked_at": "2026-09-17T14:02:42.529113Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - drausal/gohighlevel-mcp: Model Context Protocol (MCP) server for GoHighLevel API - Complete access to contacts, opportunities, calendars, workflows, and more · GitHub."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "GoHighLevel provides public REST API surface.",
+          "source_url": "https://marketplace.gohighlevel.com/docs/",
+          "source_title": "HighLevel API Documentation - Developer Portal | HighLevel API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Access all HighLevel platform features through our REST API. Perfect for building integrations, automating workflows, and creating custom applications. Manage contacts, leads, and customer data with full CRUD operations, tagging, and custom fields. Handle SMS, email, and call communications. Send me",
+          "checked_at": "2026-09-17T14:02:42.530621Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via HighLevel API Documentation - Developer Portal | HighLevel API."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "GoHighLevel provides public Webhooks API surface.",
+          "source_url": "https://marketplace.gohighlevel.com/docs/",
+          "source_title": "HighLevel API Documentation - Developer Portal | HighLevel API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Access all HighLevel platform features through our REST API. Perfect for building integrations, automating workflows, and creating custom applications. Manage contacts, leads, and customer data with full CRUD operations, tagging, and custom fields. Handle SMS, email, and call communications. Send me",
+          "checked_at": "2026-09-17T14:02:42.530621Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via HighLevel API Documentation - Developer Portal | HighLevel API."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "GoHighLevel provides public SDK API surface.",
+          "source_url": "https://marketplace.gohighlevel.com/docs/",
+          "source_title": "HighLevel API Documentation - Developer Portal | HighLevel API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Access all HighLevel platform features through our REST API. Perfect for building integrations, automating workflows, and creating custom applications. Manage contacts, leads, and customer data with full CRUD operations, tagging, and custom fields. Handle SMS, email, and call communications. Send me",
+          "checked_at": "2026-09-17T14:02:42.530621Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via HighLevel API Documentation - Developer Portal | HighLevel API."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "GoHighLevel exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/drausal/gohighlevel-mcp).",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "GoHighLevel supports authentication via OAuth2.",
+      "source_url": "https://marketplace.gohighlevel.com/docs/",
+      "source_title": "HighLevel API Documentation - Developer Portal | HighLevel API",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Access all HighLevel platform features through our REST API. Perfect for building integrations, automating workflows, and creating custom applications. Manage contacts, leads, and customer data with full CRUD operations, tagging, and custom fields. Handle SMS, email, and call communications. Send me",
+      "checked_at": "2026-09-17T14:02:42.529113Z"
+    },
+    {
+      "claim": "GoHighLevel supports authentication via API Key.",
+      "source_url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+      "source_title": "HighLevel API Documentation : HighLevel Support Portal",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Sorry! nothing found for Modified on: Tue, 18 Aug, 2026 at  7:48 AM HighLevel provides a comprehensive API platform that enables developers to build integrations, automations, and custom applications with the HighLevel CRM and Marketplace. Our API includes REST endpoints for contacts, messaging, wor",
+      "checked_at": "2026-09-17T14:02:42.529113Z"
+    },
+    {
+      "claim": "GoHighLevel supports authentication via Bearer Token.",
+      "source_url": "https://github.com/drausal/gohighlevel-mcp",
+      "source_title": "GitHub - drausal/gohighlevel-mcp: Model Context Protocol (MCP) server for GoHighLevel API - Complete access to contacts, opportunities, calendars, workflows, and more · GitHub",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Notifications You must be signed in to change notification settings A Model Context Protocol (MCP) server providing access to the complete GoHighLevel API. This server enables AI assistants like Claude to interact with GoHighLevel's services including contacts, opportunities, calendars, workflows, a",
+      "checked_at": "2026-09-17T14:02:42.529113Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.79,
+  "researched_at": "2026-09-17T14:02:42.530621Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Automated production verification audit. 5/6 claims verified.",
+  "verified_at": "2026-09-17T14:02:42.532746Z"
+}

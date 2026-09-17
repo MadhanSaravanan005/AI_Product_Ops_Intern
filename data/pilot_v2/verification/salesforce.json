@@ -1,0 +1,689 @@
+{
+  "app_id": 1,
+  "app": "Salesforce",
+  "category": "CRM and Sales",
+  "verified_at": "2026-09-17T13:05:16.162059Z",
+  "verifier_version": "2.0.0",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 4,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 2,
+  "corrections_made": 3,
+  "field_results": {
+    "website": {
+      "app_id": 1,
+      "app": "Salesforce",
+      "field": "website",
+      "original_value": "https://developer.salesforce.com/",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.6,
+      "evidence": [],
+      "verification_notes": "Website could not be reached with HTTP 200: https://developer.salesforce.com/.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 1,
+      "app": "Salesforce",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": [
+        "API Key",
+        "Basic Auth",
+        "OAuth2"
+      ],
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Salesforce supports authentication via API Key.",
+          "source_url": "https://www.apideck.com/blog/how-to-get-your-salesforce-api-keys",
+          "source_title": "How to get your Salesforce API Keys",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Learn how to get your Salesforce API keys step-by-step. Set up a Connected App, configure OAuth 2.0, and manage credentials securely. Saurabh Rai · Developer Relations Engineer , A",
+          "checked_at": "2026-09-17T13:04:35.504167Z"
+        },
+        {
+          "claim": "Salesforce supports authentication via Basic Auth.",
+          "source_url": "https://documentation.sailpoint.com/connectors/salesforce/help/integrating_salesforce/auth_basic.html",
+          "source_title": "Basic Authentication (Deprecated)",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Salesforce source supports Basic Authentication. On the Salesforce source UI, configure the following fields: Enter the fully qualified URL to the root of the Salesforce server in the Salesforce URL field.  For example: http://login.salesforce.com/services/Soap/u/ To find your site's URL, log in",
+          "checked_at": "2026-09-17T13:04:37.986539Z"
+        },
+        {
+          "claim": "Salesforce supports authentication via OAuth2.",
+          "source_url": "https://www.apideck.com/blog/how-to-get-your-salesforce-api-keys",
+          "source_title": "How to get your Salesforce API Keys",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Learn how to get your Salesforce API keys step-by-step. Set up a Connected App, configure OAuth 2.0, and manage credentials securely. Saurabh Rai · Developer Relations Engineer , A",
+          "checked_at": "2026-09-17T13:04:38.059867Z"
+        }
+      ],
+      "verification_notes": "Partially verified: 3/4 methods confirmed (API Key, Basic Auth, OAuth2). Unverified methods lacked direct documentation evidence.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Salesforce supports authentication via API Key.",
+            "source_url": "https://www.apideck.com/blog/how-to-get-your-salesforce-api-keys",
+            "source_title": "How to get your Salesforce API Keys",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Learn how to get your Salesforce API keys step-by-step. Set up a Connected App, configure OAuth 2.0, and manage credentials securely. Saurabh Rai · Developer Relations Engineer , A",
+            "checked_at": "2026-09-17T13:04:35.504167Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Basic Auth",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Salesforce supports authentication via Basic Auth.",
+            "source_url": "https://documentation.sailpoint.com/connectors/salesforce/help/integrating_salesforce/auth_basic.html",
+            "source_title": "Basic Authentication (Deprecated)",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Salesforce source supports Basic Authentication. On the Salesforce source UI, configure the following fields: Enter the fully qualified URL to the root of the Salesforce server in the Salesforce URL field.  For example: http://login.salesforce.com/services/Soap/u/ To find your site's URL, log in",
+            "checked_at": "2026-09-17T13:04:37.986539Z"
+          },
+          "notes": "Content verified: direct evidence found for (basic auth)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Retrieved documentation lacked specific supporting evidence for Bearer Token."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Salesforce supports authentication via OAuth2.",
+            "source_url": "https://www.apideck.com/blog/how-to-get-your-salesforce-api-keys",
+            "source_title": "How to get your Salesforce API Keys",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Learn how to get your Salesforce API keys step-by-step. Set up a Connected App, configure OAuth 2.0, and manage credentials securely. Saurabh Rai · Developer Relations Engineer , A",
+            "checked_at": "2026-09-17T13:04:38.059867Z"
+          },
+          "notes": "Content verified: direct evidence found for (oauth2)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 1,
+      "app": "Salesforce",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.6,
+      "evidence": [],
+      "verification_notes": "Developer pages exist but lack explicit proof of 'Free Self-Serve'.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 1,
+      "app": "Salesforce",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Salesforce provides public REST API surface.",
+          "source_url": "https://www.apideck.com/blog/how-to-get-your-salesforce-api-keys",
+          "source_title": "How to get your Salesforce API Keys",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Learn how to get your Salesforce API keys step-by-step. Set up a Connected App, configure OAuth 2.0, and manage credentials securely. Saurabh Rai · Developer Relations Engineer , A",
+          "checked_at": "2026-09-17T13:04:45.400528Z"
+        },
+        {
+          "claim": "Salesforce provides public Webhooks API surface.",
+          "source_url": "https://www.apideck.com/blog/how-to-get-your-salesforce-api-keys",
+          "source_title": "How to get your Salesforce API Keys",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Learn how to get your Salesforce API keys step-by-step. Set up a Connected App, configure OAuth 2.0, and manage credentials securely. Saurabh Rai · Developer Relations Engineer , A",
+          "checked_at": "2026-09-17T13:04:45.400528Z"
+        }
+      ],
+      "verification_notes": "Partially verified: 2/3 API types confirmed (REST, Webhooks). Unverified types lacked documentation evidence.",
+      "auth_details": null,
+      "api_type_details": {
+        "GraphQL": "Insufficient Evidence",
+        "REST": "Verified",
+        "Webhooks": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 1,
+      "app": "Salesforce",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": "Third-Party MCP",
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Third-party community MCP server exists for Salesforce.",
+          "source_url": "https://github.com/salesforcecli/mcp",
+          "source_title": "GitHub - salesforcecli/mcp: MCP Server for interacting with Salesforce instances · GitHub",
+          "source_type": "GitHub",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings MCP Server for Interacting with Salesforce Orgs Report bugs and issues here . For feature requests and other rel",
+          "checked_at": "2026-09-17T13:04:57.359309Z"
+        }
+      ],
+      "verification_notes": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 1,
+      "app": "Salesforce",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Buildable Now. Standard rate limits and OAuth scoping permissions are developer restrictions, not hard blockers.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Restriction"
+    }
+  },
+  "original_record": {
+    "id": 1,
+    "app": "Salesforce",
+    "category": "CRM and Sales",
+    "website": "https://developer.salesforce.com/",
+    "one_line_description": "Salesforce Developer Explained: Roles, Responsibilities, and Skills: Leading platform in CRM and Sales.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce supports authentication via OAuth2.",
+            "source_url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/oauth-portal-force-com-sites.html",
+            "source_title": "Portal Authentication Using OAuth 2.0 and Salesforce Sites | Authentication, Security, and Identity in Mobile Apps | Mobile SDK Development Guide | Salesforce Developers",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Salesforce Spring â13 Release adds enhanced flexibility for portal authentication. If your app runs in a Salesforce portal, you can use OAuth 2.0 with a Salesforce site to obtain API access tokens on behalf of portal users. In this configuration you can: Authenticate portal users via Auth prov",
+            "checked_at": "2026-09-17T12:37:33.926100Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Portal Authentication Using OAuth 2.0 and Salesforce Sites | Authentication, Security, and Identity in Mobile Apps | Mobile SDK Development Guide | Salesforce Developers: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce supports authentication via API Key.",
+            "source_url": "https://www.apideck.com/blog/how-to-get-your-salesforce-api-keys",
+            "source_title": "How to get your Salesforce API Keys",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Learn how to get your Salesforce API keys step-by-step. Set up a Connected App, configure OAuth 2.0, and manage credentials securely. Saurabh Rai · Developer Relations Engineer , A",
+            "checked_at": "2026-09-17T12:37:43.064844Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via How to get your Salesforce API Keys: API key provisioning and request header authentication."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce supports authentication via Bearer Token.",
+            "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+            "source_title": "Step Two: Set Up Authentication | Quick Start | REST API Developer Guide | Salesforce Developers",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "To successfully send requests, REST API requires an access token obtained by authentication. Although you can create and authenticate against your own connected app, these Quick Start examples use Salesforce CLI for convenience. Salesforce CLI is a connected app that you can authenticate, and it req",
+            "checked_at": "2026-09-17T12:37:43.064844Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Step Two: Set Up Authentication | Quick Start | REST API Developer Guide | Salesforce Developers: Bearer token authentication format in HTTP request headers."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce supports authentication via Basic Auth.",
+            "source_url": "https://documentation.sailpoint.com/connectors/salesforce/help/integrating_salesforce/auth_basic.html",
+            "source_title": "Basic Authentication (Deprecated)",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Salesforce source supports Basic Authentication. On the Salesforce source UI, configure the following fields: Enter the fully qualified URL to the root of the Salesforce server in the Salesforce URL field.  For example: http://login.salesforce.com/services/Soap/u/ To find your site's URL, log in",
+            "checked_at": "2026-09-17T12:37:50.950557Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Basic Authentication (Deprecated): HTTP Basic Authentication via credentials."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Salesforce's developer portal or app management console.",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce provides public REST API surface.",
+            "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-list.html",
+            "source_title": "Reference | REST API Developer Guide | Salesforce Developers",
+            "source_type": "Official API Reference",
+            "evidence_summary": "The following table lists supported REST resources in the API and provides a brief description for each. In each case, the URI for the resource follows the base URI, https://MyDomainName.my.salesforce.com . For example, to retrieve basic information about an Account object in version 68.0 use https:",
+            "checked_at": "2026-09-17T12:38:12.290295Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Reference | REST API Developer Guide | Salesforce Developers: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "GraphQL",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce provides public GraphQL API surface.",
+            "source_url": "https://developer.salesforce.com/docs/platform/lwc/guide/reference-graphql.html",
+            "source_title": "graphql | LWC API Modules | Lightning Web Components Developer Guide | Salesforce Developers",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Import graphql from lightning/uiGraphQLApi . This module supports Mobile Offline use cases, but it doesnât support newer features, such as optional fields and dynamic query construction. lightning/graphql supersedes the lightning/uiGraphQLApi module. We recommend that you use lightning/graphql whe",
+            "checked_at": "2026-09-17T12:38:19.233347Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via graphql | LWC API Modules | Lightning Web Components Developer Guide | Salesforce Developers: GraphQL queries, mutations, and schema endpoint."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce provides public Webhooks API surface.",
+            "source_url": "https://coefficient.io/salesforce-api/salesforce-webhooks",
+            "source_title": "How to Set Up Salesforce Webhooks: Quick Integration Guide - Coefficient",
+            "source_type": "Official API Reference",
+            "evidence_summary": "🔥 Now available: AI Dashboards Published: August 17, 2025 Head of Growth Marketing Trusted by 50,000+ companies Works with 100+ platforms How to Set Up Salesforce Webhooks: Quick Integration Guide Quick Answer Prerequisites and Requirements Step-by-Step Salesforce Webhook Setup Common Integration Is",
+            "checked_at": "2026-09-17T12:38:19.233347Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via How to Set Up Salesforce Webhooks: Quick Integration Guide - Coefficient: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Salesforce exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Salesforce.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Salesforce supports authentication via OAuth2.",
+        "source_url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/oauth-portal-force-com-sites.html",
+        "source_title": "Portal Authentication Using OAuth 2.0 and Salesforce Sites | Authentication, Security, and Identity in Mobile Apps | Mobile SDK Development Guide | Salesforce Developers",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Salesforce Spring â13 Release adds enhanced flexibility for portal authentication. If your app runs in a Salesforce portal, you can use OAuth 2.0 with a Salesforce site to obtain API access tokens on behalf of portal users. In this configuration you can: Authenticate portal users via Auth prov",
+        "checked_at": "2026-09-17T12:37:33.926100Z"
+      },
+      {
+        "claim": "Salesforce supports authentication via API Key.",
+        "source_url": "https://www.apideck.com/blog/how-to-get-your-salesforce-api-keys",
+        "source_title": "How to get your Salesforce API Keys",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Learn how to get your Salesforce API keys step-by-step. Set up a Connected App, configure OAuth 2.0, and manage credentials securely. Saurabh Rai · Developer Relations Engineer , A",
+        "checked_at": "2026-09-17T12:37:43.064844Z"
+      },
+      {
+        "claim": "Salesforce supports authentication via Bearer Token.",
+        "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+        "source_title": "Step Two: Set Up Authentication | Quick Start | REST API Developer Guide | Salesforce Developers",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "To successfully send requests, REST API requires an access token obtained by authentication. Although you can create and authenticate against your own connected app, these Quick Start examples use Salesforce CLI for convenience. Salesforce CLI is a connected app that you can authenticate, and it req",
+        "checked_at": "2026-09-17T12:37:43.064844Z"
+      },
+      {
+        "claim": "Salesforce supports authentication via Basic Auth.",
+        "source_url": "https://documentation.sailpoint.com/connectors/salesforce/help/integrating_salesforce/auth_basic.html",
+        "source_title": "Basic Authentication (Deprecated)",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Salesforce source supports Basic Authentication. On the Salesforce source UI, configure the following fields: Enter the fully qualified URL to the root of the Salesforce server in the Salesforce URL field.  For example: http://login.salesforce.com/services/Soap/u/ To find your site's URL, log in",
+        "checked_at": "2026-09-17T12:37:50.950557Z"
+      },
+      {
+        "claim": "Salesforce offers self-serve credential creation for developers.",
+        "source_url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart_dev_org.html",
+        "source_title": "Step One: Sign up for Salesforce Developer Edition | Connect REST API Developer Guide | Connect REST API Developer Guide | Salesforce Developers",
+        "source_type": "Official Documentation",
+        "evidence_summary": "Developer Edition provides a free and easy solution so that you can use Salesforce for testing and development. To sign up for a Developer Edition account, go to developer.salesforce.com/signup . The Developer Edition data storage maximum is 5 MB. This limit doesnât prevent you from working with t",
+        "checked_at": "2026-09-17T12:38:03.956169Z"
+      },
+      {
+        "claim": "Salesforce provides public REST API surface.",
+        "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-list.html",
+        "source_title": "Reference | REST API Developer Guide | Salesforce Developers",
+        "source_type": "Official API Reference",
+        "evidence_summary": "The following table lists supported REST resources in the API and provides a brief description for each. In each case, the URI for the resource follows the base URI, https://MyDomainName.my.salesforce.com . For example, to retrieve basic information about an Account object in version 68.0 use https:",
+        "checked_at": "2026-09-17T12:38:12.290295Z"
+      },
+      {
+        "claim": "Salesforce provides public GraphQL API surface.",
+        "source_url": "https://developer.salesforce.com/docs/platform/lwc/guide/reference-graphql.html",
+        "source_title": "graphql | LWC API Modules | Lightning Web Components Developer Guide | Salesforce Developers",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Import graphql from lightning/uiGraphQLApi . This module supports Mobile Offline use cases, but it doesnât support newer features, such as optional fields and dynamic query construction. lightning/graphql supersedes the lightning/uiGraphQLApi module. We recommend that you use lightning/graphql whe",
+        "checked_at": "2026-09-17T12:38:19.233347Z"
+      },
+      {
+        "claim": "Salesforce provides public Webhooks API surface.",
+        "source_url": "https://coefficient.io/salesforce-api/salesforce-webhooks",
+        "source_title": "How to Set Up Salesforce Webhooks: Quick Integration Guide - Coefficient",
+        "source_type": "Official API Reference",
+        "evidence_summary": "🔥 Now available: AI Dashboards Published: August 17, 2025 Head of Growth Marketing Trusted by 50,000+ companies Works with 100+ platforms How to Set Up Salesforce Webhooks: Quick Integration Guide Quick Answer Prerequisites and Requirements Step-by-Step Salesforce Webhook Setup Common Integration Is",
+        "checked_at": "2026-09-17T12:38:19.233347Z"
+      },
+      {
+        "claim": "Salesforce provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://developer.salesforce.com/blogs/2025/06/introducing-mcp-support-across-salesforce",
+        "source_title": "Introducing MCP Support Across Salesforce | Salesforce Developers Blog",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Model Context Protocol (MCP) is an open-source protocol that makes it easier for AI apps and agents to connect with tools and data sources. Before MCP, each tool needed its own custom integration code, causing tool and resource fragmentation. With MCP, you build one MCP server for your tool, and it ",
+        "checked_at": "2026-09-17T12:38:33.969843Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.94,
+    "researched_at": "2026-09-17T12:38:33.969843Z",
+    "researcher_version": "2.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 1,
+    "app": "Salesforce",
+    "category": "CRM and Sales",
+    "website": "https://developer.salesforce.com/",
+    "one_line_description": "Salesforce Developer Explained: Roles, Responsibilities, and Skills: Leading platform in CRM and Sales.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce supports authentication via OAuth2.",
+            "source_url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/oauth-portal-force-com-sites.html",
+            "source_title": "Portal Authentication Using OAuth 2.0 and Salesforce Sites | Authentication, Security, and Identity in Mobile Apps | Mobile SDK Development Guide | Salesforce Developers",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Salesforce Spring â13 Release adds enhanced flexibility for portal authentication. If your app runs in a Salesforce portal, you can use OAuth 2.0 with a Salesforce site to obtain API access tokens on behalf of portal users. In this configuration you can: Authenticate portal users via Auth prov",
+            "checked_at": "2026-09-17T12:37:33.926100Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Portal Authentication Using OAuth 2.0 and Salesforce Sites | Authentication, Security, and Identity in Mobile Apps | Mobile SDK Development Guide | Salesforce Developers: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce supports authentication via API Key.",
+            "source_url": "https://www.apideck.com/blog/how-to-get-your-salesforce-api-keys",
+            "source_title": "How to get your Salesforce API Keys",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Learn how to get your Salesforce API keys step-by-step. Set up a Connected App, configure OAuth 2.0, and manage credentials securely. Saurabh Rai · Developer Relations Engineer , A",
+            "checked_at": "2026-09-17T12:37:43.064844Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via How to get your Salesforce API Keys: API key provisioning and request header authentication."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce supports authentication via Bearer Token.",
+            "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+            "source_title": "Step Two: Set Up Authentication | Quick Start | REST API Developer Guide | Salesforce Developers",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "To successfully send requests, REST API requires an access token obtained by authentication. Although you can create and authenticate against your own connected app, these Quick Start examples use Salesforce CLI for convenience. Salesforce CLI is a connected app that you can authenticate, and it req",
+            "checked_at": "2026-09-17T12:37:43.064844Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Step Two: Set Up Authentication | Quick Start | REST API Developer Guide | Salesforce Developers: Bearer token authentication format in HTTP request headers."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce supports authentication via Basic Auth.",
+            "source_url": "https://documentation.sailpoint.com/connectors/salesforce/help/integrating_salesforce/auth_basic.html",
+            "source_title": "Basic Authentication (Deprecated)",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "The Salesforce source supports Basic Authentication. On the Salesforce source UI, configure the following fields: Enter the fully qualified URL to the root of the Salesforce server in the Salesforce URL field.  For example: http://login.salesforce.com/services/Soap/u/ To find your site's URL, log in",
+            "checked_at": "2026-09-17T12:37:50.950557Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Basic Authentication (Deprecated): HTTP Basic Authentication via credentials."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Salesforce's developer portal or app management console.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce provides public REST API surface.",
+            "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-list.html",
+            "source_title": "Reference | REST API Developer Guide | Salesforce Developers",
+            "source_type": "Official API Reference",
+            "evidence_summary": "The following table lists supported REST resources in the API and provides a brief description for each. In each case, the URI for the resource follows the base URI, https://MyDomainName.my.salesforce.com . For example, to retrieve basic information about an Account object in version 68.0 use https:",
+            "checked_at": "2026-09-17T12:38:12.290295Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Reference | REST API Developer Guide | Salesforce Developers: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "GraphQL",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce provides public GraphQL API surface.",
+            "source_url": "https://developer.salesforce.com/docs/platform/lwc/guide/reference-graphql.html",
+            "source_title": "graphql | LWC API Modules | Lightning Web Components Developer Guide | Salesforce Developers",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Import graphql from lightning/uiGraphQLApi . This module supports Mobile Offline use cases, but it doesnât support newer features, such as optional fields and dynamic query construction. lightning/graphql supersedes the lightning/uiGraphQLApi module. We recommend that you use lightning/graphql whe",
+            "checked_at": "2026-09-17T12:38:19.233347Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via graphql | LWC API Modules | Lightning Web Components Developer Guide | Salesforce Developers: GraphQL queries, mutations, and schema endpoint."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Salesforce provides public Webhooks API surface.",
+            "source_url": "https://coefficient.io/salesforce-api/salesforce-webhooks",
+            "source_title": "How to Set Up Salesforce Webhooks: Quick Integration Guide - Coefficient",
+            "source_type": "Official API Reference",
+            "evidence_summary": "🔥 Now available: AI Dashboards Published: August 17, 2025 Head of Growth Marketing Trusted by 50,000+ companies Works with 100+ platforms How to Set Up Salesforce Webhooks: Quick Integration Guide Quick Answer Prerequisites and Requirements Step-by-Step Salesforce Webhook Setup Common Integration Is",
+            "checked_at": "2026-09-17T12:38:19.233347Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via How to Set Up Salesforce Webhooks: Quick Integration Guide - Coefficient: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Salesforce exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Salesforce supports authentication via OAuth2.",
+        "source_url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/oauth-portal-force-com-sites.html",
+        "source_title": "Portal Authentication Using OAuth 2.0 and Salesforce Sites | Authentication, Security, and Identity in Mobile Apps | Mobile SDK Development Guide | Salesforce Developers",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Salesforce Spring â13 Release adds enhanced flexibility for portal authentication. If your app runs in a Salesforce portal, you can use OAuth 2.0 with a Salesforce site to obtain API access tokens on behalf of portal users. In this configuration you can: Authenticate portal users via Auth prov",
+        "checked_at": "2026-09-17T12:37:33.926100Z"
+      },
+      {
+        "claim": "Salesforce supports authentication via API Key.",
+        "source_url": "https://www.apideck.com/blog/how-to-get-your-salesforce-api-keys",
+        "source_title": "How to get your Salesforce API Keys",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Build native integrations through our scalable Unified APIs Showcase integrations, partners, and apps to your customers Learn how to get your Salesforce API keys step-by-step. Set up a Connected App, configure OAuth 2.0, and manage credentials securely. Saurabh Rai · Developer Relations Engineer , A",
+        "checked_at": "2026-09-17T12:37:43.064844Z"
+      },
+      {
+        "claim": "Salesforce supports authentication via Bearer Token.",
+        "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+        "source_title": "Step Two: Set Up Authentication | Quick Start | REST API Developer Guide | Salesforce Developers",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "To successfully send requests, REST API requires an access token obtained by authentication. Although you can create and authenticate against your own connected app, these Quick Start examples use Salesforce CLI for convenience. Salesforce CLI is a connected app that you can authenticate, and it req",
+        "checked_at": "2026-09-17T12:37:43.064844Z"
+      },
+      {
+        "claim": "Salesforce supports authentication via Basic Auth.",
+        "source_url": "https://documentation.sailpoint.com/connectors/salesforce/help/integrating_salesforce/auth_basic.html",
+        "source_title": "Basic Authentication (Deprecated)",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "The Salesforce source supports Basic Authentication. On the Salesforce source UI, configure the following fields: Enter the fully qualified URL to the root of the Salesforce server in the Salesforce URL field.  For example: http://login.salesforce.com/services/Soap/u/ To find your site's URL, log in",
+        "checked_at": "2026-09-17T12:37:50.950557Z"
+      },
+      {
+        "claim": "Salesforce offers self-serve credential creation for developers.",
+        "source_url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart_dev_org.html",
+        "source_title": "Step One: Sign up for Salesforce Developer Edition | Connect REST API Developer Guide | Connect REST API Developer Guide | Salesforce Developers",
+        "source_type": "Official Documentation",
+        "evidence_summary": "Developer Edition provides a free and easy solution so that you can use Salesforce for testing and development. To sign up for a Developer Edition account, go to developer.salesforce.com/signup . The Developer Edition data storage maximum is 5 MB. This limit doesnât prevent you from working with t",
+        "checked_at": "2026-09-17T12:38:03.956169Z"
+      },
+      {
+        "claim": "Salesforce provides public REST API surface.",
+        "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-list.html",
+        "source_title": "Reference | REST API Developer Guide | Salesforce Developers",
+        "source_type": "Official API Reference",
+        "evidence_summary": "The following table lists supported REST resources in the API and provides a brief description for each. In each case, the URI for the resource follows the base URI, https://MyDomainName.my.salesforce.com . For example, to retrieve basic information about an Account object in version 68.0 use https:",
+        "checked_at": "2026-09-17T12:38:12.290295Z"
+      },
+      {
+        "claim": "Salesforce provides public GraphQL API surface.",
+        "source_url": "https://developer.salesforce.com/docs/platform/lwc/guide/reference-graphql.html",
+        "source_title": "graphql | LWC API Modules | Lightning Web Components Developer Guide | Salesforce Developers",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Import graphql from lightning/uiGraphQLApi . This module supports Mobile Offline use cases, but it doesnât support newer features, such as optional fields and dynamic query construction. lightning/graphql supersedes the lightning/uiGraphQLApi module. We recommend that you use lightning/graphql whe",
+        "checked_at": "2026-09-17T12:38:19.233347Z"
+      },
+      {
+        "claim": "Salesforce provides public Webhooks API surface.",
+        "source_url": "https://coefficient.io/salesforce-api/salesforce-webhooks",
+        "source_title": "How to Set Up Salesforce Webhooks: Quick Integration Guide - Coefficient",
+        "source_type": "Official API Reference",
+        "evidence_summary": "🔥 Now available: AI Dashboards Published: August 17, 2025 Head of Growth Marketing Trusted by 50,000+ companies Works with 100+ platforms How to Set Up Salesforce Webhooks: Quick Integration Guide Quick Answer Prerequisites and Requirements Step-by-Step Salesforce Webhook Setup Common Integration Is",
+        "checked_at": "2026-09-17T12:38:19.233347Z"
+      },
+      {
+        "claim": "Salesforce provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://developer.salesforce.com/blogs/2025/06/introducing-mcp-support-across-salesforce",
+        "source_title": "Introducing MCP Support Across Salesforce | Salesforce Developers Blog",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Model Context Protocol (MCP) is an open-source protocol that makes it easier for AI apps and agents to connect with tools and data sources. Before MCP, each tool needed its own custom integration code, causing tool and resource fragmentation. With MCP, you build one MCP server for your tool, and it ",
+        "checked_at": "2026-09-17T12:38:33.969843Z"
+      },
+      {
+        "claim": "Third-party community MCP server exists for Salesforce.",
+        "source_url": "https://github.com/salesforcecli/mcp",
+        "source_title": "GitHub - salesforcecli/mcp: MCP Server for interacting with Salesforce instances · GitHub",
+        "source_type": "GitHub",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings MCP Server for Interacting with Salesforce Orgs Report bugs and issues here . For feature requests and other rel",
+        "checked_at": "2026-09-17T13:04:57.359309Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.9,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.92,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.82,
+    "researched_at": "2026-09-17T12:38:33.969843Z",
+    "researcher_version": "2.0.0",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v2.0.0. 4/6 claims verified. 3 corrections applied.",
+    "verified_at": "2026-09-17T13:05:16.160643Z"
+  },
+  "summary_notes": "Independent hardened audit for Salesforce. 4/6 verified. 3 fields corrected."
+}

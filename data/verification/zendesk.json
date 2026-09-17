@@ -1,0 +1,329 @@
+{
+  "app_id": 11,
+  "app": "Zendesk",
+  "category": "Support and Helpdesk",
+  "verified_at": "2026-09-17T10:12:36.896488Z",
+  "verifier_version": "1.0.0",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 4,
+  "field_results": {
+    "website": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "website",
+      "original_value": "https://developer.zendesk.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Zendesk': Documentation Home | Zendesk Developer Docs",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "authentication",
+      "original_value": [
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Zendesk supports authentication via OAuth2.",
+          "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+          "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+          "checked_at": "2026-09-17T10:12:17.402852Z"
+        }
+      ],
+      "verification_notes": "All 1 claimed auth methods verified with primary evidence: OAuth2.",
+      "auth_details": [
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Zendesk supports authentication via OAuth2.",
+            "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+            "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+            "checked_at": "2026-09-17T10:12:17.402852Z"
+          },
+          "notes": "Content verified: direct evidence found for (authorization code)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "verification_status": "Verified",
+      "corrected_value": "Trial Self-Serve",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Zendesk credential access model is Trial Self-Serve.",
+          "source_url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+          "source_title": "Getting a trial or sponsored account for development | Zendesk Developer Docs",
+          "source_type": "Official Documentation",
+          "evidence_summary": "You can try out the Zendesk platform with a free, 14-day trial account. If you're interested in becoming a Zendesk developer partner, you can convert your trial account into a sponsored Zendesk Support account. As part of becoming a Zendesk developer partner, Zendesk sponsors an instance for up to 5",
+          "checked_at": "2026-09-17T10:12:19.981503Z"
+        }
+      ],
+      "verification_notes": "CORRECTED: Primary documentation at https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/ indicates developer access is available via free trial.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": [
+        "SDK"
+      ],
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Zendesk provides public SDK API surface.",
+          "source_url": "https://developer.zendesk.com/api-reference/",
+          "source_title": "API Reference Home | Zendesk Developer Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Welcome to the Zendesk API reference docs. Whether you're an experienced developer and Zendesk user or just starting out, this is where you'll find the documentation you need. Most of our APIs are organized by product capabilities. You'll find APIs for ticketing, help center, live chat, voice, sales",
+          "checked_at": "2026-09-17T10:12:20.619496Z"
+        }
+      ],
+      "verification_notes": "Partially verified: 1/3 API types confirmed (SDK). Unverified types lacked documentation evidence.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Insufficient Evidence",
+        "SDK": "Verified",
+        "Webhooks": "Insufficient Evidence"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": "Third-Party MCP",
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Third-party community MCP server exists for Zendesk.",
+          "source_url": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows",
+          "source_title": "Connecting to MCP servers and using MCP tools in action flows – Zendesk help",
+          "source_type": "GitHub",
+          "evidence_summary": "The Model Context Protocol (MCP) lets admins connect Zendesk to external MCP servers, discover the tools those servers provide, and use those tools as steps in action flows. This extends your Zendesk workflows to interact with third-party systems—such as project management tools, e-commerce platform",
+          "checked_at": "2026-09-17T10:12:32.504972Z"
+        }
+      ],
+      "verification_notes": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": "Buildable With Restrictions",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "RESTRICTION: Credentials available self-serve during limited trial window.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Restriction"
+    }
+  },
+  "original_record": {
+    "id": 11,
+    "app": "Zendesk",
+    "category": "Support and Helpdesk",
+    "website": "https://developer.zendesk.com/",
+    "one_line_description": "Documentation Home: Leading platform in Support and Helpdesk.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve via Zendesk's developer portal or app management console.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Zendesk exposes programmatic API endpoints covering primary platform objects and events.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Zendesk.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Zendesk supports authentication via OAuth2.",
+        "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+        "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+        "checked_at": "2026-09-17T10:04:25.646020Z"
+      },
+      {
+        "claim": "Zendesk offers self-serve credential creation for developers.",
+        "source_url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+        "source_title": "Getting a trial or sponsored account for development | Zendesk Developer Docs",
+        "source_type": "Official Documentation",
+        "evidence_summary": "You can try out the Zendesk platform with a free, 14-day trial account. If you're interested in becoming a Zendesk developer partner, you can convert your trial account into a sponsored Zendesk Support account. As part of becoming a Zendesk developer partner, Zendesk sponsors an instance for up to 5",
+        "checked_at": "2026-09-17T10:04:31.156056Z"
+      },
+      {
+        "claim": "Zendesk provides comprehensive public API methods and developer integrations.",
+        "source_url": "https://developer.zendesk.com/api-reference/",
+        "source_title": "API Reference Home | Zendesk Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Welcome to the Zendesk API reference docs. Whether you're an experienced developer and Zendesk user or just starting out, this is where you'll find the documentation you need. Most of our APIs are organized by product capabilities. You'll find APIs for ticketing, help center, live chat, voice, sales",
+        "checked_at": "2026-09-17T10:04:46.138844Z"
+      },
+      {
+        "claim": "Zendesk provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows",
+        "source_title": "Connecting to MCP servers and using MCP tools in action flows – Zendesk help",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "The Model Context Protocol (MCP) lets admins connect Zendesk to external MCP servers, discover the tools those servers provide, and use those tools as steps in action flows. This extends your Zendesk workflows to interact with third-party systems—such as project management tools, e-commerce platform",
+        "checked_at": "2026-09-17T10:05:12.591368Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.9,
+    "api_confidence": 0.9,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.93,
+    "researched_at": "2026-09-17T10:05:12.591368Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 11,
+    "app": "Zendesk",
+    "category": "Support and Helpdesk",
+    "website": "https://developer.zendesk.com/",
+    "one_line_description": "Documentation Home: Leading platform in Support and Helpdesk.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Trial Self-Serve",
+    "credential_access_notes": "CORRECTED: Primary documentation at https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/ indicates developer access is available via free trial.",
+    "api_types": [
+      "SDK"
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Zendesk exposes programmatic API endpoints covering primary platform objects and events.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "RESTRICTION: Credentials available self-serve during limited trial window.",
+    "evidence": [
+      {
+        "claim": "Zendesk supports authentication via OAuth2.",
+        "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+        "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+        "checked_at": "2026-09-17T10:04:25.646020Z"
+      },
+      {
+        "claim": "Zendesk offers self-serve credential creation for developers.",
+        "source_url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+        "source_title": "Getting a trial or sponsored account for development | Zendesk Developer Docs",
+        "source_type": "Official Documentation",
+        "evidence_summary": "You can try out the Zendesk platform with a free, 14-day trial account. If you're interested in becoming a Zendesk developer partner, you can convert your trial account into a sponsored Zendesk Support account. As part of becoming a Zendesk developer partner, Zendesk sponsors an instance for up to 5",
+        "checked_at": "2026-09-17T10:04:31.156056Z"
+      },
+      {
+        "claim": "Zendesk provides comprehensive public API methods and developer integrations.",
+        "source_url": "https://developer.zendesk.com/api-reference/",
+        "source_title": "API Reference Home | Zendesk Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Welcome to the Zendesk API reference docs. Whether you're an experienced developer and Zendesk user or just starting out, this is where you'll find the documentation you need. Most of our APIs are organized by product capabilities. You'll find APIs for ticketing, help center, live chat, voice, sales",
+        "checked_at": "2026-09-17T10:04:46.138844Z"
+      },
+      {
+        "claim": "Zendesk provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows",
+        "source_title": "Connecting to MCP servers and using MCP tools in action flows – Zendesk help",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "The Model Context Protocol (MCP) lets admins connect Zendesk to external MCP servers, discover the tools those servers provide, and use those tools as steps in action flows. This extends your Zendesk workflows to interact with third-party systems—such as project management tools, e-commerce platform",
+        "checked_at": "2026-09-17T10:05:12.591368Z"
+      },
+      {
+        "claim": "Zendesk credential access model is Trial Self-Serve.",
+        "source_url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+        "source_title": "Getting a trial or sponsored account for development | Zendesk Developer Docs",
+        "source_type": "Official Documentation",
+        "evidence_summary": "You can try out the Zendesk platform with a free, 14-day trial account. If you're interested in becoming a Zendesk developer partner, you can convert your trial account into a sponsored Zendesk Support account. As part of becoming a Zendesk developer partner, Zendesk sponsors an instance for up to 5",
+        "checked_at": "2026-09-17T10:12:19.981503Z"
+      },
+      {
+        "claim": "Zendesk provides public SDK API surface.",
+        "source_url": "https://developer.zendesk.com/api-reference/",
+        "source_title": "API Reference Home | Zendesk Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Welcome to the Zendesk API reference docs. Whether you're an experienced developer and Zendesk user or just starting out, this is where you'll find the documentation you need. Most of our APIs are organized by product capabilities. You'll find APIs for ticketing, help center, live chat, voice, sales",
+        "checked_at": "2026-09-17T10:12:20.619496Z"
+      },
+      {
+        "claim": "Third-party community MCP server exists for Zendesk.",
+        "source_url": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows",
+        "source_title": "Connecting to MCP servers and using MCP tools in action flows – Zendesk help",
+        "source_type": "GitHub",
+        "evidence_summary": "The Model Context Protocol (MCP) lets admins connect Zendesk to external MCP servers, discover the tools those servers provide, and use those tools as steps in action flows. This extends your Zendesk workflows to interact with third-party systems—such as project management tools, e-commerce platform",
+        "checked_at": "2026-09-17T10:12:32.504972Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.95,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.92,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.95,
+    "researched_at": "2026-09-17T10:05:12.591368Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 6/6 claims verified. 4 corrections applied.",
+    "verified_at": "2026-09-17T10:12:36.896488Z"
+  },
+  "summary_notes": "Independent hardened audit for Zendesk. 6/6 verified. 4 fields corrected."
+}

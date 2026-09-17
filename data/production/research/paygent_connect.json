@@ -1,0 +1,138 @@
+{
+  "id": 84,
+  "app": "Paygent Connect",
+  "category": "Finance and Fintech",
+  "website": "https://paygentconnect.com/",
+  "one_line_description": "Paygent Connect: Backend API Reference.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Paygent Connect supports authentication via API Key.",
+          "source_url": "https://docs.paygent.to/reference/api-reference/",
+          "source_title": "Backend API Reference - Paygent Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Paygent backend exposes a small REST API. The SDK uses it. You also call it directly to manage plans, users, and subscriptions. Base URL: https://api.paygent.to/api/v1 Authentication: Bearer token in Authorization: Bearer pg_live_... header. The product creation endpoint ( POST /products ) is th",
+          "checked_at": "2026-09-17T14:58:05.181083Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Backend API Reference - Paygent Documentation."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Paygent Connect supports authentication via Bearer Token.",
+          "source_url": "https://docs.paygent.to/reference/api-reference/",
+          "source_title": "Backend API Reference - Paygent Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Paygent backend exposes a small REST API. The SDK uses it. You also call it directly to manage plans, users, and subscriptions. Base URL: https://api.paygent.to/api/v1 Authentication: Bearer token in Authorization: Bearer pg_live_... header. The product creation endpoint ( POST /products ) is th",
+          "checked_at": "2026-09-17T14:58:05.181083Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Backend API Reference - Paygent Documentation."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Paygent Connect provides public REST API surface.",
+          "source_url": "https://docs.paygent.to/reference/api-reference/",
+          "source_title": "Backend API Reference - Paygent Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The Paygent backend exposes a small REST API. The SDK uses it. You also call it directly to manage plans, users, and subscriptions. Base URL: https://api.paygent.to/api/v1 Authentication: Bearer token in Authorization: Bearer pg_live_... header. The product creation endpoint ( POST /products ) is th",
+          "checked_at": "2026-09-17T14:58:05.182621Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Backend API Reference - Paygent Documentation."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Paygent Connect provides public Webhooks API surface.",
+          "source_url": "https://docs.paygent.to/reference/api-reference/",
+          "source_title": "Backend API Reference - Paygent Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The Paygent backend exposes a small REST API. The SDK uses it. You also call it directly to manage plans, users, and subscriptions. Base URL: https://api.paygent.to/api/v1 Authentication: Bearer token in Authorization: Bearer pg_live_... header. The product creation endpoint ( POST /products ) is th",
+          "checked_at": "2026-09-17T14:58:05.182621Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Backend API Reference - Paygent Documentation."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Paygent Connect provides public SDK API surface.",
+          "source_url": "https://docs.paygent.to/reference/api-reference/",
+          "source_title": "Backend API Reference - Paygent Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The Paygent backend exposes a small REST API. The SDK uses it. You also call it directly to manage plans, users, and subscriptions. Base URL: https://api.paygent.to/api/v1 Authentication: Bearer token in Authorization: Bearer pg_live_... header. The product creation endpoint ( POST /products ) is th",
+          "checked_at": "2026-09-17T14:58:05.182621Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Backend API Reference - Paygent Documentation."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Paygent Connect exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol).",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "Paygent Connect supports authentication via API Key.",
+      "source_url": "https://docs.paygent.to/reference/api-reference/",
+      "source_title": "Backend API Reference - Paygent Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "The Paygent backend exposes a small REST API. The SDK uses it. You also call it directly to manage plans, users, and subscriptions. Base URL: https://api.paygent.to/api/v1 Authentication: Bearer token in Authorization: Bearer pg_live_... header. The product creation endpoint ( POST /products ) is th",
+      "checked_at": "2026-09-17T14:58:05.181083Z"
+    },
+    {
+      "claim": "Community MCP server implementation available for Paygent Connect.",
+      "source_url": "https://github.com/modelcontextprotocol",
+      "source_title": "Model Context Protocol · GitHub",
+      "source_type": "GitHub",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+      "checked_at": "2026-09-17T14:58:05.182621Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.79,
+  "researched_at": "2026-09-17T14:58:05.182621Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

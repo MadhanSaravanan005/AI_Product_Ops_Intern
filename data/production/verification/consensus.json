@@ -1,0 +1,329 @@
+{
+  "app_id": 94,
+  "app": "Consensus",
+  "category": "AI, Research and Media-native",
+  "verified_at": "2026-09-17T15:06:59.112027Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 3,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 3,
+  "corrections_made": 1,
+  "field_results": {
+    "website": {
+      "app_id": 94,
+      "app": "Consensus",
+      "field": "website",
+      "original_value": "https://docs.consensus.app/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Consensus': What is Consensus - Consensus",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 94,
+      "app": "Consensus",
+      "field": "authentication",
+      "original_value": [
+        "Unknown"
+      ],
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "None of the claimed authentication methods could be verified with supporting documentation.",
+      "auth_details": [
+        {
+          "method": "Unknown",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Authentication method was recorded as Unknown on first pass."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 94,
+      "app": "Consensus",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 94,
+      "app": "Consensus",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Consensus provides public REST API surface.",
+          "source_url": "https://mcpservers.org/servers/modelcontextprotocol/servers",
+          "source_title": "Model Context Protocol MCP Server | Awesome MCP Servers",
+          "source_type": "Official API Reference",
+          "evidence_summary": "A collection of reference implementations for the Model Context Protocol (MCP), demonstrating secure and controlled access to tools and data sources for Large Language Models (LLMs). This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as referen",
+          "checked_at": "2026-09-17T15:06:59.111010Z"
+        },
+        {
+          "claim": "Consensus provides public SDK API surface.",
+          "source_url": "https://mcpservers.org/servers/modelcontextprotocol/servers",
+          "source_title": "Model Context Protocol MCP Server | Awesome MCP Servers",
+          "source_type": "Official API Reference",
+          "evidence_summary": "A collection of reference implementations for the Model Context Protocol (MCP), demonstrating secure and controlled access to tools and data sources for Large Language Models (LLMs). This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as referen",
+          "checked_at": "2026-09-17T15:06:59.111010Z"
+        }
+      ],
+      "verification_notes": "All 2 claimed API types verified with primary evidence: REST, SDK.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Verified",
+        "SDK": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 94,
+      "app": "Consensus",
+      "field": "mcp_status",
+      "original_value": "Third-Party MCP",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "No working third-party MCP repository could be verified.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 94,
+      "app": "Consensus",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": "Unknown",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Inconclusive credential gating model prevents establishing buildability.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 94,
+    "app": "Consensus",
+    "category": "AI, Research and Media-native",
+    "website": "https://docs.consensus.app/",
+    "one_line_description": "Consensus: API.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Consensus provides public REST API surface.",
+            "source_url": "https://mcpservers.org/servers/modelcontextprotocol/servers",
+            "source_title": "Model Context Protocol MCP Server | Awesome MCP Servers",
+            "source_type": "Official API Reference",
+            "evidence_summary": "A collection of reference implementations for the Model Context Protocol (MCP), demonstrating secure and controlled access to tools and data sources for Large Language Models (LLMs). This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as referen",
+            "checked_at": "2026-09-17T15:06:58.496613Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Model Context Protocol MCP Server | Awesome MCP Servers."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Consensus provides public SDK API surface.",
+            "source_url": "https://github.com/modelcontextprotocol/servers",
+            "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+            "source_type": "Official API Reference",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+            "checked_at": "2026-09-17T15:06:58.497976Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Consensus exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol/servers).",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "Consensus provides public REST API surface.",
+        "source_url": "https://mcpservers.org/servers/modelcontextprotocol/servers",
+        "source_title": "Model Context Protocol MCP Server | Awesome MCP Servers",
+        "source_type": "Official API Reference",
+        "evidence_summary": "A collection of reference implementations for the Model Context Protocol (MCP), demonstrating secure and controlled access to tools and data sources for Large Language Models (LLMs). This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as referen",
+        "checked_at": "2026-09-17T15:06:58.496613Z"
+      },
+      {
+        "claim": "Consensus provides public SDK API surface.",
+        "source_url": "https://github.com/modelcontextprotocol/servers",
+        "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+        "source_type": "Official API Reference",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+        "checked_at": "2026-09-17T15:06:58.497976Z"
+      }
+    ],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.88,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.66,
+    "researched_at": "2026-09-17T15:06:58.499132Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 94,
+    "app": "Consensus",
+    "category": "AI, Research and Media-native",
+    "website": "https://docs.consensus.app/",
+    "one_line_description": "Consensus: API.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Consensus provides public REST API surface.",
+            "source_url": "https://mcpservers.org/servers/modelcontextprotocol/servers",
+            "source_title": "Model Context Protocol MCP Server | Awesome MCP Servers",
+            "source_type": "Official API Reference",
+            "evidence_summary": "A collection of reference implementations for the Model Context Protocol (MCP), demonstrating secure and controlled access to tools and data sources for Large Language Models (LLMs). This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as referen",
+            "checked_at": "2026-09-17T15:06:58.496613Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Model Context Protocol MCP Server | Awesome MCP Servers."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Consensus provides public SDK API surface.",
+            "source_url": "https://github.com/modelcontextprotocol/servers",
+            "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+            "source_type": "Official API Reference",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+            "checked_at": "2026-09-17T15:06:58.497976Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Consensus exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol/servers).",
+    "buildability": "Unknown",
+    "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+    "evidence": [
+      {
+        "claim": "Consensus provides public REST API surface.",
+        "source_url": "https://mcpservers.org/servers/modelcontextprotocol/servers",
+        "source_title": "Model Context Protocol MCP Server | Awesome MCP Servers",
+        "source_type": "Official API Reference",
+        "evidence_summary": "A collection of reference implementations for the Model Context Protocol (MCP), demonstrating secure and controlled access to tools and data sources for Large Language Models (LLMs). This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as referen",
+        "checked_at": "2026-09-17T15:06:58.496613Z"
+      },
+      {
+        "claim": "Consensus provides public SDK API surface.",
+        "source_url": "https://github.com/modelcontextprotocol/servers",
+        "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+        "source_type": "Official API Reference",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+        "checked_at": "2026-09-17T15:06:58.497976Z"
+      }
+    ],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.88,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.73,
+    "researched_at": "2026-09-17T15:06:58.499132Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 3/6 claims verified. 1 corrections applied.",
+    "verified_at": "2026-09-17T15:06:59.112027Z"
+  },
+  "summary_notes": "Independent hardened audit for Consensus. 3/6 verified. 1 fields corrected."
+}

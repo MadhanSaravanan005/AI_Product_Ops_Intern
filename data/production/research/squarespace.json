@@ -1,0 +1,96 @@
+{
+  "id": 46,
+  "app": "Squarespace",
+  "category": "Ecommerce",
+  "website": "https://developers.squarespace.com/",
+  "one_line_description": "Squarespace: Squarespace Developer Platform: APIs, Apps, and Docs.",
+  "auth_methods": [
+    "API Key",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Squarespace supports authentication via OAuth2.",
+          "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+          "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+          "checked_at": "2026-09-17T14:05:49.108550Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Squarespace Developer Platform: APIs, Apps, and Docs."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Squarespace supports authentication via API Key.",
+          "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+          "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+          "checked_at": "2026-09-17T14:05:49.108550Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Squarespace Developer Platform: APIs, Apps, and Docs."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Squarespace provides public Webhooks API surface.",
+          "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+          "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+          "checked_at": "2026-09-17T14:05:49.109547Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Squarespace Developer Platform: APIs, Apps, and Docs."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Squarespace exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Squarespace.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Developer account required to obtain access credentials.",
+  "evidence": [
+    {
+      "claim": "Squarespace supports authentication via OAuth2.",
+      "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+      "source_title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "To keep Squarespace merchant site data private and secure,\nevery request to Commerce APIs must be authenticated and have minimum permissions.\nHowever, authenticated requests automatically have access to public site data,\nsuch as site name, identifier, language, currency, time zone, and location. Rea",
+      "checked_at": "2026-09-17T14:05:49.108550Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.76,
+  "researched_at": "2026-09-17T14:05:49.109547Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Needs Verification",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

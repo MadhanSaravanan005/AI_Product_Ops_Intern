@@ -1,0 +1,145 @@
+{
+  "id": 6,
+  "app": "Podio",
+  "category": "CRM and Sales",
+  "website": "https://developers.podio.com/",
+  "one_line_description": "Developers: Leading platform in CRM and Sales.",
+  "auth_methods": [
+    "API Key",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Podio supports authentication via OAuth2.",
+          "source_url": "https://developers.podio.com/authentication",
+          "source_title": "Authentication - Podio API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Authentication Scopes & Permissions Server-side flow Client-side flow Username & password flow App authentication flow Username & password flow App authentication flow The Podio API uses the OAuth2 protocol for authentication. This allows external apps to request authorization to Podio without havin",
+          "checked_at": "2026-09-17T13:34:27.609230Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication - Podio API Documentation: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Podio supports authentication via API Key.",
+          "source_url": "https://developers.podio.com/doc/oauth-authorization/get-access-token-22359",
+          "source_title": "OAuth authorization | Get access token - Podio API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "API Reference Actions Alerts App market Applications Batch Calendar Comments Contacts Conversations Devices Email Embeds Files Flows Forms Friends Grants Hooks Importer Integrations Items Layout Linked Accounts Notifications OAuth authorization Organizations Questions Ratings Recurrence Reference Re",
+          "checked_at": "2026-09-17T13:34:27.610289Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth authorization | Get access token - Podio API Documentation: API key provisioning and request header authentication."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Podio's developer portal or app management console.",
+  "api_types": [
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Podio provides public Webhooks API surface.",
+          "source_url": "https://developers.podio.com/",
+          "source_title": "Developers - Podio API Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Getting started The core concepts of Podio API conventions and structure Rate limits FAQ The core concepts of Podio API conventions and structure 1 Get an API Key Get started right away - generate your API key . Get started right away - generate your API key . 2 Browse the documentation Learn how th",
+          "checked_at": "2026-09-17T13:34:44.766930Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Developers - Podio API Documentation: Webhook event delivery and subscription endpoints."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Podio provides public SDK API surface.",
+          "source_url": "https://developers.podio.com/",
+          "source_title": "Developers - Podio API Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Getting started The core concepts of Podio API conventions and structure Rate limits FAQ The core concepts of Podio API conventions and structure 1 Get an API Key Get started right away - generate your API key . Get started right away - generate your API key . 2 Browse the documentation Learn how th",
+          "checked_at": "2026-09-17T13:34:44.766930Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Developers - Podio API Documentation: Official client SDKs and libraries."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Podio exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search across official documentation and GitHub repositories yielded no existing MCP implementations for Podio.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Podio supports authentication via OAuth2.",
+      "source_url": "https://developers.podio.com/authentication",
+      "source_title": "Authentication - Podio API Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Authentication Scopes & Permissions Server-side flow Client-side flow Username & password flow App authentication flow Username & password flow App authentication flow The Podio API uses the OAuth2 protocol for authentication. This allows external apps to request authorization to Podio without havin",
+      "checked_at": "2026-09-17T13:34:27.609230Z"
+    },
+    {
+      "claim": "Podio supports authentication via API Key.",
+      "source_url": "https://developers.podio.com/doc/oauth-authorization/get-access-token-22359",
+      "source_title": "OAuth authorization | Get access token - Podio API Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "API Reference Actions Alerts App market Applications Batch Calendar Comments Contacts Conversations Devices Email Embeds Files Flows Forms Friends Grants Hooks Importer Integrations Items Layout Linked Accounts Notifications OAuth authorization Organizations Questions Ratings Recurrence Reference Re",
+      "checked_at": "2026-09-17T13:34:27.610289Z"
+    },
+    {
+      "claim": "Podio offers self-serve credential creation for developers.",
+      "source_url": "https://developers.podio.com/api-key",
+      "source_title": "Get API key - Podio API Documentation",
+      "source_type": "Official Documentation",
+      "evidence_summary": "It's easy to get one or more API keys for accessing your Podio data. You just have to sign in or sign up with Podio, and go to the API key tab in your settings.",
+      "checked_at": "2026-09-17T13:34:38.244132Z"
+    },
+    {
+      "claim": "Podio provides public Webhooks API surface.",
+      "source_url": "https://developers.podio.com/",
+      "source_title": "Developers - Podio API Documentation",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Getting started The core concepts of Podio API conventions and structure Rate limits FAQ The core concepts of Podio API conventions and structure 1 Get an API Key Get started right away - generate your API key . Get started right away - generate your API key . 2 Browse the documentation Learn how th",
+      "checked_at": "2026-09-17T13:34:44.766930Z"
+    },
+    {
+      "claim": "Podio provides public SDK API surface.",
+      "source_url": "https://developers.podio.com/",
+      "source_title": "Developers - Podio API Documentation",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Getting started The core concepts of Podio API conventions and structure Rate limits FAQ The core concepts of Podio API conventions and structure 1 Get an API Key Get started right away - generate your API key . Get started right away - generate your API key . 2 Browse the documentation Learn how th",
+      "checked_at": "2026-09-17T13:34:44.766930Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.92,
+  "researched_at": "2026-09-17T13:35:00.069435Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

@@ -1,0 +1,187 @@
+{
+  "id": 65,
+  "app": "Supabase",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.supabase.com/",
+  "one_line_description": "Supabase: Supabase Docs.",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Supabase supports authentication via OAuth2.",
+          "source_url": "https://supabase.com/docs/guides/integrations/build-a-supabase-oauth-integration",
+          "source_title": "Build a Supabase Integration | Supabase Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Using OAuth2.0 you can retrieve an access and refresh token that grant your application full access to the Management API on behalf of the user. In your organization's settings, navigate to the OAuth Apps tab. In the upper-right section of the page, click Add application . Fill in the required detai",
+          "checked_at": "2026-09-17T14:41:05.355158Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Build a Supabase Integration | Supabase Docs."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Supabase supports authentication via API Key.",
+          "source_url": "https://supabase.com/docs/guides/api",
+          "source_title": "Data REST API | Supabase Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Supabase auto-generates an API directly from your database schema allowing you to connect to your database through a restful interface, directly from the browser. The API is auto-generated from your database and is designed to get you building as fast as possible, without writing a single line of co",
+          "checked_at": "2026-09-17T14:41:05.355158Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Data REST API | Supabase Docs."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Supabase supports authentication via Bearer Token.",
+          "source_url": "https://deepwiki.com/supabase/auth/3-api-reference",
+          "source_title": "API Reference | supabase/auth | DeepWiki",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Architecture Overview Environment Variables Reference Provider Configuration Database Configuration Configuration Hot Reload Authentication Endpoints User Management Endpoints SSO and SAML Endpoints OAuth Server Endpoints Authentication Methods Email and Password Authentication OAuth and OIDC Integr",
+          "checked_at": "2026-09-17T14:41:05.355158Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Reference | supabase/auth | DeepWiki."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Supabase supports authentication via Basic Auth.",
+          "source_url": "https://supabase.com/docs/guides/integrations/build-a-supabase-oauth-integration",
+          "source_title": "Build a Supabase Integration | Supabase Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Using OAuth2.0 you can retrieve an access and refresh token that grant your application full access to the Management API on behalf of the user. In your organization's settings, navigate to the OAuth Apps tab. In the upper-right section of the page, click Add application . Fill in the required detai",
+          "checked_at": "2026-09-17T14:41:05.356454Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Build a Supabase Integration | Supabase Docs."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Supabase provides public REST API surface.",
+          "source_url": "https://supabase.com/docs/guides/api",
+          "source_title": "Data REST API | Supabase Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Supabase auto-generates an API directly from your database schema allowing you to connect to your database through a restful interface, directly from the browser. The API is auto-generated from your database and is designed to get you building as fast as possible, without writing a single line of co",
+          "checked_at": "2026-09-17T14:41:05.356454Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Data REST API | Supabase Docs."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Supabase provides public SDK API surface.",
+          "source_url": "https://supabase.com/docs/guides/getting-started/api-keys",
+          "source_title": "API keys | Supabase Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Every request to your Supabase project carries an API key. The key identifies what is calling your project: a web page, a mobile app, a server, or an Edge Function. Supabase Auth identifies who is calling, when someone is signed in. Which key do you use? answers that in one table. How API keys work ",
+          "checked_at": "2026-09-17T14:41:05.356454Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API keys | Supabase Docs."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Supabase exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Supabase.",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "Supabase supports authentication via OAuth2.",
+      "source_url": "https://supabase.com/docs/guides/integrations/build-a-supabase-oauth-integration",
+      "source_title": "Build a Supabase Integration | Supabase Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Using OAuth2.0 you can retrieve an access and refresh token that grant your application full access to the Management API on behalf of the user. In your organization's settings, navigate to the OAuth Apps tab. In the upper-right section of the page, click Add application . Fill in the required detai",
+      "checked_at": "2026-09-17T14:41:05.355158Z"
+    },
+    {
+      "claim": "Supabase supports authentication via API Key.",
+      "source_url": "https://supabase.com/docs/guides/api",
+      "source_title": "Data REST API | Supabase Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Supabase auto-generates an API directly from your database schema allowing you to connect to your database through a restful interface, directly from the browser. The API is auto-generated from your database and is designed to get you building as fast as possible, without writing a single line of co",
+      "checked_at": "2026-09-17T14:41:05.355158Z"
+    },
+    {
+      "claim": "Supabase supports authentication via Bearer Token.",
+      "source_url": "https://deepwiki.com/supabase/auth/3-api-reference",
+      "source_title": "API Reference | supabase/auth | DeepWiki",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Architecture Overview Environment Variables Reference Provider Configuration Database Configuration Configuration Hot Reload Authentication Endpoints User Management Endpoints SSO and SAML Endpoints OAuth Server Endpoints Authentication Methods Email and Password Authentication OAuth and OIDC Integr",
+      "checked_at": "2026-09-17T14:41:05.355158Z"
+    },
+    {
+      "claim": "Supabase provides public SDK API surface.",
+      "source_url": "https://supabase.com/docs/guides/getting-started/api-keys",
+      "source_title": "API keys | Supabase Docs",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Every request to your Supabase project carries an API key. The key identifies what is calling your project: a web page, a mobile app, a server, or an Edge Function. Supabase Auth identifies who is calling, when someone is signed in. Which key do you use? answers that in one table. How API keys work ",
+      "checked_at": "2026-09-17T14:41:05.356454Z"
+    },
+    {
+      "claim": "Supabase supports authentication via API Key.",
+      "source_url": "https://supabase.com/docs/guides/integrations/build-a-supabase-oauth-integration",
+      "source_title": "Build a Supabase Integration | Supabase Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Using OAuth2.0 you can retrieve an access and refresh token that grant your application full access to the Management API on behalf of the user. In your organization's settings, navigate to the OAuth Apps tab. In the upper-right section of the page, click Add application . Fill in the required detai",
+      "checked_at": "2026-09-17T14:41:05.359057Z"
+    },
+    {
+      "claim": "Supabase provides public REST API surface.",
+      "source_url": "https://supabase.com/docs/guides/api",
+      "source_title": "Data REST API | Supabase Docs",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Supabase auto-generates an API directly from your database schema allowing you to connect to your database through a restful interface, directly from the browser. The API is auto-generated from your database and is designed to get you building as fast as possible, without writing a single line of co",
+      "checked_at": "2026-09-17T14:41:05.359057Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.88,
+  "researched_at": "2026-09-17T14:41:05.356454Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T14:41:05.359057Z"
+}

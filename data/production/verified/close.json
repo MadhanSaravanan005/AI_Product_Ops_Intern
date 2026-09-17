@@ -1,0 +1,144 @@
+{
+  "id": 8,
+  "app": "Close",
+  "category": "CRM and Sales",
+  "website": "https://developer.close.com/",
+  "one_line_description": "Close Developer Platform: Leading platform in CRM and Sales.",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Close supports authentication via OAuth2.",
+          "source_url": "https://developer.close.com/api/overview/oauth-authentication",
+          "source_title": "Authentication with OAuth | Close | Developer API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Getting Started Introduction Authentication with API Keys Authentication with OAuth API Clients Pagination Specifying Fields Filter Parameters HTTP Response Codes Rate Limits Timezone Offsets Rich Text Fields Changelog Authentication with API Keys Authentication with OAuth CRM Core Leads Contacts Op",
+          "checked_at": "2026-09-17T13:37:24.770021Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication with OAuth | Close | Developer API Documentation: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Close supports authentication via API Key.",
+          "source_url": "https://developer.close.com/api/overview/oauth-authentication",
+          "source_title": "Authentication with OAuth | Close | Developer API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Getting Started Introduction Authentication with API Keys Authentication with OAuth API Clients Pagination Specifying Fields Filter Parameters HTTP Response Codes Rate Limits Timezone Offsets Rich Text Fields Changelog Authentication with API Keys Authentication with OAuth CRM Core Leads Contacts Op",
+          "checked_at": "2026-09-17T13:37:24.770021Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication with OAuth | Close | Developer API Documentation: API key provisioning and request header authentication."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Close supports authentication via Basic Auth.",
+          "source_url": "https://developer.close.com/api/overview/api-key-authentication",
+          "source_title": "Authentication with API keys | Close | Developer API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Getting Started Introduction Authentication with API Keys Authentication with OAuth API Clients Pagination Specifying Fields Filter Parameters HTTP Response Codes Rate Limits Timezone Offsets Rich Text Fields Changelog Authentication with API Keys Authentication with OAuth CRM Core Leads Contacts Op",
+          "checked_at": "2026-09-17T13:37:24.770021Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication with API keys | Close | Developer API Documentation: HTTP Basic Authentication via credentials."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Close's developer portal or app management console.",
+  "api_types": [
+    "Unknown"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "Unknown",
+      "status": "Unverified",
+      "evidence": [],
+      "confidence": 0.3,
+      "notes": "No API types for Close could be grounded with direct documentation evidence."
+    }
+  ],
+  "api_breadth": "Unknown",
+  "api_scope_notes": null,
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "CORRECTED: Resolved Unknown to Third-Party MCP with primary evidence.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+  "evidence": [
+    {
+      "claim": "Close supports authentication via OAuth2.",
+      "source_url": "https://developer.close.com/api/overview/oauth-authentication",
+      "source_title": "Authentication with OAuth | Close | Developer API Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Getting Started Introduction Authentication with API Keys Authentication with OAuth API Clients Pagination Specifying Fields Filter Parameters HTTP Response Codes Rate Limits Timezone Offsets Rich Text Fields Changelog Authentication with API Keys Authentication with OAuth CRM Core Leads Contacts Op",
+      "checked_at": "2026-09-17T13:37:24.770021Z"
+    },
+    {
+      "claim": "Close supports authentication via API Key.",
+      "source_url": "https://developer.close.com/api/overview/oauth-authentication",
+      "source_title": "Authentication with OAuth | Close | Developer API Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Getting Started Introduction Authentication with API Keys Authentication with OAuth API Clients Pagination Specifying Fields Filter Parameters HTTP Response Codes Rate Limits Timezone Offsets Rich Text Fields Changelog Authentication with API Keys Authentication with OAuth CRM Core Leads Contacts Op",
+      "checked_at": "2026-09-17T13:37:24.770021Z"
+    },
+    {
+      "claim": "Close supports authentication via Basic Auth.",
+      "source_url": "https://developer.close.com/api/overview/api-key-authentication",
+      "source_title": "Authentication with API keys | Close | Developer API Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Getting Started Introduction Authentication with API Keys Authentication with OAuth API Clients Pagination Specifying Fields Filter Parameters HTTP Response Codes Rate Limits Timezone Offsets Rich Text Fields Changelog Authentication with API Keys Authentication with OAuth CRM Core Leads Contacts Op",
+      "checked_at": "2026-09-17T13:37:24.770021Z"
+    },
+    {
+      "claim": "Close offers self-serve credential creation for developers.",
+      "source_url": "https://developer.box.com/guides/getting-started/free-developer-plan",
+      "source_title": "Free developer plan - Box Dev Docs",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. 1,000 AI units per month for Box AI features like asking questions, extracting structured and freeform metadata, and generating text 10 GB storage, a 250 MB file upload limit,",
+      "checked_at": "2026-09-17T13:37:38.690783Z"
+    },
+    {
+      "claim": "Close credential access model is Free Self-Serve.",
+      "source_url": "https://developer.box.com/guides/getting-started/free-developer-plan",
+      "source_title": "Free developer plan - Box Dev Docs",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. 1,000 AI units per month for Box AI features like asking questions, extracting structured and freeform metadata, and generating text 10 GB storage, a 250 MB file upload limit,",
+      "checked_at": "2026-09-17T13:38:33.357586Z"
+    },
+    {
+      "claim": "Third-party community MCP server exists for Close.",
+      "source_url": "https://github.com/modelcontextprotocol",
+      "source_title": "Model Context Protocol · GitHub",
+      "source_type": "GitHub",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+      "checked_at": "2026-09-17T13:38:41.776180Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.3,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.81,
+  "researched_at": "2026-09-17T13:38:26.558448Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Needs Verification",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 4/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T13:38:47.943791Z"
+}

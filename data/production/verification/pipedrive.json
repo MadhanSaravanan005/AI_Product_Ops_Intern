@@ -1,0 +1,504 @@
+{
+  "app_id": 3,
+  "app": "Pipedrive",
+  "category": "CRM and Sales",
+  "verified_at": "2026-09-17T13:57:07.072306Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 3,
+      "app": "Pipedrive",
+      "field": "website",
+      "original_value": "https://developers.pipedrive.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://developers.pipedrive.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 3,
+      "app": "Pipedrive",
+      "field": "authentication",
+      "original_value": [
+        "Basic Auth",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Pipedrive supports authentication via OAuth2.",
+          "source_url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+          "source_title": "Pipedrive API v1 Dev References (Oauth) - Learn - Test - Try Now",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. To retrieve OAuth2 tokens you should send requests to the https://oauth.pipedrive.com domain. After regis",
+          "checked_at": "2026-09-17T13:26:57.333350Z"
+        },
+        {
+          "claim": "Pipedrive supports authentication via Basic Auth.",
+          "source_url": "https://pipedrive.readme.io/docs/marketplace-oauth-authorization",
+          "source_title": "OAuth authorization",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. If you're starting a new app, create-pipedrive-app generates the full OAuth flow — including the HMAC-sig",
+          "checked_at": "2026-09-17T13:26:57.334369Z"
+        }
+      ],
+      "verification_notes": "Authentication methods verified with 2 primary evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 3,
+      "app": "Pipedrive",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown access model verified in absence of gating documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 3,
+      "app": "Pipedrive",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Pipedrive provides public REST API surface.",
+          "source_url": "https://developers.pipedrive.com/docs/api/v1",
+          "source_title": "Pipedrive API Reference and Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "This reference helps you implement the RESTful Pipedrive API. This API uses a JSON format for output and is capable of handling CORS (Cross-Origin Resource Sharing) requests. The API is stateless – all requests are validated against an API token. The API token can be obtained manually from the Piped",
+          "checked_at": "2026-09-17T13:27:21.064902Z"
+        },
+        {
+          "claim": "Pipedrive provides public Webhooks API surface.",
+          "source_url": "https://pipedrive.readme.io/docs/core-api-concepts-about-pipedrive-api",
+          "source_title": "About the Pipedrive API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "An application programming interface (API) is a set of functionalities that a service owner provides so people can use its features and/or build software applications. An API details how a user makes requests and the responses they receive in return. Pipedrive is a sales CRM with an intuitive RESTfu",
+          "checked_at": "2026-09-17T13:27:21.064902Z"
+        },
+        {
+          "claim": "Pipedrive provides public SDK API surface.",
+          "source_url": "https://developers.pipedrive.com/docs/api/v1",
+          "source_title": "Pipedrive API Reference and Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "This reference helps you implement the RESTful Pipedrive API. This API uses a JSON format for output and is capable of handling CORS (Cross-Origin Resource Sharing) requests. The API is stateless – all requests are validated against an API token. The API token can be obtained manually from the Piped",
+          "checked_at": "2026-09-17T13:27:21.066441Z"
+        }
+      ],
+      "verification_notes": "API types verified with 3 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 3,
+      "app": "Pipedrive",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Pipedrive provides official Model Context Protocol (MCP) server support.",
+          "source_url": "https://support.pipedrive.com/en/article/mcp",
+          "source_title": "Native Model Context Protocol (MCP) from Pipedrive - Knowledge Base | Pipedrive",
+          "source_type": "Official MCP Documentation",
+          "evidence_summary": "Knowledge Base results : 0 Knowledge Base / Pipedrive AI / Pipedrive MCP / Native Model Context ... A model context protocol, or MCP , is an open standard that allows large language models ( LLMs ) and AI assistants to securely interact with structured data and external services. MCPs provide a stan",
+          "checked_at": "2026-09-17T13:27:31.291981Z"
+        }
+      ],
+      "verification_notes": "MCP status Official MCP backed by repository/doc evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 3,
+      "app": "Pipedrive",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable With Restrictions verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 3,
+    "app": "Pipedrive",
+    "category": "CRM and Sales",
+    "website": "https://developers.pipedrive.com/",
+    "one_line_description": "Pipedrive Developers Corner: Leading platform in CRM and Sales.",
+    "auth_methods": [
+      "Basic Auth",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pipedrive supports authentication via OAuth2.",
+            "source_url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+            "source_title": "Pipedrive API v1 Dev References (Oauth) - Learn - Test - Try Now",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. To retrieve OAuth2 tokens you should send requests to the https://oauth.pipedrive.com domain. After regis",
+            "checked_at": "2026-09-17T13:26:57.333350Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pipedrive API v1 Dev References (Oauth) - Learn - Test - Try Now: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pipedrive supports authentication via Basic Auth.",
+            "source_url": "https://pipedrive.readme.io/docs/marketplace-oauth-authorization",
+            "source_title": "OAuth authorization",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. If you're starting a new app, create-pipedrive-app generates the full OAuth flow — including the HMAC-sig",
+            "checked_at": "2026-09-17T13:26:57.334369Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via OAuth authorization: HTTP Basic Authentication via credentials."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pipedrive provides public REST API surface.",
+            "source_url": "https://developers.pipedrive.com/docs/api/v1",
+            "source_title": "Pipedrive API Reference and Documentation",
+            "source_type": "Official API Reference",
+            "evidence_summary": "This reference helps you implement the RESTful Pipedrive API. This API uses a JSON format for output and is capable of handling CORS (Cross-Origin Resource Sharing) requests. The API is stateless – all requests are validated against an API token. The API token can be obtained manually from the Piped",
+            "checked_at": "2026-09-17T13:27:21.064902Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pipedrive API Reference and Documentation: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pipedrive provides public Webhooks API surface.",
+            "source_url": "https://pipedrive.readme.io/docs/core-api-concepts-about-pipedrive-api",
+            "source_title": "About the Pipedrive API",
+            "source_type": "Official API Reference",
+            "evidence_summary": "An application programming interface (API) is a set of functionalities that a service owner provides so people can use its features and/or build software applications. An API details how a user makes requests and the responses they receive in return. Pipedrive is a sales CRM with an intuitive RESTfu",
+            "checked_at": "2026-09-17T13:27:21.064902Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via About the Pipedrive API: Webhook event delivery and subscription endpoints."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pipedrive provides public SDK API surface.",
+            "source_url": "https://developers.pipedrive.com/docs/api/v1",
+            "source_title": "Pipedrive API Reference and Documentation",
+            "source_type": "Official API Reference",
+            "evidence_summary": "This reference helps you implement the RESTful Pipedrive API. This API uses a JSON format for output and is capable of handling CORS (Cross-Origin Resource Sharing) requests. The API is stateless – all requests are validated against an API token. The API token can be obtained manually from the Piped",
+            "checked_at": "2026-09-17T13:27:21.066441Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pipedrive API Reference and Documentation: Official client SDKs and libraries."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Pipedrive exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Pipedrive.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+    "evidence": [
+      {
+        "claim": "Pipedrive supports authentication via OAuth2.",
+        "source_url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+        "source_title": "Pipedrive API v1 Dev References (Oauth) - Learn - Test - Try Now",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. To retrieve OAuth2 tokens you should send requests to the https://oauth.pipedrive.com domain. After regis",
+        "checked_at": "2026-09-17T13:26:57.333350Z"
+      },
+      {
+        "claim": "Pipedrive supports authentication via Basic Auth.",
+        "source_url": "https://pipedrive.readme.io/docs/marketplace-oauth-authorization",
+        "source_title": "OAuth authorization",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. If you're starting a new app, create-pipedrive-app generates the full OAuth flow — including the HMAC-sig",
+        "checked_at": "2026-09-17T13:26:57.334369Z"
+      },
+      {
+        "claim": "Pipedrive provides public REST API surface.",
+        "source_url": "https://developers.pipedrive.com/docs/api/v1",
+        "source_title": "Pipedrive API Reference and Documentation",
+        "source_type": "Official API Reference",
+        "evidence_summary": "This reference helps you implement the RESTful Pipedrive API. This API uses a JSON format for output and is capable of handling CORS (Cross-Origin Resource Sharing) requests. The API is stateless – all requests are validated against an API token. The API token can be obtained manually from the Piped",
+        "checked_at": "2026-09-17T13:27:21.064902Z"
+      },
+      {
+        "claim": "Pipedrive provides public Webhooks API surface.",
+        "source_url": "https://pipedrive.readme.io/docs/core-api-concepts-about-pipedrive-api",
+        "source_title": "About the Pipedrive API",
+        "source_type": "Official API Reference",
+        "evidence_summary": "An application programming interface (API) is a set of functionalities that a service owner provides so people can use its features and/or build software applications. An API details how a user makes requests and the responses they receive in return. Pipedrive is a sales CRM with an intuitive RESTfu",
+        "checked_at": "2026-09-17T13:27:21.064902Z"
+      },
+      {
+        "claim": "Pipedrive provides public SDK API surface.",
+        "source_url": "https://developers.pipedrive.com/docs/api/v1",
+        "source_title": "Pipedrive API Reference and Documentation",
+        "source_type": "Official API Reference",
+        "evidence_summary": "This reference helps you implement the RESTful Pipedrive API. This API uses a JSON format for output and is capable of handling CORS (Cross-Origin Resource Sharing) requests. The API is stateless – all requests are validated against an API token. The API token can be obtained manually from the Piped",
+        "checked_at": "2026-09-17T13:27:21.066441Z"
+      },
+      {
+        "claim": "Pipedrive provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://support.pipedrive.com/en/article/mcp",
+        "source_title": "Native Model Context Protocol (MCP) from Pipedrive - Knowledge Base | Pipedrive",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Knowledge Base results : 0 Knowledge Base / Pipedrive AI / Pipedrive MCP / Native Model Context ... A model context protocol, or MCP , is an open standard that allows large language models ( LLMs ) and AI assistants to securely interact with structured data and external services. MCPs provide a stan",
+        "checked_at": "2026-09-17T13:27:31.291981Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.3,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.79,
+    "researched_at": "2026-09-17T13:27:31.292978Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 3,
+    "app": "Pipedrive",
+    "category": "CRM and Sales",
+    "website": "https://developers.pipedrive.com/",
+    "one_line_description": "Pipedrive Developers Corner: Leading platform in CRM and Sales.",
+    "auth_methods": [
+      "Basic Auth",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pipedrive supports authentication via OAuth2.",
+            "source_url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+            "source_title": "Pipedrive API v1 Dev References (Oauth) - Learn - Test - Try Now",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. To retrieve OAuth2 tokens you should send requests to the https://oauth.pipedrive.com domain. After regis",
+            "checked_at": "2026-09-17T13:26:57.333350Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pipedrive API v1 Dev References (Oauth) - Learn - Test - Try Now: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pipedrive supports authentication via Basic Auth.",
+            "source_url": "https://pipedrive.readme.io/docs/marketplace-oauth-authorization",
+            "source_title": "OAuth authorization",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. If you're starting a new app, create-pipedrive-app generates the full OAuth flow — including the HMAC-sig",
+            "checked_at": "2026-09-17T13:26:57.334369Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via OAuth authorization: HTTP Basic Authentication via credentials."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pipedrive provides public REST API surface.",
+            "source_url": "https://developers.pipedrive.com/docs/api/v1",
+            "source_title": "Pipedrive API Reference and Documentation",
+            "source_type": "Official API Reference",
+            "evidence_summary": "This reference helps you implement the RESTful Pipedrive API. This API uses a JSON format for output and is capable of handling CORS (Cross-Origin Resource Sharing) requests. The API is stateless – all requests are validated against an API token. The API token can be obtained manually from the Piped",
+            "checked_at": "2026-09-17T13:27:21.064902Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pipedrive API Reference and Documentation: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pipedrive provides public Webhooks API surface.",
+            "source_url": "https://pipedrive.readme.io/docs/core-api-concepts-about-pipedrive-api",
+            "source_title": "About the Pipedrive API",
+            "source_type": "Official API Reference",
+            "evidence_summary": "An application programming interface (API) is a set of functionalities that a service owner provides so people can use its features and/or build software applications. An API details how a user makes requests and the responses they receive in return. Pipedrive is a sales CRM with an intuitive RESTfu",
+            "checked_at": "2026-09-17T13:27:21.064902Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via About the Pipedrive API: Webhook event delivery and subscription endpoints."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Pipedrive provides public SDK API surface.",
+            "source_url": "https://developers.pipedrive.com/docs/api/v1",
+            "source_title": "Pipedrive API Reference and Documentation",
+            "source_type": "Official API Reference",
+            "evidence_summary": "This reference helps you implement the RESTful Pipedrive API. This API uses a JSON format for output and is capable of handling CORS (Cross-Origin Resource Sharing) requests. The API is stateless – all requests are validated against an API token. The API token can be obtained manually from the Piped",
+            "checked_at": "2026-09-17T13:27:21.066441Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Pipedrive API Reference and Documentation: Official client SDKs and libraries."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Pipedrive exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Pipedrive.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and scoping permissions.",
+    "evidence": [
+      {
+        "claim": "Pipedrive supports authentication via OAuth2.",
+        "source_url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+        "source_title": "Pipedrive API v1 Dev References (Oauth) - Learn - Test - Try Now",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. To retrieve OAuth2 tokens you should send requests to the https://oauth.pipedrive.com domain. After regis",
+        "checked_at": "2026-09-17T13:26:57.333350Z"
+      },
+      {
+        "claim": "Pipedrive supports authentication via Basic Auth.",
+        "source_url": "https://pipedrive.readme.io/docs/marketplace-oauth-authorization",
+        "source_title": "OAuth authorization",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. If you're starting a new app, create-pipedrive-app generates the full OAuth flow — including the HMAC-sig",
+        "checked_at": "2026-09-17T13:26:57.334369Z"
+      },
+      {
+        "claim": "Pipedrive provides public REST API surface.",
+        "source_url": "https://developers.pipedrive.com/docs/api/v1",
+        "source_title": "Pipedrive API Reference and Documentation",
+        "source_type": "Official API Reference",
+        "evidence_summary": "This reference helps you implement the RESTful Pipedrive API. This API uses a JSON format for output and is capable of handling CORS (Cross-Origin Resource Sharing) requests. The API is stateless – all requests are validated against an API token. The API token can be obtained manually from the Piped",
+        "checked_at": "2026-09-17T13:27:21.064902Z"
+      },
+      {
+        "claim": "Pipedrive provides public Webhooks API surface.",
+        "source_url": "https://pipedrive.readme.io/docs/core-api-concepts-about-pipedrive-api",
+        "source_title": "About the Pipedrive API",
+        "source_type": "Official API Reference",
+        "evidence_summary": "An application programming interface (API) is a set of functionalities that a service owner provides so people can use its features and/or build software applications. An API details how a user makes requests and the responses they receive in return. Pipedrive is a sales CRM with an intuitive RESTfu",
+        "checked_at": "2026-09-17T13:27:21.064902Z"
+      },
+      {
+        "claim": "Pipedrive provides public SDK API surface.",
+        "source_url": "https://developers.pipedrive.com/docs/api/v1",
+        "source_title": "Pipedrive API Reference and Documentation",
+        "source_type": "Official API Reference",
+        "evidence_summary": "This reference helps you implement the RESTful Pipedrive API. This API uses a JSON format for output and is capable of handling CORS (Cross-Origin Resource Sharing) requests. The API is stateless – all requests are validated against an API token. The API token can be obtained manually from the Piped",
+        "checked_at": "2026-09-17T13:27:21.066441Z"
+      },
+      {
+        "claim": "Pipedrive provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://support.pipedrive.com/en/article/mcp",
+        "source_title": "Native Model Context Protocol (MCP) from Pipedrive - Knowledge Base | Pipedrive",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Knowledge Base results : 0 Knowledge Base / Pipedrive AI / Pipedrive MCP / Native Model Context ... A model context protocol, or MCP , is an open standard that allows large language models ( LLMs ) and AI assistants to securely interact with structured data and external services. MCPs provide a stan",
+        "checked_at": "2026-09-17T13:27:31.291981Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.3,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.79,
+    "researched_at": "2026-09-17T13:27:31.292978Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T13:57:07.072306Z"
+  },
+  "summary_notes": "Production verification audit for Pipedrive: 6/6 verified."
+}

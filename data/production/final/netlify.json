@@ -1,0 +1,170 @@
+{
+  "id": 63,
+  "app": "Netlify",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.netlify.com/",
+  "one_line_description": "Netlify: Get started with the Netlify API.",
+  "auth_methods": [
+    "Bearer Token",
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Netlify supports authentication via OAuth2.",
+          "source_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+          "source_title": "Get started with the Netlify API | Netlify Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "More flexibility and credits now available for Pro plans 🎉 Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. This document covers the basics for interacting with the Netlify API, plus instructi",
+          "checked_at": "2026-09-17T14:40:18.529024Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Get started with the Netlify API | Netlify Docs."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Netlify supports authentication via Bearer Token.",
+          "source_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+          "source_title": "Get started with the Netlify API | Netlify Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "More flexibility and credits now available for Pro plans 🎉 Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. This document covers the basics for interacting with the Netlify API, plus instructi",
+          "checked_at": "2026-09-17T14:40:18.530149Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Get started with the Netlify API | Netlify Docs."
+    },
+    {
+      "method": "Personal Access Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Netlify supports authentication via Personal Access Token.",
+          "source_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+          "source_title": "Get started with the Netlify API | Netlify Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "More flexibility and credits now available for Pro plans 🎉 Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. This document covers the basics for interacting with the Netlify API, plus instructi",
+          "checked_at": "2026-09-17T14:40:18.530149Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Get started with the Netlify API | Netlify Docs."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Netlify provides public REST API surface.",
+          "source_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+          "source_title": "Get started with the Netlify API | Netlify Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "More flexibility and credits now available for Pro plans 🎉 Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. This document covers the basics for interacting with the Netlify API, plus instructi",
+          "checked_at": "2026-09-17T14:40:18.530149Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Get started with the Netlify API | Netlify Docs."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Netlify provides public Webhooks API surface.",
+          "source_url": "https://open-api.netlify.com/",
+          "source_title": "Netlify API documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "OAuth Ticket post createTicket get showTicket Access token post exchangeTicket Ticket post createTicket get showTicket Access token post exchangeTicket User accounts User get getCurrentUser Accounts del cancelAccount post createAccount get getAccount get listAccountsForUser put updateAccount Member ",
+          "checked_at": "2026-09-17T14:40:18.530149Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Netlify API documentation."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Netlify provides public SDK API surface.",
+          "source_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+          "source_title": "Get started with the Netlify API | Netlify Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "More flexibility and credits now available for Pro plans 🎉 Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. This document covers the basics for interacting with the Netlify API, plus instructi",
+          "checked_at": "2026-09-17T14:40:18.530149Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Get started with the Netlify API | Netlify Docs."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Netlify exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Netlify.",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "Netlify supports authentication via OAuth2.",
+      "source_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+      "source_title": "Get started with the Netlify API | Netlify Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "More flexibility and credits now available for Pro plans 🎉 Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. This document covers the basics for interacting with the Netlify API, plus instructi",
+      "checked_at": "2026-09-17T14:40:18.529024Z"
+    },
+    {
+      "claim": "Netlify provides public Webhooks API surface.",
+      "source_url": "https://open-api.netlify.com/",
+      "source_title": "Netlify API documentation",
+      "source_type": "Official API Reference",
+      "evidence_summary": "OAuth Ticket post createTicket get showTicket Access token post exchangeTicket Ticket post createTicket get showTicket Access token post exchangeTicket User accounts User get getCurrentUser Accounts del cancelAccount post createAccount get getAccount get listAccountsForUser put updateAccount Member ",
+      "checked_at": "2026-09-17T14:40:18.530149Z"
+    },
+    {
+      "claim": "Netlify supports authentication via Bearer Token.",
+      "source_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+      "source_title": "Get started with the Netlify API | Netlify Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "More flexibility and credits now available for Pro plans 🎉 Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. This document covers the basics for interacting with the Netlify API, plus instructi",
+      "checked_at": "2026-09-17T14:40:18.706733Z"
+    },
+    {
+      "claim": "Netlify provides public REST API surface.",
+      "source_url": "https://open-api.netlify.com/",
+      "source_title": "Netlify API documentation",
+      "source_type": "Official API Reference",
+      "evidence_summary": "OAuth Ticket post createTicket get showTicket Access token post exchangeTicket Ticket post createTicket get showTicket Access token post exchangeTicket User accounts User get getCurrentUser Accounts del cancelAccount post createAccount get getAccount get listAccountsForUser put updateAccount Member ",
+      "checked_at": "2026-09-17T14:40:18.707766Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.87,
+  "researched_at": "2026-09-17T14:40:18.530149Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 2 corrections applied.",
+  "verified_at": "2026-09-17T14:40:18.707766Z"
+}

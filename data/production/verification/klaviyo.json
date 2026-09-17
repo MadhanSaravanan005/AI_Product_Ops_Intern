@@ -1,0 +1,284 @@
+{
+  "app_id": 36,
+  "app": "Klaviyo",
+  "category": "Marketing, Ads, Email and Social",
+  "verified_at": "2026-09-17T14:02:58.504789Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 36,
+      "app": "Klaviyo",
+      "field": "website",
+      "original_value": "https://developers.klaviyo.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://developers.klaviyo.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 36,
+      "app": "Klaviyo",
+      "field": "authentication",
+      "original_value": [
+        "Unknown"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown authentication correctly recorded in absence of positive evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 36,
+      "app": "Klaviyo",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.85,
+      "evidence": [],
+      "verification_notes": "Unknown access model verified in absence of gating documentation.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 36,
+      "app": "Klaviyo",
+      "field": "api_surface",
+      "original_value": [
+        "SDK"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Klaviyo provides public SDK API surface.",
+          "source_url": "https://github.com/modelcontextprotocol/servers",
+          "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+          "checked_at": "2026-09-17T14:02:58.501262Z"
+        }
+      ],
+      "verification_notes": "API types verified with 1 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 36,
+      "app": "Klaviyo",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Klaviyo provides official Model Context Protocol (MCP) server support.",
+          "source_url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+          "source_title": "Klaviyo MCP server",
+          "source_type": "Official MCP Documentation",
+          "evidence_summary": "The Klaviyo Model Context Protocol (MCP) server seamlessly integrates with Klaviyo’s APIs, enabling AI clients to interact with your Klaviyo data. This page introduces the MCP server and what you can do with it. When you’re ready to get started, use the pages in this section to connect the server to",
+          "checked_at": "2026-09-17T14:02:58.501262Z"
+        }
+      ],
+      "verification_notes": "MCP status Official MCP backed by repository/doc evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 36,
+      "app": "Klaviyo",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable Now verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 36,
+    "app": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "website": "https://developers.klaviyo.com/",
+    "one_line_description": "Klaviyo: GitHub.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Klaviyo provides public SDK API surface.",
+            "source_url": "https://github.com/modelcontextprotocol/servers",
+            "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+            "source_type": "Official API Reference",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+            "checked_at": "2026-09-17T14:02:58.501262Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Klaviyo exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented directly by Klaviyo.",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "Klaviyo provides public SDK API surface.",
+        "source_url": "https://github.com/modelcontextprotocol/servers",
+        "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+        "source_type": "Official API Reference",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+        "checked_at": "2026-09-17T14:02:58.501262Z"
+      },
+      {
+        "claim": "Klaviyo provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+        "source_title": "Klaviyo MCP server",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "The Klaviyo Model Context Protocol (MCP) server seamlessly integrates with Klaviyo’s APIs, enabling AI clients to interact with your Klaviyo data. This page introduces the MCP server and what you can do with it. When you’re ready to get started, use the pages in this section to connect the server to",
+        "checked_at": "2026-09-17T14:02:58.501262Z"
+      }
+    ],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.68,
+    "researched_at": "2026-09-17T14:02:58.501262Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 36,
+    "app": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "website": "https://developers.klaviyo.com/",
+    "one_line_description": "Klaviyo: GitHub.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Klaviyo provides public SDK API surface.",
+            "source_url": "https://github.com/modelcontextprotocol/servers",
+            "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+            "source_type": "Official API Reference",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+            "checked_at": "2026-09-17T14:02:58.501262Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Klaviyo exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented directly by Klaviyo.",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "Klaviyo provides public SDK API surface.",
+        "source_url": "https://github.com/modelcontextprotocol/servers",
+        "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+        "source_type": "Official API Reference",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+        "checked_at": "2026-09-17T14:02:58.501262Z"
+      },
+      {
+        "claim": "Klaviyo provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+        "source_title": "Klaviyo MCP server",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "The Klaviyo Model Context Protocol (MCP) server seamlessly integrates with Klaviyo’s APIs, enabling AI clients to interact with your Klaviyo data. This page introduces the MCP server and what you can do with it. When you’re ready to get started, use the pages in this section to connect the server to",
+        "checked_at": "2026-09-17T14:02:58.501262Z"
+      }
+    ],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.68,
+    "researched_at": "2026-09-17T14:02:58.501262Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T14:02:58.504789Z"
+  },
+  "summary_notes": "Production verification audit for Klaviyo: 6/6 verified."
+}

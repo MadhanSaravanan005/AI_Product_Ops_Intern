@@ -1,0 +1,524 @@
+{
+  "report_title": "100-Application Production Corrections Log",
+  "generated_at": "2026-09-17T15:09:39.171673+00:00",
+  "total_corrections": 48,
+  "most_common_correction_types": {
+    "incorrect buildability": 34,
+    "unsupported API type": 11,
+    "unresolved credential gating": 1,
+    "unsupported authentication method": 1,
+    "incorrect MCP classification": 1
+  },
+  "corrections": [
+    {
+      "app": "Ahrefs",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Airtable",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Amazon Selling Partner",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Apify",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token",
+        "Personal Access Token"
+      ],
+      "corrected_value": [
+        "API Key",
+        "Bearer Token"
+      ],
+      "reason": "Partially verified: 2/3 methods confirmed (API Key, Bearer Token). Unverified methods lacked direct documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Apify",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "REST",
+        "SDK"
+      ],
+      "reason": "Partially verified: 2/3 API types confirmed (REST, SDK). Unverified types lacked documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Bright Data",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "ClickUp",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Cloudflare",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Consensus",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "DataForSEO",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Devin",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK"
+      ],
+      "corrected_value": [
+        "SDK"
+      ],
+      "reason": "Partially verified: 1/2 API types confirmed (SDK). Unverified types lacked documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Devin",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "fanbasis",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Fathom",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK"
+      ],
+      "corrected_value": [
+        "REST"
+      ],
+      "reason": "Partially verified: 1/2 API types confirmed (REST). Unverified types lacked documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Fathom",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "GitHub",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "corrected_value": "Trial Self-Serve",
+      "reason": "CORRECTED: Primary documentation at https://github.com/pricing indicates developer access is available via free trial.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "GitHub",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "REST",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "reason": "Partially verified: 2/3 API types confirmed (REST, Webhooks). Unverified types lacked documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Grain",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "higgsfield",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "iPayX",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Linear",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Mermaid CLI",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Monday.com",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "SDK",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "GraphQL",
+        "SDK"
+      ],
+      "reason": "Partially verified: 2/3 API types confirmed (GraphQL, SDK). Unverified types lacked documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Monday.com",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "MrScraper",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Neo4j",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Netlify",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "reason": "Partially verified: 2/3 API types confirmed (REST, Webhooks). Unverified types lacked documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Netlify",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Notion",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token",
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "corrected_value": [
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "reason": "Partially verified: 2/4 methods confirmed (OAuth2, Personal Access Token). Unverified methods lacked direct documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Otter AI",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Paygent Connect",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "PitchBook",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Plaid",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Reducto",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Sentry",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "SE Ranking",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Sherlock",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Smartsheet",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Stripe",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "corrected_value": [
+        "API Key",
+        "OAuth2"
+      ],
+      "reason": "Partially verified: 2/4 methods confirmed (API Key, OAuth2). Unverified methods lacked direct documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Stripe",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "Webhooks"
+      ],
+      "reason": "Partially verified: 1/2 API types confirmed (Webhooks). Unverified types lacked documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Supabase",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Vercel",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "corrected_value": "Third-Party MCP",
+      "reason": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Vercel",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Waterfall.io",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Xero",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "REST",
+        "SDK"
+      ],
+      "reason": "Partially verified: 2/3 API types confirmed (REST, SDK). Unverified types lacked documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Xero",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "YouTube Transcript",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "REST"
+      ],
+      "reason": "Partially verified: 1/2 API types confirmed (REST). Unverified types lacked documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "YouTube Transcript",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Buildable With Restrictions",
+      "reason": "RESTRICTION: Credentials available self-serve during limited trial window.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": 77,
+  "app": "ClickUp",
+  "category": "Productivity and Project Management",
+  "website": "https://developer.clickup.com/",
+  "one_line_description": "ClickUp: OpenAPI Specification.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token",
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "ClickUp supports authentication via OAuth2.",
+          "source_url": "https://developer.clickup.com/docs/authentication",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "To use the ClickUp API, you must authenticate every request. For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow , allowing users to authorize Workspaces for your app. Include the token in the Authorization header of your r",
+          "checked_at": "2026-09-17T14:52:41.822383Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "ClickUp supports authentication via API Key.",
+          "source_url": "https://developer.clickup.com/docs/authentication",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "To use the ClickUp API, you must authenticate every request. For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow , allowing users to authorize Workspaces for your app. Include the token in the Authorization header of your r",
+          "checked_at": "2026-09-17T14:52:41.823477Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "ClickUp supports authentication via Bearer Token.",
+          "source_url": "https://developer.clickup.com/docs/authentication",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "To use the ClickUp API, you must authenticate every request. For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow , allowing users to authorize Workspaces for your app. Include the token in the Authorization header of your r",
+          "checked_at": "2026-09-17T14:52:41.823477Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    },
+    {
+      "method": "Personal Access Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "ClickUp supports authentication via Personal Access Token.",
+          "source_url": "https://developer.clickup.com/docs/authentication",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "To use the ClickUp API, you must authenticate every request. For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow , allowing users to authorize Workspaces for your app. Include the token in the Authorization header of your r",
+          "checked_at": "2026-09-17T14:52:41.823477Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "REST"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "ClickUp provides public REST API surface.",
+          "source_url": "https://developer.clickup.com/docs/open-api-spec",
+          "source_title": "OpenAPI Specification",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The raw OpenAPI specification for the ClickUp API is available for each version of our Public API. The specifications can be used with various API tools and code generators that support the OpenAPI format. V2 Open API Specification . V3 Open API Specification You can copy the above URLs to import th",
+          "checked_at": "2026-09-17T14:52:41.823477Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OpenAPI Specification."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "ClickUp exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for ClickUp.",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "Developer account required to obtain access credentials.",
+  "evidence": [
+    {
+      "claim": "ClickUp supports authentication via OAuth2.",
+      "source_url": "https://developer.clickup.com/docs/authentication",
+      "source_title": "Authentication",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "To use the ClickUp API, you must authenticate every request. For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow , allowing users to authorize Workspaces for your app. Include the token in the Authorization header of your r",
+      "checked_at": "2026-09-17T14:52:41.822383Z"
+    },
+    {
+      "claim": "ClickUp provides public REST API surface.",
+      "source_url": "https://developer.clickup.com/docs/open-api-spec",
+      "source_title": "OpenAPI Specification",
+      "source_type": "Official API Reference",
+      "evidence_summary": "The raw OpenAPI specification for the ClickUp API is available for each version of our Public API. The specifications can be used with various API tools and code generators that support the OpenAPI format. V2 Open API Specification . V3 Open API Specification You can copy the above URLs to import th",
+      "checked_at": "2026-09-17T14:52:41.823477Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.8,
+  "overall_confidence": 0.76,
+  "researched_at": "2026-09-17T14:52:41.823477Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

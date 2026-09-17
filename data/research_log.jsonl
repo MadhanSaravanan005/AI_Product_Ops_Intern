@@ -1,0 +1,41 @@
+{"timestamp": "2026-09-17T08:57:39.055322+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.92, "error": null}
+{"timestamp": "2026-09-17T08:57:39.079012+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T08:57:39.096054+00:00", "app_id": 21, "app": "Slack", "status": "Failed", "evidence_count": 0, "overall_confidence": 0.42, "error": null}
+{"timestamp": "2026-09-17T08:57:39.117003+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T08:58:39.468426+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.77, "error": null}
+{"timestamp": "2026-09-17T09:04:00.713400+00:00", "app_id": 21, "app": "Slack", "status": "Failed", "evidence_count": 0, "overall_confidence": 0.0, "error": "MockDocScraper.fetch_page() got an unexpected keyword argument 'fallback_snippet'"}
+{"timestamp": "2026-09-17T09:04:00.903779+00:00", "app_id": 21, "app": "Slack", "status": "Failed", "evidence_count": 0, "overall_confidence": 0.0, "error": "MockDocScraper.fetch_page() got an unexpected keyword argument 'fallback_snippet'"}
+{"timestamp": "2026-09-17T09:04:00.937298+00:00", "app_id": 21, "app": "Slack", "status": "Failed", "evidence_count": 0, "overall_confidence": 0.0, "error": "test_missing_evidence_does_not_become_positive_claim.<locals>.FailingScraper.fetch_page() got an unexpected keyword argument 'fallback_snippet'"}
+{"timestamp": "2026-09-17T09:04:00.970394+00:00", "app_id": 21, "app": "Slack", "status": "Failed", "evidence_count": 0, "overall_confidence": 0.0, "error": "MockDocScraper.fetch_page() got an unexpected keyword argument 'fallback_snippet'"}
+{"timestamp": "2026-09-17T09:04:37.881550+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.92, "error": null}
+{"timestamp": "2026-09-17T09:04:37.888682+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T09:04:37.894839+00:00", "app_id": 21, "app": "Slack", "status": "Failed", "evidence_count": 0, "overall_confidence": 0.42, "error": null}
+{"timestamp": "2026-09-17T09:04:37.901605+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T09:05:27.459923+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.77, "error": null}
+{"timestamp": "2026-09-17T09:07:41.501080+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.92, "error": null}
+{"timestamp": "2026-09-17T09:07:41.511975+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T09:07:41.521773+00:00", "app_id": 21, "app": "Slack", "status": "Failed", "evidence_count": 0, "overall_confidence": 0.42, "error": null}
+{"timestamp": "2026-09-17T09:07:41.531409+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T09:08:20.018508+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.78, "error": null}
+{"timestamp": "2026-09-17T09:08:32.253634+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.92, "error": null}
+{"timestamp": "2026-09-17T09:08:32.260628+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T09:08:32.267905+00:00", "app_id": 21, "app": "Slack", "status": "Failed", "evidence_count": 0, "overall_confidence": 0.42, "error": null}
+{"timestamp": "2026-09-17T09:08:32.274421+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T09:19:18.685537+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.92, "error": null}
+{"timestamp": "2026-09-17T09:19:18.714525+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T09:19:18.723653+00:00", "app_id": 21, "app": "Slack", "status": "Failed", "evidence_count": 0, "overall_confidence": 0.42, "error": null}
+{"timestamp": "2026-09-17T09:19:18.737928+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T09:19:33.962220+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.92, "error": null}
+{"timestamp": "2026-09-17T09:19:33.973437+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T09:19:34.002238+00:00", "app_id": 21, "app": "Slack", "status": "Failed", "evidence_count": 0, "overall_confidence": 0.42, "error": null}
+{"timestamp": "2026-09-17T09:19:34.008691+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.82, "error": null}
+{"timestamp": "2026-09-17T09:25:48.477598+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.78, "error": null}
+{"timestamp": "2026-09-17T10:04:12.219682+00:00", "app_id": 1, "app": "Salesforce", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.92, "error": null}
+{"timestamp": "2026-09-17T10:05:12.597195+00:00", "app_id": 11, "app": "Zendesk", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.93, "error": null}
+{"timestamp": "2026-09-17T10:06:24.809941+00:00", "app_id": 35, "app": "Mailchimp", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.92, "error": null}
+{"timestamp": "2026-09-17T10:07:40.782851+00:00", "app_id": 41, "app": "Shopify", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.78, "error": null}
+{"timestamp": "2026-09-17T10:08:33.925768+00:00", "app_id": 55, "app": "Apify", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.93, "error": null}
+{"timestamp": "2026-09-17T10:09:25.101321+00:00", "app_id": 61, "app": "GitHub", "status": "Completed", "evidence_count": 3, "overall_confidence": 0.77, "error": null}
+{"timestamp": "2026-09-17T10:10:32.083738+00:00", "app_id": 71, "app": "Notion", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.93, "error": null}
+{"timestamp": "2026-09-17T10:11:10.250105+00:00", "app_id": 81, "app": "Stripe", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.93, "error": null}
+{"timestamp": "2026-09-17T10:11:50.681829+00:00", "app_id": 91, "app": "NotebookLM", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.92, "error": null}

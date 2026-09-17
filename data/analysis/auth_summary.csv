@@ -1,0 +1,9 @@
+Authentication Method,App Count,Percentage of Dataset
+API Key,59,59.0%
+OAuth2,59,59.0%
+Bearer Token,45,45.0%
+Personal Access Token,16,16.0%
+Basic Auth,18,18.0%
+JWT,0,0.0%
+Other,0,0.0%
+Unknown,17,17.0%

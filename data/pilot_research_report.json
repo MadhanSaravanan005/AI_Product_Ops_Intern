@@ -1,0 +1,49 @@
+{
+  "report_title": "10-Application Pilot: First-Pass Research Quality Report",
+  "generated_at": "2026-09-17T10:11:52.183692+00:00",
+  "total_apps_attempted": 10,
+  "completed": 10,
+  "needs_verification": 0,
+  "failed": 0,
+  "average_confidence": 0.88,
+  "evidence_count_per_app": {
+    "Salesforce": 4,
+    "Zendesk": 4,
+    "Slack": 3,
+    "Mailchimp": 4,
+    "Shopify": 3,
+    "Apify": 4,
+    "GitHub": 3,
+    "Notion": 4,
+    "Stripe": 4,
+    "NotebookLM": 4
+  },
+  "unknown_count_per_major_field": {
+    "auth_methods": 0,
+    "access_model": 3,
+    "api_types": 0,
+    "mcp_status": 0,
+    "buildability": 0
+  },
+  "applications_with_lowest_confidence": [
+    {
+      "app": "GitHub",
+      "category": "Developer, Infra and Data platforms",
+      "confidence": 0.77,
+      "status": "Completed"
+    },
+    {
+      "app": "Slack",
+      "category": "Communications and Messaging",
+      "confidence": 0.78,
+      "status": "Completed"
+    },
+    {
+      "app": "Shopify",
+      "category": "Ecommerce",
+      "confidence": 0.78,
+      "status": "Completed"
+    }
+  ],
+  "failures": []
+}

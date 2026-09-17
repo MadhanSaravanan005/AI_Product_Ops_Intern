@@ -1,0 +1,392 @@
+{
+  "app_id": 74,
+  "app": "Jira",
+  "category": "Productivity and Project Management",
+  "verified_at": "2026-09-17T14:51:30.670967Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 4,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 2,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 74,
+      "app": "Jira",
+      "field": "website",
+      "original_value": "https://jira.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Jira': Jira | Project Management for the AI Era | Atlassian",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 74,
+      "app": "Jira",
+      "field": "authentication",
+      "original_value": [
+        "Basic Auth",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Jira supports authentication via Basic Auth.",
+          "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+          "source_title": "The Jira Cloud platform REST API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+          "checked_at": "2026-09-17T14:51:30.669890Z"
+        },
+        {
+          "claim": "Jira supports authentication via OAuth2.",
+          "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+          "source_title": "The Jira Cloud platform REST API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+          "checked_at": "2026-09-17T14:51:30.670967Z"
+        }
+      ],
+      "verification_notes": "All 2 claimed auth methods verified with primary evidence: Basic Auth, OAuth2.",
+      "auth_details": [
+        {
+          "method": "Basic Auth",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Jira supports authentication via Basic Auth.",
+            "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+            "source_title": "The Jira Cloud platform REST API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+            "checked_at": "2026-09-17T14:51:30.669890Z"
+          },
+          "notes": "Content verified: direct evidence found for (basic auth)."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Jira supports authentication via OAuth2.",
+            "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+            "source_title": "The Jira Cloud platform REST API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+            "checked_at": "2026-09-17T14:51:30.670967Z"
+          },
+          "notes": "Content verified: direct evidence found for (oauth 2)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 74,
+      "app": "Jira",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Jira credential access model is Free Self-Serve.",
+          "source_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+          "source_title": "Basic auth for REST APIs",
+          "source_type": "Official Documentation",
+          "evidence_summary": "This page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address\nand API token .\nAuthentication using passwords has been deprecated. Basic authentication is not as secure as other methods. We recommend using it for simple scripts and",
+          "checked_at": "2026-09-17T14:51:30.670967Z"
+        }
+      ],
+      "verification_notes": "Confirmed free self-serve credential creation at https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 74,
+      "app": "Jira",
+      "field": "api_surface",
+      "original_value": [
+        "REST"
+      ],
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "None of the claimed API types could be verified in documentation.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Insufficient Evidence"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 74,
+      "app": "Jira",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Deliberate search across docs and repositories confirmed no MCP server currently available.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 74,
+      "app": "Jira",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Missing or unverified API evidence prevents confirming 'Buildable Now'.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 74,
+    "app": "Jira",
+    "category": "Productivity and Project Management",
+    "website": "https://jira.com/",
+    "one_line_description": "Jira: The Jira Cloud platform REST API.",
+    "auth_methods": [
+      "Basic Auth",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Jira supports authentication via OAuth2.",
+            "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+            "source_title": "The Jira Cloud platform REST API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+            "checked_at": "2026-09-17T14:51:25.019163Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via The Jira Cloud platform REST API."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Jira supports authentication via Basic Auth.",
+            "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+            "source_title": "The Jira Cloud platform REST API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+            "checked_at": "2026-09-17T14:51:25.020637Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via The Jira Cloud platform REST API."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve.",
+    "api_types": [
+      "REST"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Jira provides public REST API surface.",
+            "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+            "source_title": "The Jira Cloud platform REST API",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+            "checked_at": "2026-09-17T14:51:25.020637Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via The Jira Cloud platform REST API."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Jira exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Jira.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and token scoping.",
+    "evidence": [
+      {
+        "claim": "Jira supports authentication via OAuth2.",
+        "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+        "source_title": "The Jira Cloud platform REST API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+        "checked_at": "2026-09-17T14:51:25.019163Z"
+      },
+      {
+        "claim": "Jira offers self-serve credential creation for developers.",
+        "source_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_title": "Basic auth for REST APIs",
+        "source_type": "Official Documentation",
+        "evidence_summary": "This page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address\nand API token .\nAuthentication using passwords has been deprecated. Basic authentication is not as secure as other methods. We recommend using it for simple scripts and",
+        "checked_at": "2026-09-17T14:51:25.020637Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.9,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.85,
+    "overall_confidence": 0.89,
+    "researched_at": "2026-09-17T14:51:25.022175Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 74,
+    "app": "Jira",
+    "category": "Productivity and Project Management",
+    "website": "https://jira.com/",
+    "one_line_description": "Jira: The Jira Cloud platform REST API.",
+    "auth_methods": [
+      "Basic Auth",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Jira supports authentication via OAuth2.",
+            "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+            "source_title": "The Jira Cloud platform REST API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+            "checked_at": "2026-09-17T14:51:25.019163Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via The Jira Cloud platform REST API."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Jira supports authentication via Basic Auth.",
+            "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+            "source_title": "The Jira Cloud platform REST API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+            "checked_at": "2026-09-17T14:51:25.020637Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via The Jira Cloud platform REST API."
+      }
+    ],
+    "access_model": "Free Self-Serve",
+    "credential_access_notes": "Developers can register an account and generate credentials self-serve.",
+    "api_types": [
+      "REST"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Jira provides public REST API surface.",
+            "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+            "source_title": "The Jira Cloud platform REST API",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+            "checked_at": "2026-09-17T14:51:25.020637Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via The Jira Cloud platform REST API."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Jira exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Jira.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Buildable with standard developer rate limits and token scoping.",
+    "evidence": [
+      {
+        "claim": "Jira supports authentication via OAuth2.",
+        "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+        "source_title": "The Jira Cloud platform REST API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+        "checked_at": "2026-09-17T14:51:25.019163Z"
+      },
+      {
+        "claim": "Jira offers self-serve credential creation for developers.",
+        "source_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_title": "Basic auth for REST APIs",
+        "source_type": "Official Documentation",
+        "evidence_summary": "This page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address\nand API token .\nAuthentication using passwords has been deprecated. Basic authentication is not as secure as other methods. We recommend using it for simple scripts and",
+        "checked_at": "2026-09-17T14:51:25.020637Z"
+      },
+      {
+        "claim": "Jira supports authentication via Basic Auth.",
+        "source_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/",
+        "source_title": "The Jira Cloud platform REST API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Authentication and authorization Expansion, pagination, and ordering Asynchronous operations Experimental features Classification levels Group and user picker Issue comment properties Issue custom field associations Issue custom field configuration (apps) Issue custom field contexts Issue custom fie",
+        "checked_at": "2026-09-17T14:51:30.669890Z"
+      },
+      {
+        "claim": "Jira credential access model is Free Self-Serve.",
+        "source_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_title": "Basic auth for REST APIs",
+        "source_type": "Official Documentation",
+        "evidence_summary": "This page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address\nand API token .\nAuthentication using passwords has been deprecated. Basic authentication is not as secure as other methods. We recommend using it for simple scripts and",
+        "checked_at": "2026-09-17T14:51:30.670967Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.9,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.85,
+    "overall_confidence": 0.8,
+    "researched_at": "2026-09-17T14:51:25.022175Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 4/6 claims verified. 0 corrections applied.",
+    "verified_at": "2026-09-17T14:51:30.670967Z"
+  },
+  "summary_notes": "Independent hardened audit for Jira. 4/6 verified. 0 fields corrected."
+}

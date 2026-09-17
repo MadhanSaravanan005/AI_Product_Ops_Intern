@@ -1,0 +1,211 @@
+{
+  "id": 4,
+  "app": "Attio",
+  "category": "CRM and Sales",
+  "website": "https://attio.com/",
+  "one_line_description": "Attio: Leading platform in CRM and Sales.",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Attio supports authentication via OAuth2.",
+          "source_url": "https://docs.attio.com/rest-api/guides/authentication",
+          "source_title": "Authenticating requests - Attio Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. By implementing an OAuth 2.0 flow By generating an API key for your workspace Was this page helpful?",
+          "checked_at": "2026-09-17T13:28:38.026685Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authenticating requests - Attio Docs: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Attio supports authentication via API Key.",
+          "source_url": "https://docs.attio.com/rest-api/guides/authentication",
+          "source_title": "Authenticating requests - Attio Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. By implementing an OAuth 2.0 flow By generating an API key for your workspace Was this page helpful?",
+          "checked_at": "2026-09-17T13:28:38.026685Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authenticating requests - Attio Docs: API key provisioning and request header authentication."
+    },
+    {
+      "method": "Basic Auth",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Attio supports authentication via Basic Auth.",
+          "source_url": "https://www.stacksync.com/blog/how-to-get-an-attio-developer-account-and-start-working-with-attios-api",
+          "source_title": "Attio API: Keys, Auth, and Developer Setup",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "How to get an Attio API key, authenticate requests, and set up a developer account, plus the rate limits and object model to know before you build. Attio has become a go-to CRM for technical teams thanks to its clean UI, real-time collaboration features, and powerful customizations. We use it oursel",
+          "checked_at": "2026-09-17T13:28:38.026685Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Attio API: Keys, Auth, and Developer Setup: HTTP Basic Authentication via credentials."
+    }
+  ],
+  "access_model": "Trial Self-Serve",
+  "credential_access_notes": "Developers can create credentials during a trial account period for Attio.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Attio provides public REST API surface.",
+          "source_url": "https://github.com/pidub-step/attio-docs/blob/main/docs_attio_com_rest-api_how-to_webhooks.md",
+          "source_title": "attio-docs/docs_attio_com_rest-api_how-to_webhooks.md at main · pidub-step/attio-docs · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Notifications You must be signed in to change notification settings Source: https://docs.attio.com/rest-api/how-to/webhooks Attio Docs home page Search...\n⌘KAsk AI\nSearch...\nNavigation\nHow-to guides\nHow to configure webhooks Overview App SDK REST API How to authenticate requests How to handle rate l",
+          "checked_at": "2026-09-17T13:29:02.979954Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via attio-docs/docs_attio_com_rest-api_how-to_webhooks.md at main · pidub-step/attio-docs · GitHub: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Attio provides public Webhooks API surface.",
+          "source_url": "https://docs.attio.com/rest-api/guides/webhooks",
+          "source_title": "Configuring webhooks - Attio Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Navigate to an integration the developer settings page and select an integration. Open an existing webhook or create a new one inside your integration. Ensure your webhook is ",
+          "checked_at": "2026-09-17T13:29:02.979954Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Configuring webhooks - Attio Docs: Webhook event delivery and subscription endpoints."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Attio provides public SDK API surface.",
+          "source_url": "https://github.com/pidub-step/attio-docs/blob/main/docs_attio_com_rest-api_how-to_webhooks.md",
+          "source_title": "attio-docs/docs_attio_com_rest-api_how-to_webhooks.md at main · pidub-step/attio-docs · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Notifications You must be signed in to change notification settings Source: https://docs.attio.com/rest-api/how-to/webhooks Attio Docs home page Search...\n⌘KAsk AI\nSearch...\nNavigation\nHow-to guides\nHow to configure webhooks Overview App SDK REST API How to authenticate requests How to handle rate l",
+          "checked_at": "2026-09-17T13:29:02.979954Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via attio-docs/docs_attio_com_rest-api_how-to_webhooks.md at main · pidub-step/attio-docs · GitHub: Official client SDKs and libraries."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Attio exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Community/third-party MCP server available on GitHub: https://github.com/MikkohChen/mcp-attio",
+  "buildability": "Buildable With Restrictions",
+  "main_blocker": "RESTRICTION: Credentials available self-serve during limited trial window.",
+  "evidence": [
+    {
+      "claim": "Attio supports authentication via OAuth2.",
+      "source_url": "https://docs.attio.com/rest-api/guides/authentication",
+      "source_title": "Authenticating requests - Attio Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. By implementing an OAuth 2.0 flow By generating an API key for your workspace Was this page helpful?",
+      "checked_at": "2026-09-17T13:28:38.026685Z"
+    },
+    {
+      "claim": "Attio supports authentication via API Key.",
+      "source_url": "https://docs.attio.com/rest-api/guides/authentication",
+      "source_title": "Authenticating requests - Attio Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. By implementing an OAuth 2.0 flow By generating an API key for your workspace Was this page helpful?",
+      "checked_at": "2026-09-17T13:28:38.026685Z"
+    },
+    {
+      "claim": "Attio supports authentication via Basic Auth.",
+      "source_url": "https://www.stacksync.com/blog/how-to-get-an-attio-developer-account-and-start-working-with-attios-api",
+      "source_title": "Attio API: Keys, Auth, and Developer Setup",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "How to get an Attio API key, authenticate requests, and set up a developer account, plus the rate limits and object model to know before you build. Attio has become a go-to CRM for technical teams thanks to its clean UI, real-time collaboration features, and powerful customizations. We use it oursel",
+      "checked_at": "2026-09-17T13:28:38.026685Z"
+    },
+    {
+      "claim": "Attio credential access model is Trial Self-Serve.",
+      "source_url": "https://www.stacksync.com/blog/how-to-get-an-attio-developer-account-and-start-working-with-attios-api",
+      "source_title": "Attio API: Keys, Auth, and Developer Setup",
+      "source_type": "Official Documentation",
+      "evidence_summary": "How to get an Attio API key, authenticate requests, and set up a developer account, plus the rate limits and object model to know before you build. Attio has become a go-to CRM for technical teams thanks to its clean UI, real-time collaboration features, and powerful customizations. We use it oursel",
+      "checked_at": "2026-09-17T13:28:49.026487Z"
+    },
+    {
+      "claim": "Attio provides public REST API surface.",
+      "source_url": "https://github.com/pidub-step/attio-docs/blob/main/docs_attio_com_rest-api_how-to_webhooks.md",
+      "source_title": "attio-docs/docs_attio_com_rest-api_how-to_webhooks.md at main · pidub-step/attio-docs · GitHub",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Notifications You must be signed in to change notification settings Source: https://docs.attio.com/rest-api/how-to/webhooks Attio Docs home page Search...\n⌘KAsk AI\nSearch...\nNavigation\nHow-to guides\nHow to configure webhooks Overview App SDK REST API How to authenticate requests How to handle rate l",
+      "checked_at": "2026-09-17T13:29:02.979954Z"
+    },
+    {
+      "claim": "Attio provides public Webhooks API surface.",
+      "source_url": "https://docs.attio.com/rest-api/guides/webhooks",
+      "source_title": "Configuring webhooks - Attio Docs",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Navigate to an integration the developer settings page and select an integration. Open an existing webhook or create a new one inside your integration. Ensure your webhook is ",
+      "checked_at": "2026-09-17T13:29:02.979954Z"
+    },
+    {
+      "claim": "Attio provides public SDK API surface.",
+      "source_url": "https://github.com/pidub-step/attio-docs/blob/main/docs_attio_com_rest-api_how-to_webhooks.md",
+      "source_title": "attio-docs/docs_attio_com_rest-api_how-to_webhooks.md at main · pidub-step/attio-docs · GitHub",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Notifications You must be signed in to change notification settings Source: https://docs.attio.com/rest-api/how-to/webhooks Attio Docs home page Search...\n⌘KAsk AI\nSearch...\nNavigation\nHow-to guides\nHow to configure webhooks Overview App SDK REST API How to authenticate requests How to handle rate l",
+      "checked_at": "2026-09-17T13:29:02.979954Z"
+    },
+    {
+      "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Attio.",
+      "source_url": "https://github.com/MikkohChen/mcp-attio",
+      "source_title": "GitHub - MikkohChen/mcp-attio: Attio Model Context Protocol ...",
+      "source_type": "GitHub",
+      "evidence_summary": "🎯 What is Attio MCP Server? Transform your CRM workflows with AI-powered automation. Instead of clicking through multiple screens, simply ask Claude or ChatGPT to find prospects, update records, manage pipelines, and analyze your data using natural language commands.",
+      "checked_at": "2026-09-17T13:29:23.263359Z"
+    },
+    {
+      "claim": "Attio provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://mcp.attio.com/",
+      "source_title": "MCP Server | Attio",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "Search for Attio 3. Connect Attio **For other MCP clients:** Add `https://mcp.attio.com/mcp` as a remote MCP server and complete the OAuth authentication when prompted.",
+      "checked_at": "2026-09-17T13:29:57.780354Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.92,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.9,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.95,
+  "researched_at": "2026-09-17T13:29:23.263359Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 6/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T13:29:57.781030Z"
+}

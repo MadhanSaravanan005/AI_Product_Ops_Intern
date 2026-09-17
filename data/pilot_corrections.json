@@ -1,0 +1,407 @@
+{
+  "pilot_label": "10-application pilot",
+  "total_corrections": 18,
+  "most_common_correction_types": {
+    "unsupported API type": 6,
+    "unresolved credential gating": 5,
+    "unsupported authentication method": 5,
+    "incorrect MCP classification": 1,
+    "incorrect buildability": 1
+  },
+  "corrections": [
+    {
+      "app": "Zendesk",
+      "field": "access_model",
+      "original_value": "Free Self-Serve",
+      "corrected_value": "Trial Self-Serve",
+      "reason": "CORRECTED: Primary documentation at https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/ indicates developer access is available via free trial.",
+      "original_evidence": [
+        "Zendesk supports authentication via OAuth2.",
+        "Zendesk offers self-serve credential creation for developers.",
+        "Zendesk provides comprehensive public API methods and developer integrations.",
+        "Zendesk provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Zendesk credential access model is Trial Self-Serve."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Zendesk",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "SDK"
+      ],
+      "reason": "Partially verified: 1/3 API types confirmed (SDK). Unverified types lacked documentation evidence.",
+      "original_evidence": [
+        "Zendesk supports authentication via OAuth2.",
+        "Zendesk offers self-serve credential creation for developers.",
+        "Zendesk provides comprehensive public API methods and developer integrations.",
+        "Zendesk provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Zendesk provides public SDK API surface."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Zendesk",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "corrected_value": "Third-Party MCP",
+      "reason": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+      "original_evidence": [
+        "Zendesk supports authentication via OAuth2.",
+        "Zendesk offers self-serve credential creation for developers.",
+        "Zendesk provides comprehensive public API methods and developer integrations.",
+        "Zendesk provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Third-party community MCP server exists for Zendesk."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Zendesk",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Buildable With Restrictions",
+      "reason": "RESTRICTION: Credentials available self-serve during limited trial window.",
+      "original_evidence": [
+        "Zendesk supports authentication via OAuth2.",
+        "Zendesk offers self-serve credential creation for developers.",
+        "Zendesk provides comprehensive public API methods and developer integrations.",
+        "Zendesk provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Slack",
+      "field": "authentication",
+      "original_value": [
+        "Bearer Token",
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "corrected_value": [
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "reason": "Partially verified: 2/3 methods confirmed (OAuth2, Personal Access Token). Unverified methods lacked direct documentation evidence.",
+      "original_evidence": [
+        "Slack supports authentication via Personal Access Token, Bearer Token, OAuth2.",
+        "Slack provides comprehensive public API methods and developer integrations.",
+        "Slack provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Slack supports authentication via OAuth2.",
+        "Slack supports authentication via Personal Access Token."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Slack",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "REST"
+      ],
+      "reason": "Partially verified: 1/3 API types confirmed (REST). Unverified types lacked documentation evidence.",
+      "original_evidence": [
+        "Slack supports authentication via Personal Access Token, Bearer Token, OAuth2.",
+        "Slack provides comprehensive public API methods and developer integrations.",
+        "Slack provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Slack provides public REST API surface."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Slack",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Unknown",
+      "reason": "Inconclusive credential gating model prevents establishing buildability.",
+      "original_evidence": [
+        "Slack supports authentication via Personal Access Token, Bearer Token, OAuth2.",
+        "Slack provides comprehensive public API methods and developer integrations.",
+        "Slack provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Mailchimp",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "corrected_value": [
+        "API Key"
+      ],
+      "reason": "Partially verified: 1/5 methods confirmed (API Key). Unverified methods lacked direct documentation evidence.",
+      "original_evidence": [
+        "Mailchimp supports authentication via Personal Access Token, Basic Auth, API Key, Bearer Token, OAuth2.",
+        "Mailchimp offers self-serve credential creation for developers.",
+        "Mailchimp provides comprehensive public API methods and developer integrations.",
+        "Third-party Model Context Protocol (MCP) server exists on GitHub for Mailchimp."
+      ],
+      "new_evidence": [
+        "Mailchimp supports authentication via API Key."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Shopify",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "corrected_value": "Free Self-Serve",
+      "reason": "CORRECTED: Confirmed free self-serve credential creation at https://www.valventus.com/en/blog/how-to-allow-custom-app-development-shopify-2026.",
+      "original_evidence": [
+        "Shopify supports authentication via OAuth2.",
+        "Shopify provides comprehensive public API methods and developer integrations.",
+        "Shopify provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Shopify credential access model is Free Self-Serve."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Shopify",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "GraphQL",
+        "Webhooks"
+      ],
+      "reason": "Partially verified: 2/4 API types confirmed (GraphQL, Webhooks). Unverified types lacked documentation evidence.",
+      "original_evidence": [
+        "Shopify supports authentication via OAuth2.",
+        "Shopify provides comprehensive public API methods and developer integrations.",
+        "Shopify provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Shopify provides public GraphQL API surface.",
+        "Shopify provides public Webhooks API surface."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Shopify",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "corrected_value": "Buildable Now",
+      "reason": "Buildable Now. Standard rate limits and OAuth scoping permissions are developer restrictions, not hard blockers.",
+      "original_evidence": [
+        "Shopify supports authentication via OAuth2.",
+        "Shopify provides comprehensive public API methods and developer integrations.",
+        "Shopify provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Apify",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token",
+        "Personal Access Token"
+      ],
+      "corrected_value": [
+        "API Key",
+        "Bearer Token"
+      ],
+      "reason": "Partially verified: 2/3 methods confirmed (API Key, Bearer Token). Unverified methods lacked direct documentation evidence.",
+      "original_evidence": [
+        "Apify supports authentication via Personal Access Token, API Key, Bearer Token.",
+        "Apify offers self-serve credential creation for developers.",
+        "Apify provides comprehensive public API methods and developer integrations.",
+        "Apify provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Apify supports authentication via API Key.",
+        "Apify supports authentication via Bearer Token."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Apify",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "REST",
+        "SDK"
+      ],
+      "reason": "Partially verified: 2/3 API types confirmed (REST, SDK). Unverified types lacked documentation evidence.",
+      "original_evidence": [
+        "Apify supports authentication via Personal Access Token, API Key, Bearer Token.",
+        "Apify offers self-serve credential creation for developers.",
+        "Apify provides comprehensive public API methods and developer integrations.",
+        "Apify provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Apify provides public REST API surface.",
+        "Apify provides public SDK API surface."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "GitHub",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "corrected_value": "Trial Self-Serve",
+      "reason": "CORRECTED: Primary documentation at https://github.com/pricing indicates developer access is available via free trial.",
+      "original_evidence": [
+        "GitHub supports authentication via Personal Access Token, Basic Auth, Bearer Token, OAuth2.",
+        "GitHub provides comprehensive public API methods and developer integrations.",
+        "Third-party Model Context Protocol (MCP) server exists on GitHub for GitHub."
+      ],
+      "new_evidence": [
+        "GitHub credential access model is Trial Self-Serve."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "GitHub",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "REST",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "reason": "Partially verified: 2/3 API types confirmed (REST, Webhooks). Unverified types lacked documentation evidence.",
+      "original_evidence": [
+        "GitHub supports authentication via Personal Access Token, Basic Auth, Bearer Token, OAuth2.",
+        "GitHub provides comprehensive public API methods and developer integrations.",
+        "Third-party Model Context Protocol (MCP) server exists on GitHub for GitHub."
+      ],
+      "new_evidence": [
+        "GitHub provides public REST API surface.",
+        "GitHub provides public Webhooks API surface."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Notion",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token",
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "corrected_value": [
+        "OAuth2",
+        "Personal Access Token"
+      ],
+      "reason": "Partially verified: 2/4 methods confirmed (OAuth2, Personal Access Token). Unverified methods lacked direct documentation evidence.",
+      "original_evidence": [
+        "Notion supports authentication via Personal Access Token, API Key, Bearer Token, OAuth2.",
+        "Notion offers self-serve credential creation for developers.",
+        "Notion provides comprehensive public API methods and developer integrations.",
+        "Notion provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Notion supports authentication via OAuth2.",
+        "Notion supports authentication via Personal Access Token."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Stripe",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "corrected_value": [
+        "API Key",
+        "OAuth2"
+      ],
+      "reason": "Partially verified: 2/4 methods confirmed (API Key, OAuth2). Unverified methods lacked direct documentation evidence.",
+      "original_evidence": [
+        "Stripe supports authentication via Basic Auth, API Key, Bearer Token, OAuth2.",
+        "Stripe offers self-serve credential creation for developers.",
+        "Stripe provides comprehensive public API methods and developer integrations.",
+        "Stripe provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Stripe supports authentication via API Key.",
+        "Stripe supports authentication via OAuth2."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Stripe",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "Webhooks"
+      ],
+      "reason": "Partially verified: 1/2 API types confirmed (Webhooks). Unverified types lacked documentation evidence.",
+      "original_evidence": [
+        "Stripe supports authentication via Basic Auth, API Key, Bearer Token, OAuth2.",
+        "Stripe offers self-serve credential creation for developers.",
+        "Stripe provides comprehensive public API methods and developer integrations.",
+        "Stripe provides official Model Context Protocol (MCP) server support."
+      ],
+      "new_evidence": [
+        "Stripe provides public Webhooks API surface."
+      ],
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    }
+  ]
+}

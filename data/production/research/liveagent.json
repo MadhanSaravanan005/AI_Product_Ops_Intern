@@ -1,0 +1,170 @@
+{
+  "id": 16,
+  "app": "LiveAgent",
+  "category": "Support and Helpdesk",
+  "website": "https://www.liveagent.com/",
+  "one_line_description": "LiveAgent: Leading platform in Support and Helpdesk.",
+  "auth_methods": [
+    "API Key"
+  ],
+  "authentication_details": [
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "LiveAgent supports authentication via API Key.",
+          "source_url": "https://github.com/QualityUnit/LiveAgent-api-python",
+          "source_title": "GitHub - QualityUnit/LiveAgent-api-python: Python client for LiveAgent API · GitHub",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This page contains complete API documentation for LiveAgent software. To display additional info and examples fo",
+          "checked_at": "2026-09-17T13:48:07.245739Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - QualityUnit/LiveAgent-api-python: Python client for LiveAgent API · GitHub: API key provisioning and request header authentication."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via LiveAgent's developer portal or app management console.",
+  "api_types": [
+    "GraphQL",
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "LiveAgent provides public REST API surface.",
+          "source_url": "https://apitracker.io/a/liveagent",
+          "source_title": "LiveAgent API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+          "source_type": "Official API Reference",
+          "evidence_summary": "LiveAgent is the only customer support app you will ever need. Helpdesk, Ticketing, Automation, Live Chat, Call Center, FAQs, Support Portal, Facebook and Twitter monitoring... Plus, it works well with others like MailChimp, Highrise, AWebe... Webhooks management API Postman / Insomnia collections O",
+          "checked_at": "2026-09-17T13:48:17.677820Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via LiveAgent API - Developer docs, APIs, SDKs, and auth. | API Tracker: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "GraphQL",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "LiveAgent provides public GraphQL API surface.",
+          "source_url": "https://graphql.guide/background/webhooks/",
+          "source_title": "Webhooks - Background - The GraphQL Guide",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Continuous integration GraphQL as an alternative to a REST API A simple REST API server A simple GraphQL server Querying a set of data Multiple types of data Security and error handling Tying this all together Client-side ordering & filtering Server-side rendering Querying with variables Setting up ",
+          "checked_at": "2026-09-17T13:48:17.677820Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Webhooks - Background - The GraphQL Guide: GraphQL queries, mutations, and schema endpoint."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "LiveAgent provides public Webhooks API surface.",
+          "source_url": "https://apitracker.io/a/liveagent",
+          "source_title": "LiveAgent API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+          "source_type": "Official API Reference",
+          "evidence_summary": "LiveAgent is the only customer support app you will ever need. Helpdesk, Ticketing, Automation, Live Chat, Call Center, FAQs, Support Portal, Facebook and Twitter monitoring... Plus, it works well with others like MailChimp, Highrise, AWebe... Webhooks management API Postman / Insomnia collections O",
+          "checked_at": "2026-09-17T13:48:17.677820Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via LiveAgent API - Developer docs, APIs, SDKs, and auth. | API Tracker: Webhook event delivery and subscription endpoints."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "LiveAgent provides public SDK API surface.",
+          "source_url": "https://apitracker.io/a/liveagent",
+          "source_title": "LiveAgent API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+          "source_type": "Official API Reference",
+          "evidence_summary": "LiveAgent is the only customer support app you will ever need. Helpdesk, Ticketing, Automation, Live Chat, Call Center, FAQs, Support Portal, Facebook and Twitter monitoring... Plus, it works well with others like MailChimp, Highrise, AWebe... Webhooks management API Postman / Insomnia collections O",
+          "checked_at": "2026-09-17T13:48:17.677820Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via LiveAgent API - Developer docs, APIs, SDKs, and auth. | API Tracker: Official client SDKs and libraries."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "LiveAgent exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Unknown",
+  "mcp_notes": "Insufficient evidence to determine MCP status.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "LiveAgent supports authentication via API Key.",
+      "source_url": "https://github.com/QualityUnit/LiveAgent-api-python",
+      "source_title": "GitHub - QualityUnit/LiveAgent-api-python: Python client for LiveAgent API · GitHub",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This page contains complete API documentation for LiveAgent software. To display additional info and examples fo",
+      "checked_at": "2026-09-17T13:48:07.245739Z"
+    },
+    {
+      "claim": "LiveAgent offers self-serve credential creation for developers.",
+      "source_url": "https://support.liveagent.com/869419-Twitter-application-integration",
+      "source_title": "Twitter application integration",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Home > Technical Support > Features and functions > Social networks & messaging apps > X (former Twitter) > Twitter application integration To be able to integrate your LiveAgent account with Twitter, you will first need to have a Twitter developer account for access to the Twitter API v2, and creat",
+      "checked_at": "2026-09-17T13:48:11.124879Z"
+    },
+    {
+      "claim": "LiveAgent provides public REST API surface.",
+      "source_url": "https://apitracker.io/a/liveagent",
+      "source_title": "LiveAgent API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+      "source_type": "Official API Reference",
+      "evidence_summary": "LiveAgent is the only customer support app you will ever need. Helpdesk, Ticketing, Automation, Live Chat, Call Center, FAQs, Support Portal, Facebook and Twitter monitoring... Plus, it works well with others like MailChimp, Highrise, AWebe... Webhooks management API Postman / Insomnia collections O",
+      "checked_at": "2026-09-17T13:48:17.677820Z"
+    },
+    {
+      "claim": "LiveAgent provides public GraphQL API surface.",
+      "source_url": "https://graphql.guide/background/webhooks/",
+      "source_title": "Webhooks - Background - The GraphQL Guide",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Continuous integration GraphQL as an alternative to a REST API A simple REST API server A simple GraphQL server Querying a set of data Multiple types of data Security and error handling Tying this all together Client-side ordering & filtering Server-side rendering Querying with variables Setting up ",
+      "checked_at": "2026-09-17T13:48:17.677820Z"
+    },
+    {
+      "claim": "LiveAgent provides public Webhooks API surface.",
+      "source_url": "https://apitracker.io/a/liveagent",
+      "source_title": "LiveAgent API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+      "source_type": "Official API Reference",
+      "evidence_summary": "LiveAgent is the only customer support app you will ever need. Helpdesk, Ticketing, Automation, Live Chat, Call Center, FAQs, Support Portal, Facebook and Twitter monitoring... Plus, it works well with others like MailChimp, Highrise, AWebe... Webhooks management API Postman / Insomnia collections O",
+      "checked_at": "2026-09-17T13:48:17.677820Z"
+    },
+    {
+      "claim": "LiveAgent provides public SDK API surface.",
+      "source_url": "https://apitracker.io/a/liveagent",
+      "source_title": "LiveAgent API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+      "source_type": "Official API Reference",
+      "evidence_summary": "LiveAgent is the only customer support app you will ever need. Helpdesk, Ticketing, Automation, Live Chat, Call Center, FAQs, Support Portal, Facebook and Twitter monitoring... Plus, it works well with others like MailChimp, Highrise, AWebe... Webhooks management API Postman / Insomnia collections O",
+      "checked_at": "2026-09-17T13:48:17.677820Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.4,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.83,
+  "researched_at": "2026-09-17T13:48:33.198274Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

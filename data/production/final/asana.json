@@ -1,0 +1,137 @@
+{
+  "id": 75,
+  "app": "Asana",
+  "category": "Productivity and Project Management",
+  "website": "https://developers.asana.com/",
+  "one_line_description": "Asana: Authentication.",
+  "auth_methods": [
+    "Bearer Token",
+    "OAuth2",
+    "Personal Access Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Asana supports authentication via OAuth2.",
+          "source_url": "https://developers.asana.com/docs/oauth",
+          "source_title": "OAuth",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "At its core, OAuth (\"Open Authorization\") is a mechanism for applications to access the Asana API on behalf of a user, all without the application having access to the user's username and password. Instead, the application gets a token , which can be used in subsequent API calls through the addition",
+          "checked_at": "2026-09-17T14:51:57.562450Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Asana supports authentication via Bearer Token.",
+          "source_url": "https://developers.asana.com/docs/oauth",
+          "source_title": "OAuth",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "At its core, OAuth (\"Open Authorization\") is a mechanism for applications to access the Asana API on behalf of a user, all without the application having access to the user's username and password. Instead, the application gets a token , which can be used in subsequent API calls through the addition",
+          "checked_at": "2026-09-17T14:51:57.562450Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth."
+    },
+    {
+      "method": "Personal Access Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Asana supports authentication via Personal Access Token.",
+          "source_url": "https://developers.asana.com/docs/authentication",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Asana’s API has several options for authenticating. The purpose of your app, who uses it, and its features will dictate the method of auth that’s best for your app. Here are the various authentication options and why you might want to use each of them. View only license users have limited access to ",
+          "checked_at": "2026-09-17T14:51:57.562450Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve.",
+  "api_types": [
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Asana provides public Webhooks API surface.",
+          "source_url": "https://developers.asana.com/docs/oauth",
+          "source_title": "OAuth",
+          "source_type": "Official API Reference",
+          "evidence_summary": "At its core, OAuth (\"Open Authorization\") is a mechanism for applications to access the Asana API on behalf of a user, all without the application having access to the user's username and password. Instead, the application gets a token , which can be used in subsequent API calls through the addition",
+          "checked_at": "2026-09-17T14:51:57.563915Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via OAuth."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Asana exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented directly by Asana.",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "Asana supports authentication via OAuth2.",
+      "source_url": "https://developers.asana.com/docs/oauth",
+      "source_title": "OAuth",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "At its core, OAuth (\"Open Authorization\") is a mechanism for applications to access the Asana API on behalf of a user, all without the application having access to the user's username and password. Instead, the application gets a token , which can be used in subsequent API calls through the addition",
+      "checked_at": "2026-09-17T14:51:57.562450Z"
+    },
+    {
+      "claim": "Asana supports authentication via Personal Access Token.",
+      "source_url": "https://developers.asana.com/docs/authentication",
+      "source_title": "Authentication",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Asana’s API has several options for authenticating. The purpose of your app, who uses it, and its features will dictate the method of auth that’s best for your app. Here are the various authentication options and why you might want to use each of them. View only license users have limited access to ",
+      "checked_at": "2026-09-17T14:51:57.562450Z"
+    },
+    {
+      "claim": "Asana provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://developers.asana.com/docs/using-asanas-mcp-server",
+      "source_title": "Using Asana's MCP Server",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "Asana offers a Model Context Protocol (MCP) server that allows AI assistants and other applications to access the Asana Work Graph. This server provides a way to interact with your Asana workspace through various AI platforms and tools that support MCP. With this server, you can: Access Asana data f",
+      "checked_at": "2026-09-17T14:51:57.563915Z"
+    },
+    {
+      "claim": "Asana supports authentication via Bearer Token.",
+      "source_url": "https://developers.asana.com/docs/oauth",
+      "source_title": "OAuth",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "At its core, OAuth (\"Open Authorization\") is a mechanism for applications to access the Asana API on behalf of a user, all without the application having access to the user's username and password. Instead, the application gets a token , which can be used in subsequent API calls through the addition",
+      "checked_at": "2026-09-17T14:51:57.845246Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.9,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.76,
+  "researched_at": "2026-09-17T14:51:57.563915Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 3/6 claims verified. 0 corrections applied.",
+  "verified_at": "2026-09-17T14:51:57.845246Z"
+}

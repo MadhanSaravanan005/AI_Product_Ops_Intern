@@ -1,0 +1,178 @@
+{
+  "id": 23,
+  "app": "Zoho Cliq",
+  "category": "Communications and Messaging",
+  "website": "https://zohocliq.com/",
+  "one_line_description": "Zoho Cliq is a software platform in the Communications and Messaging category.",
+  "auth_methods": [
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Zoho Cliq supports authentication via OAuth2.",
+          "source_url": "https://www.zoho.com/cliq/help/restapi/v2/oauth/",
+          "source_title": "Introduction to OAuth 2.0 | Zoho Cliq | API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Introduction Overview Authentication Networks Multiple Data Centers Multiple Data Centers Introduction to OAuth 2.0 Overview Terminologies Scopes Register your application Overview HTTP Methods Overview Pagination Overview Token Reference Glossary Overview CHAT_ID MESSAGE_ID THREAD_CHAT_ID SCHEDULED",
+          "checked_at": "2026-09-17T13:53:05.725665Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Introduction to OAuth 2.0 | Zoho Cliq | API Documentation: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Zoho Cliq supports authentication via Bearer Token.",
+          "source_url": "https://www.zoho.com/cliq/help/restapi/v2/oauth/",
+          "source_title": "Introduction to OAuth 2.0 | Zoho Cliq | API Documentation",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Introduction Overview Authentication Networks Multiple Data Centers Multiple Data Centers Introduction to OAuth 2.0 Overview Terminologies Scopes Register your application Overview HTTP Methods Overview Pagination Overview Token Reference Glossary Overview CHAT_ID MESSAGE_ID THREAD_CHAT_ID SCHEDULED",
+          "checked_at": "2026-09-17T13:53:05.725665Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Introduction to OAuth 2.0 | Zoho Cliq | API Documentation: Bearer token authentication format in HTTP request headers."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Zoho Cliq's developer portal or app management console.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Zoho Cliq provides public REST API surface.",
+          "source_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/",
+          "source_title": "Introduction | Zoho Cliq | API Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Introduction Overview Authentication Networks Multiple Data Centers Multiple Data Centers Introduction to OAuth 2.0 Overview Terminologies Scopes Register your application Overview HTTP Methods Overview Pagination Overview Token Reference Glossary Overview CHAT_ID MESSAGE_ID THREAD_CHAT_ID SCHEDULED",
+          "checked_at": "2026-09-17T13:53:16.041141Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Introduction | Zoho Cliq | API Documentation: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Zoho Cliq provides public Webhooks API surface.",
+          "source_url": "https://www.zoho.com/cliq/help/restapi/v3/introduction/",
+          "source_title": "Introduction | Zoho Cliq | API Documentation",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Introduction Overview What's new in v3 Authentication Networks Multiple Data Centers Multiple Data Centers Introduction to OAuth 2.0 Overview Terminologies Scopes Register your application Overview HTTP Methods Overview Pagination Overview next_token sync_token Combining Tokens Best Practices Glossa",
+          "checked_at": "2026-09-17T13:53:16.042171Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Introduction | Zoho Cliq | API Documentation: Webhook event delivery and subscription endpoints."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Zoho Cliq provides public SDK API surface.",
+          "source_url": "https://apitracker.io/a/zoho-cliq",
+          "source_title": "Zoho Cliq API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Zoho Cliq is a real time messaging software built to provide enhanced productivity and team collaboration. Webhooks management API Postman / Insomnia collections OpenAPI/Swagger specs Free developer account App listing requirements Custom object support We don't have videos for this API yet. Get in ",
+          "checked_at": "2026-09-17T13:53:16.042171Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Zoho Cliq API - Developer docs, APIs, SDKs, and auth. | API Tracker: Official client SDKs and libraries."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Zoho Cliq exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Community/third-party MCP server available on GitHub: https://github.com/plecos/zoho-mcp",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Zoho Cliq supports authentication via OAuth2.",
+      "source_url": "https://www.zoho.com/cliq/help/restapi/v2/oauth/",
+      "source_title": "Introduction to OAuth 2.0 | Zoho Cliq | API Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Introduction Overview Authentication Networks Multiple Data Centers Multiple Data Centers Introduction to OAuth 2.0 Overview Terminologies Scopes Register your application Overview HTTP Methods Overview Pagination Overview Token Reference Glossary Overview CHAT_ID MESSAGE_ID THREAD_CHAT_ID SCHEDULED",
+      "checked_at": "2026-09-17T13:53:05.725665Z"
+    },
+    {
+      "claim": "Zoho Cliq supports authentication via Bearer Token.",
+      "source_url": "https://www.zoho.com/cliq/help/restapi/v2/oauth/",
+      "source_title": "Introduction to OAuth 2.0 | Zoho Cliq | API Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Introduction Overview Authentication Networks Multiple Data Centers Multiple Data Centers Introduction to OAuth 2.0 Overview Terminologies Scopes Register your application Overview HTTP Methods Overview Pagination Overview Token Reference Glossary Overview CHAT_ID MESSAGE_ID THREAD_CHAT_ID SCHEDULED",
+      "checked_at": "2026-09-17T13:53:05.725665Z"
+    },
+    {
+      "claim": "Zoho Cliq offers self-serve credential creation for developers.",
+      "source_url": "https://www.zoho.com/developer/signup.html",
+      "source_title": "Zoho Developer - Sign Up Now",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Zoho Developer - Sign Up Now",
+      "checked_at": "2026-09-17T13:53:11.368313Z"
+    },
+    {
+      "claim": "Zoho Cliq provides public REST API surface.",
+      "source_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/",
+      "source_title": "Introduction | Zoho Cliq | API Documentation",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Introduction Overview Authentication Networks Multiple Data Centers Multiple Data Centers Introduction to OAuth 2.0 Overview Terminologies Scopes Register your application Overview HTTP Methods Overview Pagination Overview Token Reference Glossary Overview CHAT_ID MESSAGE_ID THREAD_CHAT_ID SCHEDULED",
+      "checked_at": "2026-09-17T13:53:16.041141Z"
+    },
+    {
+      "claim": "Zoho Cliq provides public Webhooks API surface.",
+      "source_url": "https://www.zoho.com/cliq/help/restapi/v3/introduction/",
+      "source_title": "Introduction | Zoho Cliq | API Documentation",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Introduction Overview What's new in v3 Authentication Networks Multiple Data Centers Multiple Data Centers Introduction to OAuth 2.0 Overview Terminologies Scopes Register your application Overview HTTP Methods Overview Pagination Overview next_token sync_token Combining Tokens Best Practices Glossa",
+      "checked_at": "2026-09-17T13:53:16.042171Z"
+    },
+    {
+      "claim": "Zoho Cliq provides public SDK API surface.",
+      "source_url": "https://apitracker.io/a/zoho-cliq",
+      "source_title": "Zoho Cliq API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Zoho Cliq is a real time messaging software built to provide enhanced productivity and team collaboration. Webhooks management API Postman / Insomnia collections OpenAPI/Swagger specs Free developer account App listing requirements Custom object support We don't have videos for this API yet. Get in ",
+      "checked_at": "2026-09-17T13:53:16.042171Z"
+    },
+    {
+      "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Zoho Cliq.",
+      "source_url": "https://github.com/plecos/zoho-mcp",
+      "source_title": "GitHub - plecos/zoho-mcp: A vendor-agnostic MCP (Model ...",
+      "source_type": "GitHub",
+      "evidence_summary": "An MCP (Model Context Protocol) server that exposes Zoho Mail, Calendar, Contacts, Tasks, Notes, Bookmarks, Groups, and Resource Booking as tools to any MCP-compatible LLM client — Claude, ChatGPT, Gemini, or anything else that speaks MCP.",
+      "checked_at": "2026-09-17T13:53:21.868455Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.9,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.93,
+  "researched_at": "2026-09-17T13:53:21.868455Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

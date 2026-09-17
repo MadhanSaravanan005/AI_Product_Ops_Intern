@@ -1,0 +1,90 @@
+{
+  "pilot_label": "10-application pilot V2",
+  "total_corrections": 7,
+  "most_common_correction_types": {
+    "unsupported API type": 2,
+    "incorrect MCP classification": 2,
+    "incorrect buildability": 3
+  },
+  "corrections": [
+    {
+      "app": "Salesforce",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "corrected_value": [
+        "API Key",
+        "Basic Auth",
+        "OAuth2"
+      ],
+      "reason": "Partially verified: 3/4 methods confirmed (API Key, Basic Auth, OAuth2). Unverified methods lacked direct documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Salesforce",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "REST",
+        "Webhooks"
+      ],
+      "corrected_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "reason": "Partially verified: 2/3 API types confirmed (REST, Webhooks). Unverified types lacked documentation evidence.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Salesforce",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "corrected_value": "Third-Party MCP",
+      "reason": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Zendesk",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "corrected_value": "Third-Party MCP",
+      "reason": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.92
+    },
+    {
+      "app": "Zendesk",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Buildable With Restrictions",
+      "reason": "RESTRICTION: Credentials available self-serve during limited trial window.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "Shopify",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Buildable With Restrictions",
+      "reason": "RESTRICTION: Credentials available self-serve during limited trial window.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    },
+    {
+      "app": "GitHub",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "corrected_value": "Buildable With Restrictions",
+      "reason": "RESTRICTION: Credentials available self-serve during limited trial window.",
+      "verification_status": "Verified",
+      "verifier_confidence": 0.95
+    }
+  ]
+}

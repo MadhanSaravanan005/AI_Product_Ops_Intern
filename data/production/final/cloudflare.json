@@ -1,0 +1,70 @@
+{
+  "id": 64,
+  "app": "Cloudflare",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://developers.cloudflare.com/",
+  "one_line_description": "Cloudflare: GitHub.",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "authentication_details": [
+    {
+      "method": "Unknown",
+      "status": "Unverified",
+      "evidence": [],
+      "confidence": 0.3,
+      "notes": "No authentication methods grounded with direct evidence."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Cloudflare provides public SDK API surface.",
+          "source_url": "https://github.com/cloudflare/mcp-server-cloudflare",
+          "source_title": "GitHub - cloudflare/mcp-server-cloudflare · GitHub",
+          "source_type": "Official API Reference",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Model Context Protocol (MCP) is a new, standardized protocol for managing context between large language models ",
+          "checked_at": "2026-09-17T14:40:40.239348Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - cloudflare/mcp-server-cloudflare · GitHub."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Cloudflare exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/cloudflare/mcp-server-cloudflare).",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "Cloudflare provides public SDK API surface.",
+      "source_url": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "source_title": "GitHub - cloudflare/mcp-server-cloudflare · GitHub",
+      "source_type": "Official API Reference",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Model Context Protocol (MCP) is a new, standardized protocol for managing context between large language models ",
+      "checked_at": "2026-09-17T14:40:40.239348Z"
+    }
+  ],
+  "auth_confidence": 0.3,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.73,
+  "researched_at": "2026-09-17T14:40:40.239348Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Needs Verification",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 3/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T14:40:40.473065Z"
+}

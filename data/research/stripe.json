@@ -1,0 +1,71 @@
+{
+  "id": 81,
+  "app": "Stripe",
+  "category": "Finance and Fintech",
+  "website": "https://docs.stripe.com/",
+  "one_line_description": "Developer resources: Leading platform in Finance and Fintech.",
+  "auth_methods": [
+    "API Key",
+    "Basic Auth",
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Stripe's developer portal or app management console.",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Stripe exposes programmatic API endpoints covering primary platform objects and events.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Stripe.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Stripe supports authentication via Basic Auth, API Key, Bearer Token, OAuth2.",
+      "source_url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth",
+      "source_title": "OAuth 2.0 | Stripe Documentation",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "A user authenticating with OAuth follows these steps. On your site, the user clicks a link that redirects them to Stripe. On Stripe, the user selects the appropriate account and accepts permissions for installing the app. After the app is installed, authentication is complete and the user is redirec",
+      "checked_at": "2026-09-17T10:10:53.433982Z"
+    },
+    {
+      "claim": "Stripe offers self-serve credential creation for developers.",
+      "source_url": "https://dashboard.stripe.com/register",
+      "source_title": "Sign up and create a Stripe account | Stripe",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Sign up to quickly create a new Stripe account today and get started accepting payments in minutes.",
+      "checked_at": "2026-09-17T10:10:59.318876Z"
+    },
+    {
+      "claim": "Stripe provides comprehensive public API methods and developer integrations.",
+      "source_url": "https://docs.stripe.com/api/webhook_endpoints",
+      "source_title": "Webhook Endpoints | Stripe API Reference",
+      "source_type": "Official API Reference",
+      "evidence_summary": "You can configure webhook endpoints via the API to be notified about events that happen in your Stripe account or connected accounts. Most users configure webhooks from the dashboard , which provides a user interface for registering and testing your webhook endpoints. Related guide: Setting up webho",
+      "checked_at": "2026-09-17T10:11:06.078753Z"
+    },
+    {
+      "claim": "Stripe provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://docs.stripe.com/mcp",
+      "source_title": "Model Context Protocol (MCP) | Stripe Documentation",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "The Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API and search Stripe’s knowledge base, including documentation and support articles. Agent plugins for Stripe automatically configure the Stripe MCP server, install our skills , and make",
+      "checked_at": "2026-09-17T10:11:10.247843Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.9,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.93,
+  "researched_at": "2026-09-17T10:11:10.247843Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

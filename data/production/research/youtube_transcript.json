@@ -1,0 +1,121 @@
+{
+  "id": 99,
+  "app": "YouTube Transcript",
+  "category": "AI, Research and Media-native",
+  "website": "https://www.youtubetranscript.dev/",
+  "one_line_description": "YouTube Transcript: YouTube Transcript API Reference.",
+  "auth_methods": [
+    "API Key",
+    "Bearer Token"
+  ],
+  "authentication_details": [
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "YouTube Transcript supports authentication via API Key.",
+          "source_url": "https://transcriptapi.com/docs/api/",
+          "source_title": "YouTube Transcript API Reference | TranscriptAPI.com",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, and practical examples. Want to test the API interactively? Try our Swagger UI where you can",
+          "checked_at": "2026-09-17T15:09:09.816986Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via YouTube Transcript API Reference | TranscriptAPI.com."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "YouTube Transcript supports authentication via Bearer Token.",
+          "source_url": "https://transcriptapi.com/docs/api/",
+          "source_title": "YouTube Transcript API Reference | TranscriptAPI.com",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, and practical examples. Want to test the API interactively? Try our Swagger UI where you can",
+          "checked_at": "2026-09-17T15:09:09.818006Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via YouTube Transcript API Reference | TranscriptAPI.com."
+    }
+  ],
+  "access_model": "Trial Self-Serve",
+  "credential_access_notes": "Developers can create credentials during a trial account period.",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "YouTube Transcript provides public REST API surface.",
+          "source_url": "https://transcriptapi.com/docs/api/",
+          "source_title": "YouTube Transcript API Reference | TranscriptAPI.com",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, and practical examples. Want to test the API interactively? Try our Swagger UI where you can",
+          "checked_at": "2026-09-17T15:09:09.820079Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via YouTube Transcript API Reference | TranscriptAPI.com."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "YouTube Transcript provides public Webhooks API surface.",
+          "source_url": "https://www.youtubetranscript.dev/api-docs",
+          "source_title": "API Documentation - YouTube Transcript API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "V2 is the streamlined, user-owned transcript model. It prioritizes fast cache hits, consistent responses, and no surprise translations unless you request a language. Transcribe a single YouTube video. Returns immediately for caption-based videos; falls back to ASR (async) when allow_asr is true and ",
+          "checked_at": "2026-09-17T15:09:09.822111Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Documentation - YouTube Transcript API."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "YouTube Transcript exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented directly by YouTube Transcript.",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "YouTube Transcript supports authentication via API Key.",
+      "source_url": "https://transcriptapi.com/docs/api/",
+      "source_title": "YouTube Transcript API Reference | TranscriptAPI.com",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, and practical examples. Want to test the API interactively? Try our Swagger UI where you can",
+      "checked_at": "2026-09-17T15:09:09.816986Z"
+    },
+    {
+      "claim": "YouTube Transcript credential access model is Trial Self-Serve.",
+      "source_url": "https://www.youtubetranscript.dev/api-docs",
+      "source_title": "API Documentation - YouTube Transcript API",
+      "source_type": "Official Documentation",
+      "evidence_summary": "V2 is the streamlined, user-owned transcript model. It prioritizes fast cache hits, consistent responses, and no surprise translations unless you request a language. Transcribe a single YouTube video. Returns immediately for caption-based videos; falls back to ASR (async) when allow_asr is true and ",
+      "checked_at": "2026-09-17T15:09:09.820079Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.88,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.92,
+  "researched_at": "2026-09-17T15:09:09.823109Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Sensitive credentials & environment configuration
+.env
+.env.*
+!.env.example
+
+# Testing & Coverage Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Output & Cache
+data/cache/
+output/*
+!output/.gitkeep
+
+# IDE, Editor & OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary scratch & logs
+scratch/
+*.tmp
+
+# Raw scraped web content (excluded to prevent triggering secret-scanning push protection on scraped documentation examples)
+data/research_raw/
+data/pilot_v2/research_raw/
+data/production/research_raw/

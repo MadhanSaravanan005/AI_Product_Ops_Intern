@@ -1,0 +1,49 @@
+{
+  "report_title": "10-Application Pilot V2: Grounded Research Quality Report",
+  "generated_at": "2026-09-17T13:15:16.667724+00:00",
+  "total_apps_attempted": 10,
+  "completed": 10,
+  "needs_verification": 0,
+  "failed": 0,
+  "average_confidence": 0.94,
+  "evidence_count_per_app": {
+    "Salesforce": 9,
+    "Zendesk": 10,
+    "Slack": 7,
+    "Mailchimp": 9,
+    "Shopify": 7,
+    "Apify": 9,
+    "GitHub": 10,
+    "Notion": 6,
+    "Stripe": 9,
+    "NotebookLM": 4
+  },
+  "unknown_count_per_major_field": {
+    "auth_methods": 0,
+    "access_model": 0,
+    "api_types": 0,
+    "mcp_status": 0,
+    "buildability": 0
+  },
+  "applications_with_lowest_confidence": [
+    {
+      "app": "GitHub",
+      "category": "Developer, Infra and Data platforms",
+      "confidence": 0.93,
+      "status": "Completed"
+    },
+    {
+      "app": "Stripe",
+      "category": "Finance and Fintech",
+      "confidence": 0.93,
+      "status": "Completed"
+    },
+    {
+      "app": "NotebookLM",
+      "category": "AI, Research and Media-native",
+      "confidence": 0.93,
+      "status": "Completed"
+    }
+  ],
+  "failures": []
+}

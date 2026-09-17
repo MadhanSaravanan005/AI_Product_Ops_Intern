@@ -1,0 +1,36 @@
+{
+  "total_apps_verified": 1,
+  "total_claims_checked": 6,
+  "total_verified": 5,
+  "total_contradicted": 0,
+  "total_insufficient_evidence": 1,
+  "first_pass_accuracy": 83.3,
+  "post_verification_accuracy": 83.3,
+  "field_accuracy": {
+    "website": {
+      "first_pass_accuracy": 100.0,
+      "post_verification_accuracy": 100.0
+    },
+    "authentication": {
+      "first_pass_accuracy": 0.0,
+      "post_verification_accuracy": 0.0
+    },
+    "access_model": {
+      "first_pass_accuracy": 100.0,
+      "post_verification_accuracy": 100.0
+    },
+    "api_surface": {
+      "first_pass_accuracy": 100.0,
+      "post_verification_accuracy": 100.0
+    },
+    "mcp_status": {
+      "first_pass_accuracy": 100.0,
+      "post_verification_accuracy": 100.0
+    },
+    "buildability": {
+      "first_pass_accuracy": 100.0,
+      "post_verification_accuracy": 100.0
+    }
+  },
+  "sample_size_note": "Pilot phase: N=1 application(s). First-pass accuracy measures claims supported without verifier correction. Post-verification accuracy measures claims verified with independent primary evidence. Insufficient Evidence and Contradicted claims are not counted as accurate."
+}

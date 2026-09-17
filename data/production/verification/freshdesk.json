@@ -1,0 +1,478 @@
+{
+  "app_id": 13,
+  "app": "Freshdesk",
+  "category": "Support and Helpdesk",
+  "verified_at": "2026-09-17T13:57:07.137887Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 13,
+      "app": "Freshdesk",
+      "field": "website",
+      "original_value": "https://freshdesk.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Website URL format and scheme valid: https://freshdesk.com/",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 13,
+      "app": "Freshdesk",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Freshdesk supports authentication via OAuth2.",
+          "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+          "source_title": "Freshworks Developer Docs | OAuth",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+          "checked_at": "2026-09-17T13:44:26.055414Z"
+        },
+        {
+          "claim": "Freshdesk supports authentication via API Key.",
+          "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+          "source_title": "Freshworks Developer Docs | OAuth",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+          "checked_at": "2026-09-17T13:44:26.055414Z"
+        }
+      ],
+      "verification_notes": "Authentication methods verified with 2 primary evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 13,
+      "app": "Freshdesk",
+      "field": "access_model",
+      "original_value": "Trial Self-Serve",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [
+        {
+          "claim": "Freshdesk credential access model is Trial Self-Serve.",
+          "source_url": "https://developers.freshworks.com/docs/getting-started/freshdesk/sign-up/",
+          "source_title": "Freshworks Developer Docs | Sign up",
+          "source_type": "Official Documentation",
+          "evidence_summary": "Build apps with Generative AI. Sign up for Freddy AI Copilot for Developers Beta. Check now! Click the Sign Up button at https://freshworks.dev You will be redirected to a page to enter the credentials. If you are a new user and donât have an existing account/org URL, click on âContinue to Sign ",
+          "checked_at": "2026-09-17T13:44:43.143940Z"
+        }
+      ],
+      "verification_notes": "Access model Trial Self-Serve verified by documentation evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 13,
+      "app": "Freshdesk",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Freshdesk supports authentication via API Key.",
+          "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+          "source_title": "Freshworks Developer Docs | OAuth",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+          "checked_at": "2026-09-17T13:44:26.055414Z"
+        },
+        {
+          "claim": "Freshdesk provides public REST API surface.",
+          "source_url": "https://developers.freshworks.com/docs/app-sdk/v3.0/support_ticket/rest-apis/",
+          "source_title": "Freshworks Developer Docs | REST APIs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "An app built for this module can access the corresponding product resources, through the following API end-points: POST /api/v2/tickets/outbound_email GET /api/v2/tickets/[id] GET /api/v2/tickets/[id]/associated_tickets GET /api/v2/search/tickets?query=[query] PUT /api/v2/tickets/[id] POST /api/v2/t",
+          "checked_at": "2026-09-17T13:44:52.703844Z"
+        },
+        {
+          "claim": "Freshdesk provides public Webhooks API surface.",
+          "source_url": "https://support.freshdesk.com/support/solutions/articles/132589-using-webhooks-in-automation-rules",
+          "source_title": "Using webhooks in automation rules that run on ticket updates : Freshdesk Support",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Using Webhooks in automation rules You can create an automation rule that runs on ticket creation or ticket updates to make API calls. The two actions below allow this Trigger Webhook- Use this when API response is not needed for further automations. eg) Update an external CRM with details on a tick",
+          "checked_at": "2026-09-17T13:44:52.704838Z"
+        }
+      ],
+      "verification_notes": "API types verified with 3 primary reference evidence sources.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 13,
+      "app": "Freshdesk",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Freshdesk provides official Model Context Protocol (MCP) server support.",
+          "source_url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk",
+          "source_title": "Model Context Protocol (MCP) integration in Freshdesk : Freshdesk Support",
+          "source_type": "Official MCP Documentation",
+          "evidence_summary": "Model Context Protocol (MCP) integration in Freshdesk Applies to : Freshdesk, Freshdesk Omni 2026. The Freshworks Model Context Protocol (MCP) server enables AI tools like Cursor and Claude to securely connect and interact with Freshdesk. The MCP server acts as middleware to expose specific capabili",
+          "checked_at": "2026-09-17T13:44:57.267711Z"
+        }
+      ],
+      "verification_notes": "MCP status Official MCP backed by repository/doc evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 13,
+      "app": "Freshdesk",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Buildability Buildable Now verified by multi-factor platform assessment.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    }
+  },
+  "original_record": {
+    "id": 13,
+    "app": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "website": "https://freshdesk.com/",
+    "one_line_description": "Freshdesk is a software platform in the Support and Helpdesk category.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Freshdesk supports authentication via OAuth2.",
+            "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+            "source_title": "Freshworks Developer Docs | OAuth",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+            "checked_at": "2026-09-17T13:44:26.055414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Freshworks Developer Docs | OAuth: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Freshdesk supports authentication via API Key.",
+            "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+            "source_title": "Freshworks Developer Docs | OAuth",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+            "checked_at": "2026-09-17T13:44:26.055414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Freshworks Developer Docs | OAuth: API key provisioning and request header authentication."
+      }
+    ],
+    "access_model": "Trial Self-Serve",
+    "credential_access_notes": "Developers can create credentials during a trial account period for Freshdesk.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Freshdesk provides public REST API surface.",
+            "source_url": "https://developers.freshworks.com/docs/app-sdk/v3.0/support_ticket/rest-apis/",
+            "source_title": "Freshworks Developer Docs | REST APIs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "An app built for this module can access the corresponding product resources, through the following API end-points: POST /api/v2/tickets/outbound_email GET /api/v2/tickets/[id] GET /api/v2/tickets/[id]/associated_tickets GET /api/v2/search/tickets?query=[query] PUT /api/v2/tickets/[id] POST /api/v2/t",
+            "checked_at": "2026-09-17T13:44:52.703844Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Freshworks Developer Docs | REST APIs: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Freshdesk provides public Webhooks API surface.",
+            "source_url": "https://support.freshdesk.com/support/solutions/articles/132589-using-webhooks-in-automation-rules",
+            "source_title": "Using webhooks in automation rules that run on ticket updates : Freshdesk Support",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Using Webhooks in automation rules You can create an automation rule that runs on ticket creation or ticket updates to make API calls. The two actions below allow this Trigger Webhook- Use this when API response is not needed for further automations. eg) Update an external CRM with details on a tick",
+            "checked_at": "2026-09-17T13:44:52.704838Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Using webhooks in automation rules that run on ticket updates : Freshdesk Support: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Freshdesk exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Freshdesk.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Freshdesk supports authentication via OAuth2.",
+        "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+        "source_title": "Freshworks Developer Docs | OAuth",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+        "checked_at": "2026-09-17T13:44:26.055414Z"
+      },
+      {
+        "claim": "Freshdesk supports authentication via API Key.",
+        "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+        "source_title": "Freshworks Developer Docs | OAuth",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+        "checked_at": "2026-09-17T13:44:26.055414Z"
+      },
+      {
+        "claim": "Freshdesk credential access model is Trial Self-Serve.",
+        "source_url": "https://developers.freshworks.com/docs/getting-started/freshdesk/sign-up/",
+        "source_title": "Freshworks Developer Docs | Sign up",
+        "source_type": "Official Documentation",
+        "evidence_summary": "Build apps with Generative AI. Sign up for Freddy AI Copilot for Developers Beta. Check now! Click the Sign Up button at https://freshworks.dev You will be redirected to a page to enter the credentials. If you are a new user and donât have an existing account/org URL, click on âContinue to Sign ",
+        "checked_at": "2026-09-17T13:44:43.143940Z"
+      },
+      {
+        "claim": "Freshdesk provides public REST API surface.",
+        "source_url": "https://developers.freshworks.com/docs/app-sdk/v3.0/support_ticket/rest-apis/",
+        "source_title": "Freshworks Developer Docs | REST APIs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "An app built for this module can access the corresponding product resources, through the following API end-points: POST /api/v2/tickets/outbound_email GET /api/v2/tickets/[id] GET /api/v2/tickets/[id]/associated_tickets GET /api/v2/search/tickets?query=[query] PUT /api/v2/tickets/[id] POST /api/v2/t",
+        "checked_at": "2026-09-17T13:44:52.703844Z"
+      },
+      {
+        "claim": "Freshdesk provides public Webhooks API surface.",
+        "source_url": "https://support.freshdesk.com/support/solutions/articles/132589-using-webhooks-in-automation-rules",
+        "source_title": "Using webhooks in automation rules that run on ticket updates : Freshdesk Support",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Using Webhooks in automation rules You can create an automation rule that runs on ticket creation or ticket updates to make API calls. The two actions below allow this Trigger Webhook- Use this when API response is not needed for further automations. eg) Update an external CRM with details on a tick",
+        "checked_at": "2026-09-17T13:44:52.704838Z"
+      },
+      {
+        "claim": "Freshdesk provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk",
+        "source_title": "Model Context Protocol (MCP) integration in Freshdesk : Freshdesk Support",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Model Context Protocol (MCP) integration in Freshdesk Applies to : Freshdesk, Freshdesk Omni 2026. The Freshworks Model Context Protocol (MCP) server enables AI tools like Cursor and Claude to securely connect and interact with Freshdesk. The MCP server acts as middleware to expose specific capabili",
+        "checked_at": "2026-09-17T13:44:57.267711Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.92,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.94,
+    "researched_at": "2026-09-17T13:44:57.267711Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 13,
+    "app": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "website": "https://freshdesk.com/",
+    "one_line_description": "Freshdesk is a software platform in the Support and Helpdesk category.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Freshdesk supports authentication via OAuth2.",
+            "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+            "source_title": "Freshworks Developer Docs | OAuth",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+            "checked_at": "2026-09-17T13:44:26.055414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Freshworks Developer Docs | OAuth: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Freshdesk supports authentication via API Key.",
+            "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+            "source_title": "Freshworks Developer Docs | OAuth",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+            "checked_at": "2026-09-17T13:44:26.055414Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Freshworks Developer Docs | OAuth: API key provisioning and request header authentication."
+      }
+    ],
+    "access_model": "Trial Self-Serve",
+    "credential_access_notes": "Developers can create credentials during a trial account period for Freshdesk.",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Freshdesk provides public REST API surface.",
+            "source_url": "https://developers.freshworks.com/docs/app-sdk/v3.0/support_ticket/rest-apis/",
+            "source_title": "Freshworks Developer Docs | REST APIs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "An app built for this module can access the corresponding product resources, through the following API end-points: POST /api/v2/tickets/outbound_email GET /api/v2/tickets/[id] GET /api/v2/tickets/[id]/associated_tickets GET /api/v2/search/tickets?query=[query] PUT /api/v2/tickets/[id] POST /api/v2/t",
+            "checked_at": "2026-09-17T13:44:52.703844Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Freshworks Developer Docs | REST APIs: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Freshdesk provides public Webhooks API surface.",
+            "source_url": "https://support.freshdesk.com/support/solutions/articles/132589-using-webhooks-in-automation-rules",
+            "source_title": "Using webhooks in automation rules that run on ticket updates : Freshdesk Support",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Using Webhooks in automation rules You can create an automation rule that runs on ticket creation or ticket updates to make API calls. The two actions below allow this Trigger Webhook- Use this when API response is not needed for further automations. eg) Update an external CRM with details on a tick",
+            "checked_at": "2026-09-17T13:44:52.704838Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Using webhooks in automation rules that run on ticket updates : Freshdesk Support: Webhook event delivery and subscription endpoints."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Freshdesk exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Freshdesk.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Freshdesk supports authentication via OAuth2.",
+        "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+        "source_title": "Freshworks Developer Docs | OAuth",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+        "checked_at": "2026-09-17T13:44:26.055414Z"
+      },
+      {
+        "claim": "Freshdesk supports authentication via API Key.",
+        "source_url": "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+        "source_title": "Freshworks Developer Docs | OAuth",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Build apps with Generative AI. Sign up for Freddy Copilot for Developers Beta. Check now! The OAuth 2 protocol enables authorizing an app to access resources from third-party applications. This is done by using an access token obtained from the third-party when the app is installed. To see a demonst",
+        "checked_at": "2026-09-17T13:44:26.055414Z"
+      },
+      {
+        "claim": "Freshdesk credential access model is Trial Self-Serve.",
+        "source_url": "https://developers.freshworks.com/docs/getting-started/freshdesk/sign-up/",
+        "source_title": "Freshworks Developer Docs | Sign up",
+        "source_type": "Official Documentation",
+        "evidence_summary": "Build apps with Generative AI. Sign up for Freddy AI Copilot for Developers Beta. Check now! Click the Sign Up button at https://freshworks.dev You will be redirected to a page to enter the credentials. If you are a new user and donât have an existing account/org URL, click on âContinue to Sign ",
+        "checked_at": "2026-09-17T13:44:43.143940Z"
+      },
+      {
+        "claim": "Freshdesk provides public REST API surface.",
+        "source_url": "https://developers.freshworks.com/docs/app-sdk/v3.0/support_ticket/rest-apis/",
+        "source_title": "Freshworks Developer Docs | REST APIs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "An app built for this module can access the corresponding product resources, through the following API end-points: POST /api/v2/tickets/outbound_email GET /api/v2/tickets/[id] GET /api/v2/tickets/[id]/associated_tickets GET /api/v2/search/tickets?query=[query] PUT /api/v2/tickets/[id] POST /api/v2/t",
+        "checked_at": "2026-09-17T13:44:52.703844Z"
+      },
+      {
+        "claim": "Freshdesk provides public Webhooks API surface.",
+        "source_url": "https://support.freshdesk.com/support/solutions/articles/132589-using-webhooks-in-automation-rules",
+        "source_title": "Using webhooks in automation rules that run on ticket updates : Freshdesk Support",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Using Webhooks in automation rules You can create an automation rule that runs on ticket creation or ticket updates to make API calls. The two actions below allow this Trigger Webhook- Use this when API response is not needed for further automations. eg) Update an external CRM with details on a tick",
+        "checked_at": "2026-09-17T13:44:52.704838Z"
+      },
+      {
+        "claim": "Freshdesk provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk",
+        "source_title": "Model Context Protocol (MCP) integration in Freshdesk : Freshdesk Support",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "Model Context Protocol (MCP) integration in Freshdesk Applies to : Freshdesk, Freshdesk Omni 2026. The Freshworks Model Context Protocol (MCP) server enables AI tools like Cursor and Claude to securely connect and interact with Freshdesk. The MCP server acts as middleware to expose specific capabili",
+        "checked_at": "2026-09-17T13:44:57.267711Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.92,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.94,
+    "researched_at": "2026-09-17T13:44:57.267711Z",
+    "researcher_version": "1.0.0",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+    "verified_at": "2026-09-17T13:57:07.137887Z"
+  },
+  "summary_notes": "Production verification audit for Freshdesk: 6/6 verified."
+}

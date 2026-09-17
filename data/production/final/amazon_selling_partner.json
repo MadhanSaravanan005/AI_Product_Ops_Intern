@@ -1,0 +1,87 @@
+{
+  "id": 49,
+  "app": "Amazon Selling Partner",
+  "category": "Ecommerce",
+  "website": "https://amazonsellingpartner.com/",
+  "one_line_description": "Amazon Selling Partner: Selling Partner API.",
+  "auth_methods": [
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Amazon Selling Partner supports authentication via OAuth2.",
+          "source_url": "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+          "source_title": "Connect to the SP-API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "These instructions show you the steps to connect to the Selling Partner API (SP-API). For links to additional examples, refer to SP-API SDKs . Before your application can connect to SP-API, you must: Register the application. For details, refer to Registering your application . Get the application a",
+          "checked_at": "2026-09-17T14:27:40.905109Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Connect to the SP-API."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Amazon Selling Partner provides public SDK API surface.",
+          "source_url": "https://developer-docs.amazon/sp-api/",
+          "source_title": "Selling Partner API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Welcome to SP-API Documentation What is the Selling Partner API? Selling Partner API Onboarding Overview SP-API Deprecation Schedule SP-API Product Metadata Updates SP-API Seller Use Cases SP-API Vendor Use Cases SP-API Registration Overview Developer Registration Request Status Third-Party Provider",
+          "checked_at": "2026-09-17T14:27:40.905109Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Selling Partner API."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Amazon Selling Partner exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Amazon Selling Partner.",
+  "buildability": "Unknown",
+  "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+  "evidence": [
+    {
+      "claim": "Amazon Selling Partner supports authentication via OAuth2.",
+      "source_url": "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+      "source_title": "Connect to the SP-API",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "These instructions show you the steps to connect to the Selling Partner API (SP-API). For links to additional examples, refer to SP-API SDKs . Before your application can connect to SP-API, you must: Register the application. For details, refer to Registering your application . Get the application a",
+      "checked_at": "2026-09-17T14:27:40.905109Z"
+    },
+    {
+      "claim": "Amazon Selling Partner provides public SDK API surface.",
+      "source_url": "https://developer-docs.amazon/sp-api/",
+      "source_title": "Selling Partner API",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Welcome to SP-API Documentation What is the Selling Partner API? Selling Partner API Onboarding Overview SP-API Deprecation Schedule SP-API Product Metadata Updates SP-API Seller Use Cases SP-API Vendor Use Cases SP-API Registration Overview Developer Registration Request Status Third-Party Provider",
+      "checked_at": "2026-09-17T14:27:40.905109Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.88,
+  "researched_at": "2026-09-17T14:27:40.905109Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T14:27:41.793501Z"
+}

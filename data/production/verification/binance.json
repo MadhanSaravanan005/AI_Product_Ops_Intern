@@ -1,0 +1,208 @@
+{
+  "app_id": 83,
+  "app": "Binance",
+  "category": "Finance and Fintech",
+  "verified_at": "2026-09-17T14:57:44.894523Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 1,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 5,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 83,
+      "app": "Binance",
+      "field": "website",
+      "original_value": "https://binance.com/",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.6,
+      "evidence": [],
+      "verification_notes": "Website could not be reached with HTTP 200: https://binance.com/.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 83,
+      "app": "Binance",
+      "field": "authentication",
+      "original_value": [
+        "Unknown"
+      ],
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "None of the claimed authentication methods could be verified with supporting documentation.",
+      "auth_details": [
+        {
+          "method": "Unknown",
+          "original_present": true,
+          "verification_status": "Insufficient Evidence",
+          "evidence": null,
+          "notes": "Authentication method was recorded as Unknown on first pass."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 83,
+      "app": "Binance",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 83,
+      "app": "Binance",
+      "field": "api_surface",
+      "original_value": [
+        "Unknown"
+      ],
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "None of the claimed API types could be verified in documentation.",
+      "auth_details": null,
+      "api_type_details": {
+        "Unknown": "Insufficient Evidence"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 83,
+      "app": "Binance",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Deliberate search across docs and repositories confirmed no MCP server currently available.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 83,
+      "app": "Binance",
+      "field": "buildability",
+      "original_value": "Blocked",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Missing or unverified API evidence prevents confirming 'Buildable Now'.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 83,
+    "app": "Binance",
+    "category": "Finance and Fintech",
+    "website": "https://binance.com/",
+    "one_line_description": "Leading platform in Finance and Fintech providing developer APIs and integrations.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Unknown"
+    ],
+    "api_type_details": [],
+    "api_breadth": "Unknown",
+    "api_scope_notes": "No programmatic API surface could be grounded.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Binance.",
+    "buildability": "Blocked",
+    "main_blocker": "Missing public programmatic API endpoints for Binance.",
+    "evidence": [],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.3,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.85,
+    "overall_confidence": 0.52,
+    "researched_at": "2026-09-17T14:57:42.394085Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Needs Verification",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 83,
+    "app": "Binance",
+    "category": "Finance and Fintech",
+    "website": "https://binance.com/",
+    "one_line_description": "Leading platform in Finance and Fintech providing developer APIs and integrations.",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "authentication_details": [
+      {
+        "method": "Unknown",
+        "status": "Unverified",
+        "evidence": [],
+        "confidence": 0.3,
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Unknown"
+    ],
+    "api_type_details": [],
+    "api_breadth": "Unknown",
+    "api_scope_notes": "No programmatic API surface could be grounded.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Binance.",
+    "buildability": "Blocked",
+    "main_blocker": "Missing public programmatic API endpoints for Binance.",
+    "evidence": [],
+    "auth_confidence": 0.3,
+    "access_confidence": 0.3,
+    "api_confidence": 0.3,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.85,
+    "overall_confidence": 0.58,
+    "researched_at": "2026-09-17T14:57:42.394085Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Needs Verification",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 1/6 claims verified. 0 corrections applied.",
+    "verified_at": "2026-09-17T14:57:44.894523Z"
+  },
+  "summary_notes": "Independent hardened audit for Binance. 1/6 verified. 0 fields corrected."
+}

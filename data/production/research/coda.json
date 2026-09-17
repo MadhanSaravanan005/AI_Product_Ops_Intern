@@ -1,0 +1,104 @@
+{
+  "id": 78,
+  "app": "Coda",
+  "category": "Productivity and Project Management",
+  "website": "https://coda.io/",
+  "one_line_description": "Coda: Authenticating using OAuth.",
+  "auth_methods": [
+    "API Key",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Coda supports authentication via OAuth2.",
+          "source_url": "https://coda.io/packs/build/latest/guides/basics/authentication/oauth2/",
+          "source_title": "Authenticating using OAuth - Superhuman Packs SDK",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "OAuth 2.0 is a modern, more secure alternative to passing usernames and passwords that has been adopted by many APIs. The details of this protocol can get complicated, but when building a Pack you only need to specify some configuration options and the platform handles the token exchange, storage, r",
+          "checked_at": "2026-09-17T14:53:04.466557Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authenticating using OAuth - Superhuman Packs SDK."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Coda supports authentication via API Key.",
+          "source_url": "https://coda.io/packs/build/latest/guides/basics/authentication/oauth2/",
+          "source_title": "Authenticating using OAuth - Superhuman Packs SDK",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "OAuth 2.0 is a modern, more secure alternative to passing usernames and passwords that has been adopted by many APIs. The details of this protocol can get complicated, but when building a Pack you only need to specify some configuration options and the platform handles the token exchange, storage, r",
+          "checked_at": "2026-09-17T14:53:04.466557Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authenticating using OAuth - Superhuman Packs SDK."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve.",
+  "api_types": [
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Coda provides public SDK API surface.",
+          "source_url": "https://coda.io/packs/build/latest/guides/basics/authentication/oauth2/",
+          "source_title": "Authenticating using OAuth - Superhuman Packs SDK",
+          "source_type": "Official API Reference",
+          "evidence_summary": "OAuth 2.0 is a modern, more secure alternative to passing usernames and passwords that has been adopted by many APIs. The details of this protocol can get complicated, but when building a Pack you only need to specify some configuration options and the platform handles the token exchange, storage, r",
+          "checked_at": "2026-09-17T14:53:04.467586Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authenticating using OAuth - Superhuman Packs SDK."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Coda exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/coda/packs-sdk/blob/main/docs/guides/basics/authentication/oauth2.md).",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "Coda supports authentication via OAuth2.",
+      "source_url": "https://coda.io/packs/build/latest/guides/basics/authentication/oauth2/",
+      "source_title": "Authenticating using OAuth - Superhuman Packs SDK",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "OAuth 2.0 is a modern, more secure alternative to passing usernames and passwords that has been adopted by many APIs. The details of this protocol can get complicated, but when building a Pack you only need to specify some configuration options and the platform handles the token exchange, storage, r",
+      "checked_at": "2026-09-17T14:53:04.466557Z"
+    },
+    {
+      "claim": "Community MCP server implementation available for Coda.",
+      "source_url": "https://github.com/coda/packs-sdk/blob/main/docs/guides/basics/authentication/oauth2.md",
+      "source_title": "packs-sdk/docs/guides/basics/authentication/oauth2.md at main · coda/packs-sdk · GitHub",
+      "source_type": "GitHub",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings OAuth 2.0 is a modern, more secure alternative to passing usernames and passwords that has been adopted by many ",
+      "checked_at": "2026-09-17T14:53:04.467586Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.9,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.91,
+  "researched_at": "2026-09-17T14:53:04.467586Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

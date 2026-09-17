@@ -1,0 +1,144 @@
+{
+  "id": 20,
+  "app": "Gladly",
+  "category": "Support and Helpdesk",
+  "website": "https://gladly.com/",
+  "one_line_description": "Gladly is a software platform in the Support and Helpdesk category.",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "authentication_details": [
+    {
+      "method": "Unknown",
+      "status": "Unverified",
+      "evidence": [],
+      "confidence": 0.3,
+      "notes": "No authentication methods for Gladly could be grounded with direct documentation evidence."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Gladly's developer portal or app management console.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gladly provides public REST API surface.",
+          "source_url": "https://developer.gladly.com/rest/",
+          "source_title": "Gladly API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Introducing the Gladly API Overview REST API Lookup API Testing Getting Started Permissions Creating API Tokens Replacing/Rotating API Tokens Replacing/Rotating API Tokens REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Searc",
+          "checked_at": "2026-09-17T13:52:03.620498Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Gladly API: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gladly provides public Webhooks API surface.",
+          "source_url": "https://developer.gladly.com/rest/",
+          "source_title": "Gladly API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Introducing the Gladly API Overview REST API Lookup API Testing Getting Started Permissions Creating API Tokens Replacing/Rotating API Tokens Replacing/Rotating API Tokens REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Searc",
+          "checked_at": "2026-09-17T13:52:03.620498Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Gladly API: Webhook event delivery and subscription endpoints."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Gladly provides public SDK API surface.",
+          "source_url": "https://developer.gladly.com/",
+          "source_title": "Main Home - Gladly Developer",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Build integrations with external systems to take action and\n                    retrieve data. Integrate seamlessly with Gladly by enabling a connector,\n                    calling Gladly's REST APIs, or implementing the Lookup\n                    API to provide data from your own services. Embed Ch",
+          "checked_at": "2026-09-17T13:52:03.620498Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Main Home - Gladly Developer: Official client SDKs and libraries."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Gladly exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Community/third-party MCP server available on GitHub: https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode",
+  "buildability": "Buildable Now",
+  "main_blocker": "Buildable Now. Standard rate limits and OAuth scoping permissions are developer restrictions, not hard blockers.",
+  "evidence": [
+    {
+      "claim": "Gladly offers self-serve credential creation for developers.",
+      "source_url": "https://developer.gladly.com/rest/",
+      "source_title": "Gladly API",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Introducing the Gladly API Overview REST API Lookup API Testing Getting Started Permissions Creating API Tokens Replacing/Rotating API Tokens Replacing/Rotating API Tokens REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Searc",
+      "checked_at": "2026-09-17T13:51:55.408129Z"
+    },
+    {
+      "claim": "Gladly provides public REST API surface.",
+      "source_url": "https://developer.gladly.com/rest/",
+      "source_title": "Gladly API",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Introducing the Gladly API Overview REST API Lookup API Testing Getting Started Permissions Creating API Tokens Replacing/Rotating API Tokens Replacing/Rotating API Tokens REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Searc",
+      "checked_at": "2026-09-17T13:52:03.620498Z"
+    },
+    {
+      "claim": "Gladly provides public Webhooks API surface.",
+      "source_url": "https://developer.gladly.com/rest/",
+      "source_title": "Gladly API",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Introducing the Gladly API Overview REST API Lookup API Testing Getting Started Permissions Creating API Tokens Replacing/Rotating API Tokens Replacing/Rotating API Tokens REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Searc",
+      "checked_at": "2026-09-17T13:52:03.620498Z"
+    },
+    {
+      "claim": "Gladly provides public SDK API surface.",
+      "source_url": "https://developer.gladly.com/",
+      "source_title": "Main Home - Gladly Developer",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Build integrations with external systems to take action and\n                    retrieve data. Integrate seamlessly with Gladly by enabling a connector,\n                    calling Gladly's REST APIs, or implementing the Lookup\n                    API to provide data from your own services. Embed Ch",
+      "checked_at": "2026-09-17T13:52:03.620498Z"
+    },
+    {
+      "claim": "Third-party Model Context Protocol (MCP) server exists on GitHub for Gladly.",
+      "source_url": "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode",
+      "source_title": "Setting up the GitHub MCP Server",
+      "source_type": "GitHub",
+      "evidence_summary": "Learn how to configure the GitHub Model Context Protocol (MCP) server. The GitHub MCP server is available to all GitHub users regardless of plan type. However, specific tools within the MCP server inherit the same access requirements as their corresponding GitHub features.",
+      "checked_at": "2026-09-17T13:52:10.060069Z"
+    },
+    {
+      "claim": "Third-party community MCP server exists for Gladly.",
+      "source_url": "https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode",
+      "source_title": "Setting up the GitHub MCP Server - GitHub Docs",
+      "source_type": "GitHub",
+      "evidence_summary": "Learn how to configure the GitHub Model Context Protocol (MCP) server. The GitHub MCP server is available to all GitHub users regardless of plan type. However, specific tools within the MCP server inherit the same access requirements as their corresponding GitHub features. If a feature requires a pa",
+      "checked_at": "2026-09-17T13:52:12.668621Z"
+    }
+  ],
+  "auth_confidence": 0.3,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.9,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.82,
+  "researched_at": "2026-09-17T13:52:10.060069Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 4/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T13:52:12.668621Z"
+}

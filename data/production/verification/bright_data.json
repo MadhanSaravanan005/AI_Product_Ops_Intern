@@ -1,0 +1,480 @@
+{
+  "app_id": 57,
+  "app": "Bright Data",
+  "category": "Data, SEO and Scraping",
+  "verified_at": "2026-09-17T14:31:04.272700Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 1,
+  "field_results": {
+    "website": {
+      "app_id": 57,
+      "app": "Bright Data",
+      "field": "website",
+      "original_value": "https://docs.brightdata.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Bright Data': Bright Data documentation - Bright Data Docs",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 57,
+      "app": "Bright Data",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Bright Data supports authentication via API Key.",
+          "source_url": "https://docs.brightdata.com/introduction",
+          "source_title": "Bright Data documentation - Bright Data Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Scrape any site, buy ready-made datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free",
+          "checked_at": "2026-09-17T14:31:04.272700Z"
+        },
+        {
+          "claim": "Bright Data supports authentication via Bearer Token.",
+          "source_url": "https://docs.brightdata.com/api-reference/rest-api/serp/serp-api",
+          "source_title": "SERP API - Bright Data Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Use your Bright Data API Key as a Bearer token in the Authorization header. Obtain your API Key from the Bright Data account settings at https://brightdata.com/cp/setting/user",
+          "checked_at": "2026-09-17T14:31:04.272700Z"
+        }
+      ],
+      "verification_notes": "All 2 claimed auth methods verified with primary evidence: API Key, Bearer Token.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Bright Data supports authentication via API Key.",
+            "source_url": "https://docs.brightdata.com/introduction",
+            "source_title": "Bright Data documentation - Bright Data Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Scrape any site, buy ready-made datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free",
+            "checked_at": "2026-09-17T14:31:04.272700Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Bright Data supports authentication via Bearer Token.",
+            "source_url": "https://docs.brightdata.com/api-reference/rest-api/serp/serp-api",
+            "source_title": "SERP API - Bright Data Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Use your Bright Data API Key as a Bearer token in the Authorization header. Obtain your API Key from the Bright Data account settings at https://brightdata.com/cp/setting/user",
+            "checked_at": "2026-09-17T14:31:04.272700Z"
+          },
+          "notes": "Content verified: direct evidence found for (bearer token)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 57,
+      "app": "Bright Data",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 57,
+      "app": "Bright Data",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Bright Data provides public REST API surface.",
+          "source_url": "https://apitracker.io/a/bright-data",
+          "source_title": "Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Award winning proxy networks, powerful web scrapers, and ready-to-use datasets for download. Welcome to the world's #1 web data platform. https://docs.brightdata.com/introduction https://docs.brightdata.com/api-reference/authentication Webhooks management API Postman / Insomnia collections OpenAPI/S",
+          "checked_at": "2026-09-17T14:31:04.272700Z"
+        },
+        {
+          "claim": "Bright Data provides public SDK API surface.",
+          "source_url": "https://docs.brightdata.com/introduction",
+          "source_title": "Bright Data documentation - Bright Data Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Scrape any site, buy ready-made datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free",
+          "checked_at": "2026-09-17T14:31:04.272700Z"
+        },
+        {
+          "claim": "Bright Data provides public Webhooks API surface.",
+          "source_url": "https://apitracker.io/a/bright-data",
+          "source_title": "Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Award winning proxy networks, powerful web scrapers, and ready-to-use datasets for download. Welcome to the world's #1 web data platform. https://docs.brightdata.com/introduction https://docs.brightdata.com/api-reference/authentication Webhooks management API Postman / Insomnia collections OpenAPI/S",
+          "checked_at": "2026-09-17T14:31:04.272700Z"
+        }
+      ],
+      "verification_notes": "All 3 claimed API types verified with primary evidence: REST, SDK, Webhooks.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Verified",
+        "SDK": "Verified",
+        "Webhooks": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 57,
+      "app": "Bright Data",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Deliberate search across docs and repositories confirmed no MCP server currently available.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 57,
+      "app": "Bright Data",
+      "field": "buildability",
+      "original_value": "Buildable With Restrictions",
+      "verification_status": "Verified",
+      "corrected_value": "Unknown",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Inconclusive credential gating model prevents establishing buildability.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 57,
+    "app": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "website": "https://docs.brightdata.com/",
+    "one_line_description": "Bright Data: Bright Data documentation.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Bright Data supports authentication via API Key.",
+            "source_url": "https://docs.brightdata.com/introduction",
+            "source_title": "Bright Data documentation - Bright Data Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Scrape any site, buy ready-made datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free",
+            "checked_at": "2026-09-17T14:31:03.578370Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Bright Data documentation - Bright Data Docs."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Bright Data supports authentication via Bearer Token.",
+            "source_url": "https://docs.brightdata.com/api-reference/rest-api/serp/serp-api",
+            "source_title": "SERP API - Bright Data Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Use your Bright Data API Key as a Bearer token in the Authorization header. Obtain your API Key from the Bright Data account settings at https://brightdata.com/cp/setting/user",
+            "checked_at": "2026-09-17T14:31:03.578370Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via SERP API - Bright Data Docs."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Bright Data provides public REST API surface.",
+            "source_url": "https://apitracker.io/a/bright-data",
+            "source_title": "Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Award winning proxy networks, powerful web scrapers, and ready-to-use datasets for download. Welcome to the world's #1 web data platform. https://docs.brightdata.com/introduction https://docs.brightdata.com/api-reference/authentication Webhooks management API Postman / Insomnia collections OpenAPI/S",
+            "checked_at": "2026-09-17T14:31:03.578370Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Bright Data provides public Webhooks API surface.",
+            "source_url": "https://apitracker.io/a/bright-data",
+            "source_title": "Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Award winning proxy networks, powerful web scrapers, and ready-to-use datasets for download. Welcome to the world's #1 web data platform. https://docs.brightdata.com/introduction https://docs.brightdata.com/api-reference/authentication Webhooks management API Postman / Insomnia collections OpenAPI/S",
+            "checked_at": "2026-09-17T14:31:03.578370Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Bright Data provides public SDK API surface.",
+            "source_url": "https://docs.brightdata.com/introduction",
+            "source_title": "Bright Data documentation - Bright Data Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Scrape any site, buy ready-made datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free",
+            "checked_at": "2026-09-17T14:31:03.578370Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Bright Data documentation - Bright Data Docs."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Bright Data exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Bright Data.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "Developer account required to obtain access credentials.",
+    "evidence": [
+      {
+        "claim": "Bright Data supports authentication via API Key.",
+        "source_url": "https://docs.brightdata.com/introduction",
+        "source_title": "Bright Data documentation - Bright Data Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Scrape any site, buy ready-made datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free",
+        "checked_at": "2026-09-17T14:31:03.578370Z"
+      },
+      {
+        "claim": "Bright Data supports authentication via Bearer Token.",
+        "source_url": "https://docs.brightdata.com/api-reference/rest-api/serp/serp-api",
+        "source_title": "SERP API - Bright Data Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Use your Bright Data API Key as a Bearer token in the Authorization header. Obtain your API Key from the Bright Data account settings at https://brightdata.com/cp/setting/user",
+        "checked_at": "2026-09-17T14:31:03.578370Z"
+      },
+      {
+        "claim": "Bright Data provides public REST API surface.",
+        "source_url": "https://apitracker.io/a/bright-data",
+        "source_title": "Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Award winning proxy networks, powerful web scrapers, and ready-to-use datasets for download. Welcome to the world's #1 web data platform. https://docs.brightdata.com/introduction https://docs.brightdata.com/api-reference/authentication Webhooks management API Postman / Insomnia collections OpenAPI/S",
+        "checked_at": "2026-09-17T14:31:03.578370Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.8,
+    "overall_confidence": 0.76,
+    "researched_at": "2026-09-17T14:31:03.578370Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 57,
+    "app": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "website": "https://docs.brightdata.com/",
+    "one_line_description": "Bright Data: Bright Data documentation.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Bright Data supports authentication via API Key.",
+            "source_url": "https://docs.brightdata.com/introduction",
+            "source_title": "Bright Data documentation - Bright Data Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Scrape any site, buy ready-made datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free",
+            "checked_at": "2026-09-17T14:31:03.578370Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Bright Data documentation - Bright Data Docs."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Bright Data supports authentication via Bearer Token.",
+            "source_url": "https://docs.brightdata.com/api-reference/rest-api/serp/serp-api",
+            "source_title": "SERP API - Bright Data Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Use your Bright Data API Key as a Bearer token in the Authorization header. Obtain your API Key from the Bright Data account settings at https://brightdata.com/cp/setting/user",
+            "checked_at": "2026-09-17T14:31:03.578370Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via SERP API - Bright Data Docs."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Bright Data provides public REST API surface.",
+            "source_url": "https://apitracker.io/a/bright-data",
+            "source_title": "Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Award winning proxy networks, powerful web scrapers, and ready-to-use datasets for download. Welcome to the world's #1 web data platform. https://docs.brightdata.com/introduction https://docs.brightdata.com/api-reference/authentication Webhooks management API Postman / Insomnia collections OpenAPI/S",
+            "checked_at": "2026-09-17T14:31:03.578370Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Bright Data provides public Webhooks API surface.",
+            "source_url": "https://apitracker.io/a/bright-data",
+            "source_title": "Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Award winning proxy networks, powerful web scrapers, and ready-to-use datasets for download. Welcome to the world's #1 web data platform. https://docs.brightdata.com/introduction https://docs.brightdata.com/api-reference/authentication Webhooks management API Postman / Insomnia collections OpenAPI/S",
+            "checked_at": "2026-09-17T14:31:03.578370Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Bright Data provides public SDK API surface.",
+            "source_url": "https://docs.brightdata.com/introduction",
+            "source_title": "Bright Data documentation - Bright Data Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Scrape any site, buy ready-made datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free",
+            "checked_at": "2026-09-17T14:31:03.578370Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Bright Data documentation - Bright Data Docs."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Bright Data exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Bright Data.",
+    "buildability": "Unknown",
+    "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+    "evidence": [
+      {
+        "claim": "Bright Data supports authentication via API Key.",
+        "source_url": "https://docs.brightdata.com/introduction",
+        "source_title": "Bright Data documentation - Bright Data Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Scrape any site, buy ready-made datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bright Data 5,000 free",
+        "checked_at": "2026-09-17T14:31:03.578370Z"
+      },
+      {
+        "claim": "Bright Data supports authentication via Bearer Token.",
+        "source_url": "https://docs.brightdata.com/api-reference/rest-api/serp/serp-api",
+        "source_title": "SERP API - Bright Data Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Use your Bright Data API Key as a Bearer token in the Authorization header. Obtain your API Key from the Bright Data account settings at https://brightdata.com/cp/setting/user",
+        "checked_at": "2026-09-17T14:31:03.578370Z"
+      },
+      {
+        "claim": "Bright Data provides public REST API surface.",
+        "source_url": "https://apitracker.io/a/bright-data",
+        "source_title": "Bright Data API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Award winning proxy networks, powerful web scrapers, and ready-to-use datasets for download. Welcome to the world's #1 web data platform. https://docs.brightdata.com/introduction https://docs.brightdata.com/api-reference/authentication Webhooks management API Postman / Insomnia collections OpenAPI/S",
+        "checked_at": "2026-09-17T14:31:03.578370Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.88,
+    "researched_at": "2026-09-17T14:31:03.578370Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 1 corrections applied.",
+    "verified_at": "2026-09-17T14:31:04.272700Z"
+  },
+  "summary_notes": "Independent hardened audit for Bright Data. 5/6 verified. 1 fields corrected."
+}

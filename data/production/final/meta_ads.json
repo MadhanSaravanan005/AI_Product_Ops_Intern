@@ -1,0 +1,62 @@
+{
+  "id": 32,
+  "app": "Meta Ads",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://metaads.com/",
+  "one_line_description": "Meta Ads: Marketing API.",
+  "auth_methods": [
+    "API Key"
+  ],
+  "authentication_details": [
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Meta Ads supports authentication via API Key.",
+          "source_url": "https://www.adamigo.ai/blog/meta-ads-api-key-creation-workflow-explained",
+          "source_title": "Meta Ads API Key & Access Token Creation Workflow",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Meta doesn't issue permanent \"API keys\" â it issues access tokens that authenticate your app to the Marketing API. This guide walks through the complete workflow: setting up your Meta developer app, configuring permissions (including the May 2026 Marketing API Access Tier update), passing App Revi",
+          "checked_at": "2026-09-17T14:01:53.851885Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Meta Ads API Key & Access Token Creation Workflow."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "Unknown"
+  ],
+  "api_type_details": [],
+  "api_breadth": "Unknown",
+  "api_scope_notes": "No programmatic API surface could be grounded.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Meta Ads.",
+  "buildability": "Blocked",
+  "main_blocker": "Missing public programmatic API endpoints for Meta Ads.",
+  "evidence": [
+    {
+      "claim": "Meta Ads supports authentication via API Key.",
+      "source_url": "https://www.adamigo.ai/blog/meta-ads-api-key-creation-workflow-explained",
+      "source_title": "Meta Ads API Key & Access Token Creation Workflow",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Meta doesn't issue permanent \"API keys\" â it issues access tokens that authenticate your app to the Marketing API. This guide walks through the complete workflow: setting up your Meta developer app, configuring permissions (including the May 2026 Marketing API Access Tier update), passing App Revi",
+      "checked_at": "2026-09-17T14:01:53.851885Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.3,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.85,
+  "overall_confidence": 0.65,
+  "researched_at": "2026-09-17T14:01:53.853200Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Needs Verification",
+  "verification_status": "Verified",
+  "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+  "verified_at": "2026-09-17T14:01:53.856501Z"
+}

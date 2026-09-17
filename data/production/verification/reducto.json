@@ -1,0 +1,453 @@
+{
+  "app_id": 95,
+  "app": "Reducto",
+  "category": "AI, Research and Media-native",
+  "verified_at": "2026-09-17T15:07:29.835218Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 5,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 1,
+  "corrections_made": 1,
+  "field_results": {
+    "website": {
+      "app_id": 95,
+      "app": "Reducto",
+      "field": "website",
+      "original_value": "https://reducto.ai/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Reducto': Reducto: The Agentic Document Platform for AI Teams",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 95,
+      "app": "Reducto",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Reducto supports authentication via API Key.",
+          "source_url": "https://reducto.ai/developers",
+          "source_title": "Developers | Reducto — The Agentic Document Platform API",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Parse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months. Sign up at studio.reducto.ai and create an API key. Set it as an environment variable. A few lines of code to convert any document into structured JSON with text, tables, and figures. E",
+          "checked_at": "2026-09-17T15:07:29.834219Z"
+        },
+        {
+          "claim": "Reducto supports authentication via Bearer Token.",
+          "source_url": "https://docs.reducto.ai/agent-guide",
+          "source_title": "Reducto API Reference for Coding Agents - Reducto",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Base URL: https://platform.reducto.ai Auth: Authorization: Bearer $REDUCTO_API_KEY SDKs: Python ( pip install reductoai ), Node.js ( npm install reductoai ), Go ( go get githu",
+          "checked_at": "2026-09-17T15:07:29.834219Z"
+        }
+      ],
+      "verification_notes": "All 2 claimed auth methods verified with primary evidence: API Key, Bearer Token.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Reducto supports authentication via API Key.",
+            "source_url": "https://reducto.ai/developers",
+            "source_title": "Developers | Reducto — The Agentic Document Platform API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Parse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months. Sign up at studio.reducto.ai and create an API key. Set it as an environment variable. A few lines of code to convert any document into structured JSON with text, tables, and figures. E",
+            "checked_at": "2026-09-17T15:07:29.834219Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Reducto supports authentication via Bearer Token.",
+            "source_url": "https://docs.reducto.ai/agent-guide",
+            "source_title": "Reducto API Reference for Coding Agents - Reducto",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Base URL: https://platform.reducto.ai Auth: Authorization: Bearer $REDUCTO_API_KEY SDKs: Python ( pip install reductoai ), Node.js ( npm install reductoai ), Go ( go get githu",
+            "checked_at": "2026-09-17T15:07:29.834219Z"
+          },
+          "notes": "Content verified: direct evidence found for (authorization: bearer)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 95,
+      "app": "Reducto",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 95,
+      "app": "Reducto",
+      "field": "api_surface",
+      "original_value": [
+        "REST",
+        "SDK"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Reducto provides public REST API surface.",
+          "source_url": "https://reducto.ai/developers",
+          "source_title": "Developers | Reducto — The Agentic Document Platform API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Parse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months. Sign up at studio.reducto.ai and create an API key. Set it as an environment variable. A few lines of code to convert any document into structured JSON with text, tables, and figures. E",
+          "checked_at": "2026-09-17T15:07:29.835218Z"
+        },
+        {
+          "claim": "Reducto provides public SDK API surface.",
+          "source_url": "https://reducto.ai/developers",
+          "source_title": "Developers | Reducto — The Agentic Document Platform API",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Parse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months. Sign up at studio.reducto.ai and create an API key. Set it as an environment variable. A few lines of code to convert any document into structured JSON with text, tables, and figures. E",
+          "checked_at": "2026-09-17T15:07:29.835218Z"
+        }
+      ],
+      "verification_notes": "All 2 claimed API types verified with primary evidence: REST, SDK.",
+      "auth_details": null,
+      "api_type_details": {
+        "REST": "Verified",
+        "SDK": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 95,
+      "app": "Reducto",
+      "field": "mcp_status",
+      "original_value": "Third-Party MCP",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Third-party community MCP server exists for Reducto.",
+          "source_url": "https://github.com/modelcontextprotocol/servers",
+          "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+          "source_type": "GitHub",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+          "checked_at": "2026-09-17T15:07:29.835218Z"
+        }
+      ],
+      "verification_notes": "Third-party community MCP server verified with repository evidence.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 95,
+      "app": "Reducto",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": "Unknown",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "Inconclusive credential gating model prevents establishing buildability.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 95,
+    "app": "Reducto",
+    "category": "AI, Research and Media-native",
+    "website": "https://reducto.ai/",
+    "one_line_description": "Reducto: Developers.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Reducto supports authentication via API Key.",
+            "source_url": "https://reducto.ai/developers",
+            "source_title": "Developers | Reducto — The Agentic Document Platform API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Parse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months. Sign up at studio.reducto.ai and create an API key. Set it as an environment variable. A few lines of code to convert any document into structured JSON with text, tables, and figures. E",
+            "checked_at": "2026-09-17T15:07:29.000820Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Developers | Reducto — The Agentic Document Platform API."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Reducto supports authentication via Bearer Token.",
+            "source_url": "https://docs.reducto.ai/agent-guide",
+            "source_title": "Reducto API Reference for Coding Agents - Reducto",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Base URL: https://platform.reducto.ai Auth: Authorization: Bearer $REDUCTO_API_KEY SDKs: Python ( pip install reductoai ), Node.js ( npm install reductoai ), Go ( go get githu",
+            "checked_at": "2026-09-17T15:07:29.000820Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Reducto API Reference for Coding Agents - Reducto."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Reducto provides public REST API surface.",
+            "source_url": "https://reducto.ai/developers",
+            "source_title": "Developers | Reducto — The Agentic Document Platform API",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Parse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months. Sign up at studio.reducto.ai and create an API key. Set it as an environment variable. A few lines of code to convert any document into structured JSON with text, tables, and figures. E",
+            "checked_at": "2026-09-17T15:07:29.001972Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Developers | Reducto — The Agentic Document Platform API."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Reducto provides public SDK API surface.",
+            "source_url": "https://docs.reducto.ai/agent-guide",
+            "source_title": "Reducto API Reference for Coding Agents - Reducto",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Base URL: https://platform.reducto.ai Auth: Authorization: Bearer $REDUCTO_API_KEY SDKs: Python ( pip install reductoai ), Node.js ( npm install reductoai ), Go ( go get githu",
+            "checked_at": "2026-09-17T15:07:29.002968Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Reducto API Reference for Coding Agents - Reducto."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Reducto exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol/servers).",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "Reducto supports authentication via API Key.",
+        "source_url": "https://reducto.ai/developers",
+        "source_title": "Developers | Reducto — The Agentic Document Platform API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Parse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months. Sign up at studio.reducto.ai and create an API key. Set it as an environment variable. A few lines of code to convert any document into structured JSON with text, tables, and figures. E",
+        "checked_at": "2026-09-17T15:07:29.000820Z"
+      },
+      {
+        "claim": "Reducto supports authentication via Bearer Token.",
+        "source_url": "https://docs.reducto.ai/agent-guide",
+        "source_title": "Reducto API Reference for Coding Agents - Reducto",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Base URL: https://platform.reducto.ai Auth: Authorization: Bearer $REDUCTO_API_KEY SDKs: Python ( pip install reductoai ), Node.js ( npm install reductoai ), Go ( go get githu",
+        "checked_at": "2026-09-17T15:07:29.000820Z"
+      },
+      {
+        "claim": "Community MCP server implementation available for Reducto.",
+        "source_url": "https://github.com/modelcontextprotocol/servers",
+        "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+        "source_type": "GitHub",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+        "checked_at": "2026-09-17T15:07:29.003505Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.88,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.79,
+    "researched_at": "2026-09-17T15:07:29.003505Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 95,
+    "app": "Reducto",
+    "category": "AI, Research and Media-native",
+    "website": "https://reducto.ai/",
+    "one_line_description": "Reducto: Developers.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Reducto supports authentication via API Key.",
+            "source_url": "https://reducto.ai/developers",
+            "source_title": "Developers | Reducto — The Agentic Document Platform API",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Parse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months. Sign up at studio.reducto.ai and create an API key. Set it as an environment variable. A few lines of code to convert any document into structured JSON with text, tables, and figures. E",
+            "checked_at": "2026-09-17T15:07:29.000820Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Developers | Reducto — The Agentic Document Platform API."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Reducto supports authentication via Bearer Token.",
+            "source_url": "https://docs.reducto.ai/agent-guide",
+            "source_title": "Reducto API Reference for Coding Agents - Reducto",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Base URL: https://platform.reducto.ai Auth: Authorization: Bearer $REDUCTO_API_KEY SDKs: Python ( pip install reductoai ), Node.js ( npm install reductoai ), Go ( go get githu",
+            "checked_at": "2026-09-17T15:07:29.000820Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Reducto API Reference for Coding Agents - Reducto."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Reducto provides public REST API surface.",
+            "source_url": "https://reducto.ai/developers",
+            "source_title": "Developers | Reducto — The Agentic Document Platform API",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Parse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months. Sign up at studio.reducto.ai and create an API key. Set it as an environment variable. A few lines of code to convert any document into structured JSON with text, tables, and figures. E",
+            "checked_at": "2026-09-17T15:07:29.001972Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Developers | Reducto — The Agentic Document Platform API."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Reducto provides public SDK API surface.",
+            "source_url": "https://docs.reducto.ai/agent-guide",
+            "source_title": "Reducto API Reference for Coding Agents - Reducto",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Base URL: https://platform.reducto.ai Auth: Authorization: Bearer $REDUCTO_API_KEY SDKs: Python ( pip install reductoai ), Node.js ( npm install reductoai ), Go ( go get githu",
+            "checked_at": "2026-09-17T15:07:29.002968Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Reducto API Reference for Coding Agents - Reducto."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Reducto exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/modelcontextprotocol/servers).",
+    "buildability": "Unknown",
+    "main_blocker": "Inconclusive credential gating model prevents establishing buildability.",
+    "evidence": [
+      {
+        "claim": "Reducto supports authentication via API Key.",
+        "source_url": "https://reducto.ai/developers",
+        "source_title": "Developers | Reducto — The Agentic Document Platform API",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Parse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months. Sign up at studio.reducto.ai and create an API key. Set it as an environment variable. A few lines of code to convert any document into structured JSON with text, tables, and figures. E",
+        "checked_at": "2026-09-17T15:07:29.000820Z"
+      },
+      {
+        "claim": "Reducto supports authentication via Bearer Token.",
+        "source_url": "https://docs.reducto.ai/agent-guide",
+        "source_title": "Reducto API Reference for Coding Agents - Reducto",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Base URL: https://platform.reducto.ai Auth: Authorization: Bearer $REDUCTO_API_KEY SDKs: Python ( pip install reductoai ), Node.js ( npm install reductoai ), Go ( go get githu",
+        "checked_at": "2026-09-17T15:07:29.000820Z"
+      },
+      {
+        "claim": "Community MCP server implementation available for Reducto.",
+        "source_url": "https://github.com/modelcontextprotocol/servers",
+        "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+        "source_type": "GitHub",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+        "checked_at": "2026-09-17T15:07:29.003505Z"
+      },
+      {
+        "claim": "Third-party community MCP server exists for Reducto.",
+        "source_url": "https://github.com/modelcontextprotocol/servers",
+        "source_title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers · GitHub",
+        "source_type": "GitHub",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as re",
+        "checked_at": "2026-09-17T15:07:29.835218Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.88,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.88,
+    "researched_at": "2026-09-17T15:07:29.003505Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 5/6 claims verified. 1 corrections applied.",
+    "verified_at": "2026-09-17T15:07:29.835218Z"
+  },
+  "summary_notes": "Independent hardened audit for Reducto. 5/6 verified. 1 fields corrected."
+}

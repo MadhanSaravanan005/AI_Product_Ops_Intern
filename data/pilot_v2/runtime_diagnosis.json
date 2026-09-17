@@ -1,0 +1,41 @@
+{
+  "v2_status": "operationally_too_slow",
+  "completed_apps": [
+    "Salesforce",
+    "Zendesk",
+    "Slack",
+    "Mailchimp",
+    "Shopify",
+    "Apify",
+    "GitHub",
+    "Notion",
+    "Stripe",
+    "NotebookLM"
+  ],
+  "incomplete_apps": [],
+  "available_partial_outputs": [
+    "data/pilot_v2/research/ (10 JSON records)",
+    "data/pilot_v2/research_raw/ (10 JSON dumps)",
+    "data/pilot_v2/verification/ (10 JSON records)",
+    "data/pilot_v2/pilot_research_report.json",
+    "data/pilot_v2/pilot_verification_report.json",
+    "data/pilot_v2/pilot_corrections.json",
+    "data/pilot_v2/comparison_report.json",
+    "data/pilot_v2/verification_metrics.json",
+    "data/pilot_v2/research_log.jsonl"
+  ],
+  "likely_runtime_bottleneck": "Public search engine rate limiting (HTTP 429 on Brave/Google/DuckDuckGo) and engine connection retries inside ddgs. Notion took 137.94s and NotebookLM took 143.35s due to sequential search backoffs across developer portal and MCP queries. While accuracy increased significantly (+25.0% first-pass accuracy), the 42.87s/app average runtime makes scaling sequentially to 100 applications operationally prohibitive (~70+ minutes total runtime).",
+  "searches_performed": 20,
+  "retries_performed": 12,
+  "execution_metrics": {
+    "total_apps": 10,
+    "total_elapsed_seconds": 428.68,
+    "average_seconds_per_app": 42.87,
+    "first_pass_accuracy_v1": 55.0,
+    "first_pass_accuracy_v2": 80.0,
+    "post_verification_accuracy_v1": 85.0,
+    "post_verification_accuracy_v2": 91.7,
+    "corrections_v1": 18,
+    "corrections_v2": 7
+  }
+}

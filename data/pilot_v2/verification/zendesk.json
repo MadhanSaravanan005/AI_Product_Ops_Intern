@@ -1,0 +1,776 @@
+{
+  "app_id": 11,
+  "app": "Zendesk",
+  "category": "Support and Helpdesk",
+  "verified_at": "2026-09-17T13:08:33.409988Z",
+  "verifier_version": "2.0.0",
+  "overall_verification_status": "Verified",
+  "claims_checked": 6,
+  "claims_verified": 6,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 0,
+  "corrections_made": 2,
+  "field_results": {
+    "website": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "website",
+      "original_value": "https://developer.zendesk.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Zendesk': Documentation Home | Zendesk Developer Docs",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Basic Auth",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Zendesk supports authentication via API Key.",
+          "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+          "source_title": "API authentication | Zendesk Developer Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+          "checked_at": "2026-09-17T13:08:12.846836Z"
+        },
+        {
+          "claim": "Zendesk supports authentication via Basic Auth.",
+          "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+          "source_title": "API authentication | Zendesk Developer Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+          "checked_at": "2026-09-17T13:08:12.848400Z"
+        },
+        {
+          "claim": "Zendesk supports authentication via Bearer Token.",
+          "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+          "source_title": "API authentication | Zendesk Developer Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+          "checked_at": "2026-09-17T13:08:12.848400Z"
+        },
+        {
+          "claim": "Zendesk supports authentication via OAuth2.",
+          "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+          "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+          "checked_at": "2026-09-17T13:08:12.849531Z"
+        }
+      ],
+      "verification_notes": "All 4 claimed auth methods verified with primary evidence: API Key, Basic Auth, Bearer Token, OAuth2.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Zendesk supports authentication via API Key.",
+            "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+            "source_title": "API authentication | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+            "checked_at": "2026-09-17T13:08:12.846836Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Basic Auth",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Zendesk supports authentication via Basic Auth.",
+            "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+            "source_title": "API authentication | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+            "checked_at": "2026-09-17T13:08:12.848400Z"
+          },
+          "notes": "Content verified: direct evidence found for (basic auth)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Zendesk supports authentication via Bearer Token.",
+            "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+            "source_title": "API authentication | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+            "checked_at": "2026-09-17T13:08:12.848400Z"
+          },
+          "notes": "Content verified: direct evidence found for (bearer token)."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Zendesk supports authentication via OAuth2.",
+            "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+            "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+            "checked_at": "2026-09-17T13:08:12.849531Z"
+          },
+          "notes": "Content verified: direct evidence found for (authorization code)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "access_model",
+      "original_value": "Trial Self-Serve",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Zendesk credential access model is Trial Self-Serve.",
+          "source_url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+          "source_title": "Getting a trial or sponsored account for development | Zendesk Developer Docs",
+          "source_type": "Official Documentation",
+          "evidence_summary": "You can try out the Zendesk platform with a free, 14-day trial account. If you're interested in becoming a Zendesk developer partner, you can convert your trial account into a sponsored Zendesk Support account. As part of becoming a Zendesk developer partner, Zendesk sponsors an instance for up to 5",
+          "checked_at": "2026-09-17T13:08:17.776652Z"
+        }
+      ],
+      "verification_notes": "Primary documentation at https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/ indicates developer access is available via free trial.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "api_surface",
+      "original_value": [
+        "GraphQL",
+        "REST",
+        "SDK",
+        "Webhooks"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.95,
+      "evidence": [
+        {
+          "claim": "Zendesk provides public GraphQL API surface.",
+          "source_url": "https://developer.zendesk.com/api-reference/sales-crm/search/graphql/",
+          "source_title": "GraphQL | Zendesk Developer Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Search API provides GraphQL query API, currently for companies only. It has no filtering or sorting capabilities, but it is a convenient way of exploring company hierarchies. GraphQL companies query takes a list of company IDs as an argument and set of projections to apply on companies with those ID",
+          "checked_at": "2026-09-17T13:08:21.008351Z"
+        },
+        {
+          "claim": "Zendesk provides public REST API surface.",
+          "source_url": "https://support.zendesk.com/hc/en-us/articles/4408839108378-Creating-webhooks-to-interact-with-third-party-systems",
+          "source_title": "Creating webhooks to interact with third-party systems – Zendesk help",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Web developers typically use webhooks to invoke behavior in another system. For example, you can use webhooks to: You can create webhooks to send HTTP requests to third-party systems based on ticket, user, or other Zendesk events. Webhooks support various request methods, formats, and authentication",
+          "checked_at": "2026-09-17T13:08:21.008351Z"
+        },
+        {
+          "claim": "Zendesk provides public SDK API surface.",
+          "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+          "source_title": "API authentication | Zendesk Developer Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+          "checked_at": "2026-09-17T13:08:21.008351Z"
+        },
+        {
+          "claim": "Zendesk provides public Webhooks API surface.",
+          "source_url": "https://support.zendesk.com/hc/en-us/articles/4408839108378-Creating-webhooks-to-interact-with-third-party-systems",
+          "source_title": "Creating webhooks to interact with third-party systems – Zendesk help",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Web developers typically use webhooks to invoke behavior in another system. For example, you can use webhooks to: You can create webhooks to send HTTP requests to third-party systems based on ticket, user, or other Zendesk events. Webhooks support various request methods, formats, and authentication",
+          "checked_at": "2026-09-17T13:08:21.008351Z"
+        }
+      ],
+      "verification_notes": "All 4 claimed API types verified with primary evidence: GraphQL, REST, SDK, Webhooks.",
+      "auth_details": null,
+      "api_type_details": {
+        "GraphQL": "Verified",
+        "REST": "Verified",
+        "SDK": "Verified",
+        "Webhooks": "Verified"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "mcp_status",
+      "original_value": "Official MCP",
+      "verification_status": "Verified",
+      "corrected_value": "Third-Party MCP",
+      "was_corrected": true,
+      "verifier_confidence": 0.92,
+      "evidence": [
+        {
+          "claim": "Third-party community MCP server exists for Zendesk.",
+          "source_url": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows",
+          "source_title": "Connecting to MCP servers and using MCP tools in action flows – Zendesk help",
+          "source_type": "GitHub",
+          "evidence_summary": "The Model Context Protocol (MCP) lets admins connect Zendesk to external MCP servers, discover the tools those servers provide, and use those tools as steps in action flows. This extends your Zendesk workflows to interact with third-party systems—such as project management tools, e-commerce platform",
+          "checked_at": "2026-09-17T13:08:25.620411Z"
+        }
+      ],
+      "verification_notes": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 11,
+      "app": "Zendesk",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Verified",
+      "corrected_value": "Buildable With Restrictions",
+      "was_corrected": true,
+      "verifier_confidence": 0.95,
+      "evidence": [],
+      "verification_notes": "RESTRICTION: Credentials available self-serve during limited trial window.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Restriction"
+    }
+  },
+  "original_record": {
+    "id": 11,
+    "app": "Zendesk",
+    "category": "Support and Helpdesk",
+    "website": "https://developer.zendesk.com/",
+    "one_line_description": "Documentation Home: Leading platform in Support and Helpdesk.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk supports authentication via OAuth2.",
+            "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+            "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+            "checked_at": "2026-09-17T12:38:57.295647Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Using OAuth to authenticate API requests | Zendesk Developer Docs: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk supports authentication via API Key.",
+            "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+            "source_title": "API authentication | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+            "checked_at": "2026-09-17T12:39:02.920953Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API authentication | Zendesk Developer Docs: API key provisioning and request header authentication."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk supports authentication via Bearer Token.",
+            "source_url": "https://developer.zendesk.com/documentation/authentication/creating-and-using-oauth-tokens-with-the-api/",
+            "source_title": "Creating and using OAuth access tokens with the API | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Developers typically use OAuth access tokens to authenticate Zendesk API requests on behalf of their users. Creating these tokens involves building an OAuth authorization flow that requires interaction from the user. You can also create OAuth access tokens on your own behalf without building an auth",
+            "checked_at": "2026-09-17T12:39:10.570809Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Creating and using OAuth access tokens with the API | Zendesk Developer Docs: Bearer token authentication format in HTTP request headers."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk supports authentication via Basic Auth.",
+            "source_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+            "source_title": "Security and authentication | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "You must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests. Note: If you're an existing Zendesk customer and are currently using basic authentication or API tokens, you will have to migrate to OAuth access tokens for improved security an",
+            "checked_at": "2026-09-17T12:39:24.170264Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Security and authentication | Zendesk Developer Docs: HTTP Basic Authentication via credentials."
+      }
+    ],
+    "access_model": "Trial Self-Serve",
+    "credential_access_notes": "Developers can create credentials during a trial account period for Zendesk.",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk provides public REST API surface.",
+            "source_url": "https://support.zendesk.com/hc/en-us/articles/4408839108378-Creating-webhooks-to-interact-with-third-party-systems",
+            "source_title": "Creating webhooks to interact with third-party systems – Zendesk help",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Web developers typically use webhooks to invoke behavior in another system. For example, you can use webhooks to: You can create webhooks to send HTTP requests to third-party systems based on ticket, user, or other Zendesk events. Webhooks support various request methods, formats, and authentication",
+            "checked_at": "2026-09-17T12:39:42.000777Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Creating webhooks to interact with third-party systems – Zendesk help: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "GraphQL",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk provides public GraphQL API surface.",
+            "source_url": "https://developer.zendesk.com/api-reference/sales-crm/search/graphql/",
+            "source_title": "GraphQL | Zendesk Developer Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Search API provides GraphQL query API, currently for companies only. It has no filtering or sorting capabilities, but it is a convenient way of exploring company hierarchies. GraphQL companies query takes a list of company IDs as an argument and set of projections to apply on companies with those ID",
+            "checked_at": "2026-09-17T12:39:50.191389Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via GraphQL | Zendesk Developer Docs: GraphQL queries, mutations, and schema endpoint."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk provides public Webhooks API surface.",
+            "source_url": "https://developer.zendesk.com/api-reference/webhooks/webhooks-api/webhooks/",
+            "source_title": "Webhooks API | Zendesk Developer Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "A webhook sends an HTTP request to a specified URL in response to an activity in\nZendesk Support. For example, you can configure a webhook to send requests when\na user is deleted or a new ticket is created. For webhook connection methods and more information, see Creating and monitoring\nwebhooks . W",
+            "checked_at": "2026-09-17T12:39:50.191389Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Webhooks API | Zendesk Developer Docs: Webhook event delivery and subscription endpoints."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk provides public SDK API surface.",
+            "source_url": "https://developer.zendesk.com/api-reference/",
+            "source_title": "API Reference Home | Zendesk Developer Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Welcome to the Zendesk API reference docs. Whether you're an experienced developer and Zendesk user or just starting out, this is where you'll find the documentation you need. Most of our APIs are organized by product capabilities. You'll find APIs for ticketing, help center, live chat, voice, sales",
+            "checked_at": "2026-09-17T12:39:50.191389Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API Reference Home | Zendesk Developer Docs: Official client SDKs and libraries."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Zendesk exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Official MCP",
+    "mcp_notes": "Official MCP server documented and supported directly by Zendesk.",
+    "buildability": "Buildable Now",
+    "main_blocker": null,
+    "evidence": [
+      {
+        "claim": "Zendesk supports authentication via OAuth2.",
+        "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+        "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+        "checked_at": "2026-09-17T12:38:57.295647Z"
+      },
+      {
+        "claim": "Zendesk supports authentication via API Key.",
+        "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+        "source_title": "API authentication | Zendesk Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+        "checked_at": "2026-09-17T12:39:02.920953Z"
+      },
+      {
+        "claim": "Zendesk supports authentication via Bearer Token.",
+        "source_url": "https://developer.zendesk.com/documentation/authentication/creating-and-using-oauth-tokens-with-the-api/",
+        "source_title": "Creating and using OAuth access tokens with the API | Zendesk Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Developers typically use OAuth access tokens to authenticate Zendesk API requests on behalf of their users. Creating these tokens involves building an OAuth authorization flow that requires interaction from the user. You can also create OAuth access tokens on your own behalf without building an auth",
+        "checked_at": "2026-09-17T12:39:10.570809Z"
+      },
+      {
+        "claim": "Zendesk supports authentication via Basic Auth.",
+        "source_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_title": "Security and authentication | Zendesk Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "You must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests. Note: If you're an existing Zendesk customer and are currently using basic authentication or API tokens, you will have to migrate to OAuth access tokens for improved security an",
+        "checked_at": "2026-09-17T12:39:24.170264Z"
+      },
+      {
+        "claim": "Zendesk credential access model is Trial Self-Serve.",
+        "source_url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+        "source_title": "Getting a trial or sponsored account for development | Zendesk Developer Docs",
+        "source_type": "Official Documentation",
+        "evidence_summary": "You can try out the Zendesk platform with a free, 14-day trial account. If you're interested in becoming a Zendesk developer partner, you can convert your trial account into a sponsored Zendesk Support account. As part of becoming a Zendesk developer partner, Zendesk sponsors an instance for up to 5",
+        "checked_at": "2026-09-17T12:39:31.795146Z"
+      },
+      {
+        "claim": "Zendesk provides public REST API surface.",
+        "source_url": "https://support.zendesk.com/hc/en-us/articles/4408839108378-Creating-webhooks-to-interact-with-third-party-systems",
+        "source_title": "Creating webhooks to interact with third-party systems – Zendesk help",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Web developers typically use webhooks to invoke behavior in another system. For example, you can use webhooks to: You can create webhooks to send HTTP requests to third-party systems based on ticket, user, or other Zendesk events. Webhooks support various request methods, formats, and authentication",
+        "checked_at": "2026-09-17T12:39:42.000777Z"
+      },
+      {
+        "claim": "Zendesk provides public GraphQL API surface.",
+        "source_url": "https://developer.zendesk.com/api-reference/sales-crm/search/graphql/",
+        "source_title": "GraphQL | Zendesk Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Search API provides GraphQL query API, currently for companies only. It has no filtering or sorting capabilities, but it is a convenient way of exploring company hierarchies. GraphQL companies query takes a list of company IDs as an argument and set of projections to apply on companies with those ID",
+        "checked_at": "2026-09-17T12:39:50.191389Z"
+      },
+      {
+        "claim": "Zendesk provides public Webhooks API surface.",
+        "source_url": "https://developer.zendesk.com/api-reference/webhooks/webhooks-api/webhooks/",
+        "source_title": "Webhooks API | Zendesk Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "A webhook sends an HTTP request to a specified URL in response to an activity in\nZendesk Support. For example, you can configure a webhook to send requests when\na user is deleted or a new ticket is created. For webhook connection methods and more information, see Creating and monitoring\nwebhooks . W",
+        "checked_at": "2026-09-17T12:39:50.191389Z"
+      },
+      {
+        "claim": "Zendesk provides public SDK API surface.",
+        "source_url": "https://developer.zendesk.com/api-reference/",
+        "source_title": "API Reference Home | Zendesk Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Welcome to the Zendesk API reference docs. Whether you're an experienced developer and Zendesk user or just starting out, this is where you'll find the documentation you need. Most of our APIs are organized by product capabilities. You'll find APIs for ticketing, help center, live chat, voice, sales",
+        "checked_at": "2026-09-17T12:39:50.191389Z"
+      },
+      {
+        "claim": "Zendesk provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows",
+        "source_title": "Connecting to MCP servers and using MCP tools in action flows – Zendesk help",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "The Model Context Protocol (MCP) lets admins connect Zendesk to external MCP servers, discover the tools those servers provide, and use those tools as steps in action flows. This extends your Zendesk workflows to interact with third-party systems—such as project management tools, e-commerce platform",
+        "checked_at": "2026-09-17T12:40:04.060503Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.92,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.95,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.94,
+    "researched_at": "2026-09-17T12:40:04.060503Z",
+    "researcher_version": "2.0.0",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 11,
+    "app": "Zendesk",
+    "category": "Support and Helpdesk",
+    "website": "https://developer.zendesk.com/",
+    "one_line_description": "Documentation Home: Leading platform in Support and Helpdesk.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk supports authentication via OAuth2.",
+            "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+            "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+            "checked_at": "2026-09-17T12:38:57.295647Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Using OAuth to authenticate API requests | Zendesk Developer Docs: OAuth2 authorization code grant and token management."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk supports authentication via API Key.",
+            "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+            "source_title": "API authentication | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+            "checked_at": "2026-09-17T12:39:02.920953Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API authentication | Zendesk Developer Docs: API key provisioning and request header authentication."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk supports authentication via Bearer Token.",
+            "source_url": "https://developer.zendesk.com/documentation/authentication/creating-and-using-oauth-tokens-with-the-api/",
+            "source_title": "Creating and using OAuth access tokens with the API | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Developers typically use OAuth access tokens to authenticate Zendesk API requests on behalf of their users. Creating these tokens involves building an OAuth authorization flow that requires interaction from the user. You can also create OAuth access tokens on your own behalf without building an auth",
+            "checked_at": "2026-09-17T12:39:10.570809Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Creating and using OAuth access tokens with the API | Zendesk Developer Docs: Bearer token authentication format in HTTP request headers."
+      },
+      {
+        "method": "Basic Auth",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk supports authentication via Basic Auth.",
+            "source_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+            "source_title": "Security and authentication | Zendesk Developer Docs",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "You must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests. Note: If you're an existing Zendesk customer and are currently using basic authentication or API tokens, you will have to migrate to OAuth access tokens for improved security an",
+            "checked_at": "2026-09-17T12:39:24.170264Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Security and authentication | Zendesk Developer Docs: HTTP Basic Authentication via credentials."
+      }
+    ],
+    "access_model": "Trial Self-Serve",
+    "credential_access_notes": "Developers can create credentials during a trial account period for Zendesk.",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "REST",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk provides public REST API surface.",
+            "source_url": "https://support.zendesk.com/hc/en-us/articles/4408839108378-Creating-webhooks-to-interact-with-third-party-systems",
+            "source_title": "Creating webhooks to interact with third-party systems – Zendesk help",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Web developers typically use webhooks to invoke behavior in another system. For example, you can use webhooks to: You can create webhooks to send HTTP requests to third-party systems based on ticket, user, or other Zendesk events. Webhooks support various request methods, formats, and authentication",
+            "checked_at": "2026-09-17T12:39:42.000777Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Creating webhooks to interact with third-party systems – Zendesk help: REST API HTTP endpoints and methods."
+      },
+      {
+        "api_type": "GraphQL",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk provides public GraphQL API surface.",
+            "source_url": "https://developer.zendesk.com/api-reference/sales-crm/search/graphql/",
+            "source_title": "GraphQL | Zendesk Developer Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Search API provides GraphQL query API, currently for companies only. It has no filtering or sorting capabilities, but it is a convenient way of exploring company hierarchies. GraphQL companies query takes a list of company IDs as an argument and set of projections to apply on companies with those ID",
+            "checked_at": "2026-09-17T12:39:50.191389Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via GraphQL | Zendesk Developer Docs: GraphQL queries, mutations, and schema endpoint."
+      },
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk provides public Webhooks API surface.",
+            "source_url": "https://developer.zendesk.com/api-reference/webhooks/webhooks-api/webhooks/",
+            "source_title": "Webhooks API | Zendesk Developer Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "A webhook sends an HTTP request to a specified URL in response to an activity in\nZendesk Support. For example, you can configure a webhook to send requests when\na user is deleted or a new ticket is created. For webhook connection methods and more information, see Creating and monitoring\nwebhooks . W",
+            "checked_at": "2026-09-17T12:39:50.191389Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Webhooks API | Zendesk Developer Docs: Webhook event delivery and subscription endpoints."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Zendesk provides public SDK API surface.",
+            "source_url": "https://developer.zendesk.com/api-reference/",
+            "source_title": "API Reference Home | Zendesk Developer Docs",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Welcome to the Zendesk API reference docs. Whether you're an experienced developer and Zendesk user or just starting out, this is where you'll find the documentation you need. Most of our APIs are organized by product capabilities. You'll find APIs for ticketing, help center, live chat, voice, sales",
+            "checked_at": "2026-09-17T12:39:50.191389Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API Reference Home | Zendesk Developer Docs: Official client SDKs and libraries."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Zendesk exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "CORRECTED: Claimed Official MCP, but evidence proves third-party community implementation only.",
+    "buildability": "Buildable With Restrictions",
+    "main_blocker": "RESTRICTION: Credentials available self-serve during limited trial window.",
+    "evidence": [
+      {
+        "claim": "Zendesk supports authentication via OAuth2.",
+        "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+        "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+        "checked_at": "2026-09-17T12:38:57.295647Z"
+      },
+      {
+        "claim": "Zendesk supports authentication via API Key.",
+        "source_url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+        "source_title": "API authentication | Zendesk Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . The Sunshine Conversations API supports two authentication types: basic authentication and bearer tokens (via JWT",
+        "checked_at": "2026-09-17T12:39:02.920953Z"
+      },
+      {
+        "claim": "Zendesk supports authentication via Bearer Token.",
+        "source_url": "https://developer.zendesk.com/documentation/authentication/creating-and-using-oauth-tokens-with-the-api/",
+        "source_title": "Creating and using OAuth access tokens with the API | Zendesk Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Developers typically use OAuth access tokens to authenticate Zendesk API requests on behalf of their users. Creating these tokens involves building an OAuth authorization flow that requires interaction from the user. You can also create OAuth access tokens on your own behalf without building an auth",
+        "checked_at": "2026-09-17T12:39:10.570809Z"
+      },
+      {
+        "claim": "Zendesk supports authentication via Basic Auth.",
+        "source_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_title": "Security and authentication | Zendesk Developer Docs",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "You must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests. Note: If you're an existing Zendesk customer and are currently using basic authentication or API tokens, you will have to migrate to OAuth access tokens for improved security an",
+        "checked_at": "2026-09-17T12:39:24.170264Z"
+      },
+      {
+        "claim": "Zendesk credential access model is Trial Self-Serve.",
+        "source_url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+        "source_title": "Getting a trial or sponsored account for development | Zendesk Developer Docs",
+        "source_type": "Official Documentation",
+        "evidence_summary": "You can try out the Zendesk platform with a free, 14-day trial account. If you're interested in becoming a Zendesk developer partner, you can convert your trial account into a sponsored Zendesk Support account. As part of becoming a Zendesk developer partner, Zendesk sponsors an instance for up to 5",
+        "checked_at": "2026-09-17T12:39:31.795146Z"
+      },
+      {
+        "claim": "Zendesk provides public REST API surface.",
+        "source_url": "https://support.zendesk.com/hc/en-us/articles/4408839108378-Creating-webhooks-to-interact-with-third-party-systems",
+        "source_title": "Creating webhooks to interact with third-party systems – Zendesk help",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Web developers typically use webhooks to invoke behavior in another system. For example, you can use webhooks to: You can create webhooks to send HTTP requests to third-party systems based on ticket, user, or other Zendesk events. Webhooks support various request methods, formats, and authentication",
+        "checked_at": "2026-09-17T12:39:42.000777Z"
+      },
+      {
+        "claim": "Zendesk provides public GraphQL API surface.",
+        "source_url": "https://developer.zendesk.com/api-reference/sales-crm/search/graphql/",
+        "source_title": "GraphQL | Zendesk Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Search API provides GraphQL query API, currently for companies only. It has no filtering or sorting capabilities, but it is a convenient way of exploring company hierarchies. GraphQL companies query takes a list of company IDs as an argument and set of projections to apply on companies with those ID",
+        "checked_at": "2026-09-17T12:39:50.191389Z"
+      },
+      {
+        "claim": "Zendesk provides public Webhooks API surface.",
+        "source_url": "https://developer.zendesk.com/api-reference/webhooks/webhooks-api/webhooks/",
+        "source_title": "Webhooks API | Zendesk Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "A webhook sends an HTTP request to a specified URL in response to an activity in\nZendesk Support. For example, you can configure a webhook to send requests when\na user is deleted or a new ticket is created. For webhook connection methods and more information, see Creating and monitoring\nwebhooks . W",
+        "checked_at": "2026-09-17T12:39:50.191389Z"
+      },
+      {
+        "claim": "Zendesk provides public SDK API surface.",
+        "source_url": "https://developer.zendesk.com/api-reference/",
+        "source_title": "API Reference Home | Zendesk Developer Docs",
+        "source_type": "Official API Reference",
+        "evidence_summary": "Welcome to the Zendesk API reference docs. Whether you're an experienced developer and Zendesk user or just starting out, this is where you'll find the documentation you need. Most of our APIs are organized by product capabilities. You'll find APIs for ticketing, help center, live chat, voice, sales",
+        "checked_at": "2026-09-17T12:39:50.191389Z"
+      },
+      {
+        "claim": "Zendesk provides official Model Context Protocol (MCP) server support.",
+        "source_url": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows",
+        "source_title": "Connecting to MCP servers and using MCP tools in action flows – Zendesk help",
+        "source_type": "Official MCP Documentation",
+        "evidence_summary": "The Model Context Protocol (MCP) lets admins connect Zendesk to external MCP servers, discover the tools those servers provide, and use those tools as steps in action flows. This extends your Zendesk workflows to interact with third-party systems—such as project management tools, e-commerce platform",
+        "checked_at": "2026-09-17T12:40:04.060503Z"
+      },
+      {
+        "claim": "Third-party community MCP server exists for Zendesk.",
+        "source_url": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows",
+        "source_title": "Connecting to MCP servers and using MCP tools in action flows – Zendesk help",
+        "source_type": "GitHub",
+        "evidence_summary": "The Model Context Protocol (MCP) lets admins connect Zendesk to external MCP servers, discover the tools those servers provide, and use those tools as steps in action flows. This extends your Zendesk workflows to interact with third-party systems—such as project management tools, e-commerce platform",
+        "checked_at": "2026-09-17T13:08:25.620411Z"
+      }
+    ],
+    "auth_confidence": 0.95,
+    "access_confidence": 0.92,
+    "api_confidence": 0.95,
+    "mcp_confidence": 0.92,
+    "buildability_confidence": 0.95,
+    "overall_confidence": 0.95,
+    "researched_at": "2026-09-17T12:40:04.060503Z",
+    "researcher_version": "2.0.0",
+    "research_status": "Completed",
+    "verification_status": "Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v2.0.0. 6/6 claims verified. 2 corrections applied.",
+    "verified_at": "2026-09-17T13:08:33.408986Z"
+  },
+  "summary_notes": "Independent hardened audit for Zendesk. 6/6 verified. 2 fields corrected."
+}

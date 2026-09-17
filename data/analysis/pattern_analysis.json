@@ -1,0 +1,1264 @@
+{
+  "analysis_title": "Production 100-Application Pattern Analysis",
+  "generated_at": "2026-09-17T15:59:25.123474+00:00",
+  "dataset_validation": {
+    "total_applications_analyzed": 100,
+    "unique_ids_count": 100,
+    "id_range": [
+      1,
+      100
+    ],
+    "schema_compliant_records": 100,
+    "schema_errors": 0,
+    "categories_count": 10,
+    "apps_per_category": {
+      "AI, Research and Media-native": 10,
+      "CRM and Sales": 10,
+      "Communications and Messaging": 10,
+      "Data, SEO and Scraping": 10,
+      "Developer, Infra and Data platforms": 10,
+      "Ecommerce": 10,
+      "Finance and Fintech": 10,
+      "Marketing, Ads, Email and Social": 10,
+      "Productivity and Project Management": 10,
+      "Support and Helpdesk": 10
+    }
+  },
+  "authentication_patterns": {
+    "method_breakdown": {
+      "API Key": {
+        "count": 59,
+        "percentage": 59.0
+      },
+      "OAuth2": {
+        "count": 59,
+        "percentage": 59.0
+      },
+      "Bearer Token": {
+        "count": 45,
+        "percentage": 45.0
+      },
+      "Personal Access Token": {
+        "count": 16,
+        "percentage": 16.0
+      },
+      "Basic Auth": {
+        "count": 18,
+        "percentage": 18.0
+      },
+      "JWT": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Other": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Unknown": {
+        "count": 17,
+        "percentage": 17.0
+      }
+    },
+    "multi_auth_apps_count": 66,
+    "multi_auth_apps_percentage": 66.0,
+    "single_auth_apps_count": 17,
+    "zero_or_unknown_auth_apps_count": 17,
+    "category_distribution": {
+      "AI, Research and Media-native": {
+        "Unknown": 3,
+        "API Key": 6,
+        "Bearer Token": 7,
+        "Personal Access Token": 3,
+        "OAuth2": 3
+      },
+      "CRM and Sales": {
+        "API Key": 7,
+        "Basic Auth": 3,
+        "OAuth2": 9,
+        "Unknown": 1,
+        "Bearer Token": 2
+      },
+      "Communications and Messaging": {
+        "API Key": 5,
+        "Basic Auth": 2,
+        "Bearer Token": 6,
+        "OAuth2": 7,
+        "Personal Access Token": 1
+      },
+      "Data, SEO and Scraping": {
+        "API Key": 8,
+        "Bearer Token": 7,
+        "OAuth2": 4,
+        "Basic Auth": 1,
+        "Unknown": 2
+      },
+      "Developer, Infra and Data platforms": {
+        "Unknown": 1,
+        "API Key": 4,
+        "OAuth2": 7,
+        "Personal Access Token": 5,
+        "Basic Auth": 4,
+        "Bearer Token": 7
+      },
+      "Ecommerce": {
+        "OAuth2": 6,
+        "Unknown": 2,
+        "API Key": 3,
+        "Bearer Token": 3,
+        "Personal Access Token": 1
+      },
+      "Finance and Fintech": {
+        "Unknown": 2,
+        "API Key": 8,
+        "Bearer Token": 4,
+        "OAuth2": 6,
+        "Basic Auth": 2,
+        "Personal Access Token": 1
+      },
+      "Marketing, Ads, Email and Social": {
+        "API Key": 6,
+        "Bearer Token": 3,
+        "OAuth2": 4,
+        "Unknown": 3,
+        "Basic Auth": 2,
+        "Personal Access Token": 1
+      },
+      "Productivity and Project Management": {
+        "API Key": 6,
+        "Bearer Token": 3,
+        "OAuth2": 7,
+        "Personal Access Token": 4,
+        "Basic Auth": 2,
+        "Unknown": 1
+      },
+      "Support and Helpdesk": {
+        "API Key": 6,
+        "OAuth2": 6,
+        "Bearer Token": 3,
+        "Unknown": 2,
+        "Basic Auth": 2
+      }
+    },
+    "multi_auth_examples": [
+      {
+        "id": 53,
+        "app": "Ahrefs",
+        "category": "Data, SEO and Scraping",
+        "methods": [
+          "API Key",
+          "Bearer Token",
+          "OAuth2"
+        ]
+      },
+      {
+        "id": 29,
+        "app": "Aircall",
+        "category": "Communications and Messaging",
+        "methods": [
+          "API Key",
+          "Basic Auth"
+        ]
+      },
+      {
+        "id": 55,
+        "app": "Apify",
+        "category": "Data, SEO and Scraping",
+        "methods": [
+          "API Key",
+          "Bearer Token"
+        ]
+      },
+      {
+        "id": 75,
+        "app": "Asana",
+        "category": "Productivity and Project Management",
+        "methods": [
+          "Bearer Token",
+          "OAuth2",
+          "Personal Access Token"
+        ]
+      },
+      {
+        "id": 4,
+        "app": "Attio",
+        "category": "CRM and Sales",
+        "methods": [
+          "API Key",
+          "Basic Auth",
+          "OAuth2"
+        ]
+      },
+      {
+        "id": 88,
+        "app": "Brex",
+        "category": "Finance and Fintech",
+        "methods": [
+          "API Key",
+          "Bearer Token",
+          "OAuth2"
+        ]
+      },
+      {
+        "id": 57,
+        "app": "Bright Data",
+        "category": "Data, SEO and Scraping",
+        "methods": [
+          "API Key",
+          "Bearer Token"
+        ]
+      },
+      {
+        "id": 60,
+        "app": "Clay",
+        "category": "Data, SEO and Scraping",
+        "methods": [
+          "API Key",
+          "Bearer Token"
+        ]
+      },
+      {
+        "id": 77,
+        "app": "ClickUp",
+        "category": "Productivity and Project Management",
+        "methods": [
+          "API Key",
+          "Bearer Token",
+          "OAuth2",
+          "Personal Access Token"
+        ]
+      },
+      {
+        "id": 8,
+        "app": "Close",
+        "category": "CRM and Sales",
+        "methods": [
+          "API Key",
+          "Basic Auth",
+          "OAuth2"
+        ]
+      }
+    ],
+    "unknown_auth_examples": [
+      {
+        "id": 43,
+        "app": "BigCommerce",
+        "category": "Ecommerce",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 83,
+        "app": "Binance",
+        "category": "Finance and Fintech",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 64,
+        "app": "Cloudflare",
+        "category": "Developer, Infra and Data platforms",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 94,
+        "app": "Consensus",
+        "category": "AI, Research and Media-native",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 10,
+        "app": "DealCloud",
+        "category": "CRM and Sales",
+        "notes": "No authentication methods for DealCloud could be grounded with direct documentation evidence."
+      },
+      {
+        "id": 20,
+        "app": "Gladly",
+        "category": "Support and Helpdesk",
+        "notes": "No authentication methods for Gladly could be grounded with direct documentation evidence."
+      },
+      {
+        "id": 31,
+        "app": "Google Ads",
+        "category": "Marketing, Ads, Email and Social",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 97,
+        "app": "higgsfield",
+        "category": "AI, Research and Media-native",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 12,
+        "app": "Intercom",
+        "category": "Support and Helpdesk",
+        "notes": "No authentication methods for Intercom could be grounded with direct documentation evidence."
+      },
+      {
+        "id": 36,
+        "app": "Klaviyo",
+        "category": "Marketing, Ads, Email and Social",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 98,
+        "app": "Mermaid CLI",
+        "category": "AI, Research and Media-native",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 54,
+        "app": "MrScraper",
+        "category": "Data, SEO and Scraping",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 89,
+        "app": "Ramp",
+        "category": "Finance and Fintech",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 52,
+        "app": "SE Ranking",
+        "category": "Data, SEO and Scraping",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 79,
+        "app": "Smartsheet",
+        "category": "Productivity and Project Management",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 39,
+        "app": "Threads",
+        "category": "Marketing, Ads, Email and Social",
+        "notes": "No authentication methods grounded with direct evidence."
+      },
+      {
+        "id": 42,
+        "app": "WooCommerce",
+        "category": "Ecommerce",
+        "notes": "No authentication methods grounded with direct evidence."
+      }
+    ]
+  },
+  "access_model_patterns": {
+    "model_breakdown": {
+      "Free Self-Serve": {
+        "count": 30,
+        "percentage": 30.0
+      },
+      "Trial Self-Serve": {
+        "count": 4,
+        "percentage": 4.0
+      },
+      "Paid Plan Required": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Partner/Contact Sales": {
+        "count": 1,
+        "percentage": 1.0
+      },
+      "Admin Approval Required": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Invite Only": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Unknown": {
+        "count": 65,
+        "percentage": 65.0
+      }
+    },
+    "category_distribution": {
+      "AI, Research and Media-native": {
+        "Unknown": 8,
+        "Free Self-Serve": 1,
+        "Trial Self-Serve": 1
+      },
+      "CRM and Sales": {
+        "Trial Self-Serve": 1,
+        "Free Self-Serve": 8,
+        "Unknown": 1
+      },
+      "Communications and Messaging": {
+        "Unknown": 6,
+        "Free Self-Serve": 4
+      },
+      "Data, SEO and Scraping": {
+        "Unknown": 8,
+        "Free Self-Serve": 1,
+        "Partner/Contact Sales": 1
+      },
+      "Developer, Infra and Data platforms": {
+        "Unknown": 9,
+        "Trial Self-Serve": 1
+      },
+      "Ecommerce": {
+        "Unknown": 9,
+        "Free Self-Serve": 1
+      },
+      "Finance and Fintech": {
+        "Unknown": 8,
+        "Free Self-Serve": 2
+      },
+      "Marketing, Ads, Email and Social": {
+        "Unknown": 8,
+        "Free Self-Serve": 2
+      },
+      "Productivity and Project Management": {
+        "Unknown": 6,
+        "Free Self-Serve": 4
+      },
+      "Support and Helpdesk": {
+        "Trial Self-Serve": 1,
+        "Free Self-Serve": 7,
+        "Unknown": 2
+      }
+    }
+  },
+  "api_surface_patterns": {
+    "type_breakdown": {
+      "REST": {
+        "count": 64,
+        "percentage": 64.0
+      },
+      "Webhooks": {
+        "count": 53,
+        "percentage": 53.0
+      },
+      "SDK": {
+        "count": 54,
+        "percentage": 54.0
+      },
+      "GraphQL": {
+        "count": 11,
+        "percentage": 11.0
+      },
+      "CLI": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "SOAP": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Other": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "None": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Unknown": {
+        "count": 11,
+        "percentage": 11.0
+      }
+    },
+    "api_richness": {
+      "0_api_types": 11,
+      "1_api_type": 29,
+      "2_api_types": 29,
+      "3_or_more_api_types": 31
+    },
+    "api_breadth_breakdown": {
+      "Broad": 89,
+      "Unknown": 11
+    },
+    "category_distribution": {
+      "AI, Research and Media-native": {
+        "REST": 6,
+        "SDK": 6,
+        "Webhooks": 3
+      },
+      "CRM and Sales": {
+        "REST": 8,
+        "SDK": 4,
+        "Webhooks": 8,
+        "Unknown": 1,
+        "GraphQL": 2
+      },
+      "Communications and Messaging": {
+        "REST": 6,
+        "SDK": 6,
+        "Webhooks": 7,
+        "Unknown": 1
+      },
+      "Data, SEO and Scraping": {
+        "REST": 7,
+        "SDK": 7,
+        "Webhooks": 4
+      },
+      "Developer, Infra and Data platforms": {
+        "SDK": 7,
+        "REST": 6,
+        "Webhooks": 3,
+        "GraphQL": 1
+      },
+      "Ecommerce": {
+        "SDK": 5,
+        "GraphQL": 2,
+        "REST": 5,
+        "Webhooks": 6,
+        "Unknown": 2
+      },
+      "Finance and Fintech": {
+        "Unknown": 2,
+        "REST": 7,
+        "Webhooks": 6,
+        "SDK": 5
+      },
+      "Marketing, Ads, Email and Social": {
+        "REST": 5,
+        "SDK": 6,
+        "Webhooks": 4,
+        "Unknown": 3
+      },
+      "Productivity and Project Management": {
+        "REST": 5,
+        "Webhooks": 3,
+        "SDK": 4,
+        "Unknown": 1,
+        "GraphQL": 3
+      },
+      "Support and Helpdesk": {
+        "REST": 9,
+        "Webhooks": 9,
+        "GraphQL": 3,
+        "SDK": 4,
+        "Unknown": 1
+      }
+    }
+  },
+  "mcp_patterns": {
+    "status_breakdown": {
+      "Official MCP": {
+        "count": 16,
+        "percentage": 16.0
+      },
+      "Third-Party MCP": {
+        "count": 39,
+        "percentage": 39.0
+      },
+      "MCP Mentioned": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "No MCP Found": {
+        "count": 42,
+        "percentage": 42.0
+      },
+      "Unknown": {
+        "count": 3,
+        "percentage": 3.0
+      }
+    },
+    "category_distribution": {
+      "AI, Research and Media-native": {
+        "Third-Party MCP": 6,
+        "No MCP Found": 3,
+        "Official MCP": 1
+      },
+      "CRM and Sales": {
+        "Third-Party MCP": 3,
+        "Unknown": 1,
+        "No MCP Found": 4,
+        "Official MCP": 2
+      },
+      "Communications and Messaging": {
+        "Third-Party MCP": 5,
+        "No MCP Found": 3,
+        "Official MCP": 2
+      },
+      "Data, SEO and Scraping": {
+        "No MCP Found": 4,
+        "Official MCP": 1,
+        "Third-Party MCP": 5
+      },
+      "Developer, Infra and Data platforms": {
+        "Third-Party MCP": 5,
+        "Official MCP": 1,
+        "No MCP Found": 4
+      },
+      "Ecommerce": {
+        "No MCP Found": 6,
+        "Third-Party MCP": 3,
+        "Official MCP": 1
+      },
+      "Finance and Fintech": {
+        "No MCP Found": 6,
+        "Third-Party MCP": 3,
+        "Official MCP": 1
+      },
+      "Marketing, Ads, Email and Social": {
+        "Third-Party MCP": 4,
+        "No MCP Found": 5,
+        "Official MCP": 1
+      },
+      "Productivity and Project Management": {
+        "No MCP Found": 5,
+        "Official MCP": 2,
+        "Third-Party MCP": 3
+      },
+      "Support and Helpdesk": {
+        "Official MCP": 4,
+        "No MCP Found": 2,
+        "Third-Party MCP": 2,
+        "Unknown": 2
+      }
+    }
+  },
+  "buildability_patterns": {
+    "status_breakdown": {
+      "Buildable Now": {
+        "count": 35,
+        "percentage": 35.0
+      },
+      "Buildable With Restrictions": {
+        "count": 23,
+        "percentage": 23.0
+      },
+      "Blocked": {
+        "count": 9,
+        "percentage": 9.0
+      },
+      "Unknown": {
+        "count": 33,
+        "percentage": 33.0
+      }
+    },
+    "category_distribution": {
+      "AI, Research and Media-native": {
+        "Unknown": 8,
+        "Buildable Now": 1,
+        "Buildable With Restrictions": 1
+      },
+      "CRM and Sales": {
+        "Buildable Now": 7,
+        "Buildable With Restrictions": 3
+      },
+      "Communications and Messaging": {
+        "Buildable Now": 5,
+        "Buildable With Restrictions": 5
+      },
+      "Data, SEO and Scraping": {
+        "Unknown": 7,
+        "Buildable Now": 2,
+        "Blocked": 1
+      },
+      "Developer, Infra and Data platforms": {
+        "Unknown": 6,
+        "Buildable Now": 3,
+        "Buildable With Restrictions": 1
+      },
+      "Ecommerce": {
+        "Unknown": 2,
+        "Buildable Now": 2,
+        "Buildable With Restrictions": 4,
+        "Blocked": 2
+      },
+      "Finance and Fintech": {
+        "Blocked": 2,
+        "Buildable With Restrictions": 2,
+        "Unknown": 5,
+        "Buildable Now": 1
+      },
+      "Marketing, Ads, Email and Social": {
+        "Buildable Now": 5,
+        "Blocked": 3,
+        "Buildable With Restrictions": 2
+      },
+      "Productivity and Project Management": {
+        "Unknown": 5,
+        "Buildable Now": 3,
+        "Blocked": 1,
+        "Buildable With Restrictions": 1
+      },
+      "Support and Helpdesk": {
+        "Buildable Now": 6,
+        "Buildable With Restrictions": 4
+      }
+    },
+    "blocker_thematic_grouping": {
+      "No Blocker / Readily Accessible": 35,
+      "Developer Account / API Key Gating": 9,
+      "Paid Subscription / Tier Gating": 0,
+      "Enterprise / Partner Approval Gating": 1,
+      "Workspace Admin Consent Required": 0,
+      "Inconclusive / No Public Documentation": 55
+    },
+    "raw_blocker_tallies": {
+      "Inconclusive credential gating model prevents establishing buildability.": 33,
+      "None / No Blocker": 21,
+      "None (MCP server available for immediate agent integration).": 14,
+      "Buildable with standard developer rate limits and scoping permissions.": 11,
+      "Developer account required to obtain access credentials.": 8,
+      "Buildable with standard developer rate limits and token scoping.": 3,
+      "Missing public programmatic API endpoints for Binance.": 1,
+      "API credentials require enterprise partnership or sales approval.": 1,
+      "Missing public programmatic API endpoints for Google Ads.": 1,
+      "Missing public programmatic API endpoints for Harvest.": 1,
+      "Missing public programmatic API endpoints for Meta Ads.": 1,
+      "Missing public programmatic API endpoints for Ramp.": 1,
+      "Missing public programmatic API endpoints for Salesforce Commerce Cloud.": 1,
+      "Missing public programmatic API endpoints for Threads.": 1,
+      "Missing public programmatic API endpoints for WooCommerce.": 1
+    }
+  },
+  "evidence_and_verification_quality": {
+    "evidence_coverage_apps": 95,
+    "evidence_coverage_percentage": 95.0,
+    "total_evidence_items": 355,
+    "average_evidence_per_app": 3.55,
+    "confidence_statistics": {
+      "mean": 0.8,
+      "min": 0.52,
+      "max": 0.95,
+      "std_dev": 0.104,
+      "distribution": {
+        "very_high (>= 0.90)": 20,
+        "high (0.80 - 0.89)": 33,
+        "moderate (0.70 - 0.79)": 31,
+        "low (< 0.70)": 16
+      }
+    },
+    "verifier_impact": {
+      "first_pass_claim_accuracy": 73.0,
+      "post_verification_claim_accuracy": 81.0,
+      "total_corrections_made": 48,
+      "field_level_accuracy": {
+        "website": {
+          "claims_checked": 100,
+          "first_pass_accuracy": 92.0,
+          "post_verification_accuracy": 92.0,
+          "corrections_made": 0
+        },
+        "authentication": {
+          "claims_checked": 100,
+          "first_pass_accuracy": 87.0,
+          "post_verification_accuracy": 90.0,
+          "corrections_made": 3
+        },
+        "access_model": {
+          "claims_checked": 100,
+          "first_pass_accuracy": 53.0,
+          "post_verification_accuracy": 54.0,
+          "corrections_made": 1
+        },
+        "api_surface": {
+          "claims_checked": 100,
+          "first_pass_accuracy": 75.0,
+          "post_verification_accuracy": 84.0,
+          "corrections_made": 9
+        },
+        "mcp_status": {
+          "claims_checked": 100,
+          "first_pass_accuracy": 77.0,
+          "post_verification_accuracy": 78.0,
+          "corrections_made": 1
+        },
+        "buildability": {
+          "claims_checked": 100,
+          "first_pass_accuracy": 54.0,
+          "post_verification_accuracy": 88.0,
+          "corrections_made": 34
+        }
+      }
+    }
+  },
+  "cross_field_relationships": {
+    "mcp_vs_buildability": {
+      "No MCP Found": {
+        "Unknown": 16,
+        "Blocked": 9,
+        "Buildable With Restrictions": 13,
+        "Buildable Now": 4
+      },
+      "Third-Party MCP": {
+        "Buildable Now": 18,
+        "Unknown": 17,
+        "Buildable With Restrictions": 4
+      },
+      "Official MCP": {
+        "Buildable Now": 11,
+        "Buildable With Restrictions": 5
+      },
+      "Unknown": {
+        "Buildable With Restrictions": 1,
+        "Buildable Now": 2
+      }
+    },
+    "access_model_vs_buildability": {
+      "Unknown": {
+        "Unknown": 33,
+        "Buildable Now": 11,
+        "Blocked": 8,
+        "Buildable With Restrictions": 13
+      },
+      "Free Self-Serve": {
+        "Buildable Now": 22,
+        "Buildable With Restrictions": 8
+      },
+      "Trial Self-Serve": {
+        "Buildable Now": 2,
+        "Buildable With Restrictions": 2
+      },
+      "Partner/Contact Sales": {
+        "Blocked": 1
+      }
+    },
+    "api_breadth_vs_buildability": {
+      "Broad": {
+        "Unknown": 33,
+        "Buildable Now": 35,
+        "Buildable With Restrictions": 20,
+        "Blocked": 1
+      },
+      "Unknown": {
+        "Blocked": 8,
+        "Buildable With Restrictions": 3
+      }
+    },
+    "auth_complexity_vs_buildability": {
+      "Multi-Auth (>=2)": {
+        "Unknown": 21,
+        "Buildable Now": 26,
+        "Buildable With Restrictions": 17,
+        "Blocked": 2
+      },
+      "Single-Auth (1)": {
+        "Unknown": 5,
+        "Blocked": 2,
+        "Buildable With Restrictions": 3,
+        "Buildable Now": 7
+      },
+      "Unknown/None (0)": {
+        "Buildable Now": 2,
+        "Blocked": 5,
+        "Unknown": 7,
+        "Buildable With Restrictions": 3
+      }
+    }
+  },
+  "category_comparison": {
+    "AI, Research and Media-native": {
+      "app_count": 10,
+      "auth_distribution": {
+        "Unknown": 3,
+        "API Key": 6,
+        "Bearer Token": 7,
+        "Personal Access Token": 3,
+        "OAuth2": 3
+      },
+      "access_distribution": {
+        "Unknown": 8,
+        "Free Self-Serve": 1,
+        "Trial Self-Serve": 1
+      },
+      "api_distribution": {
+        "REST": 6,
+        "SDK": 6,
+        "Webhooks": 3
+      },
+      "mcp_distribution": {
+        "Third-Party MCP": 6,
+        "No MCP Found": 3,
+        "Official MCP": 1
+      },
+      "buildability_distribution": {
+        "Unknown": 8,
+        "Buildable Now": 1,
+        "Buildable With Restrictions": 1
+      },
+      "average_confidence": 0.81,
+      "evidence_coverage_pct": 100.0,
+      "total_evidence_items": 32,
+      "average_evidence_per_app": 3.2
+    },
+    "CRM and Sales": {
+      "app_count": 10,
+      "auth_distribution": {
+        "API Key": 7,
+        "Basic Auth": 3,
+        "OAuth2": 9,
+        "Unknown": 1,
+        "Bearer Token": 2
+      },
+      "access_distribution": {
+        "Trial Self-Serve": 1,
+        "Free Self-Serve": 8,
+        "Unknown": 1
+      },
+      "api_distribution": {
+        "REST": 8,
+        "SDK": 4,
+        "Webhooks": 8,
+        "Unknown": 1,
+        "GraphQL": 2
+      },
+      "mcp_distribution": {
+        "Third-Party MCP": 3,
+        "Unknown": 1,
+        "No MCP Found": 4,
+        "Official MCP": 2
+      },
+      "buildability_distribution": {
+        "Buildable Now": 7,
+        "Buildable With Restrictions": 3
+      },
+      "average_confidence": 0.87,
+      "evidence_coverage_pct": 100.0,
+      "total_evidence_items": 56,
+      "average_evidence_per_app": 5.6
+    },
+    "Communications and Messaging": {
+      "app_count": 10,
+      "auth_distribution": {
+        "API Key": 5,
+        "Basic Auth": 2,
+        "Bearer Token": 6,
+        "OAuth2": 7,
+        "Personal Access Token": 1
+      },
+      "access_distribution": {
+        "Unknown": 6,
+        "Free Self-Serve": 4
+      },
+      "api_distribution": {
+        "REST": 6,
+        "SDK": 6,
+        "Webhooks": 7,
+        "Unknown": 1
+      },
+      "mcp_distribution": {
+        "Third-Party MCP": 5,
+        "No MCP Found": 3,
+        "Official MCP": 2
+      },
+      "buildability_distribution": {
+        "Buildable Now": 5,
+        "Buildable With Restrictions": 5
+      },
+      "average_confidence": 0.82,
+      "evidence_coverage_pct": 100.0,
+      "total_evidence_items": 41,
+      "average_evidence_per_app": 4.1
+    },
+    "Data, SEO and Scraping": {
+      "app_count": 10,
+      "auth_distribution": {
+        "API Key": 8,
+        "Bearer Token": 7,
+        "OAuth2": 4,
+        "Basic Auth": 1,
+        "Unknown": 2
+      },
+      "access_distribution": {
+        "Unknown": 8,
+        "Free Self-Serve": 1,
+        "Partner/Contact Sales": 1
+      },
+      "api_distribution": {
+        "REST": 7,
+        "SDK": 7,
+        "Webhooks": 4
+      },
+      "mcp_distribution": {
+        "No MCP Found": 4,
+        "Official MCP": 1,
+        "Third-Party MCP": 5
+      },
+      "buildability_distribution": {
+        "Unknown": 7,
+        "Buildable Now": 2,
+        "Blocked": 1
+      },
+      "average_confidence": 0.82,
+      "evidence_coverage_pct": 100.0,
+      "total_evidence_items": 32,
+      "average_evidence_per_app": 3.2
+    },
+    "Developer, Infra and Data platforms": {
+      "app_count": 10,
+      "auth_distribution": {
+        "Unknown": 1,
+        "API Key": 4,
+        "OAuth2": 7,
+        "Personal Access Token": 5,
+        "Basic Auth": 4,
+        "Bearer Token": 7
+      },
+      "access_distribution": {
+        "Unknown": 9,
+        "Trial Self-Serve": 1
+      },
+      "api_distribution": {
+        "SDK": 7,
+        "REST": 6,
+        "Webhooks": 3,
+        "GraphQL": 1
+      },
+      "mcp_distribution": {
+        "Third-Party MCP": 5,
+        "Official MCP": 1,
+        "No MCP Found": 4
+      },
+      "buildability_distribution": {
+        "Unknown": 6,
+        "Buildable Now": 3,
+        "Buildable With Restrictions": 1
+      },
+      "average_confidence": 0.81,
+      "evidence_coverage_pct": 100.0,
+      "total_evidence_items": 37,
+      "average_evidence_per_app": 3.7
+    },
+    "Ecommerce": {
+      "app_count": 10,
+      "auth_distribution": {
+        "OAuth2": 6,
+        "Unknown": 2,
+        "API Key": 3,
+        "Bearer Token": 3,
+        "Personal Access Token": 1
+      },
+      "access_distribution": {
+        "Unknown": 9,
+        "Free Self-Serve": 1
+      },
+      "api_distribution": {
+        "SDK": 5,
+        "GraphQL": 2,
+        "REST": 5,
+        "Webhooks": 6,
+        "Unknown": 2
+      },
+      "mcp_distribution": {
+        "No MCP Found": 6,
+        "Third-Party MCP": 3,
+        "Official MCP": 1
+      },
+      "buildability_distribution": {
+        "Unknown": 2,
+        "Buildable Now": 2,
+        "Buildable With Restrictions": 4,
+        "Blocked": 2
+      },
+      "average_confidence": 0.75,
+      "evidence_coverage_pct": 90.0,
+      "total_evidence_items": 20,
+      "average_evidence_per_app": 2.0
+    },
+    "Finance and Fintech": {
+      "app_count": 10,
+      "auth_distribution": {
+        "Unknown": 2,
+        "API Key": 8,
+        "Bearer Token": 4,
+        "OAuth2": 6,
+        "Basic Auth": 2,
+        "Personal Access Token": 1
+      },
+      "access_distribution": {
+        "Unknown": 8,
+        "Free Self-Serve": 2
+      },
+      "api_distribution": {
+        "Unknown": 2,
+        "REST": 7,
+        "Webhooks": 6,
+        "SDK": 5
+      },
+      "mcp_distribution": {
+        "No MCP Found": 6,
+        "Third-Party MCP": 3,
+        "Official MCP": 1
+      },
+      "buildability_distribution": {
+        "Blocked": 2,
+        "Buildable With Restrictions": 2,
+        "Unknown": 5,
+        "Buildable Now": 1
+      },
+      "average_confidence": 0.77,
+      "evidence_coverage_pct": 80.0,
+      "total_evidence_items": 27,
+      "average_evidence_per_app": 2.7
+    },
+    "Marketing, Ads, Email and Social": {
+      "app_count": 10,
+      "auth_distribution": {
+        "API Key": 6,
+        "Bearer Token": 3,
+        "OAuth2": 4,
+        "Unknown": 3,
+        "Basic Auth": 2,
+        "Personal Access Token": 1
+      },
+      "access_distribution": {
+        "Unknown": 8,
+        "Free Self-Serve": 2
+      },
+      "api_distribution": {
+        "REST": 5,
+        "SDK": 6,
+        "Webhooks": 4,
+        "Unknown": 3
+      },
+      "mcp_distribution": {
+        "Third-Party MCP": 4,
+        "No MCP Found": 5,
+        "Official MCP": 1
+      },
+      "buildability_distribution": {
+        "Buildable Now": 5,
+        "Blocked": 3,
+        "Buildable With Restrictions": 2
+      },
+      "average_confidence": 0.73,
+      "evidence_coverage_pct": 80.0,
+      "total_evidence_items": 20,
+      "average_evidence_per_app": 2.0
+    },
+    "Productivity and Project Management": {
+      "app_count": 10,
+      "auth_distribution": {
+        "API Key": 6,
+        "Bearer Token": 3,
+        "OAuth2": 7,
+        "Personal Access Token": 4,
+        "Basic Auth": 2,
+        "Unknown": 1
+      },
+      "access_distribution": {
+        "Unknown": 6,
+        "Free Self-Serve": 4
+      },
+      "api_distribution": {
+        "REST": 5,
+        "Webhooks": 3,
+        "SDK": 4,
+        "Unknown": 1,
+        "GraphQL": 3
+      },
+      "mcp_distribution": {
+        "No MCP Found": 5,
+        "Official MCP": 2,
+        "Third-Party MCP": 3
+      },
+      "buildability_distribution": {
+        "Unknown": 5,
+        "Buildable Now": 3,
+        "Blocked": 1,
+        "Buildable With Restrictions": 1
+      },
+      "average_confidence": 0.82,
+      "evidence_coverage_pct": 100.0,
+      "total_evidence_items": 36,
+      "average_evidence_per_app": 3.6
+    },
+    "Support and Helpdesk": {
+      "app_count": 10,
+      "auth_distribution": {
+        "API Key": 6,
+        "OAuth2": 6,
+        "Bearer Token": 3,
+        "Unknown": 2,
+        "Basic Auth": 2
+      },
+      "access_distribution": {
+        "Trial Self-Serve": 1,
+        "Free Self-Serve": 7,
+        "Unknown": 2
+      },
+      "api_distribution": {
+        "REST": 9,
+        "Webhooks": 9,
+        "GraphQL": 3,
+        "SDK": 4,
+        "Unknown": 1
+      },
+      "mcp_distribution": {
+        "Official MCP": 4,
+        "No MCP Found": 2,
+        "Third-Party MCP": 2,
+        "Unknown": 2
+      },
+      "buildability_distribution": {
+        "Buildable Now": 6,
+        "Buildable With Restrictions": 4
+      },
+      "average_confidence": 0.84,
+      "evidence_coverage_pct": 100.0,
+      "total_evidence_items": 54,
+      "average_evidence_per_app": 5.4
+    }
+  },
+  "key_findings": [
+    {
+      "finding_id": 1,
+      "topic": "API Ubiquity vs Programmatic Readiness",
+      "finding": "89 of 100 applications (89.0%) provide documented public APIs (predominantly REST at 64.0%, SDKs at 54.0%, and Webhooks at 53.0%), yet only 35.0% are classified as 'Buildable Now' without prerequisites, and 23.0% are 'Buildable With Restrictions'.",
+      "context": "Across all 10 categories, having an active API does not equate to frictionless agent integration; credential access and documentation completeness create operational friction."
+    },
+    {
+      "finding_id": 2,
+      "topic": "Authentication Gating Heterogeneity",
+      "finding": "API Key (59.0%) and OAuth2 (59.0%) are the most prevalent authentication methods, followed by Bearer Token (45.0%), Basic Auth (18.0%), and Personal Access Token (16.0%). 66.0% of apps support multiple authentication mechanisms.",
+      "context": "Data/Scraping and CRM platforms heavily leverage API Keys and OAuth2, whereas Developer Platforms make frequent use of Personal Access Tokens and Bearer Tokens."
+    },
+    {
+      "finding_id": 3,
+      "topic": "Credential Accessibility Bottleneck",
+      "finding": "Free Self-Serve credentials exist for 30.0% of the portfolio, Trial Self-Serve for 4.0%, Partner/Contact Sales for 1.0%, while 65.0% lack documented self-serve key endpoints or require enterprise registration.",
+      "context": "The lack of immediate self-serve credential generation is a major hurdle for autonomous agents, requiring human intervention for key provisioning."
+    },
+    {
+      "finding_id": 4,
+      "topic": "Early Stage of Official MCP Adoption vs Community Growth",
+      "finding": "Official MCP servers exist for 16 of 100 applications (16.0%), whereas 39.0% are supported by Third-Party community MCP implementations, and 42.0% have No MCP Found.",
+      "context": "Third-party community MCP packages (39) outnumber official implementations (16) by 2.4x, demonstrating that community developers are actively bridging the agent protocol gap."
+    },
+    {
+      "finding_id": 5,
+      "topic": "Overall Buildability Feasibility",
+      "finding": "58.0% of evaluated platforms are technically buildable for autonomous agents (35.0% 'Buildable Now' and 23.0% 'Buildable With Restrictions').",
+      "context": "Only 9.0% are completely 'Blocked' (such as closed partner gates or restricted platforms), while 33.0% remain 'Unknown' due to undocumented API access."
+    },
+    {
+      "finding_id": 6,
+      "topic": "Webhooks as the Primary Real-Time Asynchronous Primitive",
+      "finding": "Webhooks are supported by 53.0% of applications, heavily concentrated in event-driven categories: Support & Helpdesk (90.0%), CRM & Sales (80.0%), and Communications (60.0%).",
+      "context": "Event-driven webhook infrastructure allows agents to operate reactively rather than polling continuously."
+    },
+    {
+      "finding_id": 7,
+      "topic": "Sector Buildability Distribution",
+      "finding": "CRM and Sales (7 Buildable Now, 3 Restrictions, 0 Blocked) and Support and Helpdesk (6 Buildable Now, 4 Restrictions, 0 Blocked) exhibited the highest proportion of immediately buildable platforms.",
+      "context": "Mature API ecosystems and standardized OAuth2/API Key documentation in customer support and sales enable reliable agent toolkits."
+    },
+    {
+      "finding_id": 8,
+      "topic": "Impact of Hardened Verification Audit",
+      "finding": "The independent verification agent corrected 48 claims across 100 apps, driving post-verification claim accuracy from 73.0% to 81.0%.",
+      "context": "The most significant corrections occurred in buildability (34 corrections) and ungrounded API claims (11 corrections), preventing overestimation of platform accessibility."
+    },
+    {
+      "finding_id": 9,
+      "topic": "Evidence Quality and Grounding Rigor",
+      "finding": "95 of 100 applications (95.0%) possess direct primary source documentation evidence, with 355 total evidence citations across the portfolio (average 3.55 citations/app).",
+      "context": "The 5 applications lacking positive evidence were proprietary or unindexed tools where the absence of public developer documentation was explicitly verified."
+    },
+    {
+      "finding_id": 10,
+      "topic": "Cross-Field Correlation: Blocked Platforms Lack MCPs",
+      "finding": "Descriptive Observation: 100% of Blocked platforms (9 of 9) have No MCP Found. Conversely, 100% of platforms with Official MCP servers (16 of 16) are buildable (11 Buildable Now, 5 Buildable With Restrictions, 0 Blocked).",
+      "context": "Active MCP maintenance strongly correlates with developer-accessible API architectures, while walled gardens maintain neither public APIs nor agent tooling."
+    }
+  ]
+}

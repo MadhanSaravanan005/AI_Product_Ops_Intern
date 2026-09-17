@@ -1,0 +1,260 @@
+{
+  "app_id": 80,
+  "app": "Harvest",
+  "category": "Productivity and Project Management",
+  "verified_at": "2026-09-17T14:53:59.676677Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 3,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 3,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 80,
+      "app": "Harvest",
+      "field": "website",
+      "original_value": "https://help.getharvest.com/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Harvest': Harvest Help Center",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 80,
+      "app": "Harvest",
+      "field": "authentication",
+      "original_value": [
+        "API Key"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Harvest supports authentication via API Key.",
+          "source_url": "https://harvest.com/support/api/",
+          "source_title": "API - HARVEST.com",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "All requests need to contain the output_type parameter, this should be set to application/json for now. All requests need to contain the api_key parameter, this should be set to your API key, if you don't have one please contact Harvest Support. The Harvest API is not intended to be used from within",
+          "checked_at": "2026-09-17T14:53:59.676677Z"
+        }
+      ],
+      "verification_notes": "All 1 claimed auth methods verified with primary evidence: API Key.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Harvest supports authentication via API Key.",
+            "source_url": "https://harvest.com/support/api/",
+            "source_title": "API - HARVEST.com",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "All requests need to contain the output_type parameter, this should be set to application/json for now. All requests need to contain the api_key parameter, this should be set to your API key, if you don't have one please contact Harvest Support. The Harvest API is not intended to be used from within",
+            "checked_at": "2026-09-17T14:53:59.676677Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 80,
+      "app": "Harvest",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 80,
+      "app": "Harvest",
+      "field": "api_surface",
+      "original_value": [
+        "Unknown"
+      ],
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "None of the claimed API types could be verified in documentation.",
+      "auth_details": null,
+      "api_type_details": {
+        "Unknown": "Insufficient Evidence"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 80,
+      "app": "Harvest",
+      "field": "mcp_status",
+      "original_value": "No MCP Found",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.9,
+      "evidence": [],
+      "verification_notes": "Deliberate search across docs and repositories confirmed no MCP server currently available.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 80,
+      "app": "Harvest",
+      "field": "buildability",
+      "original_value": "Blocked",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Missing or unverified API evidence prevents confirming 'Buildable Now'.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 80,
+    "app": "Harvest",
+    "category": "Productivity and Project Management",
+    "website": "https://help.getharvest.com/",
+    "one_line_description": "Harvest: Harvest API V2 Documentation.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Harvest supports authentication via API Key.",
+            "source_url": "https://harvest.com/support/api/",
+            "source_title": "API - HARVEST.com",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "All requests need to contain the output_type parameter, this should be set to application/json for now. All requests need to contain the api_key parameter, this should be set to your API key, if you don't have one please contact Harvest Support. The Harvest API is not intended to be used from within",
+            "checked_at": "2026-09-17T14:53:59.176484Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API - HARVEST.com."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Unknown"
+    ],
+    "api_type_details": [],
+    "api_breadth": "Unknown",
+    "api_scope_notes": "No programmatic API surface could be grounded.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Harvest.",
+    "buildability": "Blocked",
+    "main_blocker": "Missing public programmatic API endpoints for Harvest.",
+    "evidence": [
+      {
+        "claim": "Harvest supports authentication via API Key.",
+        "source_url": "https://harvest.com/support/api/",
+        "source_title": "API - HARVEST.com",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "All requests need to contain the output_type parameter, this should be set to application/json for now. All requests need to contain the api_key parameter, this should be set to your API key, if you don't have one please contact Harvest Support. The Harvest API is not intended to be used from within",
+        "checked_at": "2026-09-17T14:53:59.176484Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.3,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.85,
+    "overall_confidence": 0.65,
+    "researched_at": "2026-09-17T14:53:59.177482Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Needs Verification",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 80,
+    "app": "Harvest",
+    "category": "Productivity and Project Management",
+    "website": "https://help.getharvest.com/",
+    "one_line_description": "Harvest: Harvest API V2 Documentation.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "authentication_details": [
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Harvest supports authentication via API Key.",
+            "source_url": "https://harvest.com/support/api/",
+            "source_title": "API - HARVEST.com",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "All requests need to contain the output_type parameter, this should be set to application/json for now. All requests need to contain the api_key parameter, this should be set to your API key, if you don't have one please contact Harvest Support. The Harvest API is not intended to be used from within",
+            "checked_at": "2026-09-17T14:53:59.176484Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via API - HARVEST.com."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "Unknown"
+    ],
+    "api_type_details": [],
+    "api_breadth": "Unknown",
+    "api_scope_notes": "No programmatic API surface could be grounded.",
+    "mcp_status": "No MCP Found",
+    "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Harvest.",
+    "buildability": "Blocked",
+    "main_blocker": "Missing public programmatic API endpoints for Harvest.",
+    "evidence": [
+      {
+        "claim": "Harvest supports authentication via API Key.",
+        "source_url": "https://harvest.com/support/api/",
+        "source_title": "API - HARVEST.com",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "All requests need to contain the output_type parameter, this should be set to application/json for now. All requests need to contain the api_key parameter, this should be set to your API key, if you don't have one please contact Harvest Support. The Harvest API is not intended to be used from within",
+        "checked_at": "2026-09-17T14:53:59.176484Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.3,
+    "mcp_confidence": 0.85,
+    "buildability_confidence": 0.85,
+    "overall_confidence": 0.73,
+    "researched_at": "2026-09-17T14:53:59.177482Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Needs Verification",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 3/6 claims verified. 0 corrections applied.",
+    "verified_at": "2026-09-17T14:53:59.676677Z"
+  },
+  "summary_notes": "Independent hardened audit for Harvest. 3/6 verified. 0 fields corrected."
+}

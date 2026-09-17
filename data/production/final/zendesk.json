@@ -1,0 +1,71 @@
+{
+  "id": 11,
+  "app": "Zendesk",
+  "category": "Support and Helpdesk",
+  "website": "https://developer.zendesk.com/",
+  "one_line_description": "Documentation Home: Leading platform in Support and Helpdesk.",
+  "auth_methods": [
+    "OAuth2"
+  ],
+  "authentication_details": [],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Zendesk's developer portal or app management console.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Zendesk exposes programmatic API endpoints covering primary platform objects and events.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Zendesk.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Zendesk supports authentication via OAuth2.",
+      "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+      "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+      "checked_at": "2026-09-17T10:04:25.646020Z"
+    },
+    {
+      "claim": "Zendesk offers self-serve credential creation for developers.",
+      "source_url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+      "source_title": "Getting a trial or sponsored account for development | Zendesk Developer Docs",
+      "source_type": "Official Documentation",
+      "evidence_summary": "You can try out the Zendesk platform with a free, 14-day trial account. If you're interested in becoming a Zendesk developer partner, you can convert your trial account into a sponsored Zendesk Support account. As part of becoming a Zendesk developer partner, Zendesk sponsors an instance for up to 5",
+      "checked_at": "2026-09-17T10:04:31.156056Z"
+    },
+    {
+      "claim": "Zendesk provides comprehensive public API methods and developer integrations.",
+      "source_url": "https://developer.zendesk.com/api-reference/",
+      "source_title": "API Reference Home | Zendesk Developer Docs",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Welcome to the Zendesk API reference docs. Whether you're an experienced developer and Zendesk user or just starting out, this is where you'll find the documentation you need. Most of our APIs are organized by product capabilities. You'll find APIs for ticketing, help center, live chat, voice, sales",
+      "checked_at": "2026-09-17T10:04:46.138844Z"
+    },
+    {
+      "claim": "Zendesk provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows",
+      "source_title": "Connecting to MCP servers and using MCP tools in action flows – Zendesk help",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "The Model Context Protocol (MCP) lets admins connect Zendesk to external MCP servers, discover the tools those servers provide, and use those tools as steps in action flows. This extends your Zendesk workflows to interact with third-party systems—such as project management tools, e-commerce platform",
+      "checked_at": "2026-09-17T10:05:12.591368Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.9,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.93,
+  "researched_at": "2026-09-17T10:05:12.591368Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Verified",
+  "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+  "verified_at": "2026-09-17T13:57:07.115353Z"
+}

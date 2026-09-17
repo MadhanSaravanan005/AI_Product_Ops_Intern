@@ -1,0 +1,10 @@
+{"timestamp": "2026-09-17T12:38:33.985925+00:00", "app_id": 1, "app": "Salesforce", "status": "Completed", "evidence_count": 9, "overall_confidence": 0.94, "error": null}
+{"timestamp": "2026-09-17T12:40:04.071857+00:00", "app_id": 11, "app": "Zendesk", "status": "Completed", "evidence_count": 10, "overall_confidence": 0.94, "error": null}
+{"timestamp": "2026-09-17T12:41:57.879650+00:00", "app_id": 21, "app": "Slack", "status": "Completed", "evidence_count": 7, "overall_confidence": 0.94, "error": null}
+{"timestamp": "2026-09-17T12:43:57.585799+00:00", "app_id": 35, "app": "Mailchimp", "status": "Completed", "evidence_count": 9, "overall_confidence": 0.94, "error": null}
+{"timestamp": "2026-09-17T12:46:03.235104+00:00", "app_id": 41, "app": "Shopify", "status": "Completed", "evidence_count": 7, "overall_confidence": 0.94, "error": null}
+{"timestamp": "2026-09-17T12:47:34.950318+00:00", "app_id": 55, "app": "Apify", "status": "Completed", "evidence_count": 9, "overall_confidence": 0.94, "error": null}
+{"timestamp": "2026-09-17T12:49:45.755450+00:00", "app_id": 61, "app": "GitHub", "status": "Completed", "evidence_count": 10, "overall_confidence": 0.93, "error": null}
+{"timestamp": "2026-09-17T12:53:22.079999+00:00", "app_id": 71, "app": "Notion", "status": "Completed", "evidence_count": 6, "overall_confidence": 0.94, "error": null}
+{"timestamp": "2026-09-17T12:55:36.723124+00:00", "app_id": 81, "app": "Stripe", "status": "Completed", "evidence_count": 9, "overall_confidence": 0.93, "error": null}
+{"timestamp": "2026-09-17T13:14:27.354033+00:00", "app_id": 91, "app": "NotebookLM", "status": "Completed", "evidence_count": 4, "overall_confidence": 0.93, "error": null}

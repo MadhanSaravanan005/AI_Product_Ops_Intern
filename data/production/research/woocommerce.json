@@ -1,0 +1,44 @@
+{
+  "id": 42,
+  "app": "WooCommerce",
+  "category": "Ecommerce",
+  "website": "https://woocommerce.com/",
+  "one_line_description": "Leading platform in Ecommerce providing developer APIs and integrations.",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "authentication_details": [
+    {
+      "method": "Unknown",
+      "status": "Unverified",
+      "evidence": [],
+      "confidence": 0.3,
+      "notes": "No authentication methods grounded with direct evidence."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "Unknown"
+  ],
+  "api_type_details": [],
+  "api_breadth": "Unknown",
+  "api_scope_notes": "No programmatic API surface could be grounded.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for WooCommerce.",
+  "buildability": "Blocked",
+  "main_blocker": "Missing public programmatic API endpoints for WooCommerce.",
+  "evidence": [],
+  "auth_confidence": 0.3,
+  "access_confidence": 0.3,
+  "api_confidence": 0.3,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.85,
+  "overall_confidence": 0.52,
+  "researched_at": "2026-09-17T14:04:30.770871Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Needs Verification",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

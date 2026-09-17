@@ -1,0 +1,178 @@
+{
+  "id": 21,
+  "app": "Slack",
+  "category": "Communications and Messaging",
+  "website": "https://slack.dev/",
+  "one_line_description": "Developer Hub: Leading platform in Communications and Messaging.",
+  "auth_methods": [
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Slack supports authentication via OAuth2.",
+          "source_url": "https://docs.slack.dev/authentication/",
+          "source_title": "Authentication overview | Slack Developer Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+          "checked_at": "2026-09-17T12:40:36.123471Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication overview | Slack Developer Docs: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Slack supports authentication via Bearer Token.",
+          "source_url": "https://nango.dev/blog/how-to-get-slack-user-access-token-oauth",
+          "source_title": "How to get a Slack OAuth user access token | Nango Blog",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "A complete guide on implementing Slack user access tokens (OAuth) covering authorization flow, token rotation, refresh handling, common errors, and API usage. Most Slack integrations use a âBot access tokenâ ( xoxb- ). They are easy to set up and cover 90% of use cases. However, if your applicat",
+          "checked_at": "2026-09-17T12:40:41.787367Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via How to get a Slack OAuth user access token | Nango Blog: Bearer token authentication format in HTTP request headers."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can generate credentials self-serve on Developer Hub | Slack Developers.",
+  "api_types": [
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Slack provides public REST API surface.",
+          "source_url": "https://docs.slack.dev/apis/",
+          "source_title": "Slack APIs | Slack Developer Docs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Every Slack app and workflow has access to a range of APIs that provide access to read, write, and update many types of data in Slack. Read on to learn about our core APIs, and discover how to use them to make magic. The Web API supplies a collection of HTTP methods that underpin the majority of Sla",
+          "checked_at": "2026-09-17T12:41:34.091946Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Slack APIs | Slack Developer Docs: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Slack provides public Webhooks API surface.",
+          "source_url": "https://hookdeck.com/webhooks/platforms/guide-to-slack-webhooks-features-and-best-practices",
+          "source_title": "Guide to Slack Webhooks: Features and Best Practices",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Reliable infrastructure for managing Slack webhooks. Published Feb 9, 2026 · Updated Jul 3, 2026 Slack is the dominant workplace messaging platform, used by millions of teams to coordinate work, manage incidents, and stay connected. Beyond real-time messaging, Slack's webhook and event delivery capa",
+          "checked_at": "2026-09-17T12:41:48.158925Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Guide to Slack Webhooks: Features and Best Practices: Webhook event delivery and subscription endpoints."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Slack provides public SDK API surface.",
+          "source_url": "https://apitracker.io/a/slack",
+          "source_title": "Slack API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Looking to integrate with Slack and other Lead API s 10x faster ? Give the Apideck Lead API a try. One single API to push and pull Lead API data. Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done. https://api.",
+          "checked_at": "2026-09-17T12:41:48.160529Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Slack API - Developer docs, APIs, SDKs, and auth. | API Tracker: Official client SDKs and libraries."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Slack exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Slack.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Slack supports authentication via OAuth2.",
+      "source_url": "https://docs.slack.dev/authentication/",
+      "source_title": "Authentication overview | Slack Developer Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you cover",
+      "checked_at": "2026-09-17T12:40:36.123471Z"
+    },
+    {
+      "claim": "Slack supports authentication via Bearer Token.",
+      "source_url": "https://nango.dev/blog/how-to-get-slack-user-access-token-oauth",
+      "source_title": "How to get a Slack OAuth user access token | Nango Blog",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "A complete guide on implementing Slack user access tokens (OAuth) covering authorization flow, token rotation, refresh handling, common errors, and API usage. Most Slack integrations use a âBot access tokenâ ( xoxb- ). They are easy to set up and cover 90% of use cases. However, if your applicat",
+      "checked_at": "2026-09-17T12:40:41.787367Z"
+    },
+    {
+      "claim": "Slack offers self-serve credential creation for developers.",
+      "source_url": "https://slack.dev/",
+      "source_title": "Developer Hub | Slack Developers",
+      "source_type": "Official Documentation",
+      "evidence_summary": "That's a wrap on the inaugural Dev Day hackathon, the Agent Builder Challenge. A flood of ideas turned into real, working agents—built by everyone from first-time vibe-coders to seasoned developers, all harnessing the power of the Slack Developer Program to bring their ideas to life. A handful pushe",
+      "checked_at": "2026-09-17T12:41:18.963448Z"
+    },
+    {
+      "claim": "Slack provides public REST API surface.",
+      "source_url": "https://docs.slack.dev/apis/",
+      "source_title": "Slack APIs | Slack Developer Docs",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Every Slack app and workflow has access to a range of APIs that provide access to read, write, and update many types of data in Slack. Read on to learn about our core APIs, and discover how to use them to make magic. The Web API supplies a collection of HTTP methods that underpin the majority of Sla",
+      "checked_at": "2026-09-17T12:41:34.091946Z"
+    },
+    {
+      "claim": "Slack provides public Webhooks API surface.",
+      "source_url": "https://hookdeck.com/webhooks/platforms/guide-to-slack-webhooks-features-and-best-practices",
+      "source_title": "Guide to Slack Webhooks: Features and Best Practices",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Reliable infrastructure for managing Slack webhooks. Published Feb 9, 2026 · Updated Jul 3, 2026 Slack is the dominant workplace messaging platform, used by millions of teams to coordinate work, manage incidents, and stay connected. Beyond real-time messaging, Slack's webhook and event delivery capa",
+      "checked_at": "2026-09-17T12:41:48.158925Z"
+    },
+    {
+      "claim": "Slack provides public SDK API surface.",
+      "source_url": "https://apitracker.io/a/slack",
+      "source_title": "Slack API - Developer docs, APIs, SDKs, and auth. | API Tracker",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Looking to integrate with Slack and other Lead API s 10x faster ? Give the Apideck Lead API a try. One single API to push and pull Lead API data. Slack is where work flows. It's where the people you need, the information you share, and the tools you use come together to get things done. https://api.",
+      "checked_at": "2026-09-17T12:41:48.160529Z"
+    },
+    {
+      "claim": "Slack provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://slack.com/help/articles/48855576908307-Guide-to-Model-Context-Protocol-in-Slack",
+      "source_title": "Guide to Model Context Protocol in Slack | Slack",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "Your profile & preferences Connect tools & automate tasks Workspace administration From channels to search, learn how Slack works from top to bottom. Model Context Protocol (MCP) is an open-source framework for connecting AI applications with other software systems. You can use the Slack MCP server ",
+      "checked_at": "2026-09-17T12:41:57.847364Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.94,
+  "researched_at": "2026-09-17T12:41:57.847364Z",
+  "researcher_version": "2.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

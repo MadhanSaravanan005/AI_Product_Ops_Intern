@@ -1,0 +1,79 @@
+{
+  "id": 44,
+  "app": "Salesforce Commerce Cloud",
+  "category": "Ecommerce",
+  "website": "https://salesforcecommercecloud.github.io/",
+  "one_line_description": "Salesforce Commerce Cloud: Salesforce B2C Developer Documentation Resources.",
+  "auth_methods": [
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Salesforce Commerce Cloud supports authentication via OAuth2.",
+          "source_url": "https://salesforcecommercecloud.github.io/b2c-developer-tooling/guide/authentication.html",
+          "source_title": "Authentication Setup | Agentic B2C Developer Toolkit",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "B2C Commerce tools, documentation, and skills for your assistant. Install the plugin Recommended Start a new Claude Code session in your project. Use --scope user instead for all projects. From your project directory: Start a new session. Use --scope user instead for all projects. See Claude Code MC",
+          "checked_at": "2026-09-17T14:05:00.648449Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication Setup | Agentic B2C Developer Toolkit."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Salesforce Commerce Cloud supports authentication via Bearer Token.",
+          "source_url": "https://salesforcecommercecloud.github.io/b2c-developer-tooling/guide/authentication.html",
+          "source_title": "Authentication Setup | Agentic B2C Developer Toolkit",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "B2C Commerce tools, documentation, and skills for your assistant. Install the plugin Recommended Start a new Claude Code session in your project. Use --scope user instead for all projects. From your project directory: Start a new session. Use --scope user instead for all projects. See Claude Code MC",
+          "checked_at": "2026-09-17T14:05:00.648449Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication Setup | Agentic B2C Developer Toolkit."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "Unknown"
+  ],
+  "api_type_details": [],
+  "api_breadth": "Unknown",
+  "api_scope_notes": "No programmatic API surface could be grounded.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Salesforce Commerce Cloud.",
+  "buildability": "Blocked",
+  "main_blocker": "Missing public programmatic API endpoints for Salesforce Commerce Cloud.",
+  "evidence": [
+    {
+      "claim": "Salesforce Commerce Cloud supports authentication via OAuth2.",
+      "source_url": "https://salesforcecommercecloud.github.io/b2c-developer-tooling/guide/authentication.html",
+      "source_title": "Authentication Setup | Agentic B2C Developer Toolkit",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "B2C Commerce tools, documentation, and skills for your assistant. Install the plugin Recommended Start a new Claude Code session in your project. Use --scope user instead for all projects. From your project directory: Start a new session. Use --scope user instead for all projects. See Claude Code MC",
+      "checked_at": "2026-09-17T14:05:00.648449Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.3,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.85,
+  "overall_confidence": 0.65,
+  "researched_at": "2026-09-17T14:05:00.649481Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Needs Verification",
+  "verification_status": "Verified",
+  "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+  "verified_at": "2026-09-17T14:05:00.652538Z"
+}

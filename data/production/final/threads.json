@@ -1,0 +1,44 @@
+{
+  "id": 39,
+  "app": "Threads",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://threads.com/",
+  "one_line_description": "Leading platform in Marketing, Ads, Email and Social providing developer APIs and integrations.",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "authentication_details": [
+    {
+      "method": "Unknown",
+      "status": "Unverified",
+      "evidence": [],
+      "confidence": 0.3,
+      "notes": "No authentication methods grounded with direct evidence."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "Unknown"
+  ],
+  "api_type_details": [],
+  "api_breadth": "Unknown",
+  "api_scope_notes": "No programmatic API surface could be grounded.",
+  "mcp_status": "No MCP Found",
+  "mcp_notes": "Deliberate search found no official or community Model Context Protocol server for Threads.",
+  "buildability": "Blocked",
+  "main_blocker": "Missing public programmatic API endpoints for Threads.",
+  "evidence": [],
+  "auth_confidence": 0.3,
+  "access_confidence": 0.3,
+  "api_confidence": 0.3,
+  "mcp_confidence": 0.85,
+  "buildability_confidence": 0.85,
+  "overall_confidence": 0.52,
+  "researched_at": "2026-09-17T14:03:56.131009Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Needs Verification",
+  "verification_status": "Verified",
+  "verification_notes": "Automated production verification audit. 6/6 claims verified.",
+  "verified_at": "2026-09-17T14:03:56.136457Z"
+}

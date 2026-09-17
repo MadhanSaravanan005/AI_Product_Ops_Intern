@@ -1,0 +1,138 @@
+{
+  "id": 68,
+  "app": "MongoDB Atlas",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://mongodbatlas.com/",
+  "one_line_description": "MongoDB Atlas: MongoDB REST APIs.",
+  "auth_methods": [
+    "API Key",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "MongoDB Atlas supports authentication via OAuth2.",
+          "source_url": "https://www.mongodb.com/docs/api/",
+          "source_title": "MongoDB REST APIs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Use to navigate results, ENTER to select one, ESC to close Type in any word to easily find the endpoint, property or group of operations you are looking for. OpenAPI specs for MongoDB REST APIs The MongoDB Atlas Administration API allows developers to manage all components in MongoDB Atlas.\nThe Atla",
+          "checked_at": "2026-09-17T14:42:19.353457Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via MongoDB REST APIs."
+    },
+    {
+      "method": "API Key",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "MongoDB Atlas supports authentication via API Key.",
+          "source_url": "https://github.com/mongodb-js/mongodb-mcp-server",
+          "source_title": "GitHub - mongodb-js/mongodb-mcp-server: A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters. · GitHub",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings A Model Context Protocol server for interacting with MongoDB Databases and MongoDB Atlas. MongoDB MCP Server com",
+          "checked_at": "2026-09-17T14:42:19.353457Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GitHub - mongodb-js/mongodb-mcp-server: A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters. · GitHub."
+    }
+  ],
+  "access_model": "Unknown",
+  "credential_access_notes": "Credential access model could not be verified.",
+  "api_types": [
+    "GraphQL",
+    "REST",
+    "SDK"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "MongoDB Atlas provides public REST API surface.",
+          "source_url": "https://www.mongodb.com/docs/api/",
+          "source_title": "MongoDB REST APIs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Use to navigate results, ENTER to select one, ESC to close Type in any word to easily find the endpoint, property or group of operations you are looking for. OpenAPI specs for MongoDB REST APIs The MongoDB Atlas Administration API allows developers to manage all components in MongoDB Atlas.\nThe Atla",
+          "checked_at": "2026-09-17T14:42:19.354492Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via MongoDB REST APIs."
+    },
+    {
+      "api_type": "GraphQL",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "MongoDB Atlas provides public GraphQL API surface.",
+          "source_url": "https://www.mongodb.com/docs/api/",
+          "source_title": "MongoDB REST APIs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Use to navigate results, ENTER to select one, ESC to close Type in any word to easily find the endpoint, property or group of operations you are looking for. OpenAPI specs for MongoDB REST APIs The MongoDB Atlas Administration API allows developers to manage all components in MongoDB Atlas.\nThe Atla",
+          "checked_at": "2026-09-17T14:42:19.354492Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via MongoDB REST APIs."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "MongoDB Atlas provides public SDK API surface.",
+          "source_url": "https://www.mongodb.com/docs/api/",
+          "source_title": "MongoDB REST APIs",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Use to navigate results, ENTER to select one, ESC to close Type in any word to easily find the endpoint, property or group of operations you are looking for. OpenAPI specs for MongoDB REST APIs The MongoDB Atlas Administration API allows developers to manage all components in MongoDB Atlas.\nThe Atla",
+          "checked_at": "2026-09-17T14:42:19.354492Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via MongoDB REST APIs."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "MongoDB Atlas exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/mongodb-js/mongodb-mcp-server).",
+  "buildability": "Buildable Now",
+  "main_blocker": "None (MCP server available for immediate agent integration).",
+  "evidence": [
+    {
+      "claim": "MongoDB Atlas supports authentication via OAuth2.",
+      "source_url": "https://www.mongodb.com/docs/api/",
+      "source_title": "MongoDB REST APIs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "Use to navigate results, ENTER to select one, ESC to close Type in any word to easily find the endpoint, property or group of operations you are looking for. OpenAPI specs for MongoDB REST APIs The MongoDB Atlas Administration API allows developers to manage all components in MongoDB Atlas.\nThe Atla",
+      "checked_at": "2026-09-17T14:42:19.353457Z"
+    },
+    {
+      "claim": "MongoDB Atlas supports authentication via API Key.",
+      "source_url": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "source_title": "GitHub - mongodb-js/mongodb-mcp-server: A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters. · GitHub",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings A Model Context Protocol server for interacting with MongoDB Databases and MongoDB Atlas. MongoDB MCP Server com",
+      "checked_at": "2026-09-17T14:42:19.353457Z"
+    }
+  ],
+  "auth_confidence": 0.92,
+  "access_confidence": 0.3,
+  "api_confidence": 0.92,
+  "mcp_confidence": 0.88,
+  "buildability_confidence": 0.92,
+  "overall_confidence": 0.79,
+  "researched_at": "2026-09-17T14:42:19.354492Z",
+  "researcher_version": "1.0.0-fast-prod",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

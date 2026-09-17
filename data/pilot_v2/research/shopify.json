@@ -1,0 +1,178 @@
+{
+  "id": 41,
+  "app": "Shopify",
+  "category": "Ecommerce",
+  "website": "https://shopify.dev/",
+  "one_line_description": "Shopify Dev Docs: Leading platform in Ecommerce.",
+  "auth_methods": [
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Shopify supports authentication via OAuth2.",
+          "source_url": "https://github.com/Shopify/shopify-app-js/blob/main/packages/apps/shopify-api/docs/guides/oauth.md",
+          "source_title": "shopify-app-js/packages/apps/shopify-api/docs/guides/oauth.md at main · Shopify/shopify-app-js · GitHub",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Supported types of OAuth Flow Token Exchange Remix App Non-Remix App Detecting scope changes Detecting scope cha",
+          "checked_at": "2026-09-17T12:44:34.446967Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via shopify-app-js/packages/apps/shopify-api/docs/guides/oauth.md at main · Shopify/shopify-app-js · GitHub: OAuth2 authorization code grant and token management."
+    }
+  ],
+  "access_model": "Trial Self-Serve",
+  "credential_access_notes": "Developers can create credentials during a trial account period for Shopify.",
+  "api_types": [
+    "GraphQL",
+    "REST",
+    "SDK",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Shopify provides public REST API surface.",
+          "source_url": "https://ecosire.com/blog/shopify-api-integration-guide",
+          "source_title": "Shopify API Integration: 2026 Guide (REST, GraphQL, Webhooks) | ECOSIRE",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Build Shopify integrations that survive scale: REST + GraphQL, OAuth, webhooks, rate limits. Working Node + Python code plus Odoo sync patterns. Shopify powers over four million online stores worldwide, and the platform's true potential is unlocked through its robust suite of APIs. Shopify powers ov",
+          "checked_at": "2026-09-17T12:46:00.482484Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Shopify API Integration: 2026 Guide (REST, GraphQL, Webhooks) | ECOSIRE: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "GraphQL",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Shopify provides public GraphQL API surface.",
+          "source_url": "https://shopify.dev/docs/api/admin-graphql/latest/objects/webhooksubscription",
+          "source_title": "WebhookSubscription - GraphQL Admin",
+          "source_type": "Official API Reference",
+          "evidence_summary": "A webhook subscription is a persisted data object created by an app using the REST Admin API or GraphQL Admin API.\nIt describes the topic that the app wants to receive, and a destination where\nShopify should send webhooks of the specified topic.\nWhen an event for a given topic occurs, the webhook su",
+          "checked_at": "2026-09-17T12:46:00.483510Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via WebhookSubscription - GraphQL Admin: GraphQL queries, mutations, and schema endpoint."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Shopify provides public Webhooks API surface.",
+          "source_url": "https://shopify.dev/docs/api/admin-graphql/latest/objects/webhooksubscription",
+          "source_title": "WebhookSubscription - GraphQL Admin",
+          "source_type": "Official API Reference",
+          "evidence_summary": "A webhook subscription is a persisted data object created by an app using the REST Admin API or GraphQL Admin API.\nIt describes the topic that the app wants to receive, and a destination where\nShopify should send webhooks of the specified topic.\nWhen an event for a given topic occurs, the webhook su",
+          "checked_at": "2026-09-17T12:46:00.483510Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via WebhookSubscription - GraphQL Admin: Webhook event delivery and subscription endpoints."
+    },
+    {
+      "api_type": "SDK",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Shopify provides public SDK API surface.",
+          "source_url": "https://smplx.media/en/wissen/api-strategien-shopify",
+          "source_title": "Shopify API: REST, GraphQL & Webhooks | smplx.",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Im Shopify-Architektur-Ratgeber schauen wir auf die großen Linien. Heute greifen wir tiefer: Wie nutzen wir Shopify's APIs richtig? Wann REST, wann GraphQL, wie Webhooks? Bei smplx. bauen wir seit 2020 Integrationen zwischen Shopify und externen Systemen. Wir haben gelernt: Die richtige API-Strategi",
+          "checked_at": "2026-09-17T12:46:00.483510Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Shopify API: REST, GraphQL & Webhooks | smplx.: Official client SDKs and libraries."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Shopify exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Official MCP",
+  "mcp_notes": "Official MCP server documented and supported directly by Shopify.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Shopify supports authentication via OAuth2.",
+      "source_url": "https://github.com/Shopify/shopify-app-js/blob/main/packages/apps/shopify-api/docs/guides/oauth.md",
+      "source_title": "shopify-app-js/packages/apps/shopify-api/docs/guides/oauth.md at main · Shopify/shopify-app-js · GitHub",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Supported types of OAuth Flow Token Exchange Remix App Non-Remix App Detecting scope changes Detecting scope cha",
+      "checked_at": "2026-09-17T12:44:34.446967Z"
+    },
+    {
+      "claim": "Shopify credential access model is Trial Self-Serve.",
+      "source_url": "https://www.hulkapps.com/blogs/shopify-hub/how-to-create-a-shopify-developer-account-your-comprehensive-guide",
+      "source_title": "How to Create a Shopify Developer Account: Your Comprehensive Guide",
+      "source_type": "Official Documentation",
+      "evidence_summary": "What Is a Shopify Developer Account? Steps to Creating Your Shopify Developer Account Embracing the World of Shopify Development Are you on the precipice of diving into the world of Shopify development but feel overwhelmed about where to begin? Embarking on the journey of creating a Shopify develope",
+      "checked_at": "2026-09-17T12:45:34.195926Z"
+    },
+    {
+      "claim": "Shopify provides public REST API surface.",
+      "source_url": "https://ecosire.com/blog/shopify-api-integration-guide",
+      "source_title": "Shopify API Integration: 2026 Guide (REST, GraphQL, Webhooks) | ECOSIRE",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Build Shopify integrations that survive scale: REST + GraphQL, OAuth, webhooks, rate limits. Working Node + Python code plus Odoo sync patterns. Shopify powers over four million online stores worldwide, and the platform's true potential is unlocked through its robust suite of APIs. Shopify powers ov",
+      "checked_at": "2026-09-17T12:46:00.482484Z"
+    },
+    {
+      "claim": "Shopify provides public GraphQL API surface.",
+      "source_url": "https://shopify.dev/docs/api/admin-graphql/latest/objects/webhooksubscription",
+      "source_title": "WebhookSubscription - GraphQL Admin",
+      "source_type": "Official API Reference",
+      "evidence_summary": "A webhook subscription is a persisted data object created by an app using the REST Admin API or GraphQL Admin API.\nIt describes the topic that the app wants to receive, and a destination where\nShopify should send webhooks of the specified topic.\nWhen an event for a given topic occurs, the webhook su",
+      "checked_at": "2026-09-17T12:46:00.483510Z"
+    },
+    {
+      "claim": "Shopify provides public Webhooks API surface.",
+      "source_url": "https://shopify.dev/docs/api/admin-graphql/latest/objects/webhooksubscription",
+      "source_title": "WebhookSubscription - GraphQL Admin",
+      "source_type": "Official API Reference",
+      "evidence_summary": "A webhook subscription is a persisted data object created by an app using the REST Admin API or GraphQL Admin API.\nIt describes the topic that the app wants to receive, and a destination where\nShopify should send webhooks of the specified topic.\nWhen an event for a given topic occurs, the webhook su",
+      "checked_at": "2026-09-17T12:46:00.483510Z"
+    },
+    {
+      "claim": "Shopify provides public SDK API surface.",
+      "source_url": "https://smplx.media/en/wissen/api-strategien-shopify",
+      "source_title": "Shopify API: REST, GraphQL & Webhooks | smplx.",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Im Shopify-Architektur-Ratgeber schauen wir auf die großen Linien. Heute greifen wir tiefer: Wie nutzen wir Shopify's APIs richtig? Wann REST, wann GraphQL, wie Webhooks? Bei smplx. bauen wir seit 2020 Integrationen zwischen Shopify und externen Systemen. Wir haben gelernt: Die richtige API-Strategi",
+      "checked_at": "2026-09-17T12:46:00.483510Z"
+    },
+    {
+      "claim": "Shopify provides official Model Context Protocol (MCP) server support.",
+      "source_url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+      "source_title": "About Storefront MCP",
+      "source_type": "Official MCP Documentation",
+      "evidence_summary": "Connect any AI assistant to real-time commerce data from Shopify stores with Model Context Protocol (MCP) servers. Help customers search, ask, and buy in natural language. Build an AI shopping agent with MCP Build an AI shopping agent with MCP Build an AI shopping agent with MCP The Model Context Pr",
+      "checked_at": "2026-09-17T12:46:03.219017Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.92,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.94,
+  "researched_at": "2026-09-17T12:46:03.219017Z",
+  "researcher_version": "2.0.0",
+  "research_status": "Completed",
+  "verification_status": "Not Verified",
+  "verification_notes": null,
+  "verified_at": null
+}

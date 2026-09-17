@@ -1,0 +1,468 @@
+{
+  "app_id": 56,
+  "app": "Firecrawl",
+  "category": "Data, SEO and Scraping",
+  "verified_at": "2026-09-17T14:30:38.169903Z",
+  "verifier_version": "1.0.0-prod",
+  "overall_verification_status": "Partially Verified",
+  "claims_checked": 6,
+  "claims_verified": 2,
+  "claims_contradicted": 0,
+  "claims_insufficient_evidence": 4,
+  "corrections_made": 0,
+  "field_results": {
+    "website": {
+      "app_id": 56,
+      "app": "Firecrawl",
+      "field": "website",
+      "original_value": "https://www.firecrawl.dev/",
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [],
+      "verification_notes": "Official website verified live and references 'Firecrawl': Firecrawl - The web data API to search, scrape, and interact with the web at scale. 🔥",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "authentication": {
+      "app_id": 56,
+      "app": "Firecrawl",
+      "field": "authentication",
+      "original_value": [
+        "API Key",
+        "Bearer Token",
+        "OAuth2"
+      ],
+      "verification_status": "Verified",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.98,
+      "evidence": [
+        {
+          "claim": "Firecrawl supports authentication via API Key.",
+          "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+          "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+          "checked_at": "2026-09-17T14:30:38.169903Z"
+        },
+        {
+          "claim": "Firecrawl supports authentication via Bearer Token.",
+          "source_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+          "source_title": "GitHub - firecrawl/firecrawl-mcp-server: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients. · GitHub",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings A Model Context Protocol (MCP) server that brings Firecrawl to MCP-compatible AI agents — search, scrape, and in",
+          "checked_at": "2026-09-17T14:30:38.169903Z"
+        },
+        {
+          "claim": "Firecrawl supports authentication via OAuth2.",
+          "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+          "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+          "checked_at": "2026-09-17T14:30:38.169903Z"
+        }
+      ],
+      "verification_notes": "All 3 claimed auth methods verified with primary evidence: API Key, Bearer Token, OAuth2.",
+      "auth_details": [
+        {
+          "method": "API Key",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Firecrawl supports authentication via API Key.",
+            "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+            "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+            "checked_at": "2026-09-17T14:30:38.169903Z"
+          },
+          "notes": "Content verified: direct evidence found for (api key)."
+        },
+        {
+          "method": "Bearer Token",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Firecrawl supports authentication via Bearer Token.",
+            "source_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+            "source_title": "GitHub - firecrawl/firecrawl-mcp-server: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients. · GitHub",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings A Model Context Protocol (MCP) server that brings Firecrawl to MCP-compatible AI agents — search, scrape, and in",
+            "checked_at": "2026-09-17T14:30:38.169903Z"
+          },
+          "notes": "Content verified: direct evidence found for (bearer token)."
+        },
+        {
+          "method": "OAuth2",
+          "original_present": true,
+          "verification_status": "Verified",
+          "evidence": {
+            "claim": "Firecrawl supports authentication via OAuth2.",
+            "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+            "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+            "checked_at": "2026-09-17T14:30:38.169903Z"
+          },
+          "notes": "Content verified: direct evidence found for (oauth app)."
+        }
+      ],
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "access_model": {
+      "app_id": 56,
+      "app": "Firecrawl",
+      "field": "access_model",
+      "original_value": "Unknown",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Independent search could not definitively verify credential gating model.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "api_surface": {
+      "app_id": 56,
+      "app": "Firecrawl",
+      "field": "api_surface",
+      "original_value": [
+        "SDK",
+        "Webhooks"
+      ],
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "None of the claimed API types could be verified in documentation.",
+      "auth_details": null,
+      "api_type_details": {
+        "SDK": "Insufficient Evidence",
+        "Webhooks": "Insufficient Evidence"
+      },
+      "blocker_severity": null
+    },
+    "mcp_status": {
+      "app_id": 56,
+      "app": "Firecrawl",
+      "field": "mcp_status",
+      "original_value": "Third-Party MCP",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "No working third-party MCP repository could be verified.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": null
+    },
+    "buildability": {
+      "app_id": 56,
+      "app": "Firecrawl",
+      "field": "buildability",
+      "original_value": "Buildable Now",
+      "verification_status": "Insufficient Evidence",
+      "corrected_value": null,
+      "was_corrected": false,
+      "verifier_confidence": 0.5,
+      "evidence": [],
+      "verification_notes": "Missing or unverified API evidence prevents confirming 'Buildable Now'.",
+      "auth_details": null,
+      "api_type_details": null,
+      "blocker_severity": "Unknown"
+    }
+  },
+  "original_record": {
+    "id": 56,
+    "app": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "website": "https://www.firecrawl.dev/",
+    "one_line_description": "Firecrawl: Authentication and Authorization.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Firecrawl supports authentication via OAuth2.",
+            "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+            "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+            "checked_at": "2026-09-17T14:30:36.615739Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication and Authorization | firecrawl/firecrawl | DeepWiki."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Firecrawl supports authentication via API Key.",
+            "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+            "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+            "checked_at": "2026-09-17T14:30:36.615739Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication and Authorization | firecrawl/firecrawl | DeepWiki."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Firecrawl supports authentication via Bearer Token.",
+            "source_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+            "source_title": "GitHub - firecrawl/firecrawl-mcp-server: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients. · GitHub",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings A Model Context Protocol (MCP) server that brings Firecrawl to MCP-compatible AI agents — search, scrape, and in",
+            "checked_at": "2026-09-17T14:30:36.615739Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via GitHub - firecrawl/firecrawl-mcp-server: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients. · GitHub."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Firecrawl provides public Webhooks API surface.",
+            "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+            "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+            "checked_at": "2026-09-17T14:30:36.616829Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication and Authorization | firecrawl/firecrawl | DeepWiki."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Firecrawl provides public SDK API surface.",
+            "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+            "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+            "checked_at": "2026-09-17T14:30:36.616829Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication and Authorization | firecrawl/firecrawl | DeepWiki."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Firecrawl exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/firecrawl/firecrawl-mcp-server).",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "Firecrawl supports authentication via OAuth2.",
+        "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+        "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+        "checked_at": "2026-09-17T14:30:36.615739Z"
+      },
+      {
+        "claim": "Firecrawl supports authentication via Bearer Token.",
+        "source_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+        "source_title": "GitHub - firecrawl/firecrawl-mcp-server: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients. · GitHub",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings A Model Context Protocol (MCP) server that brings Firecrawl to MCP-compatible AI agents — search, scrape, and in",
+        "checked_at": "2026-09-17T14:30:36.615739Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.88,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.79,
+    "researched_at": "2026-09-17T14:30:36.616829Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Not Verified",
+    "verification_notes": null,
+    "verified_at": null
+  },
+  "verified_record": {
+    "id": 56,
+    "app": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "website": "https://www.firecrawl.dev/",
+    "one_line_description": "Firecrawl: Authentication and Authorization.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "authentication_details": [
+      {
+        "method": "OAuth2",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Firecrawl supports authentication via OAuth2.",
+            "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+            "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+            "checked_at": "2026-09-17T14:30:36.615739Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication and Authorization | firecrawl/firecrawl | DeepWiki."
+      },
+      {
+        "method": "API Key",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Firecrawl supports authentication via API Key.",
+            "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+            "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+            "checked_at": "2026-09-17T14:30:36.615739Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication and Authorization | firecrawl/firecrawl | DeepWiki."
+      },
+      {
+        "method": "Bearer Token",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Firecrawl supports authentication via Bearer Token.",
+            "source_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+            "source_title": "GitHub - firecrawl/firecrawl-mcp-server: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients. · GitHub",
+            "source_type": "Official Authentication Documentation",
+            "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings A Model Context Protocol (MCP) server that brings Firecrawl to MCP-compatible AI agents — search, scrape, and in",
+            "checked_at": "2026-09-17T14:30:36.615739Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via GitHub - firecrawl/firecrawl-mcp-server: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients. · GitHub."
+      }
+    ],
+    "access_model": "Unknown",
+    "credential_access_notes": "Credential access model could not be verified.",
+    "api_types": [
+      "SDK",
+      "Webhooks"
+    ],
+    "api_type_details": [
+      {
+        "api_type": "Webhooks",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Firecrawl provides public Webhooks API surface.",
+            "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+            "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+            "checked_at": "2026-09-17T14:30:36.616829Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication and Authorization | firecrawl/firecrawl | DeepWiki."
+      },
+      {
+        "api_type": "SDK",
+        "status": "Confirmed",
+        "evidence": [
+          {
+            "claim": "Firecrawl provides public SDK API surface.",
+            "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+            "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+            "source_type": "Official API Reference",
+            "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+            "checked_at": "2026-09-17T14:30:36.616829Z"
+          }
+        ],
+        "confidence": 0.92,
+        "notes": "Confirmed via Authentication and Authorization | firecrawl/firecrawl | DeepWiki."
+      }
+    ],
+    "api_breadth": "Broad",
+    "api_scope_notes": "Firecrawl exposes programmatic API endpoints covering primary platform objects.",
+    "mcp_status": "Third-Party MCP",
+    "mcp_notes": "Third-party community MCP server identified on GitHub (https://github.com/firecrawl/firecrawl-mcp-server).",
+    "buildability": "Buildable Now",
+    "main_blocker": "None (MCP server available for immediate agent integration).",
+    "evidence": [
+      {
+        "claim": "Firecrawl supports authentication via OAuth2.",
+        "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+        "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+        "checked_at": "2026-09-17T14:30:36.615739Z"
+      },
+      {
+        "claim": "Firecrawl supports authentication via Bearer Token.",
+        "source_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+        "source_title": "GitHub - firecrawl/firecrawl-mcp-server: 🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients. · GitHub",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings A Model Context Protocol (MCP) server that brings Firecrawl to MCP-compatible AI agents — search, scrape, and in",
+        "checked_at": "2026-09-17T14:30:36.615739Z"
+      },
+      {
+        "claim": "Firecrawl supports authentication via API Key.",
+        "source_url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+        "source_title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+        "source_type": "Official Authentication Documentation",
+        "evidence_summary": "Environment Configuration Queue and Worker System Authentication and Authorization Rate Limiting and Concurrency Control Billing and Credit Management API Versioning Strategy Extract and Agent Endpoints Browser Session Endpoints Request and Response Schemas Job Status and Monitoring JavaScript/TypeS",
+        "checked_at": "2026-09-17T14:30:38.169903Z"
+      }
+    ],
+    "auth_confidence": 0.92,
+    "access_confidence": 0.3,
+    "api_confidence": 0.92,
+    "mcp_confidence": 0.88,
+    "buildability_confidence": 0.92,
+    "overall_confidence": 0.66,
+    "researched_at": "2026-09-17T14:30:36.616829Z",
+    "researcher_version": "1.0.0-fast-prod",
+    "research_status": "Completed",
+    "verification_status": "Partially Verified",
+    "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0-prod. 2/6 claims verified. 0 corrections applied.",
+    "verified_at": "2026-09-17T14:30:38.169903Z"
+  },
+  "summary_notes": "Independent hardened audit for Firecrawl. 2/6 verified. 0 fields corrected."
+}

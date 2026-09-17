@@ -1,0 +1,53 @@
+{
+  "pilot_label": "10-application pilot V2 (improved grounding)",
+  "sample_size_note": "10-application pilot V2. Not presented as statistically representative of all 100 apps.",
+  "generated_at": "2026-09-17T13:15:16.672890+00:00",
+  "total_applications": 10,
+  "total_claims_checked": 60,
+  "verified_claims": 55,
+  "contradicted_claims": 0,
+  "insufficient_evidence_claims": 5,
+  "corrections_made": 7,
+  "first_pass_accuracy": 80.0,
+  "post_verification_accuracy": 91.7,
+  "accuracy_by_field": {
+    "website": {
+      "claims_checked": 10,
+      "first_pass_accuracy": 90.0,
+      "post_verification_accuracy": 90.0,
+      "corrections_made": 0
+    },
+    "authentication": {
+      "claims_checked": 10,
+      "first_pass_accuracy": 90.0,
+      "post_verification_accuracy": 100.0,
+      "corrections_made": 1
+    },
+    "access_model": {
+      "claims_checked": 10,
+      "first_pass_accuracy": 60.0,
+      "post_verification_accuracy": 60.0,
+      "corrections_made": 0
+    },
+    "api_surface": {
+      "claims_checked": 10,
+      "first_pass_accuracy": 90.0,
+      "post_verification_accuracy": 100.0,
+      "corrections_made": 1
+    },
+    "mcp_status": {
+      "claims_checked": 10,
+      "first_pass_accuracy": 80.0,
+      "post_verification_accuracy": 100.0,
+      "corrections_made": 2
+    },
+    "buildability": {
+      "claims_checked": 10,
+      "first_pass_accuracy": 70.0,
+      "post_verification_accuracy": 100.0,
+      "corrections_made": 3
+    }
+  },
+  "correction_rate": 11.7,
+  "new_evidence_items_discovered": 74
+}

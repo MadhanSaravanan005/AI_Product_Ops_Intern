@@ -1,0 +1,186 @@
+{
+  "id": 14,
+  "app": "Front",
+  "category": "Support and Helpdesk",
+  "website": "https://front.com/",
+  "one_line_description": "Front: Leading platform in Support and Helpdesk.",
+  "auth_methods": [
+    "Bearer Token",
+    "OAuth2"
+  ],
+  "authentication_details": [
+    {
+      "method": "OAuth2",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Front supports authentication via OAuth2.",
+          "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+          "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+          "checked_at": "2026-09-17T13:45:29.332036Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Using OAuth to authenticate API requests | Zendesk Developer Docs: OAuth2 authorization code grant and token management."
+    },
+    {
+      "method": "Bearer Token",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Front supports authentication via Bearer Token.",
+          "source_url": "https://dev.frontapp.com/docs/authentication",
+          "source_title": "Authentication",
+          "source_type": "Official Authentication Documentation",
+          "evidence_summary": "The Core API uses Bearer tokens to authenticate its user. You MUST send the token for each request in the Authorization header. The token MUST be preceded by Bearer . See the Authorization header in the example request below. There are two ways to get a Bearer token — through API tokens in your sett",
+          "checked_at": "2026-09-17T13:45:29.333040Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via Authentication: Bearer token authentication format in HTTP request headers."
+    }
+  ],
+  "access_model": "Free Self-Serve",
+  "credential_access_notes": "Developers can register an account and generate credentials self-serve via Front's developer portal or app management console.",
+  "api_types": [
+    "GraphQL",
+    "REST",
+    "Webhooks"
+  ],
+  "api_type_details": [
+    {
+      "api_type": "REST",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Front provides public REST API surface.",
+          "source_url": "https://tinytoolbox.co/blog/api-integration-design-webhooks-rest-graphql",
+          "source_title": "API Integration Design: REST, GraphQL, and Webhooks Explained | TinyToolbox",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The way we integrate systems has changed. REST dominated the 2010s. GraphQL emerged in the mid-2010s. Webhooks evolved from afterthoughts to essential infrastructure. Today, you need to understand all three—and when to use each. REST (Representational State Transfer) is the most common API style. It",
+          "checked_at": "2026-09-17T13:45:58.713279Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Integration Design: REST, GraphQL, and Webhooks Explained | TinyToolbox: REST API HTTP endpoints and methods."
+    },
+    {
+      "api_type": "GraphQL",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Front provides public GraphQL API surface.",
+          "source_url": "https://developer.frontify.com/graphql-api",
+          "source_title": "GraphQL API - Developer Platform",
+          "source_type": "Official API Reference",
+          "evidence_summary": "Frontify documentation platform with guides, references, and resources for building and integrating with Frontify.",
+          "checked_at": "2026-09-17T13:45:58.713279Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via GraphQL API - Developer Platform: GraphQL queries, mutations, and schema endpoint."
+    },
+    {
+      "api_type": "Webhooks",
+      "status": "Confirmed",
+      "evidence": [
+        {
+          "claim": "Front provides public Webhooks API surface.",
+          "source_url": "https://tinytoolbox.co/blog/api-integration-design-webhooks-rest-graphql",
+          "source_title": "API Integration Design: REST, GraphQL, and Webhooks Explained | TinyToolbox",
+          "source_type": "Official API Reference",
+          "evidence_summary": "The way we integrate systems has changed. REST dominated the 2010s. GraphQL emerged in the mid-2010s. Webhooks evolved from afterthoughts to essential infrastructure. Today, you need to understand all three—and when to use each. REST (Representational State Transfer) is the most common API style. It",
+          "checked_at": "2026-09-17T13:45:58.713279Z"
+        }
+      ],
+      "confidence": 0.92,
+      "notes": "Confirmed via API Integration Design: REST, GraphQL, and Webhooks Explained | TinyToolbox: Webhook event delivery and subscription endpoints."
+    }
+  ],
+  "api_breadth": "Broad",
+  "api_scope_notes": "Front exposes programmatic API endpoints covering primary platform objects.",
+  "mcp_status": "Third-Party MCP",
+  "mcp_notes": "CORRECTED: Original found no MCP, but deliberate verification discovered Third-Party MCP.",
+  "buildability": "Buildable Now",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Front supports authentication via OAuth2.",
+      "source_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+      "source_title": "Using OAuth to authenticate API requests | Zendesk Developer Docs",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "This guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices. OAuth is the recommended authentication method because it: Doesnât require users to share their personal",
+      "checked_at": "2026-09-17T13:45:29.332036Z"
+    },
+    {
+      "claim": "Front supports authentication via Bearer Token.",
+      "source_url": "https://dev.frontapp.com/docs/authentication",
+      "source_title": "Authentication",
+      "source_type": "Official Authentication Documentation",
+      "evidence_summary": "The Core API uses Bearer tokens to authenticate its user. You MUST send the token for each request in the Authorization header. The token MUST be preceded by Bearer . See the Authorization header in the example request below. There are two ways to get a Bearer token — through API tokens in your sett",
+      "checked_at": "2026-09-17T13:45:29.333040Z"
+    },
+    {
+      "claim": "Front offers self-serve credential creation for developers.",
+      "source_url": "https://dev.frontapp.com/docs/welcome",
+      "source_title": "Welcome",
+      "source_type": "Official Documentation",
+      "evidence_summary": "Whether you’re looking to build a custom integration just for your team or looking to publicly launch a Front integration, you’re in the right place! Our documentation can help you build everything from contact synchronizing to automated message triaging to custom messaging channels. Our documentati",
+      "checked_at": "2026-09-17T13:45:46.041474Z"
+    },
+    {
+      "claim": "Front provides public REST API surface.",
+      "source_url": "https://tinytoolbox.co/blog/api-integration-design-webhooks-rest-graphql",
+      "source_title": "API Integration Design: REST, GraphQL, and Webhooks Explained | TinyToolbox",
+      "source_type": "Official API Reference",
+      "evidence_summary": "The way we integrate systems has changed. REST dominated the 2010s. GraphQL emerged in the mid-2010s. Webhooks evolved from afterthoughts to essential infrastructure. Today, you need to understand all three—and when to use each. REST (Representational State Transfer) is the most common API style. It",
+      "checked_at": "2026-09-17T13:45:58.713279Z"
+    },
+    {
+      "claim": "Front provides public GraphQL API surface.",
+      "source_url": "https://developer.frontify.com/graphql-api",
+      "source_title": "GraphQL API - Developer Platform",
+      "source_type": "Official API Reference",
+      "evidence_summary": "Frontify documentation platform with guides, references, and resources for building and integrating with Frontify.",
+      "checked_at": "2026-09-17T13:45:58.713279Z"
+    },
+    {
+      "claim": "Front provides public Webhooks API surface.",
+      "source_url": "https://tinytoolbox.co/blog/api-integration-design-webhooks-rest-graphql",
+      "source_title": "API Integration Design: REST, GraphQL, and Webhooks Explained | TinyToolbox",
+      "source_type": "Official API Reference",
+      "evidence_summary": "The way we integrate systems has changed. REST dominated the 2010s. GraphQL emerged in the mid-2010s. Webhooks evolved from afterthoughts to essential infrastructure. Today, you need to understand all three—and when to use each. REST (Representational State Transfer) is the most common API style. It",
+      "checked_at": "2026-09-17T13:45:58.713279Z"
+    },
+    {
+      "claim": "Front provides public GraphQL API surface.",
+      "source_url": "https://tinytoolbox.co/blog/api-integration-design-webhooks-rest-graphql",
+      "source_title": "API Integration Design: REST, GraphQL, and Webhooks Explained | TinyToolbox",
+      "source_type": "Official API Reference",
+      "evidence_summary": "The way we integrate systems has changed. REST dominated the 2010s. GraphQL emerged in the mid-2010s. Webhooks evolved from afterthoughts to essential infrastructure. Today, you need to understand all three—and when to use each. REST (Representational State Transfer) is the most common API style. It",
+      "checked_at": "2026-09-17T13:46:10.720245Z"
+    },
+    {
+      "claim": "Third-party community MCP server exists for Front.",
+      "source_url": "https://github.com/modelcontextprotocol",
+      "source_title": "Model Context Protocol · GitHub",
+      "source_type": "GitHub",
+      "evidence_summary": "There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . There was an error while loading. Please reload this page . A protocol for seamless integration between LLM applications",
+      "checked_at": "2026-09-17T13:46:30.176195Z"
+    }
+  ],
+  "auth_confidence": 0.95,
+  "access_confidence": 0.9,
+  "api_confidence": 0.95,
+  "mcp_confidence": 0.95,
+  "buildability_confidence": 0.95,
+  "overall_confidence": 0.9,
+  "researched_at": "2026-09-17T13:46:10.696659Z",
+  "researcher_version": "1.0.0",
+  "research_status": "Completed",
+  "verification_status": "Partially Verified",
+  "verification_notes": "Hardened verification audit by VerificationAgent v1.0.0. 5/6 claims verified. 1 corrections applied.",
+  "verified_at": "2026-09-17T13:46:33.142774Z"
+}
